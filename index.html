@@ -530,7 +530,7 @@ function renderParas(p){
       return `<span class="${cls}"${click}${tab}>${label}</span>`;
     }).join('');
     const lab = (graded && labels[idx])
-      ? `<div class="paraLabel"><b>【第 ${idx+1} 段】</b>${esc(labels[idx])}</div>` : '';
+      ? `<div class="paraLabel"><b>${p.paras.length === 1 ? '【全篇】' : '【第 ' + (idx+1) + ' 段】'}</b>${esc(labels[idx])}</div>` : '';
     return lab + `<p>${body}</p>`;
   }).join('');
 }
