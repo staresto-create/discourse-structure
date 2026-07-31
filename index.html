@@ -122,6 +122,25 @@
   .result .lbl{font-size:12.5px; color:var(--ink-soft);}
   .ansLine{font-size:13.5px; line-height:1.9; text-align:left; margin-top:12px; border-top:1px dashed var(--rule); padding-top:10px;}
   .objTag{font-size:12px; color:var(--sage); display:block; margin-top:2px;}
+  .myPick{font-size:13px; color:var(--crimson); background:#FCF2F0; border-left:3px solid var(--crimson); padding:5px 10px; border-radius:2px; margin-top:5px; line-height:1.7;}
+
+  /* 段落功能標籤（批改後才顯示） */
+  .paraLabel{
+    font-size:12.5px; line-height:1.65; color:var(--sage);
+    background:#F0F6EF; border-left:3px solid var(--sage);
+    padding:5px 10px; border-radius:2px; margin:0 0 7px;
+  }
+  .paraLabel b{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--sage); margin-right:4px;}
+  .labelHint{font-size:12.5px; line-height:1.8; color:var(--ink-soft); background:#F6F9F5; border:1px solid var(--rule); border-radius:3px; padding:8px 11px; margin-bottom:14px;}
+
+  /* 選項對照表 */
+  .optMap{border:1px solid var(--rule); border-radius:4px; background:#fff; padding:4px 12px; text-align:left;}
+  .optMapRow{display:flex; gap:10px; align-items:flex-start; font-size:13.5px; line-height:1.75; padding:9px 2px; border-bottom:1px dashed var(--rule);}
+  .optMapRow:last-child{border-bottom:none;}
+  .optMapRow .ltr{font-family:'IBM Plex Mono',monospace; font-weight:600; color:var(--crimson); flex-shrink:0;}
+  .slotTag{display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:11px; border-radius:3px; padding:2px 8px; margin-top:3px;}
+  .slotTag.hit{border:1px solid var(--sage); color:var(--sage); background:#F0F7EE;}
+  .slotTag.miss{border:1px solid var(--gold); color:var(--gold); background:#FFFBEA;}
 
   /* 選項彈出 */
   #sheetMask{display:none; position:fixed; inset:0; background:rgba(34,31,26,.45); z-index:40;}
@@ -466,6 +485,7 @@ function renderPractice(){
     <div class="pTitle">${p.exam} ${p.year} · ${dispTitle(p)}</div>
     <div class="tagRow">${tags}</div>
     ${p.flagNote ? `<div class="flagNote">${p.flagNote}</div>` : ''}
+    ${(graded && hasParaLabels(p)) ? `<div class="labelHint">每段前面的綠色標籤寫的是<b>這一段在整篇裡做什麼</b>，不是這一段講什麼。作答時不顯示，因為那等於先把答案的位置告訴你。現在回頭看一次：你答錯的那一格，是不是卡在沒看出這段的功能？</div>` : ''}
     <div class="passage" id="passageText">${renderParas(p)}</div>`;
 
   if(!graded){
@@ -483,8 +503,12 @@ function renderPractice(){
   document.getElementById('practiceBody').innerHTML = html;
 }
 
+function hasParaLabels(p){
+  return Array.isArray(p.paraLabels) && p.paraLabels.some(x => x);
+}
 function renderParas(p){
-  return p.paras.map(par => {
+  const labels = Array.isArray(p.paraLabels) ? p.paraLabels : [];
+  return p.paras.map((par, idx) => {
     const body = par.split(/__(\d+)__/).map((seg,i) => {
       if(i % 2 === 0) return esc(seg);
       const n = seg, pick = picks[n];
@@ -505,7 +529,9 @@ function renderParas(p){
       const tab = graded ? '' : ' tabindex="0" role="button"';
       return `<span class="${cls}"${click}${tab}>${label}</span>`;
     }).join('');
-    return `<p>${body}</p>`;
+    const lab = (graded && labels[idx])
+      ? `<div class="paraLabel"><b>【第 ${idx+1} 段】</b>${esc(labels[idx])}</div>` : '';
+    return lab + `<p>${body}</p>`;
   }).join('');
 }
 
@@ -568,23 +594,46 @@ function renderResult(p){
     const good = my === it.answer;
     const obj = (it.categories && it.categories.length)
       ? `<span class="objTag">測驗目標：${esc(it.categories[0])}${it.categorySource ? '（考試說明原文）' : '（本站歸屬）'}</span>` : '';
-    return `<div style="margin-bottom:9px;">
-      <b>第 ${it.blankNum} 格</b>　
-      ${good ? '<span style="color:var(--sage);">✓ 答對</span>'
-             : `<span style="color:var(--crimson);">✗ 你選 ${my || '未作答'}</span>`}
-      　正解 <b>(${it.answer})</b><br>
-      <span style="color:var(--ink-soft);">${esc(p.options[it.answer])}</span>${obj}
+    const verdict = good
+      ? '<span style="color:var(--sage);">✓ 答對</span>'
+      : (my ? `<span style="color:var(--crimson);">✗ 答錯</span>`
+            : '<span style="color:var(--crimson);">✗ 未作答</span>');
+    const mine = (!good && my)
+      ? `<div class="myPick"><b>你選的 (${my})：</b>${esc(p.options[my])}</div>` : '';
+    return `<div style="margin-bottom:12px;">
+      <b>第 ${it.blankNum} 格</b>　${verdict}　正解 <b>(${it.answer})</b><br>
+      <span style="color:var(--ink-soft);">${esc(p.options[it.answer])}</span>${mine}${obj}
     </div>`;
   }).join('');
+
+  /* 選項對照表：每個選項落在哪一格，哪一個沒被用到 */
+  const slotOf = {};
+  curItems.forEach(it => { slotOf[it.answer] = it.blankNum; });
+  const mapRows = Object.entries(p.options).map(([ltr,txt]) => {
+    const slot = slotOf[ltr];
+    const tag = slot
+      ? `<span class="slotTag hit">第 ${slot} 格</span>`
+      : `<span class="slotTag miss">沒有用到 · 誘答選項</span>`;
+    return `<div class="optMapRow">
+      <span class="ltr">(${ltr})</span>
+      <span>${esc(txt)}<br>${tag}</span>
+    </div>`;
+  }).join('');
+  const optMap = `<div class="sec-title" style="margin-top:16px;">選項對照表<span class="sec-note">每個選項最後落在哪一格</span></div>
+    <div class="optMap">${mapRows}</div>`;
+
   const unusedTxt = p.unusedOptions.length
-    ? `<div class="flagNote" style="margin-top:12px;">本篇多出的誘答選項是 <b>(${p.unusedOptions.join(') (')})</b>，正解裡用不到它。5 選 4、6 選 5 這類規格就是靠這個選項讓刪去法失效。</div>`
-    : `<div class="flagNote" style="margin-top:12px;">本篇選項剛好用完，刪去法有效——確定其中幾格之後，剩下的格子可以用排除的方式反推。</div>`;
+    ? `<div class="flagNote" style="margin-top:12px;"><b>這一篇多出來的是 (${p.unusedOptions.join(') (')})：</b><br>
+        ${p.unusedOptions.map(l => esc(p.options[l])).join('<br>')}<br><br>
+        它從頭到尾不是任何一格的正解。${p.spec} 這種規格就是靠它讓刪去法失效——回頭把這句讀一遍，想清楚它為什麼哪一格都接不上，比記住答案有用。</div>`
+    : `<div class="flagNote" style="margin-top:12px;">本篇 ${p.spec}，選項剛好用完，刪去法有效——確定其中幾格之後，剩下的格子可以用排除的方式反推。</div>`;
   return `<div class="card">
     <div class="result">
       <div class="big">${ok} / ${curItems.length}</div>
       <div class="lbl">本篇答對題數</div>
       <div class="ansLine">${lines}</div>
     </div>
+    ${optMap}
     ${unusedTxt}
     <div class="row">
       <button class="ghost-btn" onclick="openPassage(curPid)">再做一次</button>
