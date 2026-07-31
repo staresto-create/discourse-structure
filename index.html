@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>篇章結構 · 學測與指考</title>
+<meta property="og:title" content="篇章結構 · 學測與指考">
+<meta property="og:description" content="學測 110試辦–115年、指考 91–110年歷屆篇章結構，共 162 題／34 篇。免費、免註冊、無廣告。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F1E4; --paper-card:#FFFDF7; --ink:#221F1A; --ink-soft:#5B5648;
+    --rule:#DCD3BB; --crimson:#AE3626; --sage:#3E6E52; --gold:#A9812E;
+    --yellow:#FFF2A8; --blue:#BEE0F5;
+    --shadow: 0 1px 0 rgba(34,31,26,.06), 0 8px 24px rgba(34,31,26,.08);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background: var(--paper);
+    background-image:
+      radial-gradient(circle at 100% 0%, rgba(174,54,38,.05), transparent 40%),
+      repeating-linear-gradient(0deg, rgba(34,31,26,0.025) 0px, rgba(34,31,26,0.025) 1px, transparent 1px, transparent 34px);
+    color: var(--ink); font-family:'Noto Sans TC', sans-serif;
+    -webkit-font-smoothing:antialiased; min-height:100vh; padding:32px 16px 60px;
+  }
+  .wrap{max-width:820px; width:100%; margin:0 auto;}
+  header.top{text-align:center; border-bottom:3px double var(--ink); padding-bottom:16px; margin-bottom:26px;}
+  header.top .title{font-family:'Noto Serif TC',serif; font-weight:900; font-size:26px; letter-spacing:.02em;}
+  header.top .sub{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-soft); margin-top:6px;}
+  .card{background:var(--paper-card); border:1px solid var(--rule); border-radius:4px; box-shadow:var(--shadow); padding:26px; margin-bottom:18px;}
+  .home-lead{font-family:'Noto Serif TC',serif; font-weight:700; font-size:19px; margin:0 0 4px;}
+  .home-desc{color:var(--ink-soft); font-size:14px; line-height:1.7; margin:0 0 18px;}
+
+  .sec-title{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.12em; color:var(--crimson); text-transform:uppercase; margin:22px 0 10px; display:flex; align-items:center; gap:8px;}
+  .sec-title::after{content:""; flex:1; height:1px; background:var(--rule);}
+  .sec-note{font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px; color:var(--ink-soft);}
+
+  .cat-grid{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:6px;}
+  .chip{border:1.5px solid var(--rule); border-radius:20px; padding:6px 14px; font-size:13px; cursor:pointer; background:#fff; user-select:none;}
+  .chip:hover{border-color:var(--ink);}
+  .chip.active{border-color:var(--crimson); background:var(--crimson); color:#fff;}
+
+  details.sk-box{border:1px solid var(--rule); border-radius:4px; background:#fff; padding:12px 15px; margin-bottom:10px;}
+  details.sk-box summary{cursor:pointer; list-style:none;}
+  details.sk-box summary::-webkit-details-marker{display:none;}
+  .sk-title{font-family:'Noto Serif TC',serif; font-weight:700; font-size:14.5px; display:inline;}
+  .sk-title::before{content:"▸ "; color:var(--crimson);}
+  details[open] .sk-title::before{content:"▾ ";}
+  details.sk-box > div{font-size:13px; line-height:1.85; color:var(--ink-soft); margin-top:10px;}
+  details.sk-box b{color:var(--ink);}
+
+  .stats-box{display:flex; gap:10px; flex-wrap:wrap;}
+  .stat-pill{flex:1; min-width:96px; border:1px solid var(--rule); border-radius:4px; background:#fff; padding:11px 6px; text-align:center;}
+  .stat-pill .num{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:20px;}
+  .stat-pill .lbl{font-size:11px; color:var(--ink-soft); margin-top:2px;}
+  .stats-actions{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 4px;}
+  .link-btn{background:none; border:none; color:var(--crimson); font-size:12.5px; cursor:pointer; padding:4px 6px; font-family:inherit;}
+  .link-btn:hover{text-decoration:underline;}
+
+  .year-list{max-height:260px; overflow-y:auto; border:1px solid var(--rule); border-radius:4px; padding:10px; background:#fff;}
+  .year-item{display:flex; justify-content:space-between; align-items:center; gap:10px; padding:8px 6px; font-size:13.5px; border-bottom:1px dashed var(--rule); cursor:pointer;}
+  .year-item:last-child{border-bottom:none;}
+  .year-item:hover{background:#FBF7EC;}
+  .year-item.sel{background:#FBF1EE;}
+  .year-item .cnt{color:var(--ink-soft); font-family:'IBM Plex Mono',monospace; font-size:11.5px; white-space:nowrap;}
+
+  .big-btn{
+    display:block; width:100%; text-align:center; cursor:pointer;
+    background: var(--ink); color: var(--paper-card);
+    font-family:'Noto Serif TC',serif; font-weight:700; font-size:19px;
+    padding:16px; border:none; border-radius:3px; letter-spacing:.06em;
+    transition: transform .12s ease, background .15s ease; margin-top:20px;
+  }
+  .big-btn:hover{background:#000; transform: translateY(-1px);}
+  .big-btn:disabled{opacity:.4; cursor:not-allowed; transform:none;}
+  .ghost-btn{padding:11px 16px; border-radius:4px; border:1.5px solid var(--ink); background:#fff; color:var(--ink); font-family:'Noto Serif TC',serif; font-weight:700; font-size:14px; cursor:pointer;}
+  .ghost-btn:hover{background:var(--ink); color:#fff;}
+  .row{display:flex; gap:10px; flex-wrap:wrap;}
+
+  .backLink{display:inline-block; color:var(--crimson); font-size:13px; cursor:pointer; margin-bottom:12px;}
+  .backLink:hover{text-decoration:underline;}
+
+  /* 練習區 */
+  .pTitle{font-family:'Noto Serif TC',serif; font-weight:700; font-size:17px; margin-bottom:6px;}
+  .tagRow{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px;}
+  .catTag{font-family:'IBM Plex Mono',monospace; font-size:11px; border:1px solid var(--rule); border-radius:3px; padding:3px 8px; color:var(--ink-soft); background:#fff;}
+  .catTag.primary{border-color:var(--crimson); color:var(--crimson);}
+  .flagNote{font-size:12.5px; line-height:1.75; color:var(--ink-soft); background:#FFFBEA; border-left:3px solid var(--gold); padding:9px 12px; border-radius:2px; margin-bottom:14px;}
+
+  .passage{font-size:15.5px; line-height:2.1; margin-bottom:18px;}
+  .passage p{margin:0 0 15px;}
+  .blank{
+    display:inline-block; min-width:62px; text-align:center; cursor:pointer;
+    border-bottom:2px solid var(--crimson); background:var(--yellow);
+    font-family:'IBM Plex Mono',monospace; font-size:13.5px; font-weight:600;
+    padding:1px 8px; margin:0 2px; border-radius:2px 2px 0 0; vertical-align:baseline;
+  }
+  .blank:hover{background:#FFE97A;}
+  .blank.filled{background:var(--blue);}
+  .blank.ok{background:#D6EFD2; border-bottom-color:var(--sage);}
+  .blank.ng{background:#F7D6D1; border-bottom-color:var(--crimson);}
+  .restored{background:#F3EFE0; border-radius:2px; padding:0 2px;}
+
+  .optList{border-top:1px solid var(--rule); padding-top:14px;}
+  .optRow{display:flex; gap:10px; align-items:flex-start; padding:9px 10px; border:1px solid var(--rule); border-radius:4px; background:#fff; margin-bottom:7px; font-size:14px; line-height:1.7; cursor:pointer;}
+  .optRow:hover{border-color:var(--ink);}
+  .optRow.used{opacity:.42;}
+  .optRow.pick{border-color:var(--crimson); background:#FBF1EE;}
+  .optRow .ltr{font-family:'IBM Plex Mono',monospace; font-weight:600; color:var(--crimson); flex-shrink:0;}
+  .optRow.ok{border-color:var(--sage); background:#F0F7EE;}
+  .optRow.ng{border-color:var(--crimson); background:#FCF2F0;}
+
+  .prog{display:flex; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-soft); margin-bottom:6px;}
+  .bar{height:4px; background:var(--rule); border-radius:2px; overflow:hidden; margin-bottom:16px;}
+  .bar-fill{height:100%; background:var(--crimson); transition:width .2s;}
+
+  .result{border:1px solid var(--rule); border-radius:4px; padding:16px; background:#fff; margin-bottom:16px; text-align:center;}
+  .result .big{font-family:'IBM Plex Mono',monospace; font-size:28px; font-weight:600;}
+  .result .lbl{font-size:12.5px; color:var(--ink-soft);}
+  .ansLine{font-size:13.5px; line-height:1.9; text-align:left; margin-top:12px; border-top:1px dashed var(--rule); padding-top:10px;}
+  .objTag{font-size:12px; color:var(--sage); display:block; margin-top:2px;}
+
+  /* 選項彈出 */
+  #sheetMask{display:none; position:fixed; inset:0; background:rgba(34,31,26,.45); z-index:40;}
+  #sheet{display:none; position:fixed; left:0; right:0; bottom:0; z-index:41; background:var(--paper-card); border-top:3px double var(--ink); border-radius:8px 8px 0 0; max-height:78vh; overflow-y:auto; padding:18px 16px 26px;}
+  #sheet .sheetInner{max-width:820px; margin:0 auto;}
+  #sheetTitle{font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; margin-bottom:4px;}
+  #sheetHint{font-size:12.5px; color:var(--ink-soft); margin-bottom:12px;}
+
+  .note-box{background:var(--paper-card); border:1px solid var(--rule); border-radius:4px; padding:13px 15px; margin:22px 0 6px; font-size:12.5px; line-height:1.8; color:var(--ink-soft);}
+  .note-box b{font-family:'Noto Serif TC',serif; font-size:13.5px; color:var(--ink);}
+  .note-box a{color:var(--crimson);}
+  .srcLine{display:block; margin-top:6px;}
+
+  footer{margin-top:34px; padding-top:16px; border-top:1px solid var(--rule); font-size:11.5px; line-height:1.9; color:var(--ink-soft); text-align:center;}
+  .report-btn{display:inline-block; margin-top:8px; color:var(--crimson); text-decoration:none; border:1px solid var(--rule); border-radius:20px; padding:5px 14px;}
+  .report-btn:hover{border-color:var(--crimson);}
+
+  @media (max-width:560px){
+    body{padding:20px 12px 50px;}
+    .card{padding:20px 16px;}
+    .passage{font-size:15px; line-height:2.0;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none !important;}
+  }
+  :focus-visible{outline:2px solid var(--crimson); outline-offset:2px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="title">篇章結構</div>
+    <div class="sub" id="headSub">學測 110試辦–115年 ・ 指考 91–110年 ・ 162題 / 34篇</div>
+  </header>
+
+  <div id="homeView">
+    <div class="card">
+      <div class="home-lead">開始練習前</div>
+      <p class="home-desc">本題庫收錄學測 110 年試辦考試至 115 年、指考 91–110 年的篇章結構歷屆試題，含補考與參考試卷，共 <b>162 題、34 篇</b>。目前提供題目、選項與答案；<b>逐題解析與主題標題陸續建置中</b>。</p>
+
+      <details class="sk-box">
+        <summary><div class="sk-title">選項數不是固定的，先看清楚這一篇是幾選幾</div></summary>
+        <div>
+          篇章結構的選項數歷年變動過好幾次，同一套解題習慣不能直接套用到所有年度。<br><br>
+          <b>指考</b>：99 年以前是 <b>5 選 5</b>，選項剛好用完，最後一格必然是剩下的那一個，刪去法完全有效。<b>100 年起改成 6 選 5</b>，多出一個誘答選項用不到，刪去法從此失效。<br><br>
+          這次改變不是只動篇章結構。文意選填 10 選 10 改成 12 選 10、篇章結構 5 選 5 改成 6 選 5、倒扣全面取消，<b>三件事同時發生在 100 學年度指考</b>，是同一次制度調整的三個面向。<br><br>
+          <b>學測</b>：110 年試辦考試至 114 年是 <b>4 選 4</b>，刪去法有效。<b>115 學年度起改為 5 選 4</b>，多一個誘答選項。大考中心在考試說明中說明改制理由是「以一篇選文含四個空格搭配五個選項設計試題，強化本大題在組卷上的功能，增加測驗效度」。<br><br>
+          每一篇的實際規格都標在篇名旁邊，作答前請先確認。
+        </div>
+      </details>
+
+      <details class="sk-box">
+        <summary><div class="sk-title">空格不是一段一格，兩個方向都要留意</div></summary>
+        <div>
+          很多人把篇章結構讀成「一段配一格」，照這個假設去分配答案，遇到下面兩種情況就會全盤錯位。<br><br>
+          <b>一段裡可能不只一格。</b>學測 111 年、111 學年度參考試卷、112 年、113 年都有段落塞了兩個空格。指考更極端——<b>91 年第二篇的五個空格全部落在同一段</b>，95 課綱參考試卷也只用兩段擺完五格。<br><br>
+          <b>也可能整段一格都沒有。</b>學測 112 年、115 年、115 學年度參考試卷都有完全沒有空格的段落，那些段落是用來提供線索的，不是拿來填的。<br><br>
+          所以請以<b>句子之間的銜接</b>判斷，不要用段落數去反推答案分布。
+        </div>
+      </details>
+
+      <details class="sk-box">
+        <summary><div class="sk-title">有兩處收錄方式需要說明</div></summary>
+        <div>
+          <b>107 學年度起施測參考試卷的篇章結構，與 103 年指考逐段逐字完全相同</b>，屬於官方整題回收。本站兩份試卷各自獨立收錄，不合併也不刪除其中一份——因為它們是兩份不同的官方文件，練習時可以互相對照。作答時若覺得眼熟，不是錯覺。<br><br>
+          <b>91 年指考的篇章結構是兩篇</b>（第一篇題號 41–45，第二篇 46–50），本站兩篇都收，在篇名上標為「第一篇」「第二篇」。
+        </div>
+      </details>
+
+      <div class="sec-title">我的學習歷程</div>
+      <div class="stats-box" id="statsBox"></div>
+      <div class="stats-actions">
+        <button class="link-btn" onclick="startWrongBook()">📕 只練錯題本(<span id="wrongCount">0</span>題)</button>
+        <button class="link-btn" onclick="showHistory()">📊 查看詳細記錄</button>
+        <button class="link-btn" onclick="clearHistory()">清除學習歷程統計</button>
+        <button class="link-btn" onclick="clearWrongBook()">清除錯題本</button>
+      </div>
+
+      <button class="big-btn" style="margin-bottom:14px;" onclick="quickStart()">立即開始 · 隨機一篇</button>
+      <label style="display:flex; align-items:center; gap:8px; margin:4px 0 6px; font-size:12.5px; color:var(--ink-soft); cursor:pointer; font-family:'IBM Plex Mono',monospace;">
+        <input type="checkbox" id="testModeToggle" style="width:15px; height:15px; cursor:pointer;">
+        測試模式（本次作答不計入學習歷程與錯題本）
+      </label>
+
+      <div class="sec-title">依考別篩選<span class="sec-note">（可複選，不選則兩種都列）</span></div>
+      <div class="cat-grid" id="examGrid"></div>
+
+      <div class="sec-title">依規格篩選<span class="sec-note">（可複選，不選則不限規格）</span></div>
+      <div class="cat-grid" id="specGrid"></div>
+
+      <div class="sec-title">選擇年度／篇章</div>
+      <div class="year-list" id="yearList"></div>
+
+      <button class="big-btn" id="startBtn" onclick="startSelected()">開始練習</button>
+    </div>
+
+    <div class="note-box">
+      <b>關於本站的資料</b><br>
+      <span class="srcLine"><b style="font-size:12.5px;">試題來源：</b>大學入學考試中心。原文、選項與答案均取自大考中心公布之試卷與參考答案。</span>
+      <span class="srcLine"><b style="font-size:12.5px;">分類依據：</b>大考中心考試說明所列四類測驗目標；<b style="font-size:12.5px;">逐題歸屬由本站標註</b>，115 學年度參考試卷 4 題除外，該 4 題為考試說明原文。</span>
+      <span class="srcLine">本站<b style="font-size:12.5px;">不提供逐篇原始出處</b>。大考中心僅公告取材類別（報紙、雜誌、書籍、網際網路），未公告逐篇出處，自行歸屬等同杜撰，因此一律從缺。</span>
+      <span class="srcLine">參考試卷與試辦考試屬非正式施測，篇名旁會標明。</span>
+      <span class="srcLine"><b style="font-size:12.5px;">錯誤仍然可能存在</b>，發現任何問題歡迎回報，我會逐筆核對更正。本站完全免費、不用註冊、沒有廣告，歡迎自由分享。</span>
+    </div>
+  </div>
+
+  <div id="practiceView" style="display:none;">
+    <span class="backLink" onclick="goHome()">← 回選單</span>
+    <div class="prog" id="progText"></div>
+    <div class="bar"><div class="bar-fill" id="progBar" style="width:0%;"></div></div>
+    <div id="practiceBody"></div>
+  </div>
+
+  <div id="historyView" style="display:none;">
+    <span class="backLink" onclick="goHome()">← 回選單</span>
+    <div class="card">
+      <div class="home-lead">學習歷程詳細記錄</div>
+      <div id="histOverall" style="text-align:center; margin:16px 0;"></div>
+      <div class="sec-title">各考別表現</div>
+      <div id="histByExam"></div>
+      <div class="sec-title">各規格表現</div>
+      <div id="histBySpec"></div>
+      <div class="note-box" style="margin:10px 0 0;">題數少的時候比率會跳動得很厲害，累積幾十題以後再看比較準。各規格的題數本來就不平均（6選5 七十題、5選5 六十題、4選4 二十四題、5選4 八題），比率低不一定代表你弱，先看分母。</div>
+      <div class="sec-title">最近作答記錄</div>
+      <div id="histRecent"></div>
+    </div>
+  </div>
+
+  <footer>
+    資料來源：學測 110年試辦考試–115年、指考 91–110年歷屆篇章結構<br>
+    © 2026 staresto-create ZZSH 版權所有。誠摯歡迎學生自由使用、分享本題庫進行練習；惟請勿用於商業用途；如需轉載，敬請註明出處，勿逕行據為己作。<br>
+    <a class="report-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd6P1s7HqjvOmGqOzNDWcBQQ3F539SifSNiAfXvi6NqD2YP-Q/viewform?usp=pp_url&entry.1257494378=%E7%AF%87%E7%AB%A0%E7%B5%90%E6%A7%8B" target="_blank" rel="noopener">🐛 回報錯誤</a>
+  </footer>
+</div>
+
+<div id="sheetMask" onclick="closeSheet()"></div>
+<div id="sheet">
+  <div class="sheetInner">
+    <div id="sheetTitle"></div>
+    <div id="sheetHint"></div>
+    <div id="sheetBody"></div>
+  </div>
+</div>
+
+<script>
+const HISTORY_KEY = 'gsat_ds_history_v1';
+const WRONG_KEY   = 'gsat_ds_wrong_ids_v1';
+
+function loadHistory(){ try{ return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }catch(e){ return []; } }
+function saveHistory(h){ try{ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }catch(e){} }
+function loadWrongIds(){ try{ return JSON.parse(localStorage.getItem(WRONG_KEY)) || []; }catch(e){ return []; } }
+function saveWrongIds(w){ try{ localStorage.setItem(WRONG_KEY, JSON.stringify(w)); }catch(e){} }
+function isTestMode(){ const el=document.getElementById('testModeToggle'); return !!(el && el.checked); }
+
+let PASSAGES = {}, ITEMS = [];
+let selectedExams = new Set(), selectedSpecs = new Set();
+let curPid = null, curItems = [], picks = {}, graded = false, restoredOn = false, sheetBlank = null;
+
+async function init(){
+  const dirs = ['gsat','zhikao'];
+  try{
+    const res  = await Promise.all(dirs.flatMap(d => [fetch(d+'/passages.json'), fetch(d+'/items.json')]));
+    const data = await Promise.all(res.map(r => r.json()));
+    dirs.forEach((d,k) => {
+      const ps = data[k*2], its = data[k*2+1];
+      const examName = (d === 'gsat') ? '學測' : '指考';
+      ps.forEach(p => { p.exam = p.exam || examName; PASSAGES[p.id] = p; });
+      its.forEach(it => { it.exam = it.exam || examName; ITEMS.push(it); });
+    });
+  }catch(e){
+    document.getElementById('homeView').innerHTML =
+      '<div class="card"><div class="home-lead">題目載入失敗</div>' +
+      '<p class="home-desc">請重新整理頁面再試一次。若持續失敗，可用頁尾的回報連結告訴我。</p></div>';
+    return;
+  }
+  buildExamGrid(); buildSpecGrid(); buildYearList(); renderStatsBox();
+  document.getElementById('headSub').textContent =
+    `學測 110試辦–115年 ・ 指考 91–110年 ・ ${ITEMS.length}題 / ${Object.keys(PASSAGES).length}篇`;
+}
+
+/* ---------- 排序與標籤 ---------- */
+function yearNum(p){
+  const m = String(p.year).match(/(\d+)/);
+  return m ? parseInt(m[1],10) : 0;
+}
+function typeRank(p){
+  if(p.examType === '正式考試') return 0;
+  if(p.examType === '補考') return 1;
+  return 2;
+}
+function cmpYear(a,b){
+  if(a.exam !== b.exam) return a.exam === '學測' ? -1 : 1;
+  const na = yearNum(a), nb = yearNum(b);
+  if(na !== nb) return nb - na;
+  const ta = typeRank(a), tb = typeRank(b);
+  if(ta !== tb) return ta - tb;
+  return String(a.id).localeCompare(String(b.id));
+}
+function dispTitle(p){
+  return p.title ? p.title : '（主題標題建置中）';
+}
+function elimLabel(p){
+  return p.spec + (p.eliminationValid ? '・刪去法有效' : '・刪去法失效');
+}
+function examOk(p){ return selectedExams.size === 0 || selectedExams.has(p.exam); }
+function specOk(p){ return selectedSpecs.size === 0 || selectedSpecs.has(p.spec); }
+function visiblePassages(){
+  return Object.values(PASSAGES).filter(p => examOk(p) && specOk(p)).sort(cmpYear);
+}
+
+function buildExamGrid(){
+  const g = document.getElementById('examGrid'); g.innerHTML='';
+  ['學測','指考'].forEach(e => {
+    const n = ITEMS.filter(it => it.exam === e).length;
+    const c = document.createElement('div');
+    c.className='chip'; c.textContent = `${e}（${n}題）`;
+    c.onclick = () => { c.classList.toggle('active');
+      selectedExams.has(e) ? selectedExams.delete(e) : selectedExams.add(e); buildYearList(); };
+    g.appendChild(c);
+  });
+}
+function buildSpecGrid(){
+  const g = document.getElementById('specGrid'); g.innerHTML='';
+  const specs = [...new Set(Object.values(PASSAGES).map(p=>p.spec))]
+    .sort((a,b)=>parseInt(b)-parseInt(a));
+  specs.forEach(s => {
+    const n = Object.values(PASSAGES).filter(p=>p.spec===s).length;
+    const c = document.createElement('div');
+    c.className='chip'; c.textContent = `${s}（${n}篇）`;
+    c.onclick = () => { c.classList.toggle('active');
+      selectedSpecs.has(s) ? selectedSpecs.delete(s) : selectedSpecs.add(s); buildYearList(); };
+    g.appendChild(c);
+  });
+}
+function buildYearList(){
+  const list = document.getElementById('yearList'); list.innerHTML='';
+  const ps = visiblePassages();
+  if(ps.length === 0){
+    list.innerHTML = '<div style="font-size:13px; color:var(--ink-soft); padding:8px;">目前的篩選條件沒有符合的篇章，請放寬條件。</div>';
+    return;
+  }
+  ps.forEach(p => {
+    const cnt = ITEMS.filter(it=>it.passageId===p.id).length;
+    const row = document.createElement('div');
+    row.className = 'year-item' + (curPid===p.id ? ' sel' : '');
+    const tstat = p.titleStatus ? ' <span class="cnt">暫定標題</span>' : '';
+    const etype = (p.examType && p.examType !== '正式考試') ? ` <span class="cnt">${p.examType}</span>` : '';
+    row.innerHTML = `<span>${p.exam} ${p.year} · ${dispTitle(p)}${tstat}${etype}</span>`
+                  + `<span class="cnt">${cnt}題・${elimLabel(p)}</span>`;
+    row.onclick = () => {
+      document.querySelectorAll('.year-item').forEach(r=>r.classList.remove('sel'));
+      row.classList.add('sel'); curPid = p.id;
+    };
+    list.appendChild(row);
+  });
+}
+
+/* ---------- 學習歷程 ---------- */
+function recordAnswer(itemId, correct){
+  if(isTestMode()) return;
+  const hist = loadHistory();
+  hist.push({ id:itemId, correct, t:Date.now() });
+  saveHistory(hist);
+  let wrong = loadWrongIds();
+  if(correct){ wrong = wrong.filter(id => id !== itemId); }
+  else if(!wrong.includes(itemId)){ wrong.push(itemId); }
+  saveWrongIds(wrong);
+  renderStatsBox();
+}
+function renderStatsBox(){
+  const hist = loadHistory(), wrong = loadWrongIds();
+  const total = hist.length, ok = hist.filter(h=>h.correct).length;
+  const rate = total>0 ? Math.round(ok/total*100) : 0;
+  document.getElementById('statsBox').innerHTML =
+    `<div class="stat-pill"><div class="num">${total}</div><div class="lbl">已作答題數</div></div>
+     <div class="stat-pill"><div class="num">${rate}%</div><div class="lbl">整體正確率</div></div>
+     <div class="stat-pill"><div class="num">${wrong.length}</div><div class="lbl">錯題本題數</div></div>`;
+  const wc = document.getElementById('wrongCount'); if(wc) wc.textContent = wrong.length;
+}
+function clearHistory(){
+  if(!confirm('確定要清除「學習歷程統計」嗎？(不會影響錯題本)')) return;
+  localStorage.removeItem(HISTORY_KEY); renderStatsBox();
+}
+function clearWrongBook(){
+  if(!confirm('確定要清除「錯題本」嗎？(不會影響學習歷程統計)')) return;
+  localStorage.removeItem(WRONG_KEY); renderStatsBox();
+}
+
+/* ---------- 進入練習 ---------- */
+function quickStart(){
+  const ps = visiblePassages();
+  if(ps.length === 0){ alert('目前的篩選條件沒有符合的篇章，請放寬條件。'); return; }
+  openPassage(ps[Math.floor(Math.random()*ps.length)].id);
+}
+function startSelected(){
+  if(!curPid){ alert('請先從清單中選一篇。'); return; }
+  openPassage(curPid);
+}
+function startWrongBook(){
+  const wrong = loadWrongIds();
+  if(wrong.length === 0){ alert('錯題本目前是空的，還沒有答錯的題目。'); return; }
+  const pid = ITEMS.filter(it => wrong.includes(it.id))
+                   .map(it => it.passageId)[0];
+  alert('錯題本會帶你回到該題所在的篇章，整篇重做一次——篇章結構的答案彼此牽動，單獨抽一題練意義不大。');
+  openPassage(pid);
+}
+function goHome(){
+  document.getElementById('practiceView').style.display='none';
+  document.getElementById('historyView').style.display='none';
+  document.getElementById('homeView').style.display='block';
+  closeSheet(); buildYearList(); window.scrollTo(0,0);
+}
+function openPassage(pid){
+  curPid = pid; graded = false; restoredOn = false; picks = {};
+  curItems = ITEMS.filter(it => it.passageId === pid)
+                  .sort((a,b) => a.blankNum - b.blankNum);
+  document.getElementById('homeView').style.display='none';
+  document.getElementById('historyView').style.display='none';
+  document.getElementById('practiceView').style.display='block';
+  renderPractice(); window.scrollTo(0,0);
+}
+
+/* ---------- 練習畫面 ---------- */
+function esc(s){
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function renderPractice(){
+  const p = PASSAGES[curPid];
+  const done = Object.keys(picks).length, total = curItems.length;
+  document.getElementById('progText').innerHTML =
+    `<span>${p.exam} ${p.year}</span><span>已填 ${done} / ${total}</span>`;
+  document.getElementById('progBar').style.width = (done/total*100)+'%';
+
+  const tags = [
+    `<span class="catTag ${p.eliminationValid?'primary':''}">${elimLabel(p)}</span>`,
+    (p.examType && p.examType!=='正式考試') ? `<span class="catTag">${p.examType}</span>` : '',
+    `<span class="catTag">題號 ${p.blankRange[0]}–${p.blankRange[1]}</span>`,
+    p.titleStatus ? `<span class="catTag">暫定標題</span>` : ''
+  ].join('');
+
+  let html = `<div class="card">
+    <div class="pTitle">${p.exam} ${p.year} · ${dispTitle(p)}</div>
+    <div class="tagRow">${tags}</div>
+    ${p.flagNote ? `<div class="flagNote">${p.flagNote}</div>` : ''}
+    <div class="passage" id="passageText">${renderParas(p)}</div>`;
+
+  if(!graded){
+    html += `<div class="row">
+        <button class="ghost-btn" onclick="toggleRestored()">${restoredOn?'顯示空格編號':'檢視填入後的全文'}</button>
+        <button class="ghost-btn" onclick="clearPicks()">清空重填</button>
+        <button class="ghost-btn" style="background:var(--ink); color:#fff;" onclick="grade()">交卷批改</button>
+      </div>
+      <div style="font-size:12.5px; color:var(--ink-soft); line-height:1.8; margin-top:12px;">
+        點空格挑句子。全部填完前也可以交卷，沒填的算未作答。填完後建議先用「檢視填入後的全文」從頭讀一遍，確認接得順再交卷。
+      </div>`;
+  }
+  html += `</div>`;
+  if(graded) html += renderResult(p);
+  document.getElementById('practiceBody').innerHTML = html;
+}
+
+function renderParas(p){
+  return p.paras.map(par => {
+    const body = par.split(/__(\d+)__/).map((seg,i) => {
+      if(i % 2 === 0) return esc(seg);
+      const n = seg, pick = picks[n];
+      const it = curItems.find(x => String(x.blankNum) === String(n));
+      let cls = 'blank', label = n;
+      if(pick){
+        cls += ' filled';
+        label = `${n} ${pick}`;
+      }
+      if(graded && it){
+        cls = 'blank ' + (pick === it.answer ? 'ok' : 'ng');
+        label = `${n} ${pick || '—'}`;
+      }
+      if(restoredOn && pick){
+        return `<span class="restored">${esc(p.options[pick])}</span>`;
+      }
+      const click = graded ? '' : ` onclick="openSheet('${n}')"`;
+      const tab = graded ? '' : ' tabindex="0" role="button"';
+      return `<span class="${cls}"${click}${tab}>${label}</span>`;
+    }).join('');
+    return `<p>${body}</p>`;
+  }).join('');
+}
+
+function toggleRestored(){ restoredOn = !restoredOn; renderPractice(); }
+function clearPicks(){
+  if(Object.keys(picks).length && !confirm('確定要清空目前所有作答嗎？')) return;
+  picks = {}; restoredOn = false; renderPractice();
+}
+
+/* ---------- 選項彈出 ---------- */
+function openSheet(n){
+  sheetBlank = n;
+  const p = PASSAGES[curPid];
+  document.getElementById('sheetTitle').textContent = `第 ${n} 格`;
+  document.getElementById('sheetHint').textContent =
+    p.eliminationValid
+      ? `${p.spec}，選項剛好用完，刪去法有效。`
+      : `${p.spec}，有一個選項用不到，不能靠刪去法。`;
+  const used = {};
+  Object.entries(picks).forEach(([k,v]) => { if(k !== n) used[v] = k; });
+  document.getElementById('sheetBody').innerHTML =
+    Object.entries(p.options).map(([ltr,txt]) => {
+      const isUsed = used[ltr] !== undefined;
+      const isPick = picks[n] === ltr;
+      return `<div class="optRow ${isUsed?'used':''} ${isPick?'pick':''}" onclick="pick('${ltr}')">
+        <span class="ltr">(${ltr})</span>
+        <span>${esc(txt)}${isUsed?`　<span class="catTag">已填在第 ${used[ltr]} 格</span>`:''}</span>
+      </div>`;
+    }).join('') +
+    (picks[n] ? `<button class="ghost-btn" style="width:100%; margin-top:6px;" onclick="pick(null)">清除這一格</button>` : '');
+  document.getElementById('sheetMask').style.display='block';
+  document.getElementById('sheet').style.display='block';
+}
+function closeSheet(){
+  document.getElementById('sheetMask').style.display='none';
+  document.getElementById('sheet').style.display='none';
+  sheetBlank = null;
+}
+function pick(ltr){
+  if(ltr === null){ delete picks[sheetBlank]; }
+  else{
+    Object.keys(picks).forEach(k => { if(picks[k] === ltr) delete picks[k]; });
+    picks[sheetBlank] = ltr;
+  }
+  closeSheet(); renderPractice();
+}
+
+/* ---------- 批改 ---------- */
+function grade(){
+  const unfilled = curItems.filter(it => !picks[String(it.blankNum)]).length;
+  if(unfilled > 0 && !confirm(`還有 ${unfilled} 格沒填，未填的會算答錯。確定要交卷嗎？`)) return;
+  graded = true; restoredOn = false;
+  curItems.forEach(it => recordAnswer(it.id, picks[String(it.blankNum)] === it.answer));
+  renderPractice(); window.scrollTo(0,0);
+}
+function renderResult(p){
+  const ok = curItems.filter(it => picks[String(it.blankNum)] === it.answer).length;
+  const lines = curItems.map(it => {
+    const my = picks[String(it.blankNum)];
+    const good = my === it.answer;
+    const obj = (it.categories && it.categories.length)
+      ? `<span class="objTag">測驗目標：${esc(it.categories[0])}${it.categorySource ? '（考試說明原文）' : '（本站歸屬）'}</span>` : '';
+    return `<div style="margin-bottom:9px;">
+      <b>第 ${it.blankNum} 格</b>　
+      ${good ? '<span style="color:var(--sage);">✓ 答對</span>'
+             : `<span style="color:var(--crimson);">✗ 你選 ${my || '未作答'}</span>`}
+      　正解 <b>(${it.answer})</b><br>
+      <span style="color:var(--ink-soft);">${esc(p.options[it.answer])}</span>${obj}
+    </div>`;
+  }).join('');
+  const unusedTxt = p.unusedOptions.length
+    ? `<div class="flagNote" style="margin-top:12px;">本篇多出的誘答選項是 <b>(${p.unusedOptions.join(') (')})</b>，正解裡用不到它。5 選 4、6 選 5 這類規格就是靠這個選項讓刪去法失效。</div>`
+    : `<div class="flagNote" style="margin-top:12px;">本篇選項剛好用完，刪去法有效——確定其中幾格之後，剩下的格子可以用排除的方式反推。</div>`;
+  return `<div class="card">
+    <div class="result">
+      <div class="big">${ok} / ${curItems.length}</div>
+      <div class="lbl">本篇答對題數</div>
+      <div class="ansLine">${lines}</div>
+    </div>
+    ${unusedTxt}
+    <div class="row">
+      <button class="ghost-btn" onclick="openPassage(curPid)">再做一次</button>
+      <button class="ghost-btn" onclick="quickStart()">換一篇</button>
+      <button class="ghost-btn" onclick="goHome()">回選單</button>
+    </div>
+  </div>`;
+}
+
+/* ---------- 歷程明細 ---------- */
+function showHistory(){
+  const hist = loadHistory();
+  document.getElementById('homeView').style.display='none';
+  document.getElementById('practiceView').style.display='none';
+  document.getElementById('historyView').style.display='block';
+  const total = hist.length, ok = hist.filter(h=>h.correct).length;
+  document.getElementById('histOverall').innerHTML = total
+    ? `<div class="result"><div class="big">${Math.round(ok/total*100)}%</div>
+       <div class="lbl">整體正確率（${ok} / ${total} 題）</div></div>`
+    : '<div class="home-desc">還沒有作答記錄。</div>';
+
+  const byKey = (fn, box) => {
+    const m = {};
+    hist.forEach(h => {
+      const it = ITEMS.find(x => x.id === h.id); if(!it) return;
+      const k = fn(it); if(!k) return;
+      m[k] = m[k] || {n:0, ok:0};
+      m[k].n++; if(h.correct) m[k].ok++;
+    });
+    const rows = Object.entries(m).map(([k,v]) =>
+      `<div class="year-item" style="cursor:default;"><span>${k}</span>
+       <span class="cnt">${v.ok}/${v.n}・${Math.round(v.ok/v.n*100)}%</span></div>`).join('');
+    document.getElementById(box).innerHTML = rows
+      ? `<div class="year-list" style="max-height:none;">${rows}</div>`
+      : '<div class="home-desc">尚無資料。</div>';
+  };
+  byKey(it => it.exam, 'histByExam');
+  byKey(it => { const p = PASSAGES[it.passageId]; return p ? p.spec : null; }, 'histBySpec');
+
+  const recent = hist.slice(-30).reverse().map(h => {
+    const it = ITEMS.find(x => x.id === h.id); if(!it) return '';
+    const p = PASSAGES[it.passageId];
+    return `<div class="year-item" style="cursor:default;">
+      <span>${p ? p.exam+' '+p.year : ''} 第 ${it.blankNum} 格</span>
+      <span class="cnt">${h.correct ? '✓' : '✗'}</span></div>`;
+  }).join('');
+  document.getElementById('histRecent').innerHTML = recent
+    ? `<div class="year-list">${recent}</div>`
+    : '<div class="home-desc">尚無資料。</div>';
+  window.scrollTo(0,0);
+}
+
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeSheet(); });
+init();
+</script>
+</body>
+</html>
