@@ -119,8 +119,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 73,
+  "discrimination": 52
  },
  {
   "id": "Dg115_32",
@@ -142,8 +142,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 60,
+  "discrimination": 75
  },
  {
   "id": "Dg115_33",
@@ -165,8 +165,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 60,
+  "discrimination": 72
  },
  {
   "id": "Dg115_34",
@@ -188,8 +188,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 50,
+  "discrimination": 58
  },
  {
   "id": "Dg114_31",
@@ -210,8 +210,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 56,
+  "discrimination": 68
  },
  {
   "id": "Dg114_32",
@@ -232,8 +232,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 46,
+  "discrimination": 62
  },
  {
   "id": "Dg114_33",
@@ -254,8 +254,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 56,
+  "discrimination": 67
  },
  {
   "id": "Dg114_34",
@@ -276,8 +276,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 46,
+  "discrimination": 66
  },
  {
   "id": "Dg113_31",
@@ -298,8 +298,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 49,
+  "discrimination": 62
  },
  {
   "id": "Dg113_32",
@@ -320,8 +320,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 33,
+  "discrimination": 41
  },
  {
   "id": "Dg113_33",
@@ -342,8 +342,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 40,
+  "discrimination": 47
  },
  {
   "id": "Dg113_34",
@@ -364,8 +364,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 47,
+  "discrimination": 48
  },
  {
   "id": "Dg112_31",
@@ -386,8 +386,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 41,
+  "discrimination": 47
  },
  {
   "id": "Dg112_32",
@@ -408,8 +408,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 54,
+  "discrimination": 65
  },
  {
   "id": "Dg112_33",
@@ -430,8 +430,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 43,
+  "discrimination": 52
  },
  {
   "id": "Dg112_34",
@@ -452,8 +452,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 44,
+  "discrimination": 58
  },
  {
   "id": "Dg111r_31",
@@ -562,8 +562,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 63,
+  "discrimination": 58
  },
  {
   "id": "Dg111_32",
@@ -584,8 +584,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 45,
+  "discrimination": 26
  },
  {
   "id": "Dg111_33",
@@ -606,8 +606,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 47,
+  "discrimination": 35
  },
  {
   "id": "Dg111_34",
@@ -628,8 +628,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 50,
+  "discrimination": 58
  },
  {
   "id": "Dg110t_31",
