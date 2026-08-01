@@ -20,8 +20,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 74,
+  "discrimination": 63
  },
  {
   "id": "Dz110_32",
@@ -44,8 +44,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 53,
+  "discrimination": 57
  },
  {
   "id": "Dz110_33",
@@ -68,8 +68,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 63,
+  "discrimination": 65
  },
  {
   "id": "Dz110_34",
@@ -92,8 +92,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 67,
+  "discrimination": 65
  },
  {
   "id": "Dz110_35",
@@ -116,8 +116,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 66,
+  "discrimination": 69
  },
  {
   "id": "Dz109_31",
@@ -140,8 +140,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 69,
+  "discrimination": 65
  },
  {
   "id": "Dz109_32",
@@ -164,8 +164,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 74,
+  "discrimination": 61
  },
  {
   "id": "Dz109_33",
@@ -188,8 +188,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 65,
+  "discrimination": 63
  },
  {
   "id": "Dz109_34",
@@ -212,8 +212,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 72,
+  "discrimination": 62
  },
  {
   "id": "Dz109_35",
@@ -236,8 +236,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 71,
+  "discrimination": 67
  },
  {
   "id": "Dz109b_31",
@@ -380,8 +380,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 72,
+  "discrimination": 63
  },
  {
   "id": "Dz108_32",
@@ -404,8 +404,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 64,
+  "discrimination": 68
  },
  {
   "id": "Dz108_33",
@@ -428,8 +428,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 75
  },
  {
   "id": "Dz108_34",
@@ -452,8 +452,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 56,
+  "discrimination": 71
  },
  {
   "id": "Dz108_35",
@@ -476,8 +476,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 47,
+  "discrimination": 63
  },
  {
   "id": "Dzref107_31",
@@ -620,8 +620,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 58,
+  "discrimination": 71
  },
  {
   "id": "Dz107_32",
@@ -644,8 +644,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 70,
+  "discrimination": 69
  },
  {
   "id": "Dz107_33",
@@ -668,8 +668,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 24,
+  "discrimination": 27
  },
  {
   "id": "Dz107_34",
@@ -692,8 +692,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 53,
+  "discrimination": 74
  },
  {
   "id": "Dz107_35",
@@ -716,8 +716,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 33,
+  "discrimination": 52
  },
  {
   "id": "Dz106_31",
@@ -740,8 +740,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 67,
+  "discrimination": 49
  },
  {
   "id": "Dz106_32",
@@ -764,8 +764,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 61,
+  "discrimination": 61
  },
  {
   "id": "Dz106_33",
@@ -788,8 +788,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 54,
+  "discrimination": 62
  },
  {
   "id": "Dz106_34",
@@ -812,8 +812,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 70,
+  "discrimination": 57
  },
  {
   "id": "Dz106_35",
@@ -836,8 +836,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 58,
+  "discrimination": 67
  },
  {
   "id": "Dz105_31",
@@ -860,8 +860,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 75,
+  "discrimination": 59
  },
  {
   "id": "Dz105_32",
@@ -884,8 +884,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 62
  },
  {
   "id": "Dz105_33",
@@ -908,8 +908,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 50,
+  "discrimination": 63
  },
  {
   "id": "Dz105_34",
@@ -932,8 +932,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 51,
+  "discrimination": 66
  },
  {
   "id": "Dz105_35",
@@ -956,8 +956,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 67
  },
  {
   "id": "Dz104_31",
@@ -980,8 +980,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 65,
+  "discrimination": 67
  },
  {
   "id": "Dz104_32",
@@ -1004,8 +1004,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 20,
+  "discrimination": 28
  },
  {
   "id": "Dz104_33",
@@ -1028,8 +1028,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 49,
+  "discrimination": 56
  },
  {
   "id": "Dz104_34",
@@ -1052,8 +1052,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 46,
+  "discrimination": 63
  },
  {
   "id": "Dz104_35",
@@ -1076,8 +1076,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 78
  },
  {
   "id": "Dz103_31",
@@ -1100,8 +1100,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 54,
+  "discrimination": 52
  },
  {
   "id": "Dz103_32",
@@ -1124,8 +1124,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 45,
+  "discrimination": 59
  },
  {
   "id": "Dz103_33",
@@ -1148,8 +1148,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 71,
+  "discrimination": 64
  },
  {
   "id": "Dz103_34",
@@ -1172,8 +1172,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 65,
+  "discrimination": 75
  },
  {
   "id": "Dz103_35",
@@ -1196,8 +1196,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 54,
+  "discrimination": 70
  },
  {
   "id": "Dz102_31",
@@ -1220,8 +1220,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 82,
+  "discrimination": 45
  },
  {
   "id": "Dz102_32",
@@ -1244,8 +1244,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 83,
+  "discrimination": 46
  },
  {
   "id": "Dz102_33",
@@ -1268,8 +1268,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 75,
+  "discrimination": 62
  },
  {
   "id": "Dz102_34",
@@ -1292,8 +1292,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 66,
+  "discrimination": 60
  },
  {
   "id": "Dz102_35",
@@ -1316,8 +1316,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 80,
+  "discrimination": 51
  },
  {
   "id": "Dzref99_31",
@@ -1460,8 +1460,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 53,
+  "discrimination": 69
  },
  {
   "id": "Dz101_32",
@@ -1484,8 +1484,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 72,
+  "discrimination": 61
  },
  {
   "id": "Dz101_33",
@@ -1508,8 +1508,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 54,
+  "discrimination": 68
  },
  {
   "id": "Dz101_34",
@@ -1532,8 +1532,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 69
  },
  {
   "id": "Dz101_35",
@@ -1556,8 +1556,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 70,
+  "discrimination": 62
  },
  {
   "id": "Dz100_31",
@@ -1580,8 +1580,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 68,
+  "discrimination": 57
  },
  {
   "id": "Dz100_32",
@@ -1604,8 +1604,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 46,
+  "discrimination": 52
  },
  {
   "id": "Dz100_33",
@@ -1628,8 +1628,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 49,
+  "discrimination": 57
  },
  {
   "id": "Dz100_34",
@@ -1652,8 +1652,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 48,
+  "discrimination": 60
  },
  {
   "id": "Dz100_35",
@@ -1676,8 +1676,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 55
  },
  {
   "id": "Dz99_31",
@@ -1699,8 +1699,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 84,
+  "discrimination": 42
  },
  {
   "id": "Dz99_32",
@@ -1722,8 +1722,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 46,
+  "discrimination": 73
  },
  {
   "id": "Dz99_33",
@@ -1745,8 +1745,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 51,
+  "discrimination": 65
  },
  {
   "id": "Dz99_34",
@@ -1768,8 +1768,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 60,
+  "discrimination": 66
  },
  {
   "id": "Dz99_35",
@@ -1791,8 +1791,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 69,
+  "discrimination": 53
  },
  {
   "id": "Dz98_31",
@@ -1814,8 +1814,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 56,
+  "discrimination": 67
  },
  {
   "id": "Dz98_32",
@@ -1837,8 +1837,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 67,
+  "discrimination": 55
  },
  {
   "id": "Dz98_33",
@@ -1860,8 +1860,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 83,
+  "discrimination": 40
  },
  {
   "id": "Dz98_34",
@@ -1883,8 +1883,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 66,
+  "discrimination": 62
  },
  {
   "id": "Dz98_35",
@@ -1906,8 +1906,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 80,
+  "discrimination": 49
  },
  {
   "id": "Dzref95_31",
@@ -2044,8 +2044,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 84,
+  "discrimination": 40
  },
  {
   "id": "Dz97_42",
@@ -2067,8 +2067,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 67,
+  "discrimination": 62
  },
  {
   "id": "Dz97_43",
@@ -2090,8 +2090,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 61,
+  "discrimination": 66
  },
  {
   "id": "Dz97_44",
@@ -2113,8 +2113,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 49,
+  "discrimination": 43
  },
  {
   "id": "Dz97_45",
@@ -2136,8 +2136,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 44,
+  "discrimination": 48
  },
  {
   "id": "Dz96_41",
@@ -2159,8 +2159,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 30,
+  "discrimination": 27
  },
  {
   "id": "Dz96_42",
@@ -2182,8 +2182,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 44,
+  "discrimination": 43
  },
  {
   "id": "Dz96_43",
@@ -2205,8 +2205,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 27,
+  "discrimination": 33
  },
  {
   "id": "Dz96_44",
@@ -2228,8 +2228,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 30,
+  "discrimination": 34
  },
  {
   "id": "Dz96_45",
@@ -2251,8 +2251,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 29,
+  "discrimination": 22
  },
  {
   "id": "Dz95_41",
@@ -2274,8 +2274,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 54,
+  "discrimination": 59
  },
  {
   "id": "Dz95_42",
@@ -2297,8 +2297,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 43,
+  "discrimination": 63
  },
  {
   "id": "Dz95_43",
@@ -2320,8 +2320,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 68,
+  "discrimination": 52
  },
  {
   "id": "Dz95_44",
@@ -2343,8 +2343,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 45,
+  "discrimination": 59
  },
  {
   "id": "Dz95_45",
@@ -2366,8 +2366,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 36,
+  "discrimination": 50
  },
  {
   "id": "Dz94_41",
@@ -2389,8 +2389,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 53,
+  "discrimination": 45
  },
  {
   "id": "Dz94_42",
@@ -2412,8 +2412,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 51,
+  "discrimination": 48
  },
  {
   "id": "Dz94_43",
@@ -2435,8 +2435,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 33,
+  "discrimination": 36
  },
  {
   "id": "Dz94_44",
@@ -2458,8 +2458,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 66,
+  "discrimination": 61
  },
  {
   "id": "Dz94_45",
@@ -2481,8 +2481,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 61,
+  "discrimination": 57
  },
  {
   "id": "Dz93_41",
@@ -2504,8 +2504,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 51,
+  "discrimination": 41
  },
  {
   "id": "Dz93_42",
@@ -2527,8 +2527,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 43,
+  "discrimination": 54
  },
  {
   "id": "Dz93_43",
@@ -2550,8 +2550,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 34,
+  "discrimination": 42
  },
  {
   "id": "Dz93_44",
@@ -2573,8 +2573,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 52,
+  "discrimination": 64
  },
  {
   "id": "Dz93_45",
@@ -2596,8 +2596,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 42,
+  "discrimination": 41
  },
  {
   "id": "Dz93b_41",
@@ -2734,8 +2734,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 69,
+  "discrimination": 72
  },
  {
   "id": "Dz92_42",
@@ -2757,8 +2757,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 71,
+  "discrimination": 66
  },
  {
   "id": "Dz92_43",
@@ -2780,8 +2780,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 73,
+  "discrimination": 66
  },
  {
   "id": "Dz92_44",
@@ -2803,8 +2803,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 65,
+  "discrimination": 72
  },
  {
   "id": "Dz92_45",
@@ -2826,8 +2826,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 71,
+  "discrimination": 63
  },
  {
   "id": "Dz91p1_41",
@@ -2849,8 +2849,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 55,
+  "discrimination": 68
  },
  {
   "id": "Dz91p1_42",
@@ -2872,8 +2872,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 59
  },
  {
   "id": "Dz91p1_43",
@@ -2895,8 +2895,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 59,
+  "discrimination": 55
  },
  {
   "id": "Dz91p1_44",
@@ -2918,8 +2918,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 46,
+  "discrimination": 58
  },
  {
   "id": "Dz91p1_45",
@@ -2941,8 +2941,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 49,
+  "discrimination": 57
  },
  {
   "id": "Dz91p2_46",
@@ -2964,8 +2964,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 50,
+  "discrimination": 65
  },
  {
   "id": "Dz91p2_47",
@@ -2987,8 +2987,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 38,
+  "discrimination": 65
  },
  {
   "id": "Dz91p2_48",
@@ -3010,8 +3010,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 35,
+  "discrimination": 54
  },
  {
   "id": "Dz91p2_49",
@@ -3033,8 +3033,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 29,
+  "discrimination": 41
  },
  {
   "id": "Dz91p2_50",
@@ -3056,8 +3056,8 @@
   "categories": [],
   "categorySource": null,
   "explanation": null,
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 39,
+  "discrimination": 44
  },
  {
   "id": "Dzres100_31",
