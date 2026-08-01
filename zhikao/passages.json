@@ -1222,5 +1222,52 @@
    "選項字數全距": 11,
    "選項長度變異係數": "37.2%"
   }
+ },
+ {
+  "id": "zres100",
+  "year": "100年研究用試卷（卷二）",
+  "exam": "指考",
+  "examType": "研究用試卷",
+  "title": null,
+  "titleStatus": null,
+  "blankCount": 5,
+  "optionCount": 6,
+  "spec": "6選5",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "C"
+  ],
+  "blankRange": [
+   31,
+   35
+  ],
+  "options": {
+   "A": "As a newcomer to vegetable gardening, Mayberry is hardly alone.",
+   "B": "This year, some 43 million U.S. households will grow vegetables, fruit or herbs.",
+   "C": "Many of Mayberry’s neighbors have become healthy by eating organic vegetables.",
+   "D": "That is, a dollar invested in seeds and seedlings can yield more than $8 worth of produce.",
+   "E": "Along with dozens of her neighbors, Mayberry was planting cucumbers, carrots, onions and tomatoes.",
+   "F": "Still others see stretching and bending in the garden as a worthy supplement to huffing and puffing in the local gym."
+  },
+  "paraLabels": [
+   "人物開場：一輩子沒碰過土的 77 歲退休老太太，今春下田了",
+   "由個案轉全國：不景氣中全美各年齡層都在自己種菜，並以數字佐證",
+   "動機盤點：省錢、食安、運動、紓壓，四類理由並列收尾"
+  ],
+  "paras": [
+   "Helen Mayberry had never dug a hole in her life. She never even had her hands in dirt, not even once, she claimed. Yet this spring, the 77-year-old retiree from Galena, Illinois, was getting down and dirty. __31__ Each of her neighbors had paid $25 for a 10-by-10 plot in a community garden taking shape on a donated acre of land, in this community of about 3,300 in the northwestern tip of the state of Illinois.",
+   "__32__ Across the country during this time of recession and economic anxiety, Americans of all ages are flocking into their gardens to grow their own food. The numbers are impressive. __33__ And an estimated 21 percent of food gardeners will be first-timers like Mayberry.",
+   "When asked why they became enthusiastic about gardening, many of them cite the chilling effects of the recession, and the fact that gardening can reap financial rewards. __34__ Others voice concerns over the purity and safety of food and think planting in the backyard can ensure that only wholesome products wind up on the dinner table. __35__ And as gasoline prices rise again, garden work is seen as an economical vacation from stress. In a down economy, people turn the soil to save on food, and gain on taste."
+  ],
+  "reading": [],
+  "flagNote": "本篇出自大考中心 100 學年度研究用試卷（卷二），屬研究性質施測，成績不採計入學。卷二各大題配分與題數與同年度指考完全一致（詞彙 10／綜合測驗 10／文意選填 10／篇章結構 10／閱讀測驗 32），故歸於指考類。原卷篇章結構大題標示「10 分」，但題型說明誤植為「各題答對得 1 分」，與大題配分及指考體例（5 題各 2 分）不符，本站依大題配分認定為每題 2 分。",
+  "sourceFile": "100英文研究用試卷卷二.pdf；答案出自 100英文研究用試卷-參考答案.pdf",
+  "internalNote": {
+   "_說明": "命題端量測，站上不顯示，供試題評論／審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "10-21",
+   "選項字數全距": 11,
+   "選項長度變異係數": "26.0%"
+  }
  }
 ]
