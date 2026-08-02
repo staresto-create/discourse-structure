@@ -167,10 +167,61 @@
   .report-btn{display:inline-block; margin-top:8px; color:var(--crimson); text-decoration:none; border:1px solid var(--rule); border-radius:20px; padding:5px 14px;}
   .report-btn:hover{border-color:var(--crimson);}
 
+  /* ===== 解析區 ===== */
+  code{font-family:'IBM Plex Mono',monospace; font-size:.92em; background:#F3EFE0; border-radius:2px; padding:1px 4px;}
+
+  .zh{color:var(--ink-soft); font-size:14.5px; line-height:1.95;}
+  .zhPara{border-left:3px solid var(--blue); background:#F5FAFD; padding:8px 12px; border-radius:2px; margin:0 0 15px; font-size:14.5px; line-height:1.95; color:var(--ink-soft);}
+  .zhPara .blank{background:#E7EEF3; border-bottom-color:#7FA8C4; color:var(--ink-soft); cursor:default;}
+  .zhHint{font-size:12px; color:var(--ink-soft); margin:-6px 0 14px;}
+
+  .exBox{border:1px solid var(--rule); border-radius:4px; background:#fff; padding:16px 18px; margin-bottom:14px; text-align:left;}
+  .exHead{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; margin-bottom:10px; padding-bottom:9px; border-bottom:1px dashed var(--rule);}
+  .exHead .vd{font-family:'Noto Sans TC',sans-serif; font-size:13px; font-weight:500;}
+  .exAns{font-size:14.5px; line-height:1.85; background:#F0F7EE; border-left:3px solid var(--sage); padding:8px 12px; border-radius:2px; margin-bottom:12px;}
+  .exAns .ltr{font-family:'IBM Plex Mono',monospace; font-weight:600; color:var(--sage); margin-right:4px;}
+  .exAns .zh{display:block; margin-top:3px;}
+  .exStep{font-size:14.5px; line-height:1.95; margin:0 0 11px;}
+  .exStep .h{font-family:'Noto Serif TC',serif; font-weight:700; color:var(--ink); margin-right:2px;}
+  .exWhy{font-size:14.5px; line-height:1.95; margin:0 0 11px;}
+  .exDis{font-size:14px; line-height:1.9; background:#FCF2F0; border-left:3px solid var(--crimson); padding:8px 12px; border-radius:2px; margin:0 0 11px; color:var(--ink-soft);}
+  .exDis b{color:var(--ink);}
+  .exTake{font-size:14.5px; line-height:1.9; background:#FFFBEA; border-left:3px solid var(--gold); padding:10px 13px; border-radius:2px;}
+  .exTake .lb{display:block; font-family:'Noto Serif TC',serif; font-weight:700; color:var(--gold); font-size:13px; margin-bottom:3px; letter-spacing:.04em;}
+
+  details.dataBox{border:1px dashed var(--rule); border-radius:3px; background:#FBF9F2; padding:8px 12px; margin-top:12px;}
+  details.dataBox summary{cursor:pointer; list-style:none; font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:.06em; color:var(--ink-soft);}
+  details.dataBox summary::-webkit-details-marker{display:none;}
+  details.dataBox summary::before{content:"▸ "; color:var(--crimson);}
+  details.dataBox[open] summary::before{content:"▾ ";}
+  .dataRow{display:flex; gap:10px; font-size:12.5px; line-height:1.8; color:var(--ink-soft); padding:5px 0; border-bottom:1px dotted var(--rule);}
+  .dataRow:last-child{border-bottom:none;}
+  .dataRow .k{flex:0 0 76px; color:var(--ink); font-weight:500;}
+  .dataRow .v{flex:1;}
+  .dataRow .v .na{color:var(--gold);}
+
+  .exTable{width:100%; border-collapse:collapse; font-size:13.5px; line-height:1.75; margin:10px 0 12px;}
+  .exTable th,.exTable td{border:1px solid var(--rule); padding:7px 9px; text-align:left; vertical-align:top;}
+  .exTable th{background:#F3EFE0; font-family:'Noto Serif TC',serif; font-size:13px;}
+  .exTable td.n{font-family:'IBM Plex Mono',monospace; text-align:center; width:44px; color:var(--crimson);}
+
+  .closeBox{border:1px solid var(--ink); border-radius:4px; background:#FFFDF7; padding:18px 20px; margin-top:18px; text-align:left;}
+  .closeBox .ct{font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; margin-bottom:8px;}
+  .closeBox p{font-size:14.5px; line-height:1.95; margin:0 0 10px; color:var(--ink-soft);}
+  .closeBox p b{color:var(--ink);}
+  .closeBox ol{margin:0 0 10px; padding-left:22px;}
+  .closeBox li{font-size:14.5px; line-height:1.95; margin-bottom:7px; color:var(--ink-soft);}
+  .closeBox li b{color:var(--ink);}
+  .closeBox .en{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--gold);}
+
   @media (max-width:560px){
     body{padding:20px 12px 50px;}
     .card{padding:20px 16px;}
     .passage{font-size:15px; line-height:2.0;}
+    .exBox{padding:14px 14px;}
+    .closeBox{padding:15px 15px;}
+    .dataRow{flex-direction:column; gap:0;}
+    .dataRow .k{flex:none;}
   }
   @media (prefers-reduced-motion: reduce){
     *{transition:none !important;}
@@ -347,7 +398,7 @@ function isTestMode(){ const el=document.getElementById('testModeToggle'); retur
 
 let PASSAGES = {}, ITEMS = [];
 let selectedExams = new Set(), selectedSpecs = new Set();
-let curPid = null, curItems = [], picks = {}, graded = false, restoredOn = false, sheetBlank = null;
+let curPid = null, curItems = [], picks = {}, graded = false, restoredOn = false, zhOn = false, sheetBlank = null;
 
 async function init(){
   const dirs = ['gsat','zhikao'];
@@ -504,7 +555,7 @@ function goHome(){
   closeSheet(); buildYearList(); window.scrollTo(0,0);
 }
 function openPassage(pid){
-  curPid = pid; graded = false; restoredOn = false; picks = {};
+  curPid = pid; graded = false; restoredOn = false; zhOn = false; picks = {};
   curItems = ITEMS.filter(it => it.passageId === pid)
                   .sort((a,b) => a.blankNum - b.blankNum);
   document.getElementById('homeView').style.display='none';
@@ -517,6 +568,12 @@ function openPassage(pid){
 function esc(s){
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
+/* 解析內文的行內標記：`英文原文` → <code>、**重點** → <b>。先跳脫再轉換 */
+function mk(s){
+  return esc(s).replace(/`([^`]+)`/g, '<code>$1</code>')
+               .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+}
+function hasZh(p){ return Array.isArray(p.zhTranslation) && p.zhTranslation.length === p.paras.length && !!p.optionsZh; }
 function renderPractice(){
   const p = PASSAGES[curPid];
   const done = Object.keys(picks).length, total = curItems.length;
@@ -538,15 +595,24 @@ function renderPractice(){
     ${(graded && hasParaLabels(p)) ? `<div class="labelHint">每段前面的綠色標籤寫的是<b>這一段在整篇裡做什麼</b>，不是這一段講什麼。作答時不顯示，因為那等於先把答案的位置告訴你。現在回頭看一次：你答錯的那一格，是不是卡在沒看出這段的功能？</div>` : ''}
     <div class="passage" id="passageText">${renderParas(p)}</div>`;
 
+  const zhBtn = hasZh(p)
+    ? `<button class="ghost-btn" onclick="toggleZh()">${zhOn?'關掉中譯':'看中譯'}</button>` : '';
+  const zhHint = (zhOn && !graded)
+    ? `<div class="zhHint">中譯的空格處一樣留白，交卷後才會把正解那一句的中譯補進去。</div>` : '';
+
   if(!graded){
     html += `<div class="row">
         <button class="ghost-btn" onclick="toggleRestored()">${restoredOn?'顯示空格編號':'檢視填入後的全文'}</button>
+        ${zhBtn}
         <button class="ghost-btn" onclick="clearPicks()">清空重填</button>
         <button class="ghost-btn" style="background:var(--ink); color:#fff;" onclick="grade()">交卷批改</button>
       </div>
+      ${zhHint}
       <div style="font-size:12.5px; color:var(--ink-soft); line-height:1.8; margin-top:12px;">
         點空格挑句子。全部填完前也可以交卷，沒填的算未作答。填完後建議先用「檢視填入後的全文」從頭讀一遍，確認接得順再交卷。
       </div>`;
+  }else if(zhBtn){
+    html += `<div class="row">${zhBtn}</div>`;
   }
   html += `</div>`;
   if(graded) html += renderResult(p);
@@ -581,11 +647,24 @@ function renderParas(p){
     }).join('');
     const lab = (graded && labels[idx])
       ? `<div class="paraLabel"><b>${p.paras.length === 1 ? '【全篇】' : '【第 ' + (idx+1) + ' 段】'}</b>${esc(labels[idx])}</div>` : '';
-    return lab + `<p>${body}</p>`;
+    const zh = (zhOn && hasZh(p)) ? renderZhPara(p, idx) : '';
+    return lab + `<p>${body}</p>` + zh;
   }).join('');
 }
 
+/* 逐段中譯。與 paras 同一套 __n__ 標記；未批改前空格處不顯示答案 */
+function renderZhPara(p, idx){
+  const body = String(p.zhTranslation[idx]).split(/__(\d+)__/).map((seg,i) => {
+    if(i % 2 === 0) return esc(seg);
+    const it = curItems.find(x => String(x.blankNum) === String(seg));
+    if(graded && it) return `<span class="blank">${seg} ${it.answer}</span>${esc(p.optionsZh[it.answer])}`;
+    return `<span class="blank">${seg}</span>`;
+  }).join('');
+  return `<div class="zhPara">${body}</div>`;
+}
+
 function toggleRestored(){ restoredOn = !restoredOn; renderPractice(); }
+function toggleZh(){ zhOn = !zhOn; renderPractice(); }
 function clearPicks(){
   if(Object.keys(picks).length && !confirm('確定要清空目前所有作答嗎？')) return;
   picks = {}; restoredOn = false; renderPractice();
@@ -637,24 +716,123 @@ function grade(){
   curItems.forEach(it => recordAnswer(it.id, picks[String(it.blankNum)] === it.answer));
   renderPractice(); window.scrollTo(0,0);
 }
+/* 判定：這一格有沒有寫好的解析 */
+function hasEx(it){ return it.explanation && Array.isArray(it.explanation.steps); }
+
+/* 可收合的線索與數據。沒有答對率的場次走防呆，不出現空欄位 */
+function renderDataBox(it){
+  const rows = [];
+  if(Array.isArray(it.cueTypes) && it.cueTypes.length)
+    rows.push(`<div class="dataRow"><span class="k">線索種類</span><span class="v">${it.cueTypes.map(esc).join('、')}</span></div>`);
+  if(it.cuePosition)
+    rows.push(`<div class="dataRow"><span class="k">線索在哪</span><span class="v">${esc(it.cuePosition)}${it.cueNote ? '　<span style="color:var(--ink-soft);">'+mk(it.cueNote)+'</span>' : ''}</span></div>`);
+  if(it.categories && it.categories.length)
+    rows.push(`<div class="dataRow"><span class="k">測驗目標</span><span class="v">${esc(it.categories[0])}${it.categorySource ? '（考試說明原文）' : '（本站歸屬）'}</span></div>`);
+  rows.push(hasPD(it)
+    ? `<div class="dataRow"><span class="k">答對率</span><span class="v">${it.accuracyRate}%</span></div>
+       <div class="dataRow"><span class="k">鑑別度</span><span class="v">${it.discrimination}</span></div>`
+    : `<div class="dataRow"><span class="k">答對率</span><span class="v na">本場考試不公布統計</span></div>`);
+  if(!rows.length) return '';
+  return `<details class="dataBox"><summary>這一格的線索與數據</summary>${rows.join('')}</details>`;
+}
+function hasPD(it){ return it.accuracyRate !== null && it.accuracyRate !== undefined; }
+
+/* 逐題解析 */
+function renderExplanation(p, it){
+  const e = it.explanation;
+  const my = picks[String(it.blankNum)];
+  const good = my === it.answer;
+  const verdict = good
+    ? '<span class="vd" style="color:var(--sage);">✓ 答對</span>'
+    : (my ? `<span class="vd" style="color:var(--crimson);">✗ 答錯，你選的是 (${my})</span>`
+          : '<span class="vd" style="color:var(--crimson);">✗ 未作答</span>');
+  const zhOf = (l) => (p.optionsZh && p.optionsZh[l]) ? `<span class="zh">${esc(p.optionsZh[l])}</span>` : '';
+  const ans = `<div class="exAns"><span class="ltr">正解 (${it.answer})</span>${esc(p.options[it.answer])}${zhOf(it.answer)}</div>`;
+  const mine = (!good && my)
+    ? `<div class="myPick"><b>你選的 (${my})：</b>${esc(p.options[my])}${p.optionsZh && p.optionsZh[my] ? '<br>'+esc(p.optionsZh[my]) : ''}</div>` : '';
+  const steps = (e.steps||[]).map(s => `<p class="exStep"><span class="h">${esc(s.h)}</span> ${mk(s.t)}</p>`).join('');
+  const why = e.why ? `<p class="exWhy">${mk(e.why)}</p>` : '';
+  const dis = (e.distractors||[]).map(d => {
+    const gloss = (p.optionsZh && p.optionsZh[d.opt]) ? `（${esc(p.optionsZh[d.opt])}）` : '';
+    return `<div class="exDis"><b>如果你選了 ${d.opt}</b>${gloss}：${mk(d.t)}</div>`;
+  }).join('');
+  const take = e.takeaway
+    ? `<div class="exTake"><span class="lb">【下次先看這裡】</span>${mk(e.takeaway)}</div>` : '';
+  return `<div class="exBox">
+    <div class="exHead">第 ${it.blankNum} 格　${verdict}</div>
+    ${ans}${mine}${steps}${why}${dis}${take}${renderDataBox(it)}
+  </div>`;
+}
+
+/* 尚未灌解析的題目，維持原本的簡表 */
+function renderPlainLine(p, it){
+  const my = picks[String(it.blankNum)];
+  const good = my === it.answer;
+  const obj = (it.categories && it.categories.length)
+    ? `<span class="objTag">測驗目標：${esc(it.categories[0])}${it.categorySource ? '（考試說明原文）' : '（本站歸屬）'}</span>` : '';
+  const verdict = good
+    ? '<span style="color:var(--sage);">✓ 答對</span>'
+    : (my ? `<span style="color:var(--crimson);">✗ 答錯</span>`
+          : '<span style="color:var(--crimson);">✗ 未作答</span>');
+  const mine = (!good && my)
+    ? `<div class="myPick"><b>你選的 (${my})：</b>${esc(p.options[my])}</div>` : '';
+  return `<div style="margin-bottom:12px;">
+    <b>第 ${it.blankNum} 格</b>　${verdict}　正解 <b>(${it.answer})</b><br>
+    <span style="color:var(--ink-soft);">${esc(p.options[it.answer])}</span>${mine}${obj}
+  </div>`;
+}
+
+/* 多出來的那一個 */
+function renderUnusedBox(p){
+  const u = p.unusedExplanation;
+  if(!u || !Array.isArray(u.rows)) return '';
+  const rows = u.rows.map(r => `<tr><td class="n">${r.blank}</td><td>${mk(r.want)}</td><td>${mk(r.why)}</td></tr>`).join('');
+  const extra = (u.extra||[]).map(x => `<p class="exWhy">${mk(x)}</p>`).join('');
+  const zh = (p.optionsZh && p.optionsZh[u.opt]) ? `<span class="zh">${esc(p.optionsZh[u.opt])}</span>` : '';
+  return `<div class="exBox" style="border-color:var(--gold); background:#FFFDF6;">
+    <div class="exHead">多出來的那一個：${u.opt}</div>
+    <div class="exAns" style="background:#FFFBEA; border-left-color:var(--gold);">
+      <span class="ltr" style="color:var(--gold);">(${u.opt})</span>${esc(p.options[u.opt])}${zh}</div>
+    ${u.lead ? `<p class="exWhy">${mk(u.lead)}</p>` : ''}
+    <table class="exTable">
+      <tr><th style="width:44px;">格</th><th>那一格在等什麼</th><th>${u.opt} 為什麼不行</th></tr>
+      ${rows}
+    </table>
+    ${u.summary ? `<p class="exWhy">${mk(u.summary)}</p>` : ''}
+    ${extra}
+    ${u.takeaway ? `<div class="exTake"><span class="lb">【下次先看這裡】</span>${mk(u.takeaway)}</div>` : ''}
+  </div>`;
+}
+
+/* 每一篇的收尾：讀一篇文章要先問的四件事 */
+function renderClosing(){
+  return `<div class="closeBox">
+    <div class="ct">讀完一篇，帶走這四個問題</div>
+    <p>篇章結構考的不是把句子塞進洞裡，是你有沒有讀懂這一篇在說什麼。下次拿到一篇，先問這四件事：</p>
+    <ol>
+      <li><b>誰、什麼、為什麼、怎麼樣</b> <span class="en">who / what / why / how</span><br>
+        這篇在講誰、發生了什麼、為什麼會這樣、後來怎麼了。一句話說得出來，就抓到了。</li>
+      <li><b>這篇的核心概念是哪一句</b> <span class="en">core concept / thesis</span><br>
+        全篇最重要的那一句，位置多半在第一段的最後，或者最後一段。</li>
+      <li><b>每一段的主題句是哪一句</b> <span class="en">topic sentence</span><br>
+        多半是那一段的第一句，同一段其他的句子都是它的細節或例子。</li>
+      <li><b>有沒有看到這幾種標記詞</b> <span class="en">lexical markers</span><br>
+        <code>however</code>、<code>but</code> 表示話鋒一轉；<code>for example</code> 表示後面要舉例；
+        <code>another</code>、<code>also</code> 表示這是同一類的第二項；
+        <code>this</code>、<code>these</code>、<code>they</code>、<code>the</code> 表示前面一定有一個東西對應得上。</li>
+    </ol>
+    <p>每一個空格，少掉的都是這四件事裡的某一塊：不是少一件事實，就是少一個轉折，或者少一個被後面指到的對象。<b>先問這四個問題，再去看選項，就不會只憑感覺挑。</b></p>
+  </div>`;
+}
+
 function renderResult(p){
   const ok = curItems.filter(it => picks[String(it.blankNum)] === it.answer).length;
-  const lines = curItems.map(it => {
-    const my = picks[String(it.blankNum)];
-    const good = my === it.answer;
-    const obj = (it.categories && it.categories.length)
-      ? `<span class="objTag">測驗目標：${esc(it.categories[0])}${it.categorySource ? '（考試說明原文）' : '（本站歸屬）'}</span>` : '';
-    const verdict = good
-      ? '<span style="color:var(--sage);">✓ 答對</span>'
-      : (my ? `<span style="color:var(--crimson);">✗ 答錯</span>`
-            : '<span style="color:var(--crimson);">✗ 未作答</span>');
-    const mine = (!good && my)
-      ? `<div class="myPick"><b>你選的 (${my})：</b>${esc(p.options[my])}</div>` : '';
-    return `<div style="margin-bottom:12px;">
-      <b>第 ${it.blankNum} 格</b>　${verdict}　正解 <b>(${it.answer})</b><br>
-      <span style="color:var(--ink-soft);">${esc(p.options[it.answer])}</span>${mine}${obj}
-    </div>`;
-  }).join('');
+  const lines = curItems.map(it => hasEx(it) ? renderExplanation(p, it) : renderPlainLine(p, it)).join('');
+  const anyEx = curItems.some(hasEx);
+  const pd = curItems.filter(hasPD).map(it => it.accuracyRate);
+  const pdLine = pd.length
+    ? `全篇答對率 ${Math.min.apply(null,pd)}–${Math.max.apply(null,pd)}%`
+    : '本場考試不公布答對率與鑑別度';
 
   /* 選項對照表：每個選項落在哪一格，哪一個沒被用到 */
   const slotOf = {};
@@ -664,9 +842,11 @@ function renderResult(p){
     const tag = slot
       ? `<span class="slotTag hit">第 ${slot} 格</span>`
       : `<span class="slotTag miss">沒有用到 · 誘答選項</span>`;
+    const zh = (p.optionsZh && p.optionsZh[ltr])
+      ? `<br><span class="zh" style="font-size:13px;">${esc(p.optionsZh[ltr])}</span>` : '';
     return `<div class="optMapRow">
       <span class="ltr">(${ltr})</span>
-      <span>${esc(txt)}<br>${tag}</span>
+      <span>${esc(txt)}${zh}<br>${tag}</span>
     </div>`;
   }).join('');
   const optMap = `<div class="sec-title" style="margin-top:16px;">選項對照表<span class="sec-note">每個選項最後落在哪一格</span></div>
@@ -677,15 +857,22 @@ function renderResult(p){
         ${p.unusedOptions.map(l => esc(p.options[l])).join('<br>')}<br><br>
         它從頭到尾不是任何一格的正解。${p.spec} 這種規格就是靠它讓刪去法失效——回頭把這句讀一遍，想清楚它為什麼哪一格都接不上，比記住答案有用。</div>`
     : `<div class="flagNote" style="margin-top:12px;">本篇 ${p.spec}，選項剛好用完，刪去法有效——確定其中幾格之後，剩下的格子可以用排除的方式反推。</div>`;
-  return `<div class="card">
-    <div class="result">
+  const score = `<div class="result">
       <div class="big">${ok} / ${curItems.length}</div>
-      <div class="lbl">本篇答對題數</div>
-      <div class="ansLine">${lines}</div>
-    </div>
+      <div class="lbl">本篇答對題數　${pdLine}</div>
+      ${anyEx ? '' : `<div class="ansLine">${lines}</div>`}
+    </div>`;
+  const exSec = anyEx
+    ? `<div class="sec-title">逐題解析<span class="sec-note">每一格為什麼是這一句</span></div>${lines}`
+    : '';
+  const unusedBox = renderUnusedBox(p);
+  return `<div class="card">
+    ${score}
     ${optMap}
-    ${unusedTxt}
-    <div class="row">
+    ${exSec}
+    ${unusedBox || unusedTxt}
+    ${anyEx ? renderClosing() : ''}
+    <div class="row" style="margin-top:16px;">
       <button class="ghost-btn" onclick="openPassage(curPid)">再做一次</button>
       <button class="ghost-btn" onclick="quickStart()">換一篇</button>
       <button class="ghost-btn" onclick="goHome()">回選單</button>
