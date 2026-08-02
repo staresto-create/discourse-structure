@@ -22,7 +22,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "同義呼應",
    "語意呼應"
   ],
@@ -226,7 +226,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "語意對比"
   ],
   "cueNote": "`Instead` 接在前句否定之後；`nothing to do with fortune telling` ↔ `focus on…`",
@@ -580,7 +580,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "語意對比"
   ],
   "cueNote": "`however`；一個人全包 ↔ 底下一整層",
@@ -834,7 +834,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "序列與時間詞"
   ],
   "cueNote": "`however`；1530 ↔ 1543 ↔ 過世前兩個月",
@@ -1493,7 +1493,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "語意對比"
   ],
   "cueNote": "後句 `Yet`；秩序恢復 ↔ 問題仍在",
@@ -2152,7 +2152,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "語意對比"
   ],
   "cueNote": "`Despite its overall advantages`；前兩段優點 ↔ 本段缺點",
@@ -3593,7 +3593,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "前提呼應"
   ],
   "cueNote": "後句 `Therefore`；糖水是獎勵的前提",
@@ -3787,7 +3787,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記"
+   "轉折詞"
   ],
   "cueNote": "後句 `though`",
   "cuePosition": "後一句",
@@ -4070,7 +4070,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "語意對比"
   ],
   "cueNote": "`But`；幾天幾個月 ↔ 幾年幾世紀",
@@ -4210,7 +4210,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "定冠詞 the"
   ],
   "cueNote": "`However`；`the native fish populations`",
@@ -4504,7 +4504,7 @@
   "categorySource": null,
   "cueTypes": [
    "指示詞",
-   "轉折標記"
+   "轉折詞"
   ],
   "cueNote": "`By so doing` 回指動作；`Therefore`",
   "cuePosition": "後一句",
@@ -4649,7 +4649,7 @@
   "categorySource": null,
   "cueTypes": [
    "指示詞",
-   "轉折標記"
+   "轉折詞"
   ],
   "cueNote": "`These people`；後句 `Consequently`",
   "cuePosition": "兩側",
@@ -5081,7 +5081,7 @@
   "categorySource": null,
   "cueTypes": [
    "序列與時間詞",
-   "轉折標記"
+   "轉折詞"
   ],
   "cueNote": "`Since then`；1975 ↔ 1991；後句 `However`",
   "cuePosition": "兩側",
@@ -5275,7 +5275,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "定冠詞 the"
   ],
   "cueNote": "`However`",
@@ -5420,7 +5420,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "人稱代名詞主格"
   ],
   "cueNote": "`As a result`；`they`",
@@ -5663,7 +5663,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記"
+   "轉折詞"
   ],
   "cueNote": "後句 `But`",
   "cuePosition": "後一句",
@@ -5943,7 +5943,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記"
+   "轉折詞"
   ],
   "cueNote": "`But`",
   "cuePosition": "後一句",
@@ -6038,7 +6038,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "人稱代名詞主格"
   ],
   "cueNote": "`But`；`It`",
@@ -6181,7 +6181,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "定冠詞 the"
   ],
   "cueNote": "`Instead`",
@@ -6231,7 +6231,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記"
+   "轉折詞"
   ],
   "cueNote": "`however`",
   "cuePosition": "前一句",
