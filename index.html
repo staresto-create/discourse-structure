@@ -205,6 +205,25 @@
   .exTable th{background:#F3EFE0; font-family:'Noto Serif TC',serif; font-size:13px;}
   .exTable td.n{font-family:'IBM Plex Mono',monospace; text-align:center; width:44px; color:var(--crimson);}
 
+  /* 逐題摺疊 */
+  details.exBox > summary{list-style:none; cursor:pointer;}
+  details.exBox > summary::-webkit-details-marker{display:none;}
+  details.exBox > summary .exHead{margin-bottom:0; padding-bottom:0; border-bottom:none;}
+  details.exBox[open] > summary .exHead{margin-bottom:10px; padding-bottom:9px; border-bottom:1px dashed var(--rule);}
+  .exHead .caret{margin-left:auto; font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-soft); font-weight:400;}
+  details.exBox[open] > summary .caret::after{content:"收合 ▾";}
+  details.exBox:not([open]) > summary .caret::after{content:"看解析 ▸";}
+
+  /* 跳格鈕 */
+  .jumpBar{display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin:14px 0 4px; font-size:12.5px; color:var(--ink-soft);}
+  .jumpBtn{font-family:'IBM Plex Mono',monospace; font-size:12.5px; border:1.5px solid var(--rule); background:#fff; border-radius:4px; padding:5px 11px; cursor:pointer; color:var(--ink);}
+  .jumpBtn:hover{border-color:var(--ink);}
+  .jumpBtn.ng{border-color:var(--crimson); color:var(--crimson); background:#FCF2F0;}
+  .jumpBtn.ok{border-color:var(--sage); color:var(--sage);}
+
+  /* 同題篇的解析共用提示 */
+  .twinNote{font-size:13px; line-height:1.8; color:var(--ink-soft); background:#F5FAFD; border-left:3px solid var(--blue); padding:9px 12px; border-radius:2px; margin-bottom:14px;}
+
   .closeBox{border:1px solid var(--ink); border-radius:4px; background:#FFFDF7; padding:18px 20px; margin-top:18px; text-align:left;}
   .closeBox .ct{font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; margin-bottom:8px;}
   .closeBox p{font-size:14.5px; line-height:1.95; margin:0 0 10px; color:var(--ink-soft);}
@@ -573,6 +592,11 @@ function mk(s){
   return esc(s).replace(/`([^`]+)`/g, '<code>$1</code>')
                .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
 }
+/* 多段落內文：以空行切段，各自成 <p> */
+function mkp(s, cls){
+  return String(s).split(/\n\s*\n/).map(x => x.trim()).filter(Boolean)
+    .map(x => `<p class="${cls}">${mk(x)}</p>`).join('');
+}
 function hasZh(p){ return Array.isArray(p.zhTranslation) && p.zhTranslation.length === p.paras.length && !!p.optionsZh; }
 function renderPractice(){
   const p = PASSAGES[curPid];
@@ -750,18 +774,18 @@ function renderExplanation(p, it){
   const ans = `<div class="exAns"><span class="ltr">正解 (${it.answer})</span>${esc(p.options[it.answer])}${zhOf(it.answer)}</div>`;
   const mine = (!good && my)
     ? `<div class="myPick"><b>你選的 (${my})：</b>${esc(p.options[my])}${p.optionsZh && p.optionsZh[my] ? '<br>'+esc(p.optionsZh[my]) : ''}</div>` : '';
-  const steps = (e.steps||[]).map(s => `<p class="exStep"><span class="h">${esc(s.h)}</span> ${mk(s.t)}</p>`).join('');
-  const why = e.why ? `<p class="exWhy">${mk(e.why)}</p>` : '';
+  const steps = (e.steps||[]).map(s => `<p class="exStep"><span class="h">${mk(s.h)}</span> ${mk(s.t)}</p>`).join('');
+  const why = e.why ? mkp(e.why, 'exWhy') : '';
   const dis = (e.distractors||[]).map(d => {
     const gloss = (p.optionsZh && p.optionsZh[d.opt]) ? `（${esc(p.optionsZh[d.opt])}）` : '';
     return `<div class="exDis"><b>如果你選了 ${d.opt}</b>${gloss}：${mk(d.t)}</div>`;
   }).join('');
   const take = e.takeaway
     ? `<div class="exTake"><span class="lb">【下次先看這裡】</span>${mk(e.takeaway)}</div>` : '';
-  return `<div class="exBox">
-    <div class="exHead">第 ${it.blankNum} 格　${verdict}</div>
+  return `<details class="exBox" id="ex${it.blankNum}"${good ? '' : ' open'}>
+    <summary><div class="exHead">第 ${it.blankNum} 格　${verdict}<span class="caret"></span></div></summary>
     ${ans}${mine}${steps}${why}${dis}${take}${renderDataBox(it)}
-  </div>`;
+  </details>`;
 }
 
 /* 尚未灌解析的題目，維持原本的簡表 */
@@ -787,20 +811,35 @@ function renderUnusedBox(p){
   const u = p.unusedExplanation;
   if(!u || !Array.isArray(u.rows)) return '';
   const rows = u.rows.map(r => `<tr><td class="n">${r.blank}</td><td>${mk(r.want)}</td><td>${mk(r.why)}</td></tr>`).join('');
-  const extra = (u.extra||[]).map(x => `<p class="exWhy">${mk(x)}</p>`).join('');
+  const extra = (u.extra||[]).map(x => mkp(x, 'exWhy')).join('');
   const zh = (p.optionsZh && p.optionsZh[u.opt]) ? `<span class="zh">${esc(p.optionsZh[u.opt])}</span>` : '';
   return `<div class="exBox" style="border-color:var(--gold); background:#FFFDF6;">
     <div class="exHead">多出來的那一個：${u.opt}</div>
     <div class="exAns" style="background:#FFFBEA; border-left-color:var(--gold);">
       <span class="ltr" style="color:var(--gold);">(${u.opt})</span>${esc(p.options[u.opt])}${zh}</div>
-    ${u.lead ? `<p class="exWhy">${mk(u.lead)}</p>` : ''}
-    <table class="exTable">
+    ${u.lead ? mkp(u.lead, 'exWhy') : ''}
+    ${rows ? `<table class="exTable">
       <tr><th style="width:44px;">格</th><th>那一格在等什麼</th><th>${u.opt} 為什麼不行</th></tr>
       ${rows}
-    </table>
-    ${u.summary ? `<p class="exWhy">${mk(u.summary)}</p>` : ''}
+    </table>` : ''}
+    ${u.summary ? mkp(u.summary, 'exWhy') : ''}
     ${extra}
     ${u.takeaway ? `<div class="exTake"><span class="lb">【下次先看這裡】</span>${mk(u.takeaway)}</div>` : ''}
+  </div>`;
+}
+
+/* 篇末對照表：同一篇選文的兩種考法 */
+function renderCrossRef(p){
+  const c = p.crossRef;
+  if(!c || !Array.isArray(c.rows) || !c.rows.length) return '';
+  const head = `<tr><th></th>${c.cols.map(x => '<th>' + esc(x) + '</th>').join('')}</tr>`;
+  const rows = c.rows.map(r =>
+    `<tr><td><b>${esc(r[0])}</b></td>${r.slice(1).map(x => '<td>' + mk(x) + '</td>').join('')}</tr>`).join('');
+  return `<div class="exBox" style="border-color:var(--blue); background:#F8FCFE;">
+    <div class="exHead">${esc(c.title)}</div>
+    ${c.lead ? mkp(c.lead, 'exWhy') : ''}
+    <table class="exTable">${head}${rows}</table>
+    ${c.note ? mkp(c.note, 'exWhy') : ''}
   </div>`;
 }
 
@@ -823,6 +862,21 @@ function renderClosing(){
     </ol>
     <p>每一個空格，少掉的都是這四件事裡的某一塊：不是少一件事實，就是少一個轉折，或者少一個被後面指到的對象。<b>先問這四個問題，再去看選項，就不會只憑感覺挑。</b></p>
   </div>`;
+}
+
+/* 交卷後的跳格列：點一下展開並捲到那一格 */
+function jumpTo(n){
+  const el = document.getElementById('ex' + n);
+  if(!el) return;
+  el.open = true;
+  el.scrollIntoView({block:'start'});
+}
+function renderJumpBar(){
+  const btns = curItems.map(it => {
+    const good = picks[String(it.blankNum)] === it.answer;
+    return `<button class="jumpBtn ${good?'ok':'ng'}" onclick="jumpTo(${it.blankNum})">${it.blankNum} ${good?'✓':'✗'}</button>`;
+  }).join('');
+  return `<div class="jumpBar"><span>跳到：</span>${btns}<span>答錯的已經先展開</span></div>`;
 }
 
 function renderResult(p){
@@ -863,14 +917,17 @@ function renderResult(p){
       ${anyEx ? '' : `<div class="ansLine">${lines}</div>`}
     </div>`;
   const exSec = anyEx
-    ? `<div class="sec-title">逐題解析<span class="sec-note">每一格為什麼是這一句</span></div>${lines}`
+    ? `<div class="sec-title">逐題解析<span class="sec-note">答錯的已展開，答對的點開才看</span></div>${renderJumpBar()}${lines}`
     : '';
   const unusedBox = renderUnusedBox(p);
+  const twin = (anyEx && p.twinNote) ? `<div class="twinNote">${mk(p.twinNote)}</div>` : '';
   return `<div class="card">
     ${score}
     ${optMap}
+    ${twin}
     ${exSec}
     ${unusedBox || unusedTxt}
+    ${anyEx ? renderCrossRef(p) : ''}
     ${anyEx ? renderClosing() : ''}
     <div class="row" style="margin-top:16px;">
       <button class="ghost-btn" onclick="openPassage(curPid)">再做一次</button>
