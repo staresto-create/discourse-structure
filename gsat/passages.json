@@ -27,6 +27,44 @@
    "D": "Designers can draw on a number of techniques to provide a memorable ride.",
    "E": "When the design is complete, detailed calculation and careful testing procedures will follow."
   },
+  "optionsZh": {
+   "B": "要造出一台刺激的雲霄飛車，得從一份出色的設計開始。",
+   "A": "設計者接著必須考慮這台車可用的空間。",
+   "D": "設計者可以運用多種技法，做出令人難忘的乘坐體驗。",
+   "E": "設計完成之後，接著是詳細的計算與仔細的測試程序。",
+   "C": "主題與類型也是雲霄飛車設計時要考慮的重要面向。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 這一句**沒有任何毛病**。它談的是設計考量，和全篇完全同一件事；`also` 的用法也對——這篇確實一項一項在數設計考量。放進第 32 格或第 33 格，念起來都很順。\n\n問題只有一個：**沒有任何一段的內容在等它。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "設計者、first——要一句宣布「開始講設計」",
+     "why": "C 的 `also` 表示前面已經列過，但一項都還沒列"
+    },
+    {
+     "blank": 32,
+     "want": "占地面、占空中、避開障礙物",
+     "why": "整段沒有主題或類型"
+    },
+    {
+     "blank": 33,
+     "want": "最陡的落差、double dips、slammers、gully coaster",
+     "why": "全是軌道做法，不是主題或類型"
+    },
+    {
+     "blank": 34,
+     "want": "安全確認之後才能造車",
+     "why": "這一格要的是設計之後，C 還在設計之中"
+    }
+   ],
+   "summary": "**這一篇的多餘選項和 115 學測那一篇做法不一樣。** 115 學測多出來的 D 是切面不對（全篇問「什麼影響微笑」，D 答「微笑分幾種」），一眼看得出不同類；這一篇的 C 切面完全正確，看起來甚至比某些正解更像正解。",
+   "extra": [
+    "所以判斷多餘選項，**不能靠「哪一個看起來最不像」**。要反過來做：把四個空格前後在等什麼各寫一句，四格都配對完，剩下的那個自然就是多的。"
+   ],
+   "takeaway": "5 選 4 不要先挑「多的那一個」。先一格一格問「這一格前後在等什麼」，填滿四格，剩下的就是多的。順序反過來就會被騙。"
+  },
   "paraLabels": [
    "引言：從乘坐感受轉入全文主題——設計",
    "設計考量一：這台車是給誰坐的",
@@ -83,6 +121,42 @@
    "D": "A genuine smile indicates contentment, while a forced smile suggests underlying distress.",
    "E": "In fact, there is a well-known Russian proverb that goes, \"Smiling with no reason is a sign of stupidity.\""
   },
+  "optionsZh": {
+   "C": "在有文字記載的歷史裡，絕大多數時間，露齒而笑都很不受青睞。",
+   "E": "事實上，俄羅斯有一句廣為人知的諺語：「無緣無故地笑是愚蠢的表現。」",
+   "A": "另一個關鍵因素是一個社會的移民多樣性。",
+   "B": "因此，種種因素共同造就了微笑這個現象。",
+   "D": "真心的笑代表滿足，強擠出來的笑則透露內心的不安。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 讀起來完全通順，主題也對——它就是在講微笑。但四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句「過去的人不笑」，好讓後面的肖像畫當例子",
+     "why": "D 沒有時代，也沒有「不笑」"
+    },
+    {
+     "blank": 32,
+     "want": "一個佐證，說明某些文化把笑看成不聰明",
+     "why": "D 分的是真笑假笑，不是文化差異"
+    },
+    {
+     "blank": 33,
+     "want": "宣布第二個因素，帶出新住民",
+     "why": "D 不是因素，也沒有移民"
+    },
+    {
+     "blank": 34,
+     "want": "把三段收攏的總結",
+     "why": "D 只講一件事，收不了三段"
+    }
+   ],
+   "summary": "看出共同點了嗎？**全篇問的是「什麼東西影響了微笑」，D 答的是「微笑分成哪兩種」。**這一年多出來的選項不是隨便湊的，它和正解同一個主題、卻是不同的切面。",
+   "extra": [],
+   "takeaway": "5 選 4 一定會多一個。先看清楚整篇在問什麼，切面不對的那一個就是多出來的。四格填完不要因為「還剩一個」就回頭懷疑自己。"
+  },
   "paraLabels": [
    "破題：先立常識，再用提問打開全文",
    "面向一：時代——微笑並非一直受歡迎",
@@ -136,6 +210,12 @@
    "C": "The chambers are stacked side-by-side, two units high, with the upper rooms reached by a ladder.",
    "D": "Today, they provide low-budget, overnight lodging in commerce centers in large cities worldwide."
   },
+  "optionsZh": {
+   "D": "如今這類旅館在全球大城市的商業中心提供平價的過夜住宿。",
+   "C": "這些艙間並排堆疊，上下兩層，上層要爬梯子上去。",
+   "A": "為因應日益增加的需求，這類旅館正迎向一波創新。",
+   "B": "房間的塑膠薄牆很容易傳來隔壁客人的打呼聲。"
+  },
   "paraLabels": [
    "定義與起源：從商務用途到全球普及",
    "硬體規格：一張單人床大小的房間長什麼樣",
@@ -187,6 +267,12 @@
    "C": "Many suggest that most patients can continue with the sport they love.",
    "D": "This seems to run counter to the common practice."
   },
+  "optionsZh": {
+   "D": "這似乎和一般的做法相反。",
+   "C": "許多醫師認為，大多數病人可以繼續從事自己喜愛的運動。",
+   "A": "例如，受傷的跑者可能改成騎車和游泳，不再跑步。",
+   "B": "久而久之，研究者逐漸體認到受傷時運動的重要性。"
+  },
   "paraLabels": [
    "開場：用一則親身故事引入",
    "對比：把故事拉到與常規做法的衝突",
@@ -237,6 +323,12 @@
    "B": "Meanwhile, environmental influences seem to shape a person’s synesthesia.",
    "C": "People with synesthesia used to be accused of making their experiences up.",
    "D": "Some studies even show that people may all be synesthetic to some degree."
+  },
+  "optionsZh": {
+   "C": "有聯覺的人過去常被指責是自己編造這些經驗。",
+   "A": "這種一致性可作為聯覺確實存在的證據。",
+   "B": "同時，環境的影響似乎也會形塑一個人的聯覺。",
+   "D": "有些研究甚至顯示，所有人可能都或多或少有聯覺。"
   },
   "paraLabels": [
    "破題：用連續設問把讀者帶進題目",
@@ -291,6 +383,12 @@
    "C": "This went against the philosophical and religious beliefs held during medieval times.",
    "D": "In his spare time, Copernicus studied the stars and the planets, applying his math knowledge to the mysteries of the night sky."
   },
+  "optionsZh": {
+   "D": "哥白尼利用閒暇時間研究恆星與行星，把他的數學知識用在夜空的種種謎團上。",
+   "A": "不過這本書直到他過世前兩個月才出版。",
+   "C": "這牴觸了中世紀所抱持的哲學與宗教信念。",
+   "B": "如果這個舉動是想爭取天主教會的認可，那並沒有用。"
+  },
   "paraLabels": [
    "生平：出身、求學與任職",
    "研究：業餘觀測與著作完成",
@@ -342,6 +440,12 @@
    "C": "Obon concludes with another bonfire, okuribi, lighting up the sky to see the ancestors’ spirits off.",
    "D": "Originating from the Chinese Ghost Festival, this annual event has evolved into a time of family reunion."
   },
+  "optionsZh": {
+   "D": "這個一年一度的節日源自中國的中元節，如今已演變成家人團聚的時節。",
+   "A": "有些人也會去墓園整理家族墓地、向祖先祭拜。",
+   "C": "Obon 以另一場火 okuribi 作結，照亮天空，送走祖先的靈魂。",
+   "B": "這類節慶活動通常在日本各地的公園、寺廟和其他公共場所舉行。"
+  },
   "paraLabels": [
    "概說：節日的來歷、時間與意義",
    "前段儀式：迎火、掃墓與供品",
@@ -390,6 +494,12 @@
    "B": "He encourages people to donate at least half their fortunes before death.",
    "C": "This is exactly what happened to “former” American billionaire Charles Feeney.",
    "D": "Such incredible secret generosity won him the title “James Bond of Philanthropy” from Forbes magazine."
+  },
+  "optionsZh": {
+   "C": "這正是美國「前」億萬富翁 Charles Feeney 身上發生的事。",
+   "A": "然而，Feeney 對有錢人的生活方式始終不自在。",
+   "D": "這樣驚人而低調的慷慨，為他贏得富比士雜誌「慈善界詹姆士龐德」的稱號。",
+   "B": "他鼓勵大家在過世前至少捐出一半財產。"
   },
   "paraLabels": [
    "破題：用一個反差設定引出主角",
