@@ -17,9 +17,37 @@
    "F": "Instead, the works focus on the elements of life experience, personality, and self-knowledge that the cards refer to."
   },
   "answer": "E",
-  "categories": [],
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
   "categorySource": null,
-  "explanation": null,
+  "cueTypes": [
+   "轉折標記",
+   "同義呼應",
+   "語意呼應"
+  ],
+  "cueNote": "後句 `Fortunately`；`rejected` ↔ `Her rebelliousness`；`nervous breakdown` ↔ 後句 `therapy`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句是 `She was brought up in a very conservative family, and yet, she rejected the staid, conservative values of her family to pursue a career in painting.`（她在非常保守的家庭長大，卻違抗家族那套古板保守的價值觀，走上繪畫這條路。）——違抗了，但還沒說違抗之後怎麼了。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後面是 `Fortunately, painting offered her an effective therapy and a way to develop as an artist.`（**幸好**，繪畫給了她有效的**療癒**，也給了她成為藝術家的路。）**兩個字要留意：`Fortunately`（幸好）表示前面剛發生了不好的事；`therapy`（療癒）表示有東西需要被療。**"
+    }
+   ],
+   "why": "E 就是那件不好的事：與家人衝突不斷，二十三歲時精神崩潰。而且 `Her rebelliousness`（她的叛逆）回指的正是前一句的「違抗家族價值觀」。",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 講的也是她。但這裡還在講她的成長與轉折，Nana 系列要到兩句之後才出現；而且 `Fortunately` 前面需要的是一件壞事，A 不是。A 的位置在第 32 格。"
+    }
+   ],
+   "takeaway": "後面出現 Fortunately、Luckily（幸好），前面一定有一件壞事。找不到，那件壞事就在空格裡。"
+  },
   "accuracyRate": 74,
   "discrimination": 63
  },
@@ -41,9 +69,35 @@
    "F": "Instead, the works focus on the elements of life experience, personality, and self-knowledge that the cards refer to."
   },
   "answer": "A",
-  "categories": [],
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
   "categorySource": null,
-  "explanation": null,
+  "cueTypes": [
+   "指示詞"
+  ],
+  "cueNote": "後句 `these sculptures` 找不到作品形式",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前面兩句是 `Her famous “Nana” series gained universal praise. It is a testimony to the glory of women.`（她著名的「Nana」系列廣受讚譽。那是女性榮光的見證。）**只說了它很有名、意義是什麼，沒說它到底是什麼樣的作品。**"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後面是 `Some of these sculptures are very big, “so that men would look small next to them.”`（**這些雕塑**有些非常巨大，「好讓男人站在旁邊顯得渺小」。）**`these sculptures`（這些雕塑）——雕塑是什麼時候出現的？** 前面只提到「系列」，沒有一個字說它是雕塑。"
+    }
+   ],
+   "why": "A 補上作品的形式：真人大小的女性人偶。有了它，`these sculptures` 才指得到東西，「有些非常巨大」也才有比較的基準。",
+   "distractors": [
+    {
+     "opt": "D",
+     "t": "D 講的也是 Nana 系列。但 D 開頭是 `Through these joyful and powerful images`（透過這些歡欣而有力的形象），要放在形象都描述完之後才成立；而且 D 沒有交代作品的形式，後句的 `these sculptures` 依然沒有著落。D 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "前面只誇一件作品有名、有意義，後面卻直接說「這些雕塑」「這些畫」，空格就是交代它是什麼形式的那一句。"
+  },
   "accuracyRate": 53,
   "discrimination": 57
  },
@@ -65,9 +119,36 @@
    "F": "Instead, the works focus on the elements of life experience, personality, and self-knowledge that the cards refer to."
   },
   "answer": "D",
-  "categories": [],
+  "categories": [
+   "掌握段落主題句和細節的關係"
+  ],
   "categorySource": null,
-  "explanation": null,
+  "cueTypes": [
+   "指示詞",
+   "同義呼應"
+  ],
+  "cueNote": "`these joyful and powerful images` 回指前句；`cheerfully and merrily` ↔ `joyful`",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句是 `Saint Phalle used vivid colors in these works and her female subjects dance cheerfully and merrily.`（Saint Phalle 在這些作品裡用了鮮豔的色彩，畫中的女性歡快地舞動著。）"
+    },
+    {
+     "h": "再看空格的位置。",
+     "t": "第一段到此結束，下一段換去講另一件作品——塔羅公園。**Nana 這一段要在這裡收起來。**"
+    }
+   ],
+   "why": "D 就是收尾的那一句：`these joyful and powerful images`（這些歡欣而有力的形象）回指前一句的鮮豔色彩與歡快舞動，`joyful`（歡欣）對上 `cheerfully and merrily`（歡快地）；而 `a positive message to all women`（給所有女性的正面訊息）則呼應這一段中間說過的「女性榮光的見證」。",
+   "distractors": [
+    {
+     "opt": "F",
+     "t": "F 也像一句收尾。但 F 開頭是 `Instead`（相反地），前面必須先有一句否定的話，它才轉得過來；這裡前一句是在描述作品，沒有可以「相反」的對象。而且 F 提到「那些牌」，塔羅牌要到下一段才出現。F 的位置在第 35 格。"
+    }
+   ],
+   "takeaway": "段落最後一句是空格，先看這一段從頭到尾在講什麼。空格通常是把整段的意思收成一句話。"
+  },
   "accuracyRate": 63,
   "discrimination": 65
  },
@@ -89,9 +170,36 @@
    "F": "Instead, the works focus on the elements of life experience, personality, and self-knowledge that the cards refer to."
   },
   "answer": "B",
-  "categories": [],
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
   "categorySource": null,
-  "explanation": null,
+  "cueTypes": [
+   "定冠詞 the",
+   "序列與時間詞"
+  ],
+  "cueNote": "`the garden` 回指前句 `sculptural park`；1979 ↔ 1998",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句是 `Saint Phalle’s sculptural park, “The Tarot Garden,” inspired by Tarot cards, is situated in the Italian province of Tuscany.`（Saint Phalle 以塔羅牌為靈感的雕塑公園「塔羅花園」，位於義大利托斯卡尼省。）——交代了**在哪裡**。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後面是 `The park contains sculptures of the symbols found on Tarot cards.`（這座公園裡有塔羅牌上各種符號的雕塑。）——交代了**裡面有什麼**。"
+    }
+   ],
+   "why": "**介紹一個地方的順序是：在哪裡、什麼時候做的、裡面有什麼。** 中間那一格缺的是時間，B 正好給了兩個年份。開頭的 `the garden`（這座園子）用定冠詞回指前一句的雕塑公園，接得上。",
+   "distractors": [
+    {
+     "opt": "F",
+     "t": "F 講的也是這座公園裡的作品。但 F 開頭是 `Instead`（相反地），前一句是地點介紹，沒有東西可以相反；而且後面那句是「公園裡有什麼」，不是「不是什麼」。F 的位置在第 35 格。"
+    }
+   ],
+   "takeaway": "介紹一個地方或一件作品時，先數前後兩句各交代了哪一項（地點、時間、內容），空格通常就是漏掉的那一項。"
+  },
   "accuracyRate": 67,
   "discrimination": 65
  },
@@ -113,9 +221,36 @@
    "F": "Instead, the works focus on the elements of life experience, personality, and self-knowledge that the cards refer to."
   },
   "answer": "F",
-  "categories": [],
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
   "categorySource": null,
-  "explanation": null,
+  "cueTypes": [
+   "轉折標記",
+   "語意對比"
+  ],
+  "cueNote": "`Instead` 接在前句否定之後；`nothing to do with fortune telling` ↔ `focus on…`",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句是 `The sculptures, however, have nothing to do with fortune telling.`（不過，這些雕塑跟算命毫無關係。）**這是一句否定。**"
+    },
+    {
+     "h": "先接著問一句：那是什麼？",
+     "t": "說了「不是算命」，讀者一定會等著看下一句說出那是什麼；何況這一段到此結束，下一段就跳到她過世了。"
+    }
+   ],
+   "why": "F 就是那個答案，開頭的 `Instead`（相反地）正是接在否定之後的說法——不是那個，是這個。`the cards`（那些牌）也回指前面的塔羅牌。",
+   "distractors": [
+    {
+     "opt": "D",
+     "t": "D 也是一句總結。但 D 講的是 Nana 系列，這一段講的是塔羅公園，兩件不同的作品；而且 D 沒有接住前一句的否定。D 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "前一句說「不是○○」，空格通常就是「而是△△」。看到 Instead、Rather，先往前找那句否定。"
+  },
   "accuracyRate": 66,
   "discrimination": 69
  },
