@@ -376,7 +376,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "範圍呼應"
   ],
   "cueNote": "`thus`，因果；`Various factors` 收攏前三段",
@@ -807,7 +807,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記"
+   "轉折詞"
   ],
   "cueNote": "`however`",
   "cuePosition": "後一句",
@@ -1052,7 +1052,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "序列與時間詞"
   ],
   "cueNote": "`however`；1530 ↔ 1543 ↔ 過世前兩個月",
@@ -1448,7 +1448,7 @@
   ],
   "categorySource": null,
   "cueTypes": [
-   "轉折標記",
+   "轉折詞",
    "時態呼應"
   ],
   "cueNote": "`However`；全段過去式",
