@@ -258,7 +258,18 @@
   <div id="homeView">
     <div class="card">
       <div class="home-lead">開始練習前</div>
-      <p class="home-desc">本題庫收錄學測 110 年試辦考試至 115 年、指考 91–110 年的篇章結構歷屆試題，含補考、參考試卷與研究用試卷，共 <b>167 題、35 篇</b>。目前提供題目、選項與答案；<b>逐題解析與主題標題陸續建置中</b>。</p>
+      <p class="home-desc">本題庫收錄學測 110 年試辦考試至 115 年、指考 91–110 年的篇章結構歷屆試題，含補考、參考試卷與研究用試卷，共 <b>167 題、35 篇</b>，<b>每一題都有解析</b>——為什麼是這一句、你為什麼會被那個選項騙走、下次先看哪裡。選文的逐段中譯陸續建置中。</p>
+
+      <details class="sk-box">
+        <summary><div class="sk-title">這裡的解析是照什麼寫的</div></summary>
+        <div>
+          大考中心公布的官方試題解析，寫法是固定的兩段：先講<b>這一題在評量什麼</b>，再講<b>作答線索在哪一句</b>。<br><br>
+          以 115 學年度起適用的參考試卷為例，篇章結構第 31 題的官方解析是這樣寫的——「本題評量考生能否掌握篇章的主題論述。作答線索在全文文意理解；尤其是文章第二至四段，談的都是雲霄飛車的設計。」<br><br>
+          本站 167 題的解析全部照這個模子寫：<b>測驗目標用大考中心的原文，作答線索指到是哪一句</b>。<br><br>
+          不同的地方在於，官方只解釋正解。本站另外補上兩件事：<b>你為什麼會被那個誘答選項騙走</b>，以及<b>那個從頭到尾用不到的選項，為什麼哪一格都放不進去</b>。<br><br>
+          <span style="color:var(--ink-soft);">本站為個人製作，體例比照大考中心公布的官方試題解析，與大考中心無任何隸屬或合作關係。</span>
+        </div>
+      </details>
 
       <details class="sk-box">
         <summary><div class="sk-title">線索的兩個維度</div></summary>
@@ -757,7 +768,7 @@ function renderDataBox(it){
        <div class="dataRow"><span class="k">鑑別度</span><span class="v">${it.discrimination}</span></div>`
     : `<div class="dataRow"><span class="k">答對率</span><span class="v na">本場考試不公布統計</span></div>`);
   if(!rows.length) return '';
-  return `<details class="dataBox"><summary>這一格的線索與數據</summary>${rows.join('')}</details>`;
+  return `<details class="dataBox"><summary>這一格的作答線索與數據</summary>${rows.join('')}</details>`;
 }
 function hasPD(it){ return it.accuracyRate !== null && it.accuracyRate !== undefined; }
 
@@ -855,7 +866,7 @@ function renderClosing(){
         全篇最重要的那一句，位置多半在第一段的最後，或者最後一段。</li>
       <li><b>每一段的主題句是哪一句</b> <span class="en">topic sentence</span><br>
         多半是那一段的第一句，同一段其他的句子都是它的細節或例子。</li>
-      <li><b>有沒有看到這幾種標記詞</b> <span class="en">lexical markers</span><br>
+      <li><b>有沒有看到這幾種連貫標記</b><span class="en">（but、however、for example 這些引導的字詞）</span><br>
         <code>however</code>、<code>but</code> 表示話鋒一轉；<code>for example</code> 表示後面要舉例；
         <code>another</code>、<code>also</code> 表示這是同一類的第二項；
         <code>this</code>、<code>these</code>、<code>they</code>、<code>the</code> 表示前面一定有一個東西對應得上。</li>
