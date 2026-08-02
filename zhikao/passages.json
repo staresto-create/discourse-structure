@@ -121,6 +121,48 @@
    "E": "Gladiators fought for the entertainment of Rome’s rich and mighty, as well as for the public.",
    "F": "Also, there was little sign of meat or dairy products in the diet of almost all of these professional fighters."
   },
+  "optionsZh": {
+   "E": "角鬥士的搏鬥是為了娛樂羅馬的權貴，也為了娛樂一般民眾。",
+   "A": "角鬥士是從不同的來源招募來的。",
+   "D": "有證據顯示，女性也參加過角鬥比賽。",
+   "C": "近期的研究發現顯示，這個稱呼很可能就是字面上的意思。",
+   "F": "此外，這些職業鬥士幾乎每一位的飲食裡，都看不到什麼肉類或乳製品。",
+   "B": "角鬥士的來歷晦澀難解。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "B 只有六個字，句子乾淨，`origins`（來歷）也是全篇談得最多的東西之一。但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "他們為什麼要打給人看",
+     "why": "B 講來歷，不是觀眾"
+    },
+    {
+     "blank": 32,
+     "want": "來源清單前面的總說",
+     "why": "B 也講來源，但後面三句列得一清二楚，與「晦澀難解」方向相反"
+    },
+    {
+     "blank": 33,
+     "want": "第一次把女性講出來",
+     "why": "B 沒有提到女性"
+    },
+    {
+     "blank": 34,
+     "want": "把外號和證據接起來",
+     "why": "B 與外號、飲食都無關"
+    },
+    {
+     "blank": 35,
+     "want": "第二項飲食證據",
+     "why": "B 不是飲食"
+    }
+   ],
+   "summary": "**共同點：這一篇每一段都在給答案——是什麼人、從哪裡來、吃什麼，連骨頭都拿去化驗了。B 寫的卻是「來歷晦澀難解」。**",
+   "extra": [],
+   "takeaway": "一個選項說「無從得知」「眾說紛紜」，先看這篇文章的立場。整篇都在把事情講清楚的話，它多半就是多出來的那一個。"
+  },
   "paraLabels": [
    "破題：角鬥士是什麼人，羅馬人為什麼愛看",
    "來源：這些人從哪裡來，其中也有女性",
@@ -167,6 +209,48 @@
    "D": "Governors of specific pieces of land were sometimes controlled by the vizier.",
    "E": "It only changed when parts of Egypt were invaded or someone overthrew the government.",
    "F": "Together with the Pharaoh, the viziers, and the nomarks, these officials and nobles governed the country."
+  },
+  "optionsZh": {
+   "C": "法老身為在世的神，對他的子民擁有絕對的控制權。",
+   "B": "不過，法老沒有辦法一個人治理整個國家。",
+   "A": "宰相底下是稱為 nomark 的地方首長。",
+   "F": "這些官員與貴族，連同法老、宰相和地方首長，共同治理著這個國家。",
+   "E": "只有在埃及部分地區遭到入侵，或是有人推翻政府的時候，這套方式才會改變。",
+   "D": "管理特定土地的首長有時受宰相管轄。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 的內容並沒有錯，用字也全都是這篇文章裡的字——`governors`（首長）、`vizier`（宰相）、`land`（土地）。它是六個選項裡最像正解 A 的一個。但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "把「神的身分」換算成權力",
+     "why": "D 講的是地方首長，與法老的權力無關"
+    },
+    {
+     "blank": 32,
+     "want": "「法老一個人管不了」的轉折",
+     "why": "D 沒有轉折，也沒有提到法老"
+    },
+    {
+     "blank": 33,
+     "want": "宰相底下那一層人的名字",
+     "why": "最接近的一格，但 D 說「有時」受管轄，把一個層級講成偶發的事；也沒有 nomarks 這個名字，下一句的 nome 沒有來由"
+    },
+    {
+     "blank": 34,
+     "want": "把三層人收攏的總結句",
+     "why": "D 只講到一層"
+    },
+    {
+     "blank": 35,
+     "want": "一貫之中唯一的例外",
+     "why": "D 與變動、時間都無關"
+    }
+   ],
+   "summary": "**共同點：這篇文章是一張由上而下的組織表——法老、宰相、地方首長、其他官員與祭司。每一格不是補上一層，就是把所有層收攏一次。D 只是替其中一層加了一句「有時受某人管轄」的補充，哪一層都不需要它。**",
+   "extra": [],
+   "takeaway": "兩個選項長得很像的時候，比的不是誰的字面比較接近，而是誰把「下一句需要的東西」交出來了。這一題交出來的是 nomarks 這個名字。"
   },
   "paraLabels": [
    "開場：法老是誰——神的代理人，也是全國的主人",
@@ -217,6 +301,86 @@
    "E": "Religious leader Martin Luther voiced his opposition to the sun-centered system model.",
    "F": "In his spare time, Copernicus studied the stars and the planets, applying his math knowledge to the mysteries of the night sky."
   },
+  "optionsZh": {
+   "F": "哥白尼利用閒暇研究星星與行星，把數學知識用在夜空的謎題上。",
+   "B": "不過，這本書一直到他過世前兩個月才出版。",
+   "D": "這與中世紀所持的哲學與宗教信仰相違背。",
+   "E": "宗教領袖馬丁路德公開表達他對日心說模型的反對。",
+   "C": "如果這個舉動是想爭取天主教會的認可，那並沒有用。",
+   "A": "同時，哥白尼終身是天主教會的一員。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 講的事情和全篇完全相容——他確實一輩子都是教會中人，而且全篇一再出現天主教會。但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "他什麼時候開始看星星",
+     "why": "A 講的是宗教身分，後句的 `his observations` 指不到"
+    },
+    {
+     "blank": 32,
+     "want": "一五三○到一五四三年之間，這本書怎麼了",
+     "why": "A 沒有時間、沒有書"
+    },
+    {
+     "blank": 33,
+     "want": "他的主張和當時信仰是什麼關係",
+     "why": "A 是身分敘述，不是兩者的關係"
+    },
+    {
+     "blank": 34,
+     "want": "第一個公開反對的人",
+     "why": "A 不是反對者，後句的 `Other ministers` 接不上"
+    },
+    {
+     "blank": 35,
+     "want": "獻書給教宗到底有沒有用",
+     "why": "A 補的是身分，跳過了這一步"
+    }
+   ],
+   "summary": "**共同點：A 說的是真的，也和主題有關，但每一格要的都是「接住前後兩句」的一句話，A 只是加了一項事實，兩頭都沒接上。**",
+   "extra": [
+    "**一個現成的旁證**：學測 111 年參考卷用了同一段文字出過一次，那一版的正文和四個選項裡都沒有這一句——因為它在文章裡本來就沒有位置。"
+   ],
+   "takeaway": "「這句話是不是真的」和「這句話放不放得進去」是兩件事。挑答案只看第二件。"
+  },
+  "crossRef": {
+   "title": "順便對照：同一篇文章的兩種考法",
+   "lead": "學測 111 年參考卷的 Copernicus 一篇，和這一篇取自同一段文字，但改成了 4 選 4：",
+   "cols": [
+    "指考 108（本篇）",
+    "學測 111 參考卷"
+   ],
+   "rows": [
+    [
+     "規格",
+     "6 選 5",
+     "4 選 4"
+    ],
+    [
+     "段落",
+     "三段（第二段特別長）",
+     "四段（把本篇第二段拆成兩段）"
+    ],
+    [
+     "馬丁路德那一句",
+     "是第 34 格的答案",
+     "直接寫在正文裡，不設空格"
+    ],
+    [
+     "「終身是天主教徒」那一句",
+     "用不到的第六個選項",
+     "正文與選項都沒有"
+    ],
+    [
+     "刪去法",
+     "失效",
+     "有效"
+    ]
+   ],
+   "note": "**同樣一篇文章，多開一格、多放一個用不到的選項，作答方式就完全不同了。** 學測那一版可以填到最後一格靠刪去法收尾；這一版填完五格，手上還會剩一個選項，所以每一格都要自己站得住。"
+  },
   "paraLabels": [
    "生平：出身、求學與任職",
    "研究與衝突：業餘觀星、著作完成，以及與當時信仰的正面對撞",
@@ -264,6 +428,49 @@
    "E": "Psychologists also find that eccentric people do not follow conventions.",
    "F": "Such personal traits are found to play an important role in boosting the body’s immune system."
   },
+  "optionsZh": {
+   "B": "根據英國最近的一項研究，怪咖比較有創造力。",
+   "E": "心理學家也發現，怪咖不跟從常規。",
+   "A": "怪咖也被發現比較健康。",
+   "F": "這些個人特質被發現對提升人體免疫系統有重要作用。",
+   "C": "也可能是我們最好的朋友的哥哥，穿著短褲去參加正式舞會。",
+   "D": "人們可能在衣著品味上很古怪，或者有古怪的嗜好。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 裡有 `eccentric`（古怪）、有 `hobbies`（嗜好），第二段出現過 hobbies，第四段有穿短褲赴舞會——**關鍵詞四處都對得上。** 但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "第一項正面特質",
+     "why": "D 講的是怎樣算古怪，不是好處"
+    },
+    {
+     "blank": 32,
+     "want": "第二項正面特質（不跟從常規）",
+     "why": "D 沒有轉到常規，也沒有 also 這類接續詞"
+    },
+    {
+     "blank": 33,
+     "want": "第三段的主題句：健康",
+     "why": "D 與健康無關"
+    },
+    {
+     "blank": 34,
+     "want": "從「特質」到「健康」中間缺的那一步",
+     "why": "D 不是機制，只是舉例說明什麼叫古怪"
+    },
+    {
+     "blank": 35,
+     "want": "身邊第二個具體的人",
+     "why": "D 的主詞是泛稱的 People，後句的 Their 指不到"
+    }
+   ],
+   "summary": "**共同點：第一段問的是「什麼樣的人叫怪咖」，第二段之後整篇問的是「當怪咖有什麼好處」。D 停在第一段那個問題上。**",
+   "extra": [],
+   "takeaway": "關鍵詞對得上，不代表放得進去。先看這一篇從哪一段開始換了問題，再問這個選項回答的是換之前還是換之後的那一個。"
+  },
+  "twinNote": "**這一篇與 103 年指考篇章結構完全同題**——選文逐段逐字相同，六個選項、五題答案、用不到的那一個（D）也一樣，屬官方整題回收。下面的解析與 103 年那一場共用。該場不公布答對率與鑑別度，103 年的統計只適用於 103 年那一場，不必套用到本篇。",
   "paraLabels": [
    "定義：什麼樣的人叫怪咖",
    "優點一：更有創造力，也不在意別人怎麼看",
@@ -312,6 +519,48 @@
    "D": "The common household could not afford to buy enough food to meet their basic needs.",
    "E": "The anger quickly built up, culminating in the massive riots of the French Revolution in 1789.",
    "F": "Specifically, bread and salt, two most essential elements in the French cuisine, were at the heart of the conflict."
+  },
+  "optionsZh": {
+   "F": "具體來說，麵包和鹽這兩樣法國飲食中最基本的東西，正是這場衝突的核心。",
+   "D": "一般家庭買不起足夠的食物來滿足基本需求。",
+   "C": "同時，農民對鹽稅（gabelle）的不滿正在蔓延。",
+   "E": "憤怒迅速累積，最後演變成一七八九年法國大革命的大規模暴動。",
+   "B": "隨著王室垮台，秩序逐漸恢復。",
+   "A": "外部的威脅深深左右了這場革命的走向。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 提到革命，也是一句像模像樣的歷史論斷。但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "把「食物」縮小到哪兩樣",
+     "why": "A 講的是外部威脅，不是食物"
+    },
+    {
+     "blank": 32,
+     "want": "麵包吃掉八成八工資之後，家庭變成什麼樣",
+     "why": "A 與家庭開銷無關"
+    },
+    {
+     "blank": 33,
+     "want": "第一次把鹽稅講出來",
+     "why": "A 沒有提到稅，後句的「這項稅」指不到"
+    },
+    {
+     "blank": 34,
+     "want": "憤怒爆發成哪一件事",
+     "why": "A 沒有事件、沒有年份"
+    },
+    {
+     "blank": 35,
+     "want": "`Yet` 前面那句「看似平息」",
+     "why": "A 不是平息，也不是結果"
+    }
+   ],
+   "summary": "**共同點：第一段第二句就把範圍收在「食物」上，第二、三段各講一樣，全篇沒有一處在談國外。A 講的是另一條線。**",
+   "extra": [],
+   "takeaway": "六個選項先拿去和第一段對一次。第一段已經說了這篇要談什麼，談別的那一個通常就是多出來的。"
   },
   "paraLabels": [
    "破題：起因很多，但食物是關鍵——鎖定麵包和鹽",
@@ -363,6 +612,48 @@
    "D": "When it comes to regeneration, few animals can equal the magic of the planarian.",
    "E": "This type of regeneration is demonstrated in a few animals, such as hydras and sea stars.",
    "F": "They hope that this line of research will make regeneration possible in humans someday."
+  },
+  "optionsZh": {
+   "C": "龍蝦、蠑螈和許多其他動物也是一樣。",
+   "F": "他們希望這一系列研究有一天能讓人類也做到再生。",
+   "A": "科學家把這種情形稱為單向再生。",
+   "E": "這一類再生見於少數動物，例如水螅和海星。",
+   "D": "說到再生，很少有動物比得上渦蟲的神奇。",
+   "B": "人類並不是完全沒有再生的本事。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "B 只有五個字，句子乾淨，`regenerative`（再生的）也正是全篇的關鍵詞。但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "海星之外，還有哪些動物也做得到",
+     "why": "B 講的是人類；而且三句之後就寫「但我們做不到」"
+    },
+    {
+     "blank": 32,
+     "want": "科學家研究的目的",
+     "why": "B 不是目的，也沒有 They 可以承接"
+    },
+    {
+     "blank": 33,
+     "want": "替「只往一個方向長」命名（與後句的雙向相對）",
+     "why": "B 沒有命名，也不是再生的分類"
+    },
+    {
+     "blank": 34,
+     "want": "這一類再生見於哪些動物",
+     "why": "B 講的是人類，後句講的是水螅"
+    },
+    {
+     "blank": 35,
+     "want": "第一次把渦蟲講出來",
+     "why": "B 沒有提到任何動物，後句的 `A single one` 指不到"
+    }
+   ],
+   "summary": "**共同點：全篇從頭到尾在比「動物做得到、人做不到」，B 站在相反的一邊。**",
+   "extra": [],
+   "takeaway": "一個選項用了全篇的關鍵詞，卻和正文站在相反的立場，那多半就是多出來的那一個。先問這一篇的立場是什麼，再看它站在哪一邊。"
   },
   "paraLabels": [
    "對照組：人失去手腳只能裝義肢",
@@ -417,6 +708,50 @@
    "E": "The most famous example was Isaac Singer, who created franchises to distribute his sewing machines to larger areas.",
    "F": "A franchise is a license issued by a large, usually well-known, company to an individual or a small business owner."
   },
+  "optionsZh": {
+   "F": "加盟是一家大型、通常也頗有名氣的公司，發給個人或小企業主的一張授權。",
+   "E": "最有名的例子是 Isaac Singer，他建立加盟體系，把自己的縫紉機推廣到更大的地區。",
+   "C": "加盟附帶一套現成的營運公式，包含產品、服務，甚至員工制服。",
+   "B": "研究顯示，顧客傾向選擇自己認得的品牌，而不是不認得的。",
+   "D": "此外，合約期滿之後，加盟主沒有續約或延長的權利。",
+   "A": "加盟賺不賺錢，很大程度取決於行業的性質。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 的句子完整、說法也合理，讀起來像整篇的結論。但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "把 `license`（授權）第一次講出來的定義句",
+     "why": "A 沒有 license，後句的 `the license` 指不到"
+    },
+    {
+     "blank": 32,
+     "want": "時間線上的第一件事",
+     "why": "A 沒有年代、沒有人物"
+    },
+    {
+     "blank": 33,
+     "want": "「現成的營運模式」包含哪些東西",
+     "why": "A 講的是賺不賺錢，不是內容"
+    },
+    {
+     "blank": 34,
+     "want": "品牌名氣為什麼算好處",
+     "why": "A 沒有接住品牌，也不是優點"
+    },
+    {
+     "blank": 35,
+     "want": "費用之外的另一個缺點",
+     "why": "A 是中性判斷，不是缺點"
+    }
+   ],
+   "summary": "**共同點：全篇回答的是「加盟是什麼、有哪些優點、有哪些缺點」，A 回答的是「什麼情況下會賺錢」，換了一個問題。**",
+   "extra": [
+    "還有一個看得出來的地方：另外五個選項都在敘述一件事實，只有 A 是一句「要看情況」的判斷句（`Whether… depends largely on…`）。"
+   ],
+   "takeaway": "六個選項裡如果有一句是「要看情況而定」，先問這一篇有沒有在討論條件。沒有的話，它很可能就是多出來的那一個。"
+  },
   "paraLabels": [
    "定義：什麼是加盟，加盟主買到的到底是什麼",
    "歷史：從十九世紀的勝家縫紉機到速食連鎖",
@@ -467,6 +802,48 @@
    "D": "Attempts to develop rechargeable lithium-ion batteries failed due to memory problems.",
    "E": "That is, they carry more power in a smaller unit, helping to reduce overall weight and size.",
    "F": "Another downside is the increase of the internal resistance that occurs with cycling and aging."
+  },
+  "optionsZh": {
+   "E": "也就是說，它們用更小的體積裝進更多電力，有助於減少整體的重量與體積。",
+   "A": "鋰電池也是一種低保養的電池。",
+   "B": "儘管整體上有這些優勢，鋰電池仍有缺點。",
+   "F": "另一個缺點是內阻會隨著充放電循環與老化而上升。",
+   "C": "大約每六個月就有新的、改良過的化學組合問世。",
+   "D": "開發可充電鋰電池的嘗試曾因記憶問題而失敗。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 是六個選項裡唯一提到 `memory`（記憶）的，而第三段整段都在談記憶——**字面上最貼近正文的一個。** 但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "把「能量密度兩倍」換成體積與重量的說法",
+     "why": "D 與體積重量無關，後句的 This feature 也指不到一項特點"
+    },
+    {
+     "blank": 32,
+     "want": "第三段的主題句：免保養",
+     "why": "同樣有 memory，但 D 說栽在記憶問題，下一句說不留記憶，方向相反"
+    },
+    {
+     "blank": 33,
+     "want": "優點講完、轉向缺點的那一句",
+     "why": "D 不是轉折句，也沒有總說缺點"
+    },
+    {
+     "blank": 34,
+     "want": "第二個缺點，而且要帶出「內阻」",
+     "why": "D 講的是記憶，不是內阻"
+    },
+    {
+     "blank": 35,
+     "want": "改良的速度有多快",
+     "why": "D 講的是過去的失敗，和「這樣快速的進展」相反"
+    }
+   ],
+   "summary": "**共同點：第二段之後整篇在講「現在的鋰電池好在哪、差在哪」，D 講的是「以前做不出來」。時間點就不對。**",
+   "extra": [],
+   "takeaway": "一個選項和某一格用了同一個字，先看兩句站在同一邊還是相反邊。站相反邊的，很可能就是多出來的那一個。"
   },
   "paraLabels": [
    "開場：鋰電池是什麼，用在哪些東西上",
@@ -519,6 +896,48 @@
    "E": "Psychologists also find that eccentric people do not follow conventions.",
    "F": "Such personal traits are found to play an important role in boosting the body’s immune system."
   },
+  "optionsZh": {
+   "B": "根據英國最近的一項研究，怪咖比較有創造力。",
+   "E": "心理學家也發現，怪咖不跟從常規。",
+   "A": "怪咖也被發現比較健康。",
+   "F": "這些個人特質被發現對提升人體免疫系統有重要作用。",
+   "C": "也可能是我們最好的朋友的哥哥，穿著短褲去參加正式舞會。",
+   "D": "人們可能在衣著品味上很古怪，或者有古怪的嗜好。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 裡有 `eccentric`（古怪）、有 `hobbies`（嗜好），第二段出現過 hobbies，第四段有穿短褲赴舞會——**關鍵詞四處都對得上。** 但五格都放不進去：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "第一項正面特質",
+     "why": "D 講的是怎樣算古怪，不是好處"
+    },
+    {
+     "blank": 32,
+     "want": "第二項正面特質（不跟從常規）",
+     "why": "D 沒有轉到常規，也沒有 also 這類接續詞"
+    },
+    {
+     "blank": 33,
+     "want": "第三段的主題句：健康",
+     "why": "D 與健康無關"
+    },
+    {
+     "blank": 34,
+     "want": "從「特質」到「健康」中間缺的那一步",
+     "why": "D 不是機制，只是舉例說明什麼叫古怪"
+    },
+    {
+     "blank": 35,
+     "want": "身邊第二個具體的人",
+     "why": "D 的主詞是泛稱的 People，後句的 Their 指不到"
+    }
+   ],
+   "summary": "**共同點：第一段問的是「什麼樣的人叫怪咖」，第二段之後整篇問的是「當怪咖有什麼好處」。D 停在第一段那個問題上。**",
+   "extra": [],
+   "takeaway": "關鍵詞對得上，不代表放得進去。先看這一篇從哪一段開始換了問題，再問這個選項回答的是換之前還是換之後的那一個。"
+  },
   "paraLabels": [
    "定義：什麼樣的人叫怪咖",
    "優點一：更有創造力，也不在意別人怎麼看",
@@ -567,6 +986,22 @@
    "D": "From that day, everything went wrong in Van Amsterdam’s bakery.",
    "E": "In great excitement, Van Amsterdam counted out twelve cookies—and one more.",
    "F": "Staring at his unsold Saint Nicholas cookies, he prayed that Saint Nicholas could help him."
+  },
+  "optionsZh": {
+   "B": "走進來一位裹著黑色長披肩的老婦人。",
+   "D": "從那天起，Van Amsterdam 的麵包店樣樣不對勁。",
+   "F": "望著賣不出去的聖尼古拉餅乾，他祈求聖尼古拉幫幫他。",
+   "A": "Van Amsterdam 猛然驚醒。",
+   "E": "Van Amsterdam 滿心興奮地數出十二塊餅乾——再加一塊。",
+   "C": "他從籃子裡拿得愈多，籃子裡似乎就裝得愈多。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 是夢裡的畫面，句子漂亮，內容也完全符合這個故事。問題在於：**第五段已經寫過 `No matter how many presents Nicholas handed out, there were always more to give`（不管發出多少禮物，總是還有更多可以給）。** C 是同一件事的第二種說法。\n\n**這一篇的多餘選項和 `z100` 同型**——不是離題，是把已經講過的話再講一次。",
+   "rows": [],
+   "summary": "",
+   "extra": [],
+   "takeaway": "一個選項讀起來很美、內容也對，卻哪一格都放不進去時，回頭看看它講的是不是前面某一句已經說完的事。"
   },
   "paraLabels": [
    "人物設定：一個絕不多給也絕不少給的老實麵包師",
@@ -625,6 +1060,49 @@
    "E": "Along with dozens of her neighbors, Mayberry was planting cucumbers, carrots, onions and tomatoes.",
    "F": "Still others see stretching and bending in the garden as a worthy supplement to huffing and puffing in the local gym."
   },
+  "optionsZh": {
+   "E": "Mayberry 和數十位鄰居一起種下小黃瓜、胡蘿蔔、洋蔥和番茄。",
+   "A": "在種菜這件事上，新手 Mayberry 一點也不孤單。",
+   "B": "今年約有四千三百萬戶美國家庭會種蔬菜、水果或香草。",
+   "D": "也就是說，投入一美元的種子和幼苗，可以產出價值八美元以上的作物。",
+   "F": "還有些人把在園子裡伸展彎腰，看成上健身房氣喘吁吁的好替代。",
+   "C": "Mayberry 的許多鄰居因為吃有機蔬菜而變得健康。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 裡有 Mayberry、有 neighbors、有蔬菜、有健康——**全篇的關鍵詞它幾乎全中，是六個選項裡字面最像的一個。** 但五格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "鄰居第一次出現，而且正在種菜",
+     "why": "C 的鄰居已經在吃菜了，菜還沒種"
+    },
+    {
+     "blank": 32,
+     "want": "從一個人跨到全國",
+     "why": "C 還停在 Mayberry 的鄰居"
+    },
+    {
+     "blank": 33,
+     "want": "一個驚人的數字",
+     "why": "C 沒有數字"
+    },
+    {
+     "blank": 34,
+     "want": "「金錢回報」到底有多少",
+     "why": "C 講的是健康，不是錢"
+    },
+    {
+     "blank": 35,
+     "want": "動機清單上缺的那一項",
+     "why": "C 講的是結果，不是動機"
+    }
+   ],
+   "summary": "**共同點：全篇問的是「為什麼開始種菜」，C 答的是「種菜以後怎麼樣了」。**",
+   "extra": [],
+   "takeaway": "關鍵詞重疊最多的那一個，常常正是多出來的。先問「這篇從頭到尾在回答什麼問題」，再看它答的是不是同一個問題。"
+  },
+  "twinNote": "**這一篇與 100 學年度研究用試卷（卷二）篇章結構完全同題**——選文逐段逐字相同，六個選項、五題答案、用不到的那一個（C）也一樣，屬官方整題回收。下面的解析與那一場共用。兩場都不公布答對率與鑑別度。",
   "paraLabels": [
    "開場：用一位七十七歲、從沒挖過土的老太太開場",
    "放大：她不是特例——不景氣讓全美各年齡層都在種菜，附上數字",
@@ -671,6 +1149,22 @@
    "D": "They differ from commercial ads in that political ads “sell” candidates rather than commercial goods.",
    "E": "Aside from campaign advertising, political advertising is also used to persuade people to support or oppose proposals.",
    "F": "In addition to political parties, environmental groups and human rights organizations also buy advertising to persuade people to accept their way of thinking."
+  },
+  "optionsZh": {
+   "B": "換句話說，廣告是一種設計來讓人去做某件事的溝通。",
+   "A": "政治廣告就是一個例子。",
+   "D": "它們與商業廣告不同之處在於，政治廣告「賣」的是候選人，而不是商品。",
+   "E": "除了競選廣告之外，政治廣告也用來說服人支持或反對某些提案。",
+   "F": "除了政黨之外，環保團體與人權組織也買廣告，說服人接受他們的想法。",
+   "C": "廣告可能是刊登它的媒體最重要的收入來源。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 從頭到尾在講廣告，句子本身也完全正確——**但全篇只談一件事：廣告怎麼說服人。** C 談的是廣告的錢從哪來、進了誰的口袋。五格沒有一格在等它。\n\n**這一篇多出來的選項和 `z100` 不一樣。** `z100` 的 B 切題卻無處可放；這裡的 C 是**切面不同**，看得出來。",
+   "rows": [],
+   "summary": "",
+   "extra": [],
+   "takeaway": "先用一句話說出「這篇從頭到尾在回答什麼問題」。答的不是同一個問題，那一個就是多出來的。"
   },
   "paraLabels": [
    "核心主張：所有廣告都在說服，就算它看起來只是在提供資訊",
@@ -719,6 +1213,48 @@
    "E": "Psychologists have been puzzled by the inactivity of crowds and bystanders in urban centers when crimes occur in crowded places.",
    "F": "The link between bullying and school violence has attracted increasing attention since the 1999 tragedy at a Colorado high school."
   },
+  "optionsZh": {
+   "F": "自從一九九九年科羅拉多州一所高中的悲劇之後，霸凌與校園暴力的關聯愈來愈受到注意。",
+   "D": "研究指出，霸凌可能形成連鎖反應，受害者往往變成霸凌者。",
+   "A": "例如希特勒，據稱童年時曾是霸凌的受害者。",
+   "E": "心理學家一直對一件事感到困惑：都市裡人多的地方發生犯罪時，群眾和旁觀者卻不採取行動。",
+   "C": "霸凌者與被霸凌者的朋友和同學，可能會把這種暴力視為正常。",
+   "B": "校園霸凌在大城市的一些高中正成為嚴重問題。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "B 完全切題，句型也四平八穩，很像段首主題句。但五格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一個年份，好讓後面的「那一年」有著落",
+     "why": "B 沒有時間點"
+    },
+    {
+     "blank": 32,
+     "want": "「受害者變加害者」這條規律",
+     "why": "B 講的是嚴重程度"
+    },
+    {
+     "blank": 33,
+     "want": "一個具體的人",
+     "why": "B 沒有人"
+    },
+    {
+     "blank": 34,
+     "want": "一群提出主張的人",
+     "why": "B 沒有人"
+    },
+    {
+     "blank": 35,
+     "want": "「還有誰跟著麻木」",
+     "why": "B 沒有回答這個問題"
+    }
+   ],
+   "summary": "再看一件事：**全篇第一句就是 `The effect of bullying can be serious`（霸凌的後果可能很嚴重）。** B 說的是同一件事，換個說法而已——它不是離題，是**已經講過了**。",
+   "extra": [],
+   "takeaway": "一個選項讀起來很像主題句、卻哪一格都放不進去時，回頭看看第一段——它是不是把開頭已經說過的話再說一次。"
+  },
   "paraLabels": [
    "開場：霸凌的後果嚴重，卻幾乎沒人研究",
    "例子：從 1999 年美國校園槍擊案看霸凌與校園暴力的關聯",
@@ -765,6 +1301,13 @@
    "D": "They were also found to like sugar water, but not salt water.",
    "E": "Cockroaches have the same problem!"
   },
+  "optionsZh": {
+   "E": "蟑螂也有同樣的問題！",
+   "D": "研究也發現牠們喜歡糖水，不喜歡鹽水。",
+   "A": "另一方面，這些昆蟲若朝香草味移動，就會被鹽的味道處罰。",
+   "B": "這個結果因而顯示，受訓的時間決定了牠們學習的效果。",
+   "C": "牠們在夜間通常比較活躍，也傾向在夜間覓食。"
+  },
   "paraLabels": [
    "破題：用「你早上學不進去嗎」把讀者拉進來，再說蟑螂也一樣",
    "實驗設計：先測出牠們愛香草，再用糖水訓練牠們改愛薄荷",
@@ -810,6 +1353,13 @@
    "C": "She had no idea how she was going to make friends in this new environment.",
    "D": "In her English Composition class, she was asked to share a little about herself.",
    "E": "She never really wanted to be popular, but she did want to have someone to share secrets and laughs with."
+  },
+  "optionsZh": {
+   "E": "她從來不是真的想受歡迎，但她確實想要有個能分享祕密和歡笑的人。",
+   "C": "她完全不知道自己在這個新環境裡要怎麼交朋友。",
+   "D": "在英文作文課上，她被要求分享一點自己的事。",
+   "A": "不知為什麼，Whitney 說了完全不一樣的話。",
+   "B": "Whitney 微笑著伸出手，一段友誼就此形成。"
   },
   "paraLabels": [
    "人物設定：害羞的女孩，整個高中都交不到朋友",
@@ -859,6 +1409,13 @@
    "D": "But the soil, lakes, streams, and forests that are continually acidified can take many years or even centuries to heal.",
    "E": "Limestone or lime (a naturally occurring basic compound) can be added to acidic lakes to “cancel out” the acidity."
   },
+  "optionsZh": {
+   "C": "不同的變化，生態系統要花的復原時間長短也不同。",
+   "D": "但持續遭到酸化的土壤、湖泊、溪流和森林，可能要好幾年、甚至好幾世紀才能復原。",
+   "E": "石灰石或石灰（一種天然的鹼性化合物）可以加進酸化的湖泊，把酸性「抵消」掉。",
+   "B": "撒石灰往往很花錢，而且必須一再進行。",
+   "A": "然而，撒石灰確實能讓魚留在湖裡。"
+  },
   "paraLabels": [
    "問題：酸雨改變土壤與水質，復原要多久差很多",
    "補救：撒石灰只是治標，救得了魚，救不了整件事"
@@ -900,6 +1457,13 @@
    "C": "Nowadays in Paris cafés still play the role of picture windows for observing contemporary life.",
    "D": "These were like all-male clubs, with many functioning as centers of political life and discussion.",
    "E": "Le Procope attracted Paris’s political and literary elite, and thus played an important part among the upper class."
+  },
+  "optionsZh": {
+   "A": "法國的咖啡館是什麼時候開始的？",
+   "E": "Le Procope 吸引了巴黎的政治與文學菁英，因而在上流社會佔有重要地位。",
+   "D": "這些咖啡館像是清一色男性的俱樂部，許多還成為政治生活與討論的中心。",
+   "C": "如今在巴黎，咖啡館仍扮演著觀察當代生活的窗口。",
+   "B": "待久一點，你就會看到巴黎人的典型形象依然鮮活。"
   },
   "paraLabels": [
    "開場：巴黎少不了咖啡館，它等於法國人的第二個客廳",
@@ -945,6 +1509,13 @@
    "D": "But by 2025, they won’t get any until they are 65.",
    "E": "These people born between 1947 and 1949 make up 5.2 million members of the work force."
   },
+  "optionsZh": {
+   "B": "因此，日本的高齡者現在被鼓勵多工作幾年。",
+   "D": "但到了二〇二五年，他們要等到六十五歲才領得到。",
+   "A": "這項新政策對雇主來說可能是一大負擔。",
+   "E": "這些一九四七到一九四九年間出生的人，占了勞動力五百二十萬人。",
+   "C": "而且，日本不像美國，沒有禁止年齡歧視的法律。"
+  },
   "paraLabels": [
    "問題：勞動力萎縮、年金撐不住，所以要老人多工作幾年",
    "對策與阻力：修法延後退休年齡，但企業不願配合，罰則又形同虛設"
@@ -987,6 +1558,13 @@
    "D": "I can zap a message to Kenya whenever I want to, and it gets there almost in a second.",
    "E": "I will also take more care with my style, trying to write in a way that is interesting and worth reading."
   },
+  "optionsZh": {
+   "C": "事實上，時間和距離會影響寫信的人。",
+   "E": "我也會更講究文筆，努力寫得有意思、值得一讀。",
+   "A": "電子郵件不一樣。",
+   "D": "我可以隨時把訊息傳到肯亞，幾乎一秒就到。",
+   "B": "缺點是，我可能比較不會說比較深的話。"
+  },
   "paraLabels": [
    "一邊：寫信——距離和時間讓人慎重，寫的東西也比較深",
    "另一邊：電子郵件——快又方便，所以寫得隨便，也留不住"
@@ -1028,6 +1606,13 @@
    "C": "An intelligence test was administered to over 350,000 Dutch males when they turned 19 years of age.",
    "D": "On the other side are Rutherford and Sewell, who studied more than 10,000 American high school graduates.",
    "E": "Since then, the theory has been elaborated and even extended to explain the positive effect of birth order on intelligence."
+  },
+  "optionsZh": {
+   "C": "一項智力測驗施測於三十五萬名以上的荷蘭男性，時間是他們滿十九歲的時候。",
+   "B": "分數隨著家庭人數增加而下降，也隨著出生序愈後面而下降。",
+   "E": "自那時起，這個理論持續被闡述，甚至被擴大用來解釋出生序對智力的正面效應。",
+   "A": "這個議題確實有兩種立場。",
+   "D": "另一邊是 Rutherford 和 Sewell，他們研究了一萬多名美國高中畢業生。"
   },
   "paraLabels": [
    "起點：早期荷蘭的研究發現出生序與智力測驗分數有關",
@@ -1073,6 +1658,13 @@
    "D": "Its growth has inevitably reflected the changes of time.",
    "E": "It then gradually developed into two separate styles."
   },
+  "optionsZh": {
+   "D": "它的發展必然反映了時代的變遷。",
+   "B": "然而題材後來擴展到宗教之外。",
+   "E": "它接著逐漸發展出兩種不同的風格。",
+   "A": "水墨畫另一個常見的類別是花鳥畫。",
+   "C": "因此他們得到了更自然、更豐富多變的色彩。"
+  },
   "paraLabels": [
    "開場：六千多年的發展，隨著時代而變",
    "演變：從宗教壁畫到歷史人物、山水、花鳥，題材一種接一種出現",
@@ -1116,6 +1708,13 @@
    "C": "The word for what she does is rehabilitation.",
    "D": "Then she went on to study architecture.",
    "E": "That is precisely what Carrie does."
+  },
+  "optionsZh": {
+   "C": "她做的這件事，有一個詞叫做 rehabilitation（舊屋翻新）。",
+   "E": "Carrie 做的正是這件事。",
+   "A": "她因此得以看遍那些漂亮的老房子，也看到正在興建的新房子。",
+   "D": "後來她繼續去學建築。",
+   "B": "建築師會把要做的每一件事都畫成圖、仔細規劃。"
   },
   "paraLabels": [
    "人物與工作：她做的是「舊屋翻新」，並說明城市為什麼需要",
@@ -1162,6 +1761,13 @@
    "C": "One time, I even shouted at Derek when he unplugged my computer.",
    "D": "Derek became part of our life and seemed to fit into our family routine.",
    "E": "Without any experience in raising pets, my husband and I first felt reluctant but later gave in."
+  },
+  "optionsZh": {
+   "E": "我們夫妻倆完全沒有養寵物的經驗，一開始不太願意，後來還是讓步了。",
+   "D": "Derek 成了我們生活的一部分，似乎也融入了家裡的作息。",
+   "C": "有一次牠把我的電腦插頭拔掉，我甚至對牠大吼。",
+   "A": "但我把車開進自家車道時，那隻小狗就在那裡。",
+   "B": "幾個小時後，我打電話給女兒，問她有沒有看到 Derek。"
   },
   "paraLabels": [
    "起因：女兒為了寫報告想養狗，家裡多了一隻大麥町",
@@ -1211,6 +1817,13 @@
    "D": "You could write a story in which you fly to the moon.",
    "E": "But fiction isn’t always different from the way things usually are."
   },
+  "optionsZh": {
+   "E": "但虛構的東西未必和平常的樣子不一樣。",
+   "D": "你可以寫一個自己飛上月球的故事。",
+   "C": "但你的太空之旅會是虛構的。",
+   "A": "沒有任何東西是編的。",
+   "B": "歷史也是非虛構。"
+  },
   "paraLabels": [
    "定義一：什麼是虛構——可以很像真的，也可以很離奇",
    "界線：虛構故事裡也可以有真東西，關鍵在哪一部分是編的",
@@ -1255,6 +1868,13 @@
    "D": "Instead, she paid much attention to the streetcar motorman.",
    "E": "Wiping off the snow and ice by hands, however, seemed to be the only solution."
   },
+  "optionsZh": {
+   "D": "她反而把注意力放在電車駕駛身上。",
+   "E": "然而，用手把雪和冰擦掉似乎是唯一的辦法。",
+   "A": "她的辦法很簡單。",
+   "C": "後來才想到並加上了刷雨的功能。",
+   "B": "一年後，她取得了這項裝置的專利。"
+  },
   "paraLabels": [
    "依時間順序講完一件發明：她在電車上看到什麼、當時只能怎麼處理、她想到的辦法、拿到專利、成為標準配備"
   ],
@@ -1297,6 +1917,48 @@
    "D": "That is, a dollar invested in seeds and seedlings can yield more than $8 worth of produce.",
    "E": "Along with dozens of her neighbors, Mayberry was planting cucumbers, carrots, onions and tomatoes.",
    "F": "Still others see stretching and bending in the garden as a worthy supplement to huffing and puffing in the local gym."
+  },
+  "optionsZh": {
+   "E": "Mayberry 和數十位鄰居一起種下小黃瓜、胡蘿蔔、洋蔥和番茄。",
+   "A": "在種菜這件事上，新手 Mayberry 一點也不孤單。",
+   "B": "今年約有四千三百萬戶美國家庭會種蔬菜、水果或香草。",
+   "D": "也就是說，投入一美元的種子和幼苗，可以產出價值八美元以上的作物。",
+   "F": "還有些人把在園子裡伸展彎腰，看成上健身房氣喘吁吁的好替代。",
+   "C": "Mayberry 的許多鄰居因為吃有機蔬菜而變得健康。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 裡有 Mayberry、有 neighbors、有蔬菜、有健康——**全篇的關鍵詞它幾乎全中，是六個選項裡字面最像的一個。** 但五格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "鄰居第一次出現，而且正在種菜",
+     "why": "C 的鄰居已經在吃菜了，菜還沒種"
+    },
+    {
+     "blank": 32,
+     "want": "從一個人跨到全國",
+     "why": "C 還停在 Mayberry 的鄰居"
+    },
+    {
+     "blank": 33,
+     "want": "一個驚人的數字",
+     "why": "C 沒有數字"
+    },
+    {
+     "blank": 34,
+     "want": "「金錢回報」到底有多少",
+     "why": "C 講的是健康，不是錢"
+    },
+    {
+     "blank": 35,
+     "want": "動機清單上缺的那一項",
+     "why": "C 講的是結果，不是動機"
+    }
+   ],
+   "summary": "**共同點：全篇問的是「為什麼開始種菜」，C 答的是「種菜以後怎麼樣了」。**",
+   "extra": [],
+   "takeaway": "關鍵詞重疊最多的那一個，常常正是多出來的。先問「這篇從頭到尾在回答什麼問題」，再看它答的是不是同一個問題。"
   },
   "paraLabels": [
    "人物開場：一輩子沒碰過土的 77 歲退休老太太，今春下田了",
