@@ -2875,7 +2875,7 @@
    "distractors": [
     {
      "opt": "B",
-     "t": "B 也是全國性的說法。但 B 是一個數字，而後面隔一句才說 `The numbers are impressive`（數字很驚人）——數字要等那一句之後才輪到。B 的位置在第 33 格。"
+     "t": "B 也是全國性的說法。但這一格要的是把個案接到群體的那一句；數字要到下一格才輪到，那裡後面正好接 `The numbers are truly impressive`（這些數字真的很驚人）。B 的位置在第 33 格。"
     }
    ],
    "takeaway": "第一段講一個人、第二段講一群人，段首那一句通常是「他不是特例」。"
@@ -2909,27 +2909,27 @@
    "概括—列舉呼應",
    "舉例、結論的位置提示詞"
   ],
-  "cueNote": "`The numbers are impressive` ↔ 數字；後句 `And`",
-  "cuePosition": "前一句",
+  "cueNote": "後句 `The numbers are truly impressive` ↔ 數字；再後句 `And`",
+  "cuePosition": "後一句",
   "explanation": {
    "steps": [
     {
      "h": "先看空格前面。",
-     "t": "前一句只有四個字：`The numbers are impressive.`（數字很驚人。）**說了「數字」，卻一個數字也沒給。**"
+     "t": "前一句是 `Americans of all ages are flocking into their gardens to grow their own food.`（各年齡層的美國人都湧進自家菜園種食物。）**講了很多人在種，卻沒有給任何數字。**"
     },
     {
      "h": "再看空格後面。",
-     "t": "後面是 `And an estimated 21 percent of food gardeners will be first-timers like Mayberry.`（而且估計有兩成一的種菜者是像 Mayberry 一樣的新手。）`And` 表示這是**再加一個**數字——前面必須先有第一個。"
+     "t": "後面是 `The numbers are truly impressive.`（這些數字真的很驚人。）`The numbers` 用了定冠詞，表示**這些數字前面出現過**——但空格前一句一個數字也沒有。再下一句 `And an estimated 21 percent of food gardeners will be first-timers like Mayberry.`（而且估計有兩成一的種菜者是像 Mayberry 一樣的新手。）用 `And` **再加一個**數字，前面必須先有第一個。"
     }
    ],
-   "why": "B 就是第一個數字。",
+   "why": "B 就是那第一個數字，也是後面 `The numbers` 指回來的對象。",
    "distractors": [
     {
      "opt": "D",
-     "t": "D 也帶數字。但 D 以 `That is`（也就是說）開頭，作用是**解釋前面剛講過的一句話**；而「數字很驚人」不需要被解釋成投資報酬率。D 講的是省錢，那是第三段的事。D 的位置在第 34 格。"
+     "t": "D 也帶數字。但 D 以 `That is`（也就是說）開頭，作用是**解釋前面剛講過的一句話**；這一格前面講的是「大家都在種菜」，不需要被解釋成投資報酬率。D 講的是省錢，那是第三段的事。D 的位置在第 34 格。"
     }
    ],
-   "takeaway": "前面說「數字很驚人」「原因有好幾個」，後面卻沒有東西接上，空格就是那個數字或那些原因。"
+   "takeaway": "後面說「這些數字很驚人」，前面卻一個數字也沒有，空格就是那些數字；前面說「原因有好幾個」而後面沒接上，同理。"
   },
   "accuracyRate": null,
   "discrimination": null
@@ -4614,7 +4614,7 @@
      "t": "後面說：在一個把強制裁員當成最後手段的國家，大公司向來靠員工退休來縮減人事費。**立場換到企業這一邊了。**"
     }
    ],
-   "why": "中間缺的就是那句轉換立場的話。A 的 `The new policy` 指前一句的法律，`employers`（雇主）帶出後面的大公司，`a strain`（負擔）則點明這件事對他們是壓力。\n\n**這題只有兩成七的人答對**：A 沒有任何一個字和前後重複——policy 對應的是前一句的 law，employers 對應的是後一句的 companies，全都換了字。學生找不到抓手。這一格考的是**立場轉換**，不是事實補充。",
+   "why": "中間缺的就是那句轉換立場的話。A 的 `The new policy` 指前一句的法律，`employers`（雇主）帶出後面的大公司，`a strain`（負擔）則點明這件事對他們是壓力。\n\n**這題只有兩成七的人答對**：A 沒有任何一個字和前後重複——policy 對應的是前一句的 law，employers 對應的是後一句的 companies，全都換了字。你會找不到可以下手的地方。這一格考的是**立場轉換**，不是事實補充。",
    "distractors": [
     {
      "opt": "C",
