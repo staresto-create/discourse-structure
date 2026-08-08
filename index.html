@@ -759,7 +759,7 @@ function renderDataBox(it){
   if(it.cuePosition)
     rows.push(`<div class="dataRow"><span class="k">線索在哪</span><span class="v">${esc(it.cuePosition)}${it.cueNote ? '　<span style="color:var(--ink-soft);">'+mk(it.cueNote)+'</span>' : ''}</span></div>`);
   if(it.categories && it.categories.length)
-    rows.push(`<div class="dataRow"><span class="k">測驗目標</span><span class="v">${esc(it.categories[0])}${it.categorySource ? '（考試說明原文）' : '（本站歸屬）'}</span></div>`);
+    rows.push(`<div class="dataRow"><span class="k">測驗目標</span><span class="v">${esc(it.categories[0])}${it.categorySource ? '（參考試卷試題解析）' : '（本站歸屬）'}</span></div>`);
   rows.push(hasPD(it)
     ? `<div class="dataRow"><span class="k">答對率</span><span class="v">${it.accuracyRate}%</span></div>
        <div class="dataRow"><span class="k">鑑別度</span><span class="v">${it.discrimination}</span></div>`
@@ -801,7 +801,7 @@ function renderPlainLine(p, it){
   const my = picks[String(it.blankNum)];
   const good = my === it.answer;
   const obj = (it.categories && it.categories.length)
-    ? `<span class="objTag">測驗目標：${esc(it.categories[0])}${it.categorySource ? '（考試說明原文）' : '（本站歸屬）'}</span>` : '';
+    ? `<span class="objTag">測驗目標：${esc(it.categories[0])}${it.categorySource ? '（參考試卷試題解析）' : '（本站歸屬）'}</span>` : '';
   const verdict = good
     ? '<span style="color:var(--sage);">✓ 答對</span>'
     : (my ? `<span style="color:var(--crimson);">✗ 答錯</span>`
