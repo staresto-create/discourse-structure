@@ -23,6 +23,13 @@ h2{font-family:'Noto Serif TC',serif; font-size:17px; margin:0 0 12px;
 .opts{list-style:none; margin:0 0 12px; padding:0;}
 .opts li{font-size:14.5px; line-height:1.85; padding:7px 11px; margin-bottom:5px;
   border-left:3px solid var(--rule); border-radius:2px; background:#fff;}
+/* 英文句子裡的彎引號、破折號、刪節號：中文字型會把它們排成全形，
+   左右各撐開一大塊。西文字型排在前面，中文再落回中文字型。
+   全庫實測 158 處（選文段落 115、選項 28、線索原文 15）。
+   考題原文不得改字，所以改的是顯示，不是資料 */
+.opts li,.ans,.exAns,.dataRow .cuenote{
+  font-family:Lora,Georgia,'Noto Sans TC',serif;}
+.opts .zh,.exAns .zh{font-family:'Noto Sans TC',sans-serif;}
 .opts li.right{border-left-color:var(--sage); background:#F0F7EE;}
 .opts .k{font-family:'IBM Plex Mono',monospace; font-weight:600;
   color:var(--crimson); margin-right:7px;}
