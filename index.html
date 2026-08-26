@@ -188,6 +188,8 @@
   .exStep{font-size:14.5px; line-height:1.95; margin:0 0 11px;}
   .exStep .h{font-family:'Noto Serif TC',serif; font-weight:700; color:var(--ink); margin-right:2px;}
   .exWhy{font-size:14.5px; line-height:1.95; margin:0 0 11px;}
+  ul.exWhy{padding-left:22px;}
+  ul.exWhy li{margin-bottom:6px;}
   .exDis{font-size:14px; line-height:1.9; background:#FCF2F0; border-left:3px solid var(--crimson); padding:8px 12px; border-radius:2px; margin:0 0 11px; color:var(--ink-soft);}
   .exDis b{color:var(--ink);}
   .exTake{font-size:14.5px; line-height:1.9; background:#FFFBEA; border-left:3px solid var(--gold); padding:10px 13px; border-radius:2px;}
@@ -609,8 +611,17 @@ function mk(s){
 }
 /* 多段落內文：以空行切段，各自成 <p> */
 function mkp(s, cls){
+  /* 空行切段；整段每一行都以「- 」開頭者成清單。
+     不處理清單時，兩個項目會被 HTML 併成同一行（全庫實測 2 題） */
   return String(s).split(/\n\s*\n/).map(x => x.trim()).filter(Boolean)
-    .map(x => `<p class="${cls}">${mk(x)}</p>`).join('');
+    .map(x => {
+      const lines = x.split('\n').filter(l => l.trim());
+      if(lines.length && lines.every(l => /^\s*[-*]\s+/.test(l)))
+        return `<ul class="${cls}">` +
+          lines.map(l => `<li>${mk(l.replace(/^\s*[-*]\s+/, ''))}</li>`).join('') +
+          `</ul>`;
+      return `<p class="${cls}">${mk(x)}</p>`;
+    }).join('');
 }
 function hasZh(p){ return Array.isArray(p.zhTranslation) && p.zhTranslation.length === p.paras.length && !!p.optionsZh; }
 function renderPractice(){
