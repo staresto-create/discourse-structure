@@ -1417,7 +1417,12 @@
    "takeaway": "段落第一句是空格、下一句用 this／these 指回來，空格就是把那個東西第一次講出來的句子。認不得的字先擺著，用前後文推它是什麼。"
   },
   "accuracyRate": 24,
-  "discrimination": 27
+  "discrimination": 27,
+  "readMore": {
+   "label": "延伸閱讀：this 指回前文——段落裡的 it、this、that",
+   "url": "https://dictionary.cambridge.org/grammar/british-grammar/it-this-and-that-in-paragraphs",
+   "hint": "重點：英文用 this 指回前面已經寫過的東西，而且多半是接下來還要繼續談的重點。所以後一句一出現 this tax，空格就得先把這項稅講出來；六個選項裡，只有 C 的 gabelle 能讓 this tax 有所指。"
+  }
  },
  {
   "id": "Dz107_34",
@@ -2127,7 +2132,12 @@
    "takeaway": "空格和下一句出現同一個字，先確認兩句講的是不是同一個方向。方向相反的，是誘答不是答案。"
   },
   "accuracyRate": 20,
-  "discrimination": 28
+  "discrimination": 28,
+  "readMore": {
+   "label": "延伸閱讀：maintenance 是保養——low maintenance 就是不太需要照顧",
+   "url": "https://dictionary.cambridge.org/dictionary/english-chinese-traditional/maintenance",
+   "hint": "重點：maintenance 是讓機器、房屋保持良好狀態所需的保養工作，low maintenance 就是不太需要花心力照顧。這一段說鋰電池不必定期充放電、每次都能充飽，講的正是省事、不必費心保養；段落第一句的空格常是概括全段的主題句，A 就是這一句。B 和 F 講的是缺點，方向不對；E 用 That is（也就是說）開頭，必須接在一句話後面換個說法，不能放在段落第一句。"
+  }
  },
  {
   "id": "Dz104_33",

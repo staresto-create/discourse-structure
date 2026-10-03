@@ -91,3 +91,7 @@ code{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:.92em;
 footer{font-size:12px; line-height:1.9; color:var(--ink-soft);
   text-align:center; margin-top:24px;}
 footer a{color:var(--crimson);}
+.readmore{margin-top:14px; padding:12px 14px; border-left:3px solid var(--sage);
+  background:#F0F7EE; border-radius:0 4px 4px 0; font-size:13px; line-height:1.8;}
+.readmore .rm-hint{color:var(--ink-soft); margin-bottom:6px;}
+.readmore a{color:var(--sage); font-weight:700;}

@@ -194,6 +194,10 @@
   .exDis b{color:var(--ink);}
   .exTake{font-size:14.5px; line-height:1.9; background:#FFFBEA; border-left:3px solid var(--gold); padding:10px 13px; border-radius:2px;}
   .exTake .lb{display:block; font-family:'Noto Serif TC',serif; font-weight:700; color:var(--gold); font-size:13px; margin-bottom:3px; letter-spacing:.04em;}
+  /* 延伸閱讀（readMore）：樣式比照克漏字站 .why-readmore，2026-10-03 加 */
+  .why-readmore{margin-top:12px;}
+  .why-readmore-hint{font-size:13px; color:var(--ink-soft); line-height:1.7; margin-bottom:6px; border-left:2px solid var(--sage); padding-left:8px;}
+  .why-readmore a{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:12px; color:var(--sage); text-decoration:underline;}
 
   details.dataBox{border:1px dashed var(--rule); border-radius:3px; background:#FBF9F2; padding:8px 12px; margin-top:12px;}
   details.dataBox summary{cursor:pointer; list-style:none; font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11.5px; letter-spacing:.06em; color:var(--ink-soft);}
@@ -604,6 +608,15 @@ function openPassage(pid){
 function esc(s){
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
+function escAttr(s){ return esc(s).replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+/* 延伸閱讀（readMore）：接在【下次先看這裡】之後。2026-10-03 加 */
+function readMoreHtml(it){
+  const r = it.readMore;
+  if(!r || !r.url) return '';
+  return '<div class="why-readmore">'
+    + (r.hint ? '<div class="why-readmore-hint">'+esc(r.hint)+'</div>' : '')
+    + '<a href="'+escAttr(r.url)+'" target="_blank" rel="noopener">'+esc(r.label || '延伸閱讀')+' ↗</a></div>';
+}
 /* 解析內文的行內標記：`英文原文` → <code>、**重點** → <b>。先跳脫再轉換 */
 function mk(s){
   return esc(s).replace(/`([^`]+)`/g, '<code>$1</code>')
@@ -810,7 +823,7 @@ function renderExplanation(p, it){
     ? `<div class="exTake"><span class="lb">【下次先看這裡】</span>${mk(e.takeaway)}</div>` : '';
   return `<details class="exBox" id="ex${it.blankNum}"${good ? '' : ' open'}>
     <summary><div class="exHead">第 ${it.blankNum} 格　${verdict}<span class="caret"></span></div></summary>
-    ${ans}${mine}${steps}${why}${dis}${take}${renderDataBox(it)}
+    ${ans}${mine}${steps}${why}${dis}${take}${readMoreHtml(it)}${renderDataBox(it)}
   </details>`;
 }
 
