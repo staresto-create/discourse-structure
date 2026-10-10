@@ -1,0 +1,1491 @@
+[
+ {
+  "id": "DSA-g111p2",
+  "year": "（一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "安全帽的百年演變（The Evolution of the Hard Hat）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "D"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "A common color code has also been developed to identify people and their roles on site.",
+   "B": "Over the past century, the hard hat has come a long way from Bullard’s original design.",
+   "C": "Since its introduction in the early 20th century, this headgear has saved countless lives.",
+   "D": "Workers are also expected to replace a hard hat after any serious impact.",
+   "E": "Having seen how well metal helmets protected soldiers in battle, Bullard wanted something similar for workers."
+  },
+  "optionsZh": {
+   "C": "安全帽在 20 世紀初問世以來，已經拯救了無數條人命。",
+   "E": "Bullard 親眼看過金屬頭盔在戰場上多麼能保護士兵，就想替工人做一頂類似的帽子。",
+   "B": "過去一百年來，安全帽和 Bullard 最初的設計相比，已經有了長足的進步。",
+   "A": "業界也發展出通用的顏色標示，用來辨識工地上的人和他們的職務。",
+   "D": "工人也應該在安全帽受過嚴重撞擊之後，換一頂新的。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 這一句**沒有任何毛病**。它講的是工地對安全帽的要求，和全篇同一個主題；`also` 的用法也對，第二段最後確實提過安全帽後來成為工地規定。問題只有一個：**沒有任何一段的內容在等它。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句交代安全帽救了無數人命，第二段才能用 `This life-saving tool` 接下去",
+     "why": "第一段只有定義，D 的 `also` 前面還沒有任何規定；D 也沒有「救命」"
+    },
+    {
+     "blank": 32,
+     "want": "Bullard 的動機：看過金屬頭盔的效果，想替工人做一頂，後一句的 `The result` 才有來由",
+     "why": "D 講的是戴了以後要遵守的規定，不是發明的打算"
+    },
+    {
+     "blank": 33,
+     "want": "宣布「這一百年來改變很多」，後面的材質、配件才能一項一項往下講",
+     "why": "D 雖然可以接在第二段末的工地規定後面，卻帶不出後面的材質更替"
+    },
+    {
+     "blank": 34,
+     "want": "先立一條顏色的規則，後面才能接黃、白、綠各代表誰",
+     "why": "D 沒有顏色，也沒有職務"
+    }
+   ],
+   "summary": "**這一篇的多餘選項屬於「切面對，卻沒有段落在等它」，和 115 學測參考試卷多出來的 C 相同。** 115 學測多出來的 D 屬於「主題相同，切面不對」，比較容易看出不同類；這一篇的 D 談的也是工地上的安全帽，看起來和正解一樣像樣，只是第二段提到工地規定之後，文章就轉去講材質與配件，沒有一段再談戴的人要遵守什麼。",
+   "extra": [],
+   "takeaway": "判斷多出來的選項，不要挑「看起來最不像」的那一個。先把四格前後各在等什麼寫成一句，四格都配好之後，剩下的就是多出來的，不必回頭懷疑前面的答案。"
+  },
+  "paraLabels": [
+   "破題：先說安全帽是什麼，再點出它百年來救了無數人命",
+   "起源：Bullard 受戰場頭盔啟發，做出第一頂安全帽",
+   "演進：材質、配件與顏色標示一路改變",
+   "結尾：新產品不斷推出，市場持續擴大"
+  ],
+  "marks": [
+   [
+    0,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "__33__",
+    "topic"
+   ],
+   [
+    3,
+    "New products continue to expand the market.",
+    "topic"
+   ],
+   [
+    1,
+    "Before the war",
+    "trans"
+   ],
+   [
+    1,
+    "soon",
+    "trans"
+   ],
+   [
+    1,
+    "later",
+    "trans"
+   ],
+   [
+    "B",
+    "Over the past century",
+    "trans"
+   ],
+   [
+    2,
+    "Recently",
+    "trans"
+   ],
+   [
+    2,
+    "for example",
+    "trans"
+   ],
+   [
+    2,
+    "Today",
+    "trans"
+   ],
+   [
+    "A",
+    "also",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "A hard hat is a helmet worn mainly at worksites to protect the head from injuries caused by falling objects. __31__",
+   "This life-saving tool was invented in 1919 by Edward W. Bullard, who had just returned from World War I. Before the war, workers often smeared their hats with coal tar to protect their heads. __32__ The result was the Hard Boiled Hat, which was cheap enough for every worker and light enough to be worn all day long. Made of steamed canvas and leather, it was coated with black paint and fitted with a suspension system to reduce impact. Hard hats soon came into wide use, and they were later made mandatory on major construction projects such as the Hoover Dam in 1931 and the Golden Gate Bridge in 1933.",
+   "__33__ Canvas and leather gave way to aluminum, then to fiberglass, and eventually to thermoplastic. Recently, new models and accessories have been introduced to meet the needs of laborers on different kinds of job sites. A ventilated hard hat, for example, keeps its wearer cooler, while a see-through face shield helps workers spot hazards lurking above. Today, attachments include radios, sensors, cameras, and much more. __34__ Yellow is worn by general laborers and contractors, white (or sometimes black) by supervisors and managers, and green by inspectors and new workers.",
+   "New products continue to expand the market. Global sales of hard hats totaled USD 2.1 billion in 2016 and are expected to reach USD 3.19 billion in 2025."
+  ],
+  "zhTranslation": [
+   "安全帽是一種主要在工地配戴的頭盔，用來保護頭部，不讓掉落物砸傷。__31__",
+   "這項救命的裝備是 Edward W. Bullard 在 1919 年發明的，他當時剛從第一次世界大戰返鄉。戰前，工人常在帽子上塗煤焦油來保護頭部。__32__ 成果就是 Hard Boiled Hat：價錢便宜到每個工人都買得起，重量也輕到可以整天戴著。這種帽子用蒸過的帆布和皮革製成，外面塗上黑漆，裡面裝有減輕撞擊的懸吊系統。安全帽不久就普及開來，後來在大型工程裡更成為規定一定要戴的裝備，例如 1931 年的胡佛水壩和 1933 年的金門大橋。",
+   "__33__ 帆布和皮革先是換成了鋁，接著是玻璃纖維，最後是熱塑性塑膠。近年來，業者推出了新款式和各種配件，滿足在不同工作場所的勞工需求。例如，透氣的安全帽讓配戴的人比較涼爽，透明面罩則幫助工人看清頭頂上潛藏的危險。如今的配件還有無線電、感測器、攝影機等等。__34__ 黃色是一般工人和承包商戴的，白色（有時是黑色）是監工和經理戴的，綠色則是檢查人員和新進工人戴的。",
+   "新產品持續擴大市場。2016 年全球安全帽銷售額總計 21 億美元，預計 2025 年將達到 31.9 億美元。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 111 年學測閱讀測驗〈安全帽的演進史〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "13-16",
+   "選項字數全距": 3,
+   "選項長度變異係數": "8.4%",
+   "建檔": "第三百六十三場建檔。改編自 g111p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g107p2",
+  "year": "（二）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "西尼羅病毒流行的原因（Why West Nile Spreads）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "C"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "The swimming pools at some of the empty houses became ideal breeding grounds for mosquitoes.",
+   "B": "About one in five infected people develops a fever, headaches, and body aches lasting a week or so.",
+   "C": "Mosquitoes that carry the virus are most active between dusk and dawn.",
+   "D": "That is what made the major West Nile outbreaks in the U.S. in the summer of 2012 so frightening.",
+   "E": "Tropical infections are thus as much related to government inaction as they are to climate."
+  },
+  "optionsZh": {
+   "B": "感染的人當中，大約五分之一會發燒、頭痛、全身痠痛，通常持續一個星期左右。",
+   "D": "正因為這樣，2012 年夏天西尼羅病毒在美國大規模爆發，才會那麼令人害怕。",
+   "A": "其中一些空屋的游泳池，成了蚊子絕佳的繁殖場所。",
+   "E": "因此，熱帶傳染病和政府不作為的關係，就跟它和氣候的關係一樣密切。",
+   "C": "帶有這種病毒的蚊子，在傍晚到清晨這段時間最活躍。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 讀起來很順，講的是帶病毒的蚊子，和第三段談蚊子變多的內容最接近，放在第 33 格最容易讓人想選。\n\n問題在於：**全篇問的是「2012 年的疫情為什麼這麼嚴重」，C 答的是「蚊子什麼時候最活躍」。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一群症狀輕的人，好讓後句的 `far less lucky` 有比較的對象",
+     "why": "C 沒有提到任何症狀，也沒有人數"
+    },
+    {
+     "blank": 32,
+     "want": "一句帶出 2012 年的疫情，讓 `The situation` 有所指",
+     "why": "C 沒有任何事件，`The situation` 還是找不到對象"
+    },
+    {
+     "blank": 33,
+     "want": "把屋主搬走和蚊子變多接起來",
+     "why": "C 講蚊子平常的習性，和空屋無關，也說不出 2012 年哪裡特別"
+    },
+    {
+     "blank": 34,
+     "want": "一句結論，把天氣和政府兩項原因並列",
+     "why": "C 只講蚊子的習性，沒有結論，也沒有提到政府"
+    }
+   ],
+   "summary": "**這一篇多出來的選項屬於「主題相同，切面不對」，和 115 學測多出來的 D 同一種。**115 學測全篇問「什麼影響微笑」，D 答「微笑分幾種」；這一篇全篇問「疫情為什麼這麼嚴重」，前後談了天氣、經濟和政府，C 卻講蚊子平常什麼時候出來活動。至於 115 學測參考試卷多出來的 C，則是另一種：「切面對，卻沒有段落在等它」。",
+   "extra": [],
+   "takeaway": "先把全篇在回答的問題寫成一句（這一篇是「什麼讓疫情變嚴重」），再一格一格看前後在等什麼。四格填完，拿剩下的那一句對照全篇的問題，就說得出它哪裡不同。"
+  },
+  "paraLabels": [
+   "背景：病毒怎麼傳給人，染病後輕重差很多",
+   "實例：2012 年美國疫情，達拉斯最嚴重",
+   "原因一：天氣和經濟危機讓蚊子大增",
+   "原因二：政府不作為；末句把氣候和政府並列為兩項原因"
+  ],
+  "marks": [
+   [
+    1,
+    "__32__",
+    "topic"
+   ],
+   [
+    3,
+    "The severity of a tropical disease also depends on whether governments are able and willing to protect their people.",
+    "topic"
+   ],
+   [
+    3,
+    "__34__",
+    "thesis"
+   ],
+   [
+    1,
+    "even though",
+    "trans"
+   ],
+   [
+    2,
+    "as well",
+    "trans"
+   ],
+   [
+    3,
+    "also",
+    "trans"
+   ],
+   [
+    3,
+    "for example",
+    "trans"
+   ],
+   [
+    "E",
+    "thus",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "West Nile is a tropical disease that begins in birds, which pass it on to mosquitoes that then go on to infect human beings with a bite. Most people who contract West Nile never develop any symptoms. In those who do, the symptoms typically appear 3 to 14 days after the bite. __31__ A far less lucky one in 150 suffers high fever, tremors, paralysis, and coma. Some—especially the elderly and those with weak immune systems—die.",
+   "__32__ The situation was particularly bad in Dallas, Texas, where the virus killed 10 people and sickened more than 200. The city declared a state of emergency and began aerial spraying of a pesticide to kill the mosquitoes, even though some residents argued that the pesticide could be more dangerous than the disease.",
+   "Why was the summer of 2012 so hospitable to the West Nile virus and the mosquitoes that carry it? Blame the weather. An extremely mild winter allowed more mosquitoes than usual to survive, while the unusually high temperatures of that scorching summer further increased their numbers by speeding up their life cycle. The economic crisis may have played a role as well: homeowners who could no longer make their mortgage payments were forced to move out, leaving their properties behind. __33__",
+   "The severity of a tropical disease also depends on whether governments are able and willing to protect their people. Dallas County, for example, was not doing some of the key things to slow the spread of West Nile, such as testing dead birds and setting mosquito traps to check for the disease. __34__"
+  ],
+  "zhTranslation": [
+   "西尼羅病毒會引起一種熱帶疾病。病毒最先出現在鳥類身上，鳥把病毒傳給蚊子，蚊子再藉由叮咬把病毒傳染給人。大多數感染西尼羅病毒的人從頭到尾都不會出現症狀；至於有症狀的人，通常是在蚊子叮咬後 3 到 14 天之間發病。__31__ 至於每 150 人當中的 1 人，就比他們不幸得多，會高燒、顫抖、癱瘓，甚至昏迷。有些人會因此死亡，特別是年長者和免疫系統較弱的人。",
+   "__32__ 德州達拉斯的情況特別嚴重，病毒在當地造成 10 人死亡、200 多人染病。市政府宣布進入緊急狀態，開始從空中噴灑殺蟲劑撲殺蚊子，儘管有些居民認為殺蟲劑可能比疾病本身還危險。",
+   "為什麼 2012 年夏天特別適合西尼羅病毒和傳播病毒的蚊子？要怪天氣。極為溫和的冬天讓比平常更多的蚊子活了下來，那年夏天又異常炎熱，高溫加快了蚊子的生命週期，數量因此更多。經濟危機可能也有影響：繳不出房貸的屋主只好搬走，房子就這樣空了下來。__33__",
+   "熱帶疾病會有多嚴重，也要看政府有沒有能力、有沒有意願保護人民。以達拉斯郡為例，當地就沒有做到幾項減緩西尼羅病毒擴散的關鍵措施，像是檢驗死鳥、設置捕蚊器來檢測病毒。__34__"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 107 年學測閱讀測驗〈西尼羅病毒〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "12-19",
+   "選項字數全距": 7,
+   "選項長度變異係數": "15.7%",
+   "建檔": "第三百六十三場建檔。改編自 g107p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g106p4",
+  "year": "（三）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "茶在英國普及的經過（How Tea Spread Through Britain）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "B"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Around the same time, the Earl of Sandwich popularized putting fillings between thin slices of bread.",
+   "B": "Afternoon tea and high tea, despite their similar names, were two quite different meals.",
+   "C": "Tea came with a high price tag, and the government taxed it as well.",
+   "D": "As tea became much cheaper during the nineteenth century, it spread to every corner of British society.",
+   "E": "A tea lover since her childhood in Portugal, she set a trend for the beverage at the English court."
+  },
+  "optionsZh": {
+   "E": "她從小在葡萄牙就愛喝茶，到了英國宮廷，帶動了喝茶的風潮。",
+   "C": "茶的價格很高，政府還要對它課稅。",
+   "A": "差不多同一個時候，三明治伯爵讓「在兩片薄麵包中間夾餡料」的吃法流行起來。",
+   "D": "十九世紀茶變得便宜許多，喝茶的風氣也傳遍了英國社會的每個角落。",
+   "B": "下午茶和 high tea 名稱相近，其實是兩種很不一樣的餐點。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "B 讀起來很通順，講的也是英國人喝茶的習慣；`Afternoon tea` 和 `high tea` 兩個詞都出自這篇文章，說兩種餐點不一樣，也和文章的內容相符。可是四個空格都放不下它：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句說明外國王后做了什麼，好讓下一段的 `The fashion` 有來歷",
+     "why": "B 沒有王后，也沒有帶動任何風氣"
+    },
+    {
+     "blank": 32,
+     "want": "一個理由，說明大多數人為什麼喝不起茶",
+     "why": "B 談的是兩種餐點的名稱，和價錢無關"
+    },
+    {
+     "blank": 33,
+     "want": "交代三明治從哪裡來，段末才能把茶和三明治合成一頓",
+     "why": "B 沒有三明治，`high tea` 也要到第四段最後才出現"
+    },
+    {
+     "blank": 34,
+     "want": "一個原因，讓後一句的 `Thus` 推得出茶成了最喜愛的飲料",
+     "why": "兩種餐點名稱相近、內容不同，推不出茶傳遍了各階層"
+    }
+   ],
+   "summary": "**全篇講的是「茶怎麼從宮廷一路傳到每個英國家庭」，B 講的卻是「兩種餐點怎麼區分」。** 這和 115 學測多出來的 D 屬於同一種：主題相同，切面不對。不過 B 用的兩個詞都來自文章，看起來比 115 學測多出來的 D 更像正解，第 34 格尤其容易誤選。",
+   "extra": [],
+   "takeaway": "四格填完，先別因為剩下一句就回頭懷疑自己。把每一段在講什麼串成一句話，再拿剩下的選項比一比，看它回答的是不是同一個問題。"
+  },
+  "paraLabels": [
+   "破題：外國王后把喝茶的習慣帶進英國宮廷",
+   "擴散與限制：風氣傳到中產階級，價格卻讓多數人喝不起",
+   "新習慣：下午茶和三明治合成英國人生活的一部分",
+   "普及：茶價下跌，喝茶傳遍社會各階層",
+   "結尾：今天茶在英國飲料中的地位"
+  ],
+  "marks": [
+   [
+    0,
+    "Tea, the most typical English drink, became established in Britain in the seventeenth century because of the influence of a foreign princess, Catherine of Braganza, the queen of Charles II.",
+    "topic"
+   ],
+   [
+    3,
+    "__34__",
+    "topic"
+   ],
+   [
+    1,
+    "soon",
+    "trans"
+   ],
+   [
+    1,
+    "thus",
+    "trans"
+   ],
+   [
+    1,
+    "However",
+    "trans"
+   ],
+   [
+    2,
+    "Around 1800",
+    "trans"
+   ],
+   [
+    2,
+    "Until then",
+    "trans"
+   ],
+   [
+    "A",
+    "Around the same time",
+    "trans"
+   ],
+   [
+    2,
+    "Before long",
+    "trans"
+   ],
+   [
+    3,
+    "Thus",
+    "trans"
+   ],
+   [
+    4,
+    "Today",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Tea, the most typical English drink, became established in Britain in the seventeenth century because of the influence of a foreign princess, Catherine of Braganza, the queen of Charles II. __31__",
+   "The fashion soon spread beyond the circle of the nobility to the middle classes. Tea became a popular drink at the London coffee houses, where people gathered to do business and discuss the events of the day. Many employers served a cup of tea to their workers in the middle of the morning, thus creating a lasting British institution, the “tea break.” However, drinking tea in social settings outside the workplace was beyond the means of the majority of British people. __32__",
+   "Around 1800, Anne Maria, the seventh Duchess of Bedford, began the popular practice of “afternoon tea,” a ceremony that took place at about four o’clock. Until then, people did not usually eat or drink anything between lunch and dinner. __33__ Before long, a small meal at the end of the afternoon, involving tea and sandwiches, had become part of the British way of life.",
+   "__34__ Thus, tea became Britain’s favorite drink. In working-class households, it was served with the main meal of the day, which was eaten when workers returned home after a day’s labor. This meal has come to be known as “high tea.”",
+   "Today, tea can be drunk at any time of the day, and, with the exception of water, it accounts for over two-fifths of all beverages consumed in Britain."
+  ],
+  "zhTranslation": [
+   "茶是最典型的英國飲料，而茶能在十七世紀的英國普及開來，是受到一位外國公主的影響，她就是英王 Charles II 的王后 Catherine of Braganza。__31__",
+   "這股風氣很快就從貴族圈傳到了中產階級。茶成了倫敦咖啡館裡受歡迎的飲料，人們在那裡碰面談生意、討論時事。許多雇主會在上午工作到一半時請員工喝一杯茶，因而開創了一項延續至今的英國傳統，也就是「喝茶休息時間」（tea break）。不過，要在工作場所以外的社交場合喝茶，大多數英國人負擔不起。__32__",
+   "1800 年左右，第七代貝德福公爵夫人 Anne Maria 開始了大受歡迎的「下午茶」習慣，這是一種大約在下午四點舉行的儀式。在那之前，人們在午餐和晚餐之間通常什麼都不吃，也什麼都不喝。__33__ 不久之後，在下午快結束時吃一頓有茶、有三明治的小餐點，就成了英國人生活的一部分。",
+   "__34__ 因此，茶成了英國人最喜愛的飲料。在勞工家庭裡，茶搭配的是一天中最主要的那一餐，也就是工人做完一天的工作、回到家後吃的那一餐。這一餐後來就叫做「high tea」。",
+   "現在，一天裡任何時間都可以喝茶；除了水以外，英國人喝下的飲料當中，茶占了五分之二以上。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 106 年學測閱讀測驗〈茶在英國的流行〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 16,
+   "選項字數區間": "14-19",
+   "選項字數全距": 5,
+   "選項長度變異係數": "11.9%",
+   "建檔": "第三百六十三場建檔。改編自 g106p4；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g102p2",
+  "year": "（四）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "太空垃圾的隱憂（The Trouble with Space Junk）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "C"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Since we began exploring space, however, we have left a surprising amount of trash up there.",
+   "B": "Looking ahead, many nations hope to work together to keep space clean and remove existing junk.",
+   "C": "Some of this junk has even become a popular subject for films and novels.",
+   "D": "From that point on, the junk circling our planet has grown in both number and variety.",
+   "E": "Pieces of junk may also smash into one another and break apart into smaller bits."
+  },
+  "optionsZh": {
+   "A": "然而，自從人類開始探索太空，我們已經在那裡留下多得驚人的垃圾。",
+   "D": "從那時起，繞著地球運行的垃圾數量越來越多，種類也越來越雜。",
+   "E": "垃圾之間也可能互相猛烈撞擊，碎成更小的碎片。",
+   "B": "展望未來，許多國家希望攜手合作，讓太空保持乾淨，並且清除現有的垃圾。",
+   "C": "其中一些垃圾甚至成了電影和小說常見的題材。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 談的也是太空垃圾，`this junk` 讀起來好像接得上前文，文法和語氣也沒有問題。可是這一篇談的是**太空垃圾從哪裡來、有多少、造成什麼問題、怎麼清理**，C 談的卻是太空垃圾成了電影和小說的題材。把 C 放進四個空格，每一格都會卡住：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句和「太空裡沒什麼東西」相反的話，好讓後面的 `So much` 和 `it` 有東西可以指",
+     "why": "C 沒有回應「太空裡沒什麼東西」，`this junk` 前面也還沒有垃圾可指"
+    },
+    {
+     "blank": 32,
+     "want": "從 1964 年的第一件垃圾，接到現在的五十萬件、從油漆碎屑到工具箱",
+     "why": "C 講的是電影和小說，後面兩句講的卻是數量和種類"
+    },
+    {
+     "blank": 33,
+     "want": "撞上衛星之外的第二個問題，並且帶出後面的 `these fragments`",
+     "why": "C 講的不是危害，也沒有碎片"
+    },
+    {
+     "blank": 34,
+     "want": "地面站之外的第二種方法，而且是還沒做的方法",
+     "why": "C 講的是文化題材，不是清理垃圾的方法"
+    }
+   ],
+   "summary": "**全篇談的是「太空垃圾帶來什麼問題、該怎麼處理」，C 談的卻是「太空垃圾成了大眾文化的題材」。**這和 115 學測多出來的 D 屬於同一種：主題相同，切面不對。至於 115 學測參考試卷多出來的 C，切面對，卻沒有段落在等它，判斷起來比這一篇難。",
+   "extra": [],
+   "takeaway": "先用一句話寫下全篇在談什麼，再拿每個選項來比；選項裡的字和文章重複，不代表它談的是同一件事。四格各自配好之後，剩下的那一句通常就是切面不同的那一個。"
+  },
+  "paraLabels": [
+   "破題：先說一般人以為太空空無一物，再轉入垃圾與危險",
+   "起源：第一件太空垃圾，以及科學家從此越丟越放心",
+   "現況：垃圾的數量與種類",
+   "問題：撞上衛星與太空船，互撞之後的碎片還會掉回地球",
+   "對策：已經在做的監測，以及未來的合作清理"
+  ],
+  "marks": [
+   [
+    0,
+    "__31__",
+    "gradient"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    4,
+    "To avoid such dangers, scientists have come up with several ways of clearing the sky.",
+    "topic"
+   ],
+   [
+    "A",
+    "however",
+    "trans"
+   ],
+   [
+    1,
+    "However",
+    "trans"
+   ],
+   [
+    1,
+    "since",
+    "trans"
+   ],
+   [
+    "D",
+    "From that point on",
+    "trans"
+   ],
+   [
+    "B",
+    "Looking ahead",
+    "trans"
+   ],
+   [
+    "E",
+    "also",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Space is where our future lies—trips to the Moon, Mars, and beyond. Most people would assume that aside from comets and stars, there is little else out there. __31__ So much has piled up that scientists now fear that we may all be in mortal danger if we do not clean it up.",
+   "The first piece of space junk appeared in 1964, when the American satellite Vanguard I stopped operating and lost contact with its ground center. However, since it kept orbiting the Earth without any consequences, scientists grew increasingly comfortable abandoning things that no longer served a useful purpose in space.",
+   "__32__ It is estimated that more than 500,000 pieces of man-made debris are currently traveling around the Earth at speeds of up to 17,500 miles per hour. They range from tiny flecks of paint chipped off rockets to cameras, huge fuel tanks, and even odd items like the million-dollar tool kit that astronaut Heidemarie Stefanyshyn-Piper lost during a spacewalk.",
+   "The major problem with all this trash is that it may strike working satellites and damage spacecraft in flight. __33__ Some of these fragments eventually fall back to the Earth.",
+   "To avoid such dangers, scientists have come up with several ways of clearing the sky. Ground stations have already been built to track larger pieces of space trash so that these pieces will not crash into satellites or space shuttles. __34__"
+  ],
+  "zhTranslation": [
+   "人類的未來在太空：我們要去月球、火星，還要去更遠的地方。大部分人大概會以為，除了彗星和星星，太空裡沒什麼別的東西。__31__ 堆積的量多到科學家現在擔心，如果不清理乾淨，我們可能全都會有生命危險。",
+   "第一件太空垃圾出現在 1964 年：美國的先鋒一號（Vanguard I）衛星停止運作，和地面中心失去聯繫。不過，因為這顆衛星一直繞著地球運行，沒有造成任何後果，科學家越來越習慣把太空中不再有用的東西丟著不管。",
+   "__32__ 據估計，目前有超過五十萬件人造垃圾，以最高每小時 17,500 英里的速度繞著地球運行。這些垃圾大小不一，小到火箭上剝落的油漆碎屑，大到相機、巨大的燃料箱，甚至還有奇特的東西，例如太空人 Heidemarie Stefanyshyn-Piper 太空漫步時弄丟的那個價值百萬美元的工具箱。",
+   "這些垃圾最主要的問題，是可能撞上運作中的衛星，損壞航行中的太空船。__33__ 其中一些碎片最後會掉回地球。",
+   "為了避免這些危險，科學家想出了幾種清理天空的方法。目前已經建好地面站，追蹤體積較大的太空垃圾，以免這些垃圾撞上衛星或太空梭。__34__"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 102 年學測閱讀測驗〈太空垃圾的問題〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 15,
+   "選項字數區間": "14-16",
+   "選項字數全距": 2,
+   "選項長度變異係數": "5.2%",
+   "建檔": "第三百六十三場建檔。改編自 g102p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g100p2",
+  "year": "（五）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "大象怎麼分辨敵友（How Elephants Spot Their Enemies）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "A"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Sounds such as human voices may also give elephants useful clues about danger.",
+   "B": "The elephants fled from the scent of clothing worn by Maasai men faster than from that of the other garments.",
+   "C": "Seeing a potential threat without its smell, by contrast, means that the risk is low.",
+   "D": "Elephants, it turns out, can, and they do it by sight as well as by smell.",
+   "E": "The color of clothing also mattered, but it produced a different kind of reaction."
+  },
+  "optionsZh": {
+   "D": "結果發現，大象做得到，而且靠的是視覺，也是嗅覺。",
+   "B": "聞到馬賽族男性穿過的衣服，大象逃開的速度比聞到其他衣服時更快。",
+   "E": "衣服的顏色也有影響，只是引起的是另一種反應。",
+   "C": "相反地，看到潛在的威脅卻沒有聞到氣味，表示風險很低。",
+   "A": "人說話的聲音這類聲響，或許也能給大象一些察覺危險的線索。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 讀起來很順，談的也是大象怎麼察覺危險，和全篇同一件事；`also` 的用法本身也沒有錯。問題是，**全篇只談氣味和看到的東西，沒有任何一段在等「聲音」這個線索。**所以四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "回答第一段的問句，並說出大象靠什麼分辨敵友，後面四段的實驗和解釋才有來由",
+     "why": "A 沒有回答做不做得到，`also` 又表示前面已經列過一種線索，第一段卻一種都還沒提；後面四段也從沒談到聲音"
+    },
+    {
+     "blank": 32,
+     "want": "實驗的第一個結果：聞到馬賽族的衣服，大象怎麼反應",
+     "why": "A 沒有任何結果，後一句的 `the smell` 也找不到是哪一股氣味"
+    },
+    {
+     "blank": 33,
+     "want": "宣布第二個面向是顏色，而且反應和氣味不一樣",
+     "why": "A 講的是聲音，後面整段卻是紅色衣服"
+    },
+    {
+     "blank": 34,
+     "want": "和「聞到」相對的另一種情況，好讓 `Therefore` 推出大象為什麼不怕、反而發怒",
+     "why": "A 沒有說風險高低，推不出後面的憤怒"
+    }
+   ],
+   "summary": "**這一篇的 A 屬於「切面對，卻沒有段落在等它」，和 115 學測參考試卷多出來的 C 是同一種。**A 和 D 一樣在講大象靠什麼察覺危險；差別在於 D 提到的嗅覺和視覺，後面各有一段實驗支持，A 多出來的聲音，全篇卻找不到一句接得上。至於 115 學測多出來的 D，則是「主題相同，切面不對」：全篇問「什麼影響微笑」，它答的是「微笑分成哪兩種」。",
+   "extra": [],
+   "takeaway": "先把四格各自在等什麼寫成一句話，四格都填完再看剩下的那一個。再數一數全篇實際談了幾種線索（這一篇是氣味和顏色）；剩下的那一句如果多出一種文章沒談過的，就可以確定它是多出來的。"
+  },
+  "paraLabels": [
+   "破題：先問動物能不能分辨敵友，再點出大象靠視覺與嗅覺",
+   "背景：肯亞的兩個族群，一個對大象是威脅、一個不是",
+   "實驗一：嗅覺——聞到馬賽族的衣服就逃開",
+   "實驗二：視覺——看到紅色衣服反而發怒",
+   "解釋：兩種感官透露的危險程度不同，反應也就不同"
+  ],
+  "marks": [
+   [
+    0,
+    "__31__",
+    "gradient"
+   ],
+   [
+    1,
+    "In Kenya, researchers found that elephants respond differently to clothing worn by men from two ethnic groups living in the region, the Maasai and the Kamba.",
+    "topic"
+   ],
+   [
+    3,
+    "__33__",
+    "topic"
+   ],
+   [
+    4,
+    "The researchers believe that these emotional reactions stem from the different ways elephants interpret smells and sights.",
+    "topic"
+   ],
+   [
+    0,
+    "But",
+    "trans"
+   ],
+   [
+    1,
+    "therefore",
+    "trans"
+   ],
+   [
+    1,
+    "whereas",
+    "trans"
+   ],
+   [
+    "E",
+    "but",
+    "trans"
+   ],
+   [
+    3,
+    "since",
+    "trans"
+   ],
+   [
+    3,
+    "Rather than",
+    "trans"
+   ],
+   [
+    4,
+    "so",
+    "trans",
+    "nearby, ",
+    " the best"
+   ],
+   [
+    "C",
+    "by contrast",
+    "trans"
+   ],
+   [
+    4,
+    "Therefore",
+    "trans"
+   ],
+   [
+    2,
+    "first",
+    "trans"
+   ],
+   [
+    2,
+    "also",
+    "trans"
+   ],
+   [
+    "E",
+    "also",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Most of us find it easy to tell our friends from our enemies. But can other animals do the same? __31__",
+   "In Kenya, researchers found that elephants respond differently to clothing worn by men from two ethnic groups living in the region, the Maasai and the Kamba. Young Maasai men spear animals and therefore pose a threat to elephants, whereas Kamba men are mainly farmers and do the animals no harm.",
+   "To see how the elephants made this distinction, animal scientists conducted an experiment. The animals were first presented with clean clothing or with clothing that had been worn for five days by either a Maasai or a Kamba man. __32__ They also took longer to relax afterward, a clear sign that the smell had frightened them.",
+   "__33__ In the same study, when the elephants saw red clothing that had never been worn, they reacted with anger, since red is the color Maasai men typically wear. Rather than running away as they had done with the smell, they behaved aggressively toward the red garments.",
+   "The researchers believe that these emotional reactions stem from the different ways elephants interpret smells and sights. Smelling a potential danger means that a threat is nearby, so the best thing to do is run away and hide. __34__ Therefore, instead of showing fear and fleeing, the elephants express their anger and turn aggressive."
+  ],
+  "zhTranslation": [
+   "我們大多數人都能輕易分辨誰是朋友、誰是敵人。但其他動物也做得到嗎？__31__",
+   "研究人員在肯亞發現，大象對當地兩個族群——馬賽族與坎巴族——男性穿過的衣服，反應並不一樣。年輕的馬賽族男性會用長矛獵殺動物，因此對大象構成威脅；坎巴族男性則大多務農，不會傷害大象。",
+   "為了弄清楚大象怎麼做出這樣的區分，動物學家進行了一項實驗。研究人員先讓大象接觸乾淨的衣服，或是由馬賽族、坎巴族男性穿了五天的衣服。__32__ 大象事後也要花更久的時間才能放鬆下來，清楚顯示那股氣味讓牠們受到了驚嚇。",
+   "__33__ 在同一項研究中，大象看到沒有人穿過的紅色衣服時，會生氣地做出反應，因為紅色是馬賽族男性通常穿的顏色。大象這一次不像聞到氣味時那樣逃開，而是對著紅色衣服做出攻擊的舉動。",
+   "研究人員認為，大象之所以有這些情緒反應，是因為牠們對氣味和視覺的解讀不同。聞到潛在的危險，表示威脅就在附近，最好的辦法就是逃跑、躲起來。__34__ 因此，大象不會因為害怕而逃開，反而會表現出憤怒，變得具有攻擊性。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 100 年學測閱讀測驗〈大象的辨敵能力〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 16,
+   "選項字數區間": "13-20",
+   "選項字數全距": 7,
+   "選項長度變異係數": "15.5%",
+   "建檔": "第三百六十三場建檔。改編自 g100p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g93p3",
+  "year": "（六）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "動物發光的用途（What Living Lights Are For）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "A"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Many people enjoy watching fireflies glow on warm summer nights.",
+   "B": "The same light proves just as useful when an enemy comes near.",
+   "C": "With these flashes, they can signal to their own kind, lure prey, or escape from predators.",
+   "D": "Because there are many species of firefly, the males of each kind flash a distinct pattern.",
+   "E": "On land as in the sea, living lights can be deceiving."
+  },
+  "optionsZh": {
+   "C": "靠著這些閃光，牠們可以向同類傳遞訊號、引誘獵物，或逃離捕食者。",
+   "B": "敵人靠近的時候，這些光同樣派得上用場。",
+   "D": "因為螢火蟲有許多種，每一種的雄蟲發出的閃光模式都不一樣。",
+   "E": "在陸地上和在海裡一樣，生物發出的光也可能用來騙人。",
+   "A": "許多人喜歡在溫暖的夏夜看螢火蟲發光。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 讀起來很順，講的也是夜裡發光的螢火蟲，和第三段、第四段同一個話題。可是四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句說出這些光有哪些用途，後面三段的實例才有對照的對象",
+     "why": "A 講的是人看了喜歡，不是動物拿光做什麼；第一段也還沒提到螢火蟲"
+    },
+    {
+     "blank": 32,
+     "want": "把燈眼魚的光從和同伴溝通，帶到躲避捕食者",
+     "why": "A 和敵人、危險都沒有關係"
+    },
+    {
+     "blank": 33,
+     "want": "交代螢火蟲分好幾種、閃法各不相同，後一句的「自己這一種的密碼」才有來歷",
+     "why": "A 沒有種類，也沒有密碼"
+    },
+    {
+     "blank": 34,
+     "want": "先說出「光也會騙人」，後面的假回應才有前提",
+     "why": "A 是欣賞的語氣，接不上誘捕和吃掉"
+    }
+   ],
+   "summary": "看出共同點了嗎？**全篇問的是「這些光對動物自己有什麼用」，A 答的是「人看了有什麼感受」。**這和 115 學測多出來的 D 一樣，屬於「主題相同，切面不對」；115 學測參考試卷多出來的 C 則屬於「切面對，卻沒有段落在等它」，判斷的方法不一樣。",
+   "extra": [],
+   "takeaway": "先把每一段的光拿來做什麼各寫兩三個字（溝通、躲敵人、找配偶、誘捕），再看哪個選項說的不是這件事。四格配完剩下的那一句，不必再回頭懷疑。"
+  },
+  "paraLabels": [
+   "破題：有些動物會發光，再點出光的三種用途",
+   "海中實例：燈眼魚用光和同伴溝通，也用光脫身",
+   "陸上實例：螢火蟲靠各自的閃光密碼找配偶",
+   "轉折：同樣的光也能用來欺騙、誘捕獵物"
+  ],
+  "marks": [
+   [
+    0,
+    "__31__",
+    "gradient"
+   ],
+   [
+    1,
+    "Some fish are found to produce light in the blackness of the sea.",
+    "topic"
+   ],
+   [
+    2,
+    "Certain land animals can also produce light.",
+    "topic"
+   ],
+   [
+    3,
+    "__34__",
+    "topic"
+   ],
+   [
+    2,
+    "also",
+    "trans"
+   ],
+   [
+    "D",
+    "Because",
+    "trans"
+   ],
+   [
+    3,
+    "but",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Some animals have organs in their bodies that produce light. When it is dark, they flash their lights on and off. __31__",
+   "Some fish are found to produce light in the blackness of the sea. When night falls over the Red Sea, tiny flashlight fish rise to the surface to feed, each with a pair of “headlamps,” one beneath each eye. The light in these organs is produced by bacteria living there. With it, the fish communicate with one another to avoid getting too close, so that the group can spread out evenly and every member can find enough food. __32__ If a predator threatens one of them, that fish swims away in a zigzag path, flashing its light on and off very quickly to confuse the animal pursuing it.",
+   "Certain land animals can also produce light. Fireflies, small beetles that live in many warmer parts of the world, use light to attract a mate. After darkness falls in some parts of North America, female fireflies gather on the ground, while the males fly overhead, giving off light from the undersides of their bodies. __33__ Recognizing the code of her own species, a female signals back to one of the males, and he lands beside her.",
+   "__34__ When hungry, some female fireflies lure the males of other species to them. They send back a false reply when these males signal overhead, but eat them as soon as the males land."
+  ],
+  "zhTranslation": [
+   "有些動物體內有會發光的器官。天黑的時候，牠們讓自己的光一閃一滅。__31__",
+   "有些魚在漆黑的海裡會發光。夜幕籠罩紅海時，小小的燈眼魚游到海面上覓食，每一條都有一對「頭燈」，兩隻眼睛下方各一個。這些器官裡的光，是住在裡面的細菌發出的。燈眼魚靠著這些光彼此溝通，避免靠得太近，這樣整群魚才能平均散開，每一條都找得到足夠的食物。__32__ 要是有捕食者威脅到其中一條，那條燈眼魚就會沿著鋸齒狀的路線游走，同時讓光快速地一明一滅，讓追趕牠的動物摸不著方向。",
+   "有些陸地上的動物也會發光。螢火蟲是一種小甲蟲，住在世界上許多比較溫暖的地方，牠們用光來吸引配偶。在北美洲的一些地方，天黑以後，雌螢火蟲聚集在地面上，雄螢火蟲則在上空飛，從身體下方發出光來。__33__ 雌蟲認出自己這一種的密碼，就發出訊號回應其中一隻雄蟲，那隻雄蟲就降落在牠身旁。",
+   "__34__ 有些雌螢火蟲餓了，會把其他種類的雄螢火蟲引誘過來。這些雄蟲在上空發出訊號時，雌蟲就送出假的回應，等雄蟲一降落，就把牠們吃掉。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 93 年學測閱讀測驗〈生物發光及其溝通應用〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "10-16",
+   "選項字數全距": 6,
+   "選項長度變異係數": "19.5%",
+   "建檔": "第三百六十三場建檔。改編自 g93p3；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z108p4",
+  "year": "（七）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "剛果的霍加狓（The Okapi of Congo）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "B"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Only after an okapi skeleton was analyzed did naturalists realize it belonged to the giraffe family.",
+   "B": "Both animals feed by using their long tongues to strip leaves from tree branches.",
+   "C": "The okapi is to Congo what the giant panda is to China or the kangaroo to Australia.",
+   "D": "But decades of political turbulence have left many of Congo’s natural resources beyond government control.",
+   "E": "Even so, the okapi can easily be distinguished from its nearest living relative."
+  },
+  "optionsZh": {
+   "C": "霍加狓對剛果的意義，就像大貓熊之於中國、袋鼠之於澳洲。",
+   "E": "即使如此，霍加狓和牠現存最近的親戚還是很容易區分。",
+   "A": "一直到分析了霍加狓的骨骸之後，博物學家才發現牠屬於長頸鹿家族。",
+   "D": "但是數十年的政治動盪，讓剛果許多天然資源不在政府的掌控之下。",
+   "B": "這兩種動物都用長長的舌頭，把樹枝上的葉子扯下來吃。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "B 這一句**挑不出文法毛病**，主題也對：全篇一再拿霍加狓和長頸鹿比較，B 談的正是這兩種動物。放進第 32 格，`Both animals` 前面剛好有霍加狓和長頸鹿可以指，讀起來很像正解。\n\n問題在於：**B 講的是兩者相同的地方，可是全篇沒有任何一格在等這種話。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "把「形象隨處可見、只有剛果才有」說成霍加狓對剛果的意義",
+     "why": "B 沒有剛果，也沒有象徵；第一段末句講的是霍加狓在剛果的地位，B 卻轉去講吃東西"
+    },
+    {
+     "blank": 32,
+     "want": "宣布第三段要講差別，讓 `much smaller`、`another difference` 有比較的對象",
+     "why": "B 講的是相同點，後面接的卻是一連串差別"
+    },
+    {
+     "blank": 33,
+     "want": "交代後來發現牠是什麼，結束一連串的猜測",
+     "why": "B 轉去講吃東西的方式，認識的經過沒有結局"
+    },
+    {
+     "blank": 34,
+     "want": "說明設了保護區、數量卻減半的原因",
+     "why": "B 和保育、數量都沒有關係"
+    }
+   ],
+   "summary": "**這一篇多出來的 B，和 115 學測參考試卷多出來的 C 一樣，屬於「切面對，卻沒有段落在等它」。**全篇確實在比霍加狓和長頸鹿，可是講兩者相似的是第二段，而第二段沒有空格；第三段的空格要的則是差別。115 學測多出來的 D 是另一種，屬於「主題相同，切面不對」：全篇問「什麼影響微笑」，D 答的是「微笑分成哪兩種」。",
+   "extra": [],
+   "takeaway": "先一格一格寫下「這一格前後在等什麼」，四格都配對完，剩下的那個就是多的。遇到看起來很像的選項，再拿它和那一格後面的句子對一次方向。"
+  },
+  "paraLabels": [
+   "引言：介紹霍加狓，點出牠在剛果的象徵地位",
+   "外觀：條紋像斑馬，親緣卻最接近長頸鹿",
+   "比較：和近親長頸鹿的幾項差別",
+   "發現經過：從「非洲驢」、雨林斑馬到確認身分",
+   "結尾：設了保護區，數量仍減少一半"
+  ],
+  "marks": [
+   [
+    1,
+    "Although the okapi has striped markings like those of a zebra, it is most closely related to the giraffe.",
+    "topic"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "topic"
+   ],
+   [
+    0,
+    "Yet",
+    "trans"
+   ],
+   [
+    1,
+    "Although",
+    "trans"
+   ],
+   [
+    "E",
+    "Even so",
+    "trans"
+   ],
+   [
+    2,
+    "another",
+    "trans"
+   ],
+   [
+    2,
+    "while",
+    "trans"
+   ],
+   [
+    "A",
+    "Only after",
+    "trans"
+   ],
+   [
+    "D",
+    "But",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "The okapi is a mammal living north of the equator, in one of the most biodiverse areas of central Africa. The animal remained unknown to the Western world until the early 20th century, and it is often described as half-zebra, half-giraffe, as if it were some mixed-breed creature from a Greek legend. Yet its image is seen everywhere in the Democratic Republic of Congo, the only country in the world where it lives in the wild. __31__",
+   "Although the okapi has striped markings like those of a zebra, it is most closely related to the giraffe. It has a long neck and large, flexible ears, and its face and throat are grayish white. Its coat ranges from chocolate to reddish brown, in sharp contrast with the white horizontal stripes and rings on its legs and its white ankles.",
+   "__32__ It is much smaller, about the size of a horse, and in outward appearance it has more in common with the deer than with the giraffe. Horns mark another difference: while both male and female giraffes have them, only male okapis do.",
+   "The West got its first whiff of the okapi in 1890, when Welsh journalist Henry Morton Stanley wrote in his book about a strange “African donkey” that puzzled him. Other Europeans in Africa had also heard of an animal they came to call the “African unicorn.” Explorers may have caught only a fleeting glimpse of its striped backside as it fled through the bushes, and such glimpses led to speculation that it was some sort of rainforest zebra. Some even believed that the okapi was a new species of zebra. __33__",
+   "In 1987, the Okapi Wildlife Reserve was established in eastern Congo to protect this rare mammal. __34__ Okapi numbers have fallen by 50 percent since 1995, and today only 10,000 remain."
+  ],
+  "zhTranslation": [
+   "霍加狓是一種哺乳動物，生活在赤道以北，那裡是中非生物多樣性最豐富的地區之一。一直到 20 世紀初，西方世界都還不知道有這種動物；人們常形容牠半斑馬、半長頸鹿，好像牠是希臘神話裡由不同動物混合而成的生物。然而，在剛果民主共和國，霍加狓的形象隨處可見，剛果也是世界上唯一有野生霍加狓的國家。__31__",
+   "雖然霍加狓身上的條紋和斑馬很像，牠的親緣關係卻和長頸鹿最近。霍加狓的脖子很長，耳朵又大又靈活，臉和喉嚨是灰白色。身上的毛從巧克力色到紅棕色都有，和腿上白色的橫紋、環紋以及白色的腳踝，形成強烈的對比。",
+   "__32__ 霍加狓的體型小得多，大約和馬一樣大；論外觀，牠和鹿相似的地方比和長頸鹿還多。角是另一個差別：長頸鹿公的母的都有角，霍加狓卻只有公的才有。",
+   "西方第一次聽到霍加狓的一點風聲，是在 1890 年。威爾斯記者 Henry Morton Stanley 在他的書裡，寫到一種讓他百思不解的奇怪「非洲驢」。其他在非洲的歐洲人也聽說過一種動物，後來他們把牠叫做「非洲獨角獸」。探險家看到的，可能只是這種動物逃進樹叢時一閃而過的條紋臀部；這樣匆匆一瞥，讓人猜測牠是某種雨林斑馬，有些人甚至相信霍加狓是一種新的斑馬。__33__",
+   "1987 年，剛果東部設立了霍加狓野生動物保護區，保護這種稀有的哺乳動物。__34__ 霍加狓的數量從 1995 年以來減少了一半，如今只剩下一萬隻。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 108 年指考閱讀測驗〈霍加狓的發現、特徵與保育困境〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 18,
+   "選項字數區間": "13-17",
+   "選項字數全距": 4,
+   "選項長度變異係數": "9.4%",
+   "建檔": "第三百六十三場建檔。改編自 z108p4；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z103p2",
+  "year": "（八）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "社會連結與心臟健康（The Power of Social Connection）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "E"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "None of the obvious explanations could account for this sharp rise.",
+   "B": "Clearly, something must be protecting the hearts of Japanese men.",
+   "C": "The study shows that humans are deeply driven to bond with a social group.",
+   "D": "Their heart attacks were no more frequent than those of their fellow Japanese back home.",
+   "E": "Diet, too, has long been linked to the risk of heart disease."
+  },
+  "optionsZh": {
+   "B": "顯然，一定有什麼東西在保護日本男性的心臟。",
+   "A": "最明顯的幾種解釋，沒有一種能說明這麼大幅度的上升。",
+   "D": "他們心臟病發作的頻率，並不比留在日本的同胞高。",
+   "C": "這項研究顯示，人類有強烈的動力，想和社會群體建立連結。",
+   "E": "長久以來，人們也一直認為飲食和心臟病的風險有關。"
+  },
+  "unusedExplanation": {
+   "opt": "E",
+   "lead": "E 談的是心臟病的危險因子，和全篇同一個話題；第一段確實先提過抽菸，所以 `too` 的用法也沒有錯，放在第 31 格念起來甚至很順。\n\n問題在於：**這篇文章不是在一項一項數危險因子，而是在說常見的危險因子解釋不了這個現象。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句「一定有別的東西在保護他們」，好讓第二段的 `what it was` 有所指",
+     "why": "E 又多列一個危險因子，矛盾沒有往下推，`it` 也找不到所指的東西"
+    },
+    {
+     "blank": 32,
+     "want": "一句總括，罩住後面抽菸、高血壓、膽固醇和飲食這一串「都解釋不了」",
+     "why": "這一段在排除危險因子，E 卻在加入一個，也涵蓋不了抽菸等三項"
+    },
+    {
+     "blank": 33,
+     "want": "傳統那一群心臟病發作的情形，好和後面的 `however` 形成對比",
+     "why": "E 沒有提到任何一群人，也沒有發作的比率"
+    },
+    {
+     "blank": 34,
+     "want": "一句結論，讓後面的 `this need` 有所指",
+     "why": "E 談的是飲食，整段講的是人和群體的連結"
+    }
+   ],
+   "summary": "**這一篇的 E 屬於「切面對，卻沒有段落在等它」**，和 115 學測參考試卷多出來的 C 是同一種。文章提到危險因子，是為了說它們解釋不了，沒有任何一段需要再多列一項。115 學測多出來的 D 屬於「主題相同，切面不對」；這一篇的 E 切面沒錯，只是找不到位置。",
+   "extra": [],
+   "takeaway": "先一格一格問「前後在等什麼」，把四格填完。剩下的那一句如果和文章談同一件事，再回頭看文章提到那件事時，是在肯定它還是在排除它。"
+  },
+  "paraLabels": [
+   "破題：日本男性多半抽菸，心臟病卻最少的矛盾",
+   "研究：三組日本男性，移民之後心臟病大增",
+   "排除：常見的危險因子和飲食都解釋不了",
+   "轉折：真正有關的是社會型態，傳統與孤立兩群對照",
+   "結論：人需要歸屬，而且要在真實世界裡"
+  ],
+  "marks": [
+   [
+    0,
+    "The Japanese have long puzzled public health researchers because they present such an apparent paradox.",
+    "topic"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    3,
+    "What did matter was the kind of society the men had created for themselves in their new home.",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "gradient"
+   ],
+   [
+    0,
+    "Yet",
+    "trans"
+   ],
+   [
+    1,
+    "while",
+    "trans"
+   ],
+   [
+    2,
+    "Nor",
+    "trans"
+   ],
+   [
+    3,
+    "however",
+    "trans"
+   ],
+   [
+    4,
+    "In fact",
+    "trans"
+   ],
+   [
+    "B",
+    "Clearly",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "The Japanese have long puzzled public health researchers because they present such an apparent paradox. They have the world’s lowest rates of heart disease and the largest number of people who live to 100 or beyond. Yet most Japanese men smoke, and smoking ranks among the strongest risk factors for heart disease. __31__",
+   "Two professors at the University of California at Berkeley set out to discover what it was. They studied 12,000 Japanese men divided equally into three groups. The men in one group had spent their entire lives in Japan, while those in the other two had emigrated to Hawaii or Northern California. The results were striking: the rate of heart disease had risen fivefold among the men in California and about two and a half times among those in Hawaii.",
+   "__32__ Smoking, high blood pressure, and cholesterol counts, the standard risk factors for heart disease, could not explain the gap between the groups. Nor could the change in diet from sushi to hamburgers and fries.",
+   "What did matter was the kind of society the men had created for themselves in their new home. The most traditional group of Japanese Americans kept up tight-knit, mutually supportive social circles. __33__ Those who had adopted the more isolated Western lifestyle, however, saw their heart-attack rate increase three to five times.",
+   "__34__ In fact, this need is so fundamental that it remains the key factor in whether we stay healthy or fall ill, even whether we live or die. We need to feel part of something bigger in order to thrive. And we need to belong not online but in the real world of hugs, handshakes, and pats on the back."
+  ],
+  "zhTranslation": [
+   "日本人長久以來一直讓公共衛生研究人員想不通，因為他們身上有一個明顯的矛盾：日本是全世界心臟病發生率最低、活到 100 歲以上的人數最多的國家，可是大多數日本男性都抽菸，而抽菸是心臟病最主要的危險因子之一。__31__",
+   "加州大學柏克萊分校的兩位教授著手找出那是什麼。他們研究了 12,000 名日本男性，平均分成三組：一組一輩子都住在日本，另外兩組則移民到夏威夷或北加州。結果相當驚人：移民到加州的那一組，心臟病發生率升高為五倍；移民到夏威夷的那一組，也升高到大約兩倍半。",
+   "__32__ 抽菸、高血壓和膽固醇指數這些心臟病的標準危險因子，都無法解釋各組之間的差距。從壽司改吃漢堡和薯條的飲食改變，也一樣解釋不了。",
+   "真正有關的，是這些男性在新的家園為自己建立起來的社會型態。日裔美國人當中最傳統的那一群，一直維持著緊密、互相扶持的社交圈。__33__ 至於採用了西方那種比較孤立的生活方式的人，心臟病發作的比率卻升高了三到五倍。",
+   "__34__ 事實上，這種需求非常基本，至今仍是決定我們健康或生病、甚至生或死的關鍵。我們需要覺得自己屬於某個更大的群體，才能過得好。而且我們需要的歸屬感不在網路上，而是在真實的世界裡，在擁抱、握手和拍拍肩膀之中。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 103 年指考閱讀測驗〈社會連結對健康的影響〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 19,
+   "選項字數區間": "10-15",
+   "選項字數全距": 5,
+   "選項長度變異係數": "15.0%",
+   "建檔": "第三百六十三場建檔。改編自 z103p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z105p3",
+  "year": "（九）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "美國烹飪節目的演變（The Evolution of American Cooking Shows）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "D"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "The age-old emphasis on following recipes at home has now become outmoded.",
+   "B": "Cooking shows transitioned from radio to television in the 1940s.",
+   "C": "They were aimed mainly at middle-class women who favored convenient meals for busy families.",
+   "D": "The arrival of color television later made the food on screen far more appealing.",
+   "E": "This elite aura then gave way to a variety of cooking styles from around the world."
+  },
+  "optionsZh": {
+   "B": "1940 年代，烹飪節目從廣播轉到了電視上。",
+   "C": "這些節目主要的對象是中產階級的婦女，她們偏好替忙碌的家庭準備方便的餐點。",
+   "E": "後來，這種菁英氣息讓位給世界各地各式各樣的烹飪風格。",
+   "A": "向來重視照著食譜在家做菜的傳統，如今已經過時。",
+   "D": "後來彩色電視問世，畫面上的食物看起來誘人得多。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 讀起來很通順，又提到電視，看起來就是烹飪節目歷史的一部分。可是四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句交代節目從廣播搬上電視，還要讓後一句的 `they` 有指涉的對象",
+     "why": "D 的 `later` 表示前面已經談過電視，第一段卻只有廣播；D 也沒有說節目什麼時候上了電視"
+    },
+    {
+     "blank": 32,
+     "want": "一句說明觀眾想要什麼，好讓 Poppy Cannon 用罐頭快速做菜當例子",
+     "why": "畫面好不好看，和罐頭、快速、輕鬆對不上"
+    },
+    {
+     "blank": 33,
+     "want": "一句說出高級料理退場、世界各地的菜色登場，好讓 Martin Yan 的中國菜當例子",
+     "why": "Martin Yan 示範中國菜，不是彩色畫面的例子"
+    },
+    {
+     "blank": 34,
+     "want": "從「觀眾只看不做」推出來的結果",
+     "why": "食物拍得誘不誘人，推不出照著食譜做菜已經過時"
+    }
+   ],
+   "summary": "四格卡住的理由其實是同一個。**全篇談的是節目教什麼、觀眾要什麼，一代一代怎麼變；D 講的卻是畫面好不好看。**這一篇多出來的選項和 115 學測多出來的 D 一樣，屬於「主題相同，切面不對」：主題都是電視上的烹飪節目，切面卻不同。至於 115 學測參考試卷多出來的 C，屬於「切面對，卻沒有段落在等它」，兩種做法不一樣。",
+   "extra": [],
+   "takeaway": "先用第一句找出全篇談的是什麼（這一篇是節目和觀眾的關係），再看每個選項談的是不是同一件事。談別的事的那一個，四格都代進去試一次，確認每一格都放不下，就可以確定它是多出來的那一句。"
+  },
+  "paraLabels": [
+   "破題與起點：先點出全文主旨，再從 1926 年的廣播節目說起",
+   "演變一：搬上電視，替忙碌的家庭示範方便的做法",
+   "演變二：從歐洲高級料理走向世界各地的菜色",
+   "演變三與結尾：廚師成了明星，觀眾只看不做"
+  ],
+  "marks": [
+   [
+    0,
+    "American cooking programs have taught audiences, changed audiences, and changed with audiences from generation to generation.",
+    "thesis"
+   ],
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    3,
+    "At the beginning of the 21st century, new cooking shows emerged to satisfy celeb-hungry, reality-crazed audiences.",
+    "topic"
+   ],
+   [
+    0,
+    "In October 1926",
+    "trans"
+   ],
+   [
+    0,
+    "but",
+    "trans",
+    "matters, ",
+    " it was"
+   ],
+   [
+    1,
+    "By the 1950s",
+    "trans"
+   ],
+   [
+    1,
+    "for example",
+    "trans"
+   ],
+   [
+    2,
+    "Throughout the 1960s and 1970s",
+    "trans"
+   ],
+   [
+    "E",
+    "then",
+    "trans"
+   ],
+   [
+    2,
+    "By the 1990s",
+    "trans"
+   ],
+   [
+    3,
+    "At the beginning of the 21st century",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "American cooking programs have taught audiences, changed audiences, and changed with audiences from generation to generation. In October 1926, the U.S. Department of Agriculture created the genre’s first official representative, a fictional radio host named Aunt Sammy. Over the airwaves, she educated homemakers on home economics and doled out advice on all kinds of matters, but it was mostly her recipes that caught listeners’ attention. The show served as a channel for passing on culinary advice and brought about a national exchange of recipes.",
+   "__31__ By the 1950s, they were often hosted by a cook who systematically explained how to prepare a dish from start to finish. These programs were broadcast during the day. __32__ Poppy Cannon, for example, was the author of the popular “The Can-Opener Cookbook.” She appeared on various television shows, using canned foods to demonstrate how to cook quickly and easily.",
+   "Throughout the 1960s and 1970s, a few chef-oriented shows redefined the genre as an exhibition of haute European cuisine by celebrity gourmet experts. __33__ An example of such change can be seen in Martin Yan’s 1982 “Yan Can Cook” series, which demonstrated Chinese cooking with the catchphrase “If Yan can cook, you can too!” By the 1990s, these shows ranged from high-culture to health-conscious cuisine, with chefs’ personalities and entertainment value being two keys to success.",
+   "At the beginning of the 21st century, new cooking shows emerged to satisfy celeb-hungry, reality-crazed audiences. In this new millennium of out-of-studio shows and chef competitions, chefs have become celebrities whose fame rivals that of rock stars. Audiences of these shows tend to be people who are interested in food and enjoy watching others cook rather than those who want to do the cooking themselves. __34__"
+  ],
+  "zhTranslation": [
+   "美國的烹飪節目一代又一代地教導觀眾、改變觀眾，也隨著觀眾而改變。1926 年 10 月，美國農業部創造了這類節目第一位官方的代表人物，也就是一位虛構的廣播主持人，名叫 Aunt Sammy。她透過電波教導家庭主婦家政知識，也對各種事情提供建議，不過最吸引聽眾注意的，主要還是她的食譜。這個節目成了傳遞烹飪建議的管道，也促成了全國性的食譜交流。",
+   "__31__ 到了 1950 年代，這些節目通常由一位廚師主持，有系統地說明一道菜從頭到尾怎麼做。這些節目在白天播出。__32__ 以 Poppy Cannon 為例，她是很受歡迎的《開罐器食譜》（The Can-Opener Cookbook）的作者。她上過許多電視節目，用罐頭食品示範怎麼快速、輕鬆地做菜。",
+   "整個 1960 和 1970 年代，少數以名廚為主的節目，把烹飪節目重新定位成知名美食專家展示歐洲高級料理的舞台。__33__ 這種改變的一個例子，是名廚 Martin Yan 1982 年的系列節目《Yan Can Cook》。節目示範中國菜的做法，有一句經典台詞：「If Yan can cook, you can too!」（Yan 能煮，你也能煮！）到了 1990 年代，這些節目從高雅文化的料理到注重健康的料理都有，廚師的個人特色和娛樂性，成了節目成功的兩大關鍵。",
+   "21 世紀初，新的烹飪節目出現了，迎合渴望看到名人、熱愛實境秀的觀眾。在這個新的千禧年，有走出攝影棚拍攝的節目，也有廚師比賽的實境秀，廚師成了名人，名氣和搖滾巨星不相上下。這些節目的觀眾，多半是對食物有興趣、喜歡看別人做菜的人，而不是想自己下廚的人。__34__"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 105 年指考閱讀測驗〈美國烹飪節目的演變〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 19,
+   "選項字數區間": "10-16",
+   "選項字數全距": 6,
+   "選項長度變異係數": "15.5%",
+   "建檔": "第三百六十三場建檔。改編自 z105p3；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z98p2",
+  "year": "（十）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "頭髮的象徵意義（The Symbolic Meanings of Hair）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "E"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "One night she cut off his hair and thus robbed him of his strength.",
+   "B": "Hair has also served as a means of expressing opposition.",
+   "C": "Such hair was seen as a metaphor for change, freedom, and the joy of living.",
+   "D": "In ancient Egypt, as early as 1500 BC, outward appearance expressed a person’s status, role in society, and political position.",
+   "E": "A single strand of human hair is surprisingly strong for its size."
+  },
+  "optionsZh": {
+   "D": "在古埃及，早在西元前 1500 年，一個人的外表就代表了他的身分、社會角色和政治地位。",
+   "A": "有一天晚上，她剪掉了他的頭髮，就這樣奪走了他的力量。",
+   "C": "這樣的頭髮象徵改變、自由和生活的樂趣。",
+   "B": "頭髮也可以用來表達反抗。",
+   "E": "以粗細來說，一根人類的頭髮強韌得讓人意外。"
+  },
+  "unusedExplanation": {
+   "opt": "E",
+   "lead": "E 的話題沒有離開頭髮，`strong`（強韌）還和第二段的「長髮代表男性的力量」字面相近，第一眼很像可以放進第二段。可是四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句交代古埃及人怎麼看外表，讓後面的 `this` 有事情可指",
+     "why": "E 講一根頭髮的韌性，和身分、地位無關，後面的假髮和金粉也接不上"
+    },
+    {
+     "blank": 32,
+     "want": "故事的結局：Delilah 出賣 Samson 的時候做了什麼",
+     "why": "E 沒有人物也沒有情節，Samson 怎麼失去力量還是沒有交代"
+    },
+    {
+     "blank": 33,
+     "want": "一句指回前一句的捲髮，說出那種人生態度是什麼",
+     "why": "E 談的是一根頭髮的韌性，不是人生態度，也沒有指回捲髮"
+    },
+    {
+     "blank": 34,
+     "want": "一句宣布頭髮的另一種意義：反抗",
+     "why": "E 沒有任何反抗的意思，後面的 `A different form of objection` 沒有著落"
+    }
+   ],
+   "summary": "**全篇談的是頭髮「代表什麼」，E 談的是頭髮「本身有多強韌」。**這一篇多出來的選項和 115 學測多出來的 D 一樣，屬於「主題相同，切面不對」。第二段的 `strength` 是長髮代表的力量，屬於象徵；E 的 `strong` 是一根頭髮的物理性質，字面相近，意思卻是兩回事。",
+   "extra": [],
+   "takeaway": "先用一句話說出全篇在談什麼（這一篇是「頭髮在不同時代代表什麼」），再拿每個選項來比。如果選項和某一段只有一個字相同，就回到那一段，看那個字在那裡是什麼意思。"
+  },
+  "paraLabels": [
+   "破題：頭髮自古就有特別的意義，先舉古埃及的外表與假髮",
+   "面向一：長髮象徵力量——凱爾特人與 Samson 的故事",
+   "面向二：捲髮代表古希臘人的人生態度",
+   "面向三：頭髮用來表達反抗；結尾說頭髮至今仍是重要的象徵"
+  ],
+  "marks": [
+   [
+    0,
+    "In all cultures and throughout history, hair has had a special significance.",
+    "gradient"
+   ],
+   [
+    2,
+    "In classical Greece, curly hair was not just a fashion; it also represented an attitude toward life.",
+    "topic"
+   ],
+   [
+    3,
+    "__34__",
+    "topic"
+   ],
+   [
+    1,
+    "In the eighth century BC",
+    "trans"
+   ],
+   [
+    1,
+    "However",
+    "trans"
+   ],
+   [
+    "A",
+    "thus",
+    "trans"
+   ],
+   [
+    2,
+    "also",
+    "trans"
+   ],
+   [
+    "B",
+    "also",
+    "trans"
+   ],
+   [
+    3,
+    "To this day",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "In all cultures and throughout history, hair has had a special significance. __31__ Wigs played an important role in this: they were crafted with great artistry and were often sprinkled with powdered gold.",
+   "In the eighth century BC, the pre-Roman Celts of Northern Europe wore their hair long. For a man, long hair expressed his strength; for a woman, it expressed her fertility. The idea of long hair as a sign of male strength even appears in the Bible, in the story of Samson and Delilah. Samson, a leader of the Israelites, never cut his long hair, and it gave him superhuman powers. The only person who knew his secret was Delilah. However, she was spying for the enemy, and she betrayed him. __32__",
+   "In classical Greece, curly hair was not just a fashion; it also represented an attitude toward life. __33__ Even the ancient Greek word for curls and locks is related to the idea of attracting and tempting someone.",
+   "__34__ Today’s punk protest movement uses provocative haircuts and shockingly colored hair to show its disapproval of the “middle-class, conventional lifestyle.” A different form of objection could be seen in the hairstyles women wore in the 1960s. The women’s liberation movement of that decade expressed itself through short, straight, and simple styles that underlined equality with men without neglecting female attributes. To this day, hair has kept its importance as a symbol of power, youth, vitality, and health."
+  ],
+  "zhTranslation": [
+   "在所有文化裡，自古以來，頭髮都有特別的意義。__31__ 假髮在這方面扮演了重要的角色：假髮做工非常講究，上面還常常撒上金粉。",
+   "西元前 8 世紀，羅馬時代以前住在北歐的凱爾特人留長髮。長髮在男人身上代表力量，在女人身上代表生育能力。長髮象徵男性力量的觀念，甚至出現在聖經 Samson 和 Delilah 的故事裡。以色列人的領袖 Samson 從來不剪頭髮，而這頭長髮讓他擁有超人的力量。唯一知道這個祕密的人是 Delilah。然而，她暗中替敵人當間諜，出賣了他。__32__",
+   "在古典希臘時期，捲髮不只是一種流行，也代表一種人生態度。__33__ 就連古希臘文裡指捲髮和一綹綹髮絲的那個字，都和吸引別人、誘惑別人的意思有關。",
+   "__34__ 今天的龐克抗議運動，用挑釁的髮型和染成嚇人顏色的頭髮，表達他們不認同「中產階級的傳統生活方式」。從 1960 年代女性的髮型，則可以看到另一種反抗的形式：那個年代的女性解放運動透過剪短、直順、簡單的髮型來表達自己，強調和男性平等，同時也不忽略女性的特質。直到今天，頭髮仍然是力量、青春、活力和健康的重要象徵。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 98 年指考閱讀測驗〈頭髮的歷史與象徵意義〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 18,
+   "選項字數區間": "10-19",
+   "選項字數全距": 9,
+   "選項長度變異係數": "21.7%",
+   "建檔": "第三百六十三場建檔。改編自 z98p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ }
+]
