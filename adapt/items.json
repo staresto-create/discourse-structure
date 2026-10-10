@@ -1546,7 +1546,7 @@
    "指示詞",
    "同義呼應"
   ],
-  "cueNote": "`this need` ↔ `deeply driven to bond`；`The study` 收攏第二到第四段的研究",
+  "cueNote": "`this need` ↔ `deeply driven to bond`；`The study` 總結第二到第四段的研究",
   "cuePosition": "兩側",
   "explanation": {
    "steps": [
@@ -1559,7 +1559,7 @@
      "t": "後一句說 `this need is so fundamental`（這種需求非常基本），基本到決定我們健康或生病、甚至生或死。可是前面從來沒有提過什麼需求，**`this need` 是哪一種需求？**"
     }
    ],
-   "why": "C 的 `The study shows`（這項研究顯示）把第二到第四段的研究一次收攏。C 裡雖然沒有 need 這個字，可是 `deeply driven to bond with a social group`（有強烈的動力想和社會群體建立連結）說的就是一種需求，後面的 `this need` 指的正是它。C 還把話題從日本男性推到 `humans`（人類），後面的 `we` 才接得上。這一句就是全文的中心思想。",
+   "why": "C 的 `The study shows`（這項研究顯示）把第二到第四段的研究一次總結起來。C 裡雖然沒有 need 這個字，可是 `deeply driven to bond with a social group`（有強烈的動力想和社會群體建立連結）說的就是一種需求，後面的 `this need` 指的正是它。C 還把話題從日本男性推到 `humans`（人類），後面的 `we` 才接得上。這一句就是全文的中心思想。",
    "distractors": [
     {
      "opt": "D",
@@ -1960,6 +1960,1950 @@
     }
    ],
    "takeaway": "段首空格後面舉了兩個例子，先找出兩個例子的共同點，再找把這個共同點說出來的選項。看到 `also`，回頭確認前面已經講過同一類的事情。"
+  }
+ },
+ {
+  "id": "DDSA-g113p3_31",
+  "year": "（十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g113p3",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Under the guidance of 100% Fish, however, Icelanders now make use of almost 95% of each cod.",
+   "B": "Much of this success has come from people in different industries working together.",
+   "C": "As remarkable as it was, this medical triumph was only one part of a much larger effort.",
+   "D": "Fish, after all, has long been an important source of protein for people everywhere.",
+   "E": "By pooling their knowledge, these groups develop better ways of processing fish."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "指示詞",
+   "同義呼應"
+  ],
+  "cueNote": "`this medical triumph` ↔ `saved by a creative invention`；`a much larger effort` ↔ `this Icelandic project`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第一段講完 Oddsson 的故事，最後一句說他 `was saved by a creative invention`（靠一項創新的發明撿回一命）。故事到這裡結束，全篇的主題卻還沒有出現。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "第二段第一句就是 `this Icelandic project`（這項冰島計畫）。指示詞 this 表示前面已經提過一項計畫，可是第一段只講到一場手術。"
+    }
+   ],
+   "why": "C 的 `this medical triumph`（這項醫學上的成就）指前一句魚皮救人這件事，`a much larger effort`（規模大得多的行動）則先把計畫帶出來，後一句的 `this Icelandic project` 才有所指。**C 把話題從一個人的遭遇轉到一整項計畫。**",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 的 `this success` 也像在指魚皮救命這件事。但 B 講的是成就從哪裡來，沒有提到任何計畫，`this Icelandic project` 還是找不到對象；合作這件事，文章也要到最後一段才談。B 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "空格後面是 this 加名詞，前面卻找不到它指的東西，空格那一句就得先把那樣東西說出來。"
+  }
+ },
+ {
+  "id": "DDSA-g113p3_32",
+  "year": "（十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g113p3",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Under the guidance of 100% Fish, however, Icelanders now make use of almost 95% of each cod.",
+   "B": "Much of this success has come from people in different industries working together.",
+   "C": "As remarkable as it was, this medical triumph was only one part of a much larger effort.",
+   "D": "Fish, after all, has long been an important source of protein for people everywhere.",
+   "E": "By pooling their knowledge, these groups develop better ways of processing fish."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意對比",
+   "轉折詞"
+  ],
+  "cueNote": "`lost or wasted` ↔ `make use of almost 95%`；`however`；`That figure` 指 95%",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句引 2003 年的研究：冰島一條鱈魚在加工過程中，大約有 60% `lost or wasted`（流失或浪費掉了）。問題已經擺出來，後來的改變卻還沒有交代。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "第四段第一句說 `That figure is achievable`（能達到這個數字），理由是魚的每個部位幾乎都派上用場。能「達到」的數字，不可能是浪費掉的 60%。"
+    }
+   ],
+   "why": "A 用 `however`（不過）轉向，`make use of almost 95%`（利用將近 95%）和 `lost or wasted` 意思相反，**一個講過去浪費多少，一個講現在用掉多少**。有了 95%，第四段的 `That figure` 才有所指。",
+   "distractors": [
+    {
+     "opt": "D",
+     "t": "D 講魚是重要的蛋白質來源，接在浪費六成後面，好像在補充浪費為什麼可惜。但 D 沒有交代後來的情形，`That figure` 只能指 60%，變成「能達到浪費六成，是因為每個部位都派上用場」，說不通。"
+    }
+   ],
+   "takeaway": "段末的空格也要看下一段第一句。下一段用 That figure 這類說法回頭指一個數字，空格裡就得有那個數字。"
+  }
+ },
+ {
+  "id": "DDSA-g113p3_33",
+  "year": "（十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g113p3",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Under the guidance of 100% Fish, however, Icelanders now make use of almost 95% of each cod.",
+   "B": "Much of this success has come from people in different industries working together.",
+   "C": "As remarkable as it was, this medical triumph was only one part of a much larger effort.",
+   "D": "Fish, after all, has long been an important source of protein for people everywhere.",
+   "E": "By pooling their knowledge, these groups develop better ways of processing fish."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "概括—列舉呼應",
+   "同義呼應"
+  ],
+  "cueNote": "`people in different industries` ↔ `academia, startups, and research and development teams`；`working together` ↔ `collaboration`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第五段（最後一段）的第一句。前一段列出魚皮、魚頭、魚骨做成的產品，講的是冰島人做到了什麼。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後面說計畫向業者說明 `the value of collaboration`（合作的價值），又替漁業公司和學術界、新創公司、研發團隊牽線。這一段講的是怎麼做到的。"
+    }
+   ],
+   "why": "空格要一句主題句。B 的 `this success`（這番成就）回頭指第四段的成果，`people in different industries working together`（不同產業的人通力合作）則概括後面：`working together` 對上 `collaboration`，`different industries` 包含那幾種參與者。**一句話接起上一段的成果和這一段的合作。**",
+   "distractors": [
+    {
+     "opt": "E",
+     "t": "E 的 `pooling their knowledge`（匯集各自的知識）也在講合作。但 `these groups`（這些團體）要指前面提過的一群人，而第四段只有產品，還沒有任何團體出場。E 的位置在第 34 格。"
+    }
+   ],
+   "takeaway": "段首空格後面列出好幾個單位，先替它們找一個共同的說法，再找能把它們全部包含進去的那一句。"
+  }
+ },
+ {
+  "id": "DDSA-g113p3_34",
+  "year": "（十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g113p3",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Under the guidance of 100% Fish, however, Icelanders now make use of almost 95% of each cod.",
+   "B": "Much of this success has come from people in different industries working together.",
+   "C": "As remarkable as it was, this medical triumph was only one part of a much larger effort.",
+   "D": "Fish, after all, has long been an important source of protein for people everywhere.",
+   "E": "By pooling their knowledge, these groups develop better ways of processing fish."
+  },
+  "answer": "E",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意呼應",
+   "指示詞"
+  ],
+  "cueNote": "`develop better ways of processing fish` ↔ `As a result, Icelanders get 30% more value`；`these groups` 指前一句的參與者",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句列出參與者：漁業公司、學術界、新創公司和研發團隊。參與者都介紹完了，他們一起做了什麼還沒說。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句以 `As a result`（因此）開頭，說冰島人從每條鱈魚得到的價值多出 30%。「因此」前面要有原因，可是只把這些人聚在一起，魚不會更值錢。"
+    }
+   ],
+   "why": "E 補上的就是原因。`these groups`（這些團體）指那一串參與者，`develop better ways of processing fish`（開發出更好的魚貨加工方式）讓價值多出 30% 有了來由：**加工做得更好，也就開發得出更多產品，同一條魚才能產生更多價值。**",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 的 95% 接在 `As a result` 前面，也像在解釋價值為什麼提高。但 A 用了 `however`（不過），前一句只在介紹參與者，沒有相反的說法需要轉折。A 的位置在第 32 格。"
+    },
+    {
+     "opt": "B",
+     "t": "B 也在講合作，但前一句剛列完參與者，B 放在這裡只是把合作再說一遍，`As a result` 前面還是缺少具體的做法。B 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "後一句以 As a result 開頭，先問「是什麼造成這個結果」。前面只介紹了人，空格要的就是他們的做法。"
+  }
+ },
+ {
+  "id": "DDSA-g112p1_31",
+  "year": "（十二）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g112p1",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Moving very rapidly, they arranged the hoops around their bodies to form these symbolic shapes.",
+   "B": "As early as 1000 BC, Egyptian children played with hoops made of dried grapevine.",
+   "C": "Twenty-five million of the new toys were sold in less than four months.",
+   "D": "Though the dancers used no hoops, their movements closely resembled hooping.",
+   "E": "Keeping a hoop spinning around the waist takes practice and a good sense of balance."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握篇章整體結構發展及段落與段落間的關係",
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "序列與時間詞",
+   "人稱代名詞主格"
+  ],
+  "cueNote": "`As early as 1000 BC` ↔ 上一段 `ancient times`；`They` ↔ `Egyptian children`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第一段最後一句說，套在腰上、手腳或脖子上轉的玩具圈 `can be traced back to ancient times`（可以追溯到古代）。這一句只說了「古代」，還沒交代是哪個年代、哪些人在玩。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句一開頭就是 `They tossed them into the air`（他們把圈圈拋向空中），接著是跳圈、甩圈。**`They` 是誰，空格前面找不到；第一段只講到玩具圈，沒有出現任何人。**"
+    }
+   ],
+   "why": "B 一次補上兩件事：`As early as 1000 BC`（早在西元前 1000 年）把第一段籠統的「古代」說成具體的年代；`Egyptian children`（埃及兒童）讓 `They` 有了對象，`hoops` 也讓 `them` 有了最近的指涉對象。",
+   "distractors": [
+    {
+     "opt": "C",
+     "t": "C 也在講很多人玩圈圈。可是 `the new toys`（這種新玩具）和第一段的「古代」正好相反，`They` 也還是找不到人可指。C 的位置在第 34 格。"
+    }
+   ],
+   "takeaway": "空格後面一開頭就是 `They`，先回頭找有沒有人可指；找不到，空格裡那一句就要把人帶出來，再核對年代。"
+  }
+ },
+ {
+  "id": "DDSA-g112p1_32",
+  "year": "（十二）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g112p1",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Moving very rapidly, they arranged the hoops around their bodies to form these symbolic shapes.",
+   "B": "As early as 1000 BC, Egyptian children played with hoops made of dried grapevine.",
+   "C": "Twenty-five million of the new toys were sold in less than four months.",
+   "D": "Though the dancers used no hoops, their movements closely resembled hooping.",
+   "E": "Keeping a hoop spinning around the waist takes practice and a good sense of balance."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意呼應",
+   "定冠詞 the"
+  ],
+  "cueNote": "`the dancers` ↔ `hula dancing`；後一句 `Thus` 要有一個把舞蹈和轉圈連起來的理由",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句說，英國水手在夏威夷群島第一次看到 `hula dancing`（草裙舞），hula 這個字才進入英文。這裡只講到舞蹈，和圈圈還沒有關係。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說 `Thus “hula” and “hoop” came together`（於是 hula 和 hoop 結合在一起）。`Thus` 表示結果，**可是舞蹈和圈圈為什麼會合成一個詞，前面沒有交代。**"
+    }
+   ],
+   "why": "D 補上的就是這個理由。`the dancers`（那些舞者）用了定冠詞，指前一句跳草裙舞的人；D 先說他們 `used no hoops`（沒有用圈圈），再說 `their movements closely resembled hooping`（動作卻和轉圈非常相像）。因為動作相像，兩個字才會放在一起，`Thus` 也才說得通。",
+   "distractors": [
+    {
+     "opt": "E",
+     "t": "E 也講轉圈，放在草裙舞和 hula hooping 中間，好像在說轉圈要靠技巧。可是 E 沒有提到舞者或草裙舞；放進來之後，`Thus` 前面還是看不出舞蹈和圈圈有什麼關係。"
+    }
+   ],
+   "takeaway": "空格後面是 `Thus` 這類表示結果的詞，先讀懂結果，再找前面還缺哪一個原因；選項要說得出那個原因，只有相同的字還不夠。"
+  }
+ },
+ {
+  "id": "DDSA-g112p1_33",
+  "year": "（十二）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g112p1",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Moving very rapidly, they arranged the hoops around their bodies to form these symbolic shapes.",
+   "B": "As early as 1000 BC, Egyptian children played with hoops made of dried grapevine.",
+   "C": "Twenty-five million of the new toys were sold in less than four months.",
+   "D": "Though the dancers used no hoops, their movements closely resembled hooping.",
+   "E": "Keeping a hoop spinning around the waist takes practice and a good sense of balance."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "指示詞"
+  ],
+  "cueNote": "`these symbolic shapes` ↔ `animals such as eagles or snakes`",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第四段的最後一句。這一段講圈圈在美洲原住民儀式舞蹈中的地位。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "前一句說舞者用蘆葦圈 `to stand for animals such as eagles or snakes`（代表老鷹或蛇之類的動物）。一個圓圈要怎麼代表老鷹或蛇？前一句沒說。"
+    }
+   ],
+   "why": "A 回答的正是「怎麼做到」：舞者以很快的動作把圈圈排在身體周圍，組成形狀。A 的 `they` 指 `Dancers`，**`these symbolic shapes`（這些象徵的形狀）用了指示詞，指的就是前一句的老鷹和蛇。**",
+   "distractors": [
+    {
+     "opt": "D",
+     "t": "D 也在講舞者和動作。可是 D 說舞者 `used no hoops`（沒有用圈圈），這一段的舞者用的卻是蘆葦圈，意思正好相反。D 的位置在第 32 格。"
+    },
+    {
+     "opt": "E",
+     "t": "E 講的是怎麼讓圈圈在腰間一直轉，這一段講的卻是圈圈在儀式裡代表什麼；E 也沒有說明圈圈怎麼變成老鷹或蛇。"
+    }
+   ],
+   "takeaway": "選項裡有 `these` 加名詞，先回到空格前面找它指什麼；指得到，再確認這一句補的是不是前一句沒講完的地方。"
+  }
+ },
+ {
+  "id": "DDSA-g112p1_34",
+  "year": "（十二）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g112p1",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Moving very rapidly, they arranged the hoops around their bodies to form these symbolic shapes.",
+   "B": "As early as 1000 BC, Egyptian children played with hoops made of dried grapevine.",
+   "C": "Twenty-five million of the new toys were sold in less than four months.",
+   "D": "Though the dancers used no hoops, their movements closely resembled hooping.",
+   "E": "Keeping a hoop spinning around the waist takes practice and a good sense of balance."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握段落主題句和細節的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "同義呼應"
+  ],
+  "cueNote": "`the new toys` ↔ `a plastic version`；`Twenty-five million`、`less than four months` ↔ `international popularity`",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在最後一段的第二句。這一段的主題句說，Wham-O 公司推出 `a plastic version`（塑膠款）之後，呼拉圈 `gained international popularity`（風靡全球）。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說這股「熱潮」（`fad`）到今天依然不退。可是熱到什麼程度，中間沒有任何一句說明。"
+    }
+   ],
+   "why": "C 補的正是證據：`Twenty-five million`（兩千五百萬個）、`in less than four months`（不到四個月），用數字說明「風靡全球」。`the new toys`（這種新玩具）換個說法指 `a plastic version`，後面的「熱潮」也才有了著落。",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 也有年代，也在講小孩玩圈圈。可是這一段講 1950 年代的塑膠呼拉圈，B 卻回到西元前 1000 年的葡萄藤圈，年代對不上，也證明不了風靡全球。B 的位置在第 31 格。"
+    }
+   ],
+   "takeaway": "段首說某樣東西「很受歡迎」，後面多半會接數字或實例來證明；選項裡有數字，先確認它講的和主題句是同一個年代、同一樣東西。"
+  }
+ },
+ {
+  "id": "DDSA-g110p1_31",
+  "year": "（十三）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g110p1",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Until recently, part of every cactus harvested in Mexico simply ended up in the trash.",
+   "B": "With these benefits, the Mexico City project offers new hope for reducing fossil fuel use.",
+   "C": "The generator now runs at the market, where vendors welcome this new use for their husks.",
+   "D": "Over the centuries, the cactus has become a proud symbol of Mexican identity.",
+   "E": "Therefore, using the plant as a fuel source will not put pressure on food prices."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "同義呼應",
+   "語意對比"
+  ],
+  "cueNote": "`ended up in the trash` ↔ `a waste product`；`Until recently` ↔ 第一段的 `Now`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第二段的第一句。第一段最後說科學家替仙人掌找到了新用途：`producing renewable energy`（生產再生能源），可是還沒交代能源要從哪裡來。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後面兩句說，多年來只用可以吃的嫩肉，外皮 `had always been viewed as a waste product`（一直當成廢棄物）。"
+    }
+   ],
+   "why": "這一段的細節都在講「仙人掌有一部分白白丟掉」，空格要的是統攝這些細節的主題句。A 的 `ended up in the trash`（進了垃圾桶）和後面的 `a waste product`（廢棄物）意思相同，`part of every cactus`（每一株的一部分）概括了丟掉外皮這件事。`Until recently`（直到不久前）表示情況已經改變，正好和第一段的 `Now` 對照，**第二段就是回頭交代新用途的原料從哪裡來。**",
+   "distractors": [
+    {
+     "opt": "D",
+     "t": "D 講仙人掌是墨西哥的象徵，放在段首像在介紹這種植物。但第一段第一句已經說過它在國旗上的地位，這裡再說就重複了；後面講外皮怎麼丟掉，D 也帶不出來。"
+    }
+   ],
+   "takeaway": "段首空格後面若是幾個細節，先用一句中文說出它們的共同點（這一段是「外皮都丟掉了」），再找意思相同、但換了說法的選項。"
+  }
+ },
+ {
+  "id": "DDSA-g110p1_32",
+  "year": "（十三）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g110p1",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Until recently, part of every cactus harvested in Mexico simply ended up in the trash.",
+   "B": "With these benefits, the Mexico City project offers new hope for reducing fossil fuel use.",
+   "C": "The generator now runs at the market, where vendors welcome this new use for their husks.",
+   "D": "Over the centuries, the cactus has become a proud symbol of Mexican identity.",
+   "E": "Therefore, using the plant as a fuel source will not put pressure on food prices."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "定冠詞 the",
+   "序列與時間詞"
+  ],
+  "cueNote": "`The generator` ↔ `the cactus biogas generator`；`Then` → `now`",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第三段的最後一句。這一段照時間往下講：試驗計畫開始，市場每天丟掉大量仙人掌，`Then`（後來）一家新創公司想到把廢棄物變成電力。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "前一句只說這家公司 `got the idea`（有了這個點子），做成了沒有，還沒交代。"
+    }
+   ],
+   "why": "C 的 `now`（現在）接在 `Then` 之後，把這件事從構想帶到現況；`The generator` 用定冠詞，指的就是這一段第一句的 `the cactus biogas generator`（仙人掌沼氣發電機）。`the market` 和 `vendors`（攤販）回到前面的 `cactus market`，`this new use` 指的就是 `turning that waste into power`。**構想做成了，這段經過才算講完。**",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 也談這項計畫，放在第三段最後像在下評語。但 `With these benefits`（有了這些好處）要指前面列過的好處，第三段一項好處都還沒提，要到第四段才列出來。B 的位置在第 34 格。"
+    }
+   ],
+   "takeaway": "段落照時間往下講，前一句只講到「有了點子」，空格多半要交代點子的結果。看到選項用 the 開頭的名詞，回頭找前面是不是已經出現過。"
+  }
+ },
+ {
+  "id": "DDSA-g110p1_33",
+  "year": "（十三）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g110p1",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Until recently, part of every cactus harvested in Mexico simply ended up in the trash.",
+   "B": "With these benefits, the Mexico City project offers new hope for reducing fossil fuel use.",
+   "C": "The generator now runs at the market, where vendors welcome this new use for their husks.",
+   "D": "Over the centuries, the cactus has become a proud symbol of Mexican identity.",
+   "E": "Therefore, using the plant as a fuel source will not put pressure on food prices."
+  },
+  "answer": "E",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "轉折詞",
+   "語意呼應"
+  ],
+  "cueNote": "`Therefore`，因果；`food prices` ↔ `left for people to eat`",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第四段先說仙人掌比其他生質燃料作物有好幾項優勢，接著用 `For one thing`（首先）列出第一項：只用外皮，`its inner flesh is still left for people to eat`（嫩肉仍然留給人吃）。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句以 `Moreover`（此外）開頭，講第二項優勢：需水很少。所以空格還屬於第一項。"
+    }
+   ],
+   "why": "光說嫩肉照樣給人吃，還看不出比小麥、甘蔗好在哪裡，要再推一步：既然吃的部分沒有拿去做燃料，**糧食的價格就不會因為做燃料而上漲**。E 的 `Therefore`（因此）表示因果，`food prices`（糧食價格）呼應前一句的 `left for people to eat`，把第一項優勢講完整。",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 也談仙人掌哪些部分丟掉了，和前一句的話題接近。但 A 講的是過去的浪費，不是和其他作物相比的優勢，放在 `For one thing` 和 `Moreover` 中間，這一串優勢就斷了。A 的位置在第 31 格。"
+    }
+   ],
+   "takeaway": "空格夾在 `For one thing` 和 `Moreover` 中間，表示它還屬於第一項。先問前一句講的事情會帶來什麼結果，再找有因果連接詞、又說出那個結果的選項。"
+  }
+ },
+ {
+  "id": "DDSA-g110p1_34",
+  "year": "（十三）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g110p1",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Until recently, part of every cactus harvested in Mexico simply ended up in the trash.",
+   "B": "With these benefits, the Mexico City project offers new hope for reducing fossil fuel use.",
+   "C": "The generator now runs at the market, where vendors welcome this new use for their husks.",
+   "D": "Over the centuries, the cactus has become a proud symbol of Mexican identity.",
+   "E": "Therefore, using the plant as a fuel source will not put pressure on food prices."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握篇章的主題論述",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "指示詞",
+   "範圍呼應"
+  ],
+  "cueNote": "`these benefits` ↔ 第四段列出的各項優勢；`the Mexico City project` ↔ `expanded across the country`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在最後一段的第一句，這一段只有兩句。前面四段講完了新用途、外皮一向當成廢棄物、試驗計畫和各項優勢，該收尾了。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說 `If it can be expanded across the country`（如果它能推廣到全國），仙人掌可能就是墨西哥能源未來的關鍵。`it` 要指一件目前只在一地做、以後可以推廣的事。"
+    }
+   ],
+   "why": "`With these benefits`（有了這些好處）把第四段的優勢一次總結起來；`the Mexico City project`（墨西哥城的這項計畫）就是後一句 `it` 指的對象，只在一個城市做，才談得上 `across the country`。`reducing fossil fuel use`（減少使用化石燃料）也呼應後一句的 `energy future`，**說出了仙人掌做能源的意義。**",
+   "distractors": [
+    {
+     "opt": "D",
+     "t": "D 放在最後一段，像是回到第一段的國旗，首尾呼應。但後一句的 `it` 要能推廣到全國，象徵沒辦法推廣；D 也沒有總結第四段的優勢。"
+    },
+    {
+     "opt": "C",
+     "t": "C 也有一部在單一地點運轉的發電機，但 C 講的是計畫的現況，沒有總結前文，第四段的優勢就沒有下文。C 的位置在第 32 格。"
+    }
+   ],
+   "takeaway": "最後一段的空格，先看後一句的代名詞指什麼，再找能總結前面幾段的那一句。"
+  }
+ },
+ {
+  "id": "DDSA-g109p4_31",
+  "year": "（十四）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g109p4",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Deer, RTRI officials explain, repeatedly give short, shrill snorts to warn one another of danger.",
+   "B": "In the past, flashing red lights and even lion faces were tried, but neither kept deer off the tracks.",
+   "C": "A deer that senses a threat may flash the white patch on its rear to warn the herd.",
+   "D": "Encouraged by the results, the institute plans to set up fixed barking devices where deer often gather.",
+   "E": "Japan has long been troubled by a serious problem on its railways: trains running into deer."
+  },
+  "answer": "E",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意呼應"
+  ],
+  "cueNote": "`a serious problem` ↔ 後一句 `613 cases`、`suspended or delayed`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第二段的第一句。第一段說日本在火車上裝了會學狗叫、鹿叫的喇叭，目的是 `prevent collisions with animals on the tracks`（防止撞上軌道上的動物）。第二段要交代的，就是為什麼需要這樣的裝置。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是一筆統計：2016 至 2017 年間，火車因為撞上鹿和其他野生動物而停駛或延誤 30 分鐘以上，共有 `613 cases`（613 起）。光看數字，看不出它要證明什麼，前面得先有一句話把問題說出來。"
+    }
+   ],
+   "why": "E 說日本長久以來一直苦於鐵路上的 `a serious problem`（一個嚴重的問題），也就是火車撞上鹿。後一句的 613 起正好說明這個問題有多嚴重，**E 是第二段的主旨句，統計數字是支持它的細節。** E 同時回答了第一段留下的疑問：研究人員想防止撞車，是因為撞車在日本早就是嚴重的問題。",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 也提到鐵軌，`In the past`（過去）讀起來也像在交代背景。但 B 講的是人們試過哪些方法，問題本身都還沒提出來，就先談解決的辦法，順序不對；後一句的 613 起也證明不了「方法沒有效」。B 的位置在第 32 格。"
+    }
+   ],
+   "takeaway": "段首的空格後面接著一筆數字，先問這個數字在證明什麼，再找能說出那件事的選項。"
+  }
+ },
+ {
+  "id": "DDSA-g109p4_32",
+  "year": "（十四）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g109p4",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Deer, RTRI officials explain, repeatedly give short, shrill snorts to warn one another of danger.",
+   "B": "In the past, flashing red lights and even lion faces were tried, but neither kept deer off the tracks.",
+   "C": "A deer that senses a threat may flash the white patch on its rear to warn the herd.",
+   "D": "Encouraged by the results, the institute plans to set up fixed barking devices where deer often gather.",
+   "E": "Japan has long been troubled by a serious problem on its railways: trains running into deer."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "指示詞",
+   "語意對比"
+  ],
+  "cueNote": "`these earlier measures`；`what deer see` ↔ `flashing red lights`、`lion faces`；`the new one` ↔ `In the past`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第三段先說鹿需要鐵質，會去舔鐵軌，接著說這種需求讓人們陷入 `a constant battle`（長年不斷的對抗），要讓鹿遠離疾駛的列車。可是用了什麼方法，這一段還沒說。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "第四段第一句說 `Unlike these earlier measures, which relied on what deer see`（和這些靠鹿的眼睛起作用的早先方法不同）。`these earlier measures` 要回頭指幾個早先的方法，而且那些方法都是**看得到的**。"
+    }
+   ],
+   "why": "B 列出的閃爍紅燈和獅子臉，正是兩個早先的方法，而且都要靠鹿的眼睛起作用，和後一句的 `what deer see` 對上。`In the past`（過去）也和 `the new one`（新方法）形成新舊對比。B 說這兩種方法都沒有用，第四段改從聲音下手才說得通。",
+   "distractors": [
+    {
+     "opt": "C",
+     "t": "C 的白斑也是看得到的東西，句中的 `flash` 又和閃爍紅燈的 `flashing` 同一個字，容易誤選。但那是鹿自己身上的毛色，不是人們想出來驅鹿的方法，後一句的 `these earlier measures` 指不到它。"
+    }
+   ],
+   "takeaway": "段末的空格，如果下一段開頭有 `these` 這類回頭指的字，先問它指的是什麼，再看哪個選項正好提供那些東西。"
+  }
+ },
+ {
+  "id": "DDSA-g109p4_33",
+  "year": "（十四）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g109p4",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Deer, RTRI officials explain, repeatedly give short, shrill snorts to warn one another of danger.",
+   "B": "In the past, flashing red lights and even lion faces were tried, but neither kept deer off the tracks.",
+   "C": "A deer that senses a threat may flash the white patch on its rear to warn the herd.",
+   "D": "Encouraged by the results, the institute plans to set up fixed barking devices where deer often gather.",
+   "E": "Japan has long been troubled by a serious problem on its railways: trains running into deer."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "定冠詞 the",
+   "同義呼應"
+  ],
+  "cueNote": "`the alarm call` ↔ `snorts to warn one another of danger`；`what they hear`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第四段開頭說新方法 `works on what they hear`（靠的是鹿聽到的聲音），接著交代發明它的是鐵道綜合技術研究所（RTRI）。到這裡，還沒說是哪一種聲音、為什麼有用。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說鹿很怕獵犬的吠聲，吠聲 `strengthens the effect of the alarm call`（可以加強那個警告叫聲的效果）。`the alarm call` 用定冠詞，表示這個叫聲前面已經提過。"
+    }
+   ],
+   "why": "A 說鹿會反覆發出短促尖銳的鳴聲 `to warn one another of danger`（警告同伴有危險），這正是 `the alarm call` 指的東西，用字不同，意思一樣。A 講的也是聲音，接得上前面的 `what they hear`。再下一句的「3 秒鹿鳴錄音加上 20 秒狗吠」，鹿鳴對上 A，狗吠對上獵犬吠聲那一句。",
+   "distractors": [
+    {
+     "opt": "C",
+     "t": "C 也在講鹿怎麼警告同伴，和 A 最像。但 C 的警告是亮出白斑，要用眼睛看；前一句才說新方法靠的是鹿聽到的聲音，後一句的 `alarm call` 也是叫聲，C 兩邊都對不上。"
+    }
+   ],
+   "takeaway": "後一句出現加了 `the` 的名詞（這一題是 `the alarm call`），先回頭找它第一次出現在哪裡；找不到，空格裡那一句就要把它帶出來。"
+  }
+ },
+ {
+  "id": "DDSA-g109p4_34",
+  "year": "（十四）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g109p4",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Deer, RTRI officials explain, repeatedly give short, shrill snorts to warn one another of danger.",
+   "B": "In the past, flashing red lights and even lion faces were tried, but neither kept deer off the tracks.",
+   "C": "A deer that senses a threat may flash the white patch on its rear to warn the herd.",
+   "D": "Encouraged by the results, the institute plans to set up fixed barking devices where deer often gather.",
+   "E": "Japan has long been troubled by a serious problem on its railways: trains running into deer."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "前提呼應",
+   "定冠詞 the"
+  ],
+  "cueNote": "`the results` ↔ `cut sightings by 45 percent`；後一句 `the noises` ↔ `barking devices`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第五段第一句說深夜測試 `have so far cut sightings by 45 percent`（到目前為止，看到鹿的次數減少了 45%）。成效有了，下一步還沒說。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說 `Officials promise, however, that “the noises will not be blared...”`（不過，相關人員保證，住宅區不會播放這些聲音）。`the noises` 要有一個發出聲音的東西，`however`（不過）表示這一句在替前面補上限制。"
+    }
+   ],
+   "why": "D 說研究所 `Encouraged by the results`（受到這個結果鼓舞），打算在鹿常聚集的地方設置固定的狗吠裝置。`the results` 指的正是前一句的測試成效，有成效才有擴大設置的計畫。**後一句的 `the noises` 也有了出處，就是這些裝置播放的聲音。**",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 也和聲音有關，`the noises` 勉強可以指鹿鳴。但前一句講的是測試成效，A 卻回頭講鹿的習性；後一句說住宅區不播放，前面得先有打算設到各地的裝置，A 沒有。A 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "空格前面剛說完成效，後面又有 `the noises` 這類要找來源的字，就找既能承接成效、又能交代來源的那一句。"
+  }
+ },
+ {
+  "id": "DDSA-g105p4_31",
+  "year": "（十五）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g105p4",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "During those long dry spells, the snakes presumably have nothing to drink.",
+   "B": "For a sea snake, the vast ocean is in many ways like a desert.",
+   "C": "Part of the answer, it seems, comes from the sky.",
+   "D": "A snake’s willingness to drink was tied to its body condition as well.",
+   "E": "Taken together, the findings suggest that the snakes can endure some dehydration between rains."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意呼應"
+  ],
+  "cueNote": "`how does the sea snake survive` ↔ `the answer`；`the sky` ↔ `rain`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第一段最後一句是問句：`how does the sea snake survive in the ocean?`（海蛇要怎麼在海洋裡生存呢？）難題說完了，問題留給後面的段落回答。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說黃腹海蛇一輩子都待在遠離陸地的海上，所以 `rain is their only source of fresh water`（雨水是牠們唯一的淡水來源）；再下一句講下雨時海面上會有一層淡水。這一段從頭到尾講的都是**雨**。"
+    }
+   ],
+   "why": "空格在第二段段首，要的是一句既回答開頭的提問、又說出這一段要談什麼的話。C 的 `the answer`（答案）對上第一段的問句，`comes from the sky`（來自天上）對上後面的 `rain`，兩邊用字不同，意思卻一致。至於 `Part of`（一部分），是因為雨只能解決下雨時的問題；乾季沒有雨的時候怎麼辦，要到最後一段才有另一半的答案。",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 也在講海蛇的飲水處境，放在問句後面讀起來不突兀。但 B 只是把第一段的難題換個說法再講一次，並沒有回答「怎麼生存」；後面整段在講雨水怎麼提供淡水，B 也沒有提到雨。"
+    }
+   ],
+   "takeaway": "前一段用問句收尾，下一段段首的空格先找能回答那個問題的選項，再確認它說的內容後面整段都有交代。"
+  }
+ },
+ {
+  "id": "DDSA-g105p4_32",
+  "year": "（十五）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g105p4",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "During those long dry spells, the snakes presumably have nothing to drink.",
+   "B": "For a sea snake, the vast ocean is in many ways like a desert.",
+   "C": "Part of the answer, it seems, comes from the sky.",
+   "D": "A snake’s willingness to drink was tied to its body condition as well.",
+   "E": "Taken together, the findings suggest that the snakes can endure some dehydration between rains."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "指示詞"
+  ],
+  "cueNote": "`those long dry spells` ↔ `seven months`；下一段 `this guess` ↔ `presumably`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第三段先說雨並不是一年到頭都會下，接著說研究地點在哥斯大黎加附近，那裡一年可能長達 `seven months`（七個月）不下雨。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "下一段第一句是 `To find out whether this guess was correct`（為了查證這個推測對不對）。**`this guess` 表示前面有人做過一個推測**，可是第三段到空格為止寫的都是事實，還沒有任何推測。"
+    }
+   ],
+   "why": "A 一次補上兩邊。`those long dry spells`（那幾段漫長的乾旱期）的 those 指回前一句的七個月不下雨；`presumably`（大概、想必）表示這是推測，下一段的 `this guess` 才有來由。研究團隊正是因為推測海蛇在乾季沒水喝，才去查牠們會不會脫水，前後的因果也就接上了。",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 說海洋對海蛇來說像沙漠，和「七個月不下雨」意思相近，乍看很順。但 B 用肯定的語氣打比方，不是推測，下一段的 `this guess` 找不到指的對象；而且海蛇不能喝海水這件事一年到頭都成立，不必等到乾季才發生。"
+    }
+   ],
+   "takeaway": "空格後面出現 `this guess` 這類指示詞加名詞，先確認它指的是哪一種話（推測、主張還是問題），再找語氣相符的選項。"
+  }
+ },
+ {
+  "id": "DDSA-g105p4_33",
+  "year": "（十五）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g105p4",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "During those long dry spells, the snakes presumably have nothing to drink.",
+   "B": "For a sea snake, the vast ocean is in many ways like a desert.",
+   "C": "Part of the answer, it seems, comes from the sky.",
+   "D": "A snake’s willingness to drink was tied to its body condition as well.",
+   "E": "Taken together, the findings suggest that the snakes can endure some dehydration between rains."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "概括—列舉呼應",
+   "舉例、結論的位置提示詞"
+  ],
+  "cueNote": "`body condition` ↔ `Thinner, more withered`；`willingness to drink` ↔ `more likely to drink`；`as well` ↔ 前一句比的季節",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句是第一項發現：乾季時大約一半的海蛇會喝研究人員提供的淡水，雨季時幾乎一條都不喝。這一項比的是**季節**。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說 `Thinner, more withered snakes were more likely to drink`（越瘦、越乾癟的海蛇越可能喝水）。這裡比的不再是季節，而是海蛇本身的胖瘦。"
+    }
+   ],
+   "why": "比較的條件從季節換成胖瘦，中間需要一句先說「身體狀況也有影響」。D 的 `body condition`（身體狀況）概括後一句的 `Thinner, more withered`，`willingness to drink`（願不願意喝水）概括 `more likely to drink`；句尾的 `as well`（也）則表示前面已經有一個條件，也就是季節。",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 也談乾季和喝水，和前一句的 `dry season` 似乎接得上。但 A 用 `presumably` 表示推測，這裡已經是實際測出來的結果，再回頭猜「大概沒水喝」不合順序；A 也沒有提到胖瘦，後一句的比較就少了開頭。A 的位置在第 32 格。"
+    }
+   ],
+   "takeaway": "一段裡列了好幾項結果，如果後一句突然換了比較的條件，空格多半是先交代「這個條件也有關係」的那一句。"
+  }
+ },
+ {
+  "id": "DDSA-g105p4_34",
+  "year": "（十五）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g105p4",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "During those long dry spells, the snakes presumably have nothing to drink.",
+   "B": "For a sea snake, the vast ocean is in many ways like a desert.",
+   "C": "Part of the answer, it seems, comes from the sky.",
+   "D": "A snake’s willingness to drink was tied to its body condition as well.",
+   "E": "Taken together, the findings suggest that the snakes can endure some dehydration between rains."
+  },
+  "answer": "E",
+  "categories": [
+   "掌握篇章的主題論述",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "舉例、結論的位置提示詞",
+   "同義呼應"
+  ],
+  "cueNote": "`Taken together`；`endure some dehydration` ↔ `Their tolerance`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在最後一段的第一句。第四段剛列完三項發現：乾季時一半的海蛇會喝水、越瘦的越想喝、乾季的海蛇體內水分明顯比較少。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `Their tolerance has limits, however`（不過，牠們的耐受力有限度）。`tolerance`（耐受力）前面必須先有一件「忍得住」的事；`however` 又表示這一句和前面的說法方向相反。"
+    }
+   ],
+   "why": "E 的 `Taken together, the findings`（綜合這些結果）把第四段的三項發現歸納起來，`can endure some dehydration`（能忍受某種程度的脫水）正好是後一句 `tolerance` 指的那件事，「忍得住」和「有限度」也形成轉折。**E 同時補上第二段 `Part of the answer` 留下的另一半**：沒有雨的時候，海蛇靠的是忍受脫水。",
+   "distractors": [
+    {
+     "opt": "C",
+     "t": "C 也談「答案」，放在結尾好像在回應開頭的提問。但第四段的結果講的是海蛇在乾季缺水，雨在這裡幫不上忙；C 也沒有「忍受」的意思，後一句的 `Their tolerance` 找不到指的對象。C 的位置在第 31 格。"
+    }
+   ],
+   "takeaway": "最後一段的段首空格，先回頭數前一段列了幾項結果，再找能把它們歸納起來、又讓後一句的名詞有所指的那一句。"
+  }
+ },
+ {
+  "id": "DDSA-g99p2_31",
+  "year": "（十六）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g99p2",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Most high schools hold their prom in the spring, shortly before the school year ends.",
+   "B": "Since the 1990s, some communities have begun holding alternative proms for students with particular needs.",
+   "C": "The spending does not stop at clothing: stretch limousines carry couples to pricey restaurants or discos.",
+   "D": "The word “prom” had been in use for decades before the dance became a school tradition.",
+   "E": "Prom-goers dressed neatly for the occasion, but their outfits were not fancy."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "同義呼應",
+   "序列與時間詞"
+  ],
+  "cueNote": "`The word “prom”` ↔ `the term`；`for decades before` ↔ `Back in the 1890s`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第二段的第一句。第一段說畢業舞會將近一百年來一直是美國年輕人的成年禮。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `Back in the 1890s, the term referred to formal dances`（在 1890 年代，這個詞指的是正式的舞會）。`the term`（這個詞）用了定冠詞，表示前面提過某一個字。第一段雖然用到 prom，講的卻是舞會這件事，沒有談過 prom 這個字本身。"
+    }
+   ],
+   "why": "D 的 `The word “prom”`（prom 這個字）就是後一句 `the term` 指的對象；`for decades before the dance became a school tradition`（在舞會成為學校傳統之前已經用了幾十年）也和後一句的 1890 年代對得上。**D 把話題從第一段的百年傳統往前推到這個字的由來，第二段才接得下去。**",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 也在講畢業舞會，接在第一段後面補一句什麼時候辦，讀起來不突兀。但 A 談的是今天的學校，沒有提到任何字詞，後一句的 `the term` 找不到指的對象。"
+    }
+   ],
+   "takeaway": "後一句出現 `the term` 這類「這個詞」的說法，先回頭找前面提過哪一個字。找不到，空格那一句就得先把那個字說出來。"
+  }
+ },
+ {
+  "id": "DDSA-g99p2_32",
+  "year": "（十六）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g99p2",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Most high schools hold their prom in the spring, shortly before the school year ends.",
+   "B": "Since the 1990s, some communities have begun holding alternative proms for students with particular needs.",
+   "C": "The spending does not stop at clothing: stretch limousines carry couples to pricey restaurants or discos.",
+   "D": "The word “prom” had been in use for decades before the dance became a school tradition.",
+   "E": "Prom-goers dressed neatly for the occasion, but their outfits were not fancy."
+  },
+  "answer": "E",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "概括—列舉呼應"
+  ],
+  "cueNote": "`their outfits` ↔ `jackets and ties`、`Sunday dresses`；`not fancy` ↔ `modest`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句說，對許多年紀較大的美國人來說，畢業舞會是 `a modest, home-grown affair in the school gymnasium`（在學校體育館舉辦、簡樸的自辦活動）。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `Boys wore jackets and ties, and girls their Sunday dresses.`（男生穿外套打領帶，女生穿星期天上教堂的洋裝。）這是一張穿著的清單，可是前面沒有一句先說「穿得怎麼樣」。"
+    }
+   ],
+   "why": "E 的 `their outfits`（他們的服裝）概括了後面的外套、領帶和洋裝，`not fancy`（沒有特別盛裝打扮）又呼應前一句的 `modest`（簡樸）。也就是說，空格裡的句子必須談穿著，而且是樸素的穿著。**後面清單上的衣服都是平常就有的，E 先替它們下了評語。**",
+   "distractors": [
+    {
+     "opt": "C",
+     "t": "C 也談服裝，`clothing` 和後一句的外套、洋裝最接近。但 C 說花費「不只在服裝上」，前提是服裝已經很貴，這和前一句的 `modest` 正好相反；後面列的是外套和星期天上教堂的洋裝，也看不出任何鋪張。C 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "後一句是一張清單，先找一個能涵蓋清單上那些東西的詞（這裡是「穿著」），再看前一句說的是簡樸還是奢華，選項必須兩樣都對上。"
+  }
+ },
+ {
+  "id": "DDSA-g99p2_33",
+  "year": "（十六）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g99p2",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Most high schools hold their prom in the spring, shortly before the school year ends.",
+   "B": "Since the 1990s, some communities have begun holding alternative proms for students with particular needs.",
+   "C": "The spending does not stop at clothing: stretch limousines carry couples to pricey restaurants or discos.",
+   "D": "The word “prom” had been in use for decades before the dance became a school tradition.",
+   "E": "Prom-goers dressed neatly for the occasion, but their outfits were not fancy."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "定冠詞 the",
+   "範圍呼應"
+  ],
+  "cueNote": "`The spending` ↔ `excessive consumption`；`clothing` ↔ `tuxedos`、`designer gowns`",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第三段的最後一句。這一段先寫早年簡樸的舞會，從 `After the 1960s`（1960 年代以後）開始轉到另一個樣子。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "前一句說，許多地區的畢業舞會變成了 `a serious exercise in excessive consumption`（大肆消費的場合），男生租昂貴的晚禮服，女生穿名牌禮服。舉出來的花費到這裡都還是衣服。"
+    }
+   ],
+   "why": "C 的 `The spending`（這些花費）用了定冠詞，指的就是前一句的 `excessive consumption`；`does not stop at clothing`（不只花在服裝上）先總括晚禮服和名牌禮服，再把範圍擴大到禮車、餐廳和舞廳。**C 順著「過度消費」往下說**，這一段寫奢華的部分才算完整。",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 的 `Since the 1990s` 接在 1960 年代、1980 年代之後，時間順序看起來很自然。但 B 說的是為有特定需求的學生辦的另類舞會，第三段只寫舞會變得奢華，還沒有提到哪些學生有困難；那些學生要到第四段才出現。B 的位置在第 34 格。"
+    }
+   ],
+   "takeaway": "段末的空格，先看前一句講到哪裡為止（這裡是「衣服很貴」）。空格那一句通常順著同一件事再往下說，而不是跳到下一段才談的事情。"
+  }
+ },
+ {
+  "id": "DDSA-g99p2_34",
+  "year": "（十六）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-g99p2",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Most high schools hold their prom in the spring, shortly before the school year ends.",
+   "B": "Since the 1990s, some communities have begun holding alternative proms for students with particular needs.",
+   "C": "The spending does not stop at clothing: stretch limousines carry couples to pricey restaurants or discos.",
+   "D": "The word “prom” had been in use for decades before the dance became a school tradition.",
+   "E": "Prom-goers dressed neatly for the occasion, but their outfits were not fancy."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "舉例、結論的位置提示詞",
+   "語意呼應"
+  ],
+  "cueNote": "`For example`；`students with particular needs` ↔ `homeless youth`、第四段 `those who fail to find a date`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第四段說，不論舞會簡樸還是奢華，擔心形象、怕融不進同儕的青少年都覺得難熬；對不擅社交或找不到舞伴的人來說，那一晚更可能很可怕。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `For example, proms organized by and for homeless youth have been reported.`（例如，有報導提到由無家可歸的青少年籌辦、也專為他們舉辦的舞會。）再下一句是不需舞伴的舞會。`For example` 表示前面要先有一句說法，讓這兩種舞會當它的例子。"
+    }
+   ],
+   "why": "B 的 `alternative proms`（另類舞會）概括了後面兩種舞會，`students with particular needs`（有特定需求的學生）對上無家可歸的青少年，也對上第四段找不到舞伴的人，不需舞伴的舞會正是為他們辦的。**第四段先說出困難，第五段用 B 帶出另類舞會，再舉兩個例子。**",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 也在講學校怎麼辦舞會，放在段首像是換一個話題重新開始。可是後面兩個例子講的是為誰辦、由誰辦，和春天或學年快結束都沒有關係；A 也沒有回應第四段那些覺得難熬的學生。"
+    }
+   ],
+   "takeaway": "空格後面緊接 `For example`，先找出例子的共同點（這裡是「為某一群學生另外辦的舞會」），再找一句能把它們都概括進去的選項。"
+  }
+ },
+ {
+  "id": "DDSA-z108p2_31",
+  "year": "（十七）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z108p2",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Spiegel hopes that hypnosis can someday be used to replace painkillers.",
+   "B": "Not everyone, however, responds to hypnosis to the same degree.",
+   "C": "Such people are also more inclined to trust their gut feelings.",
+   "D": "Specifically, activity dropped in the brain region that usually becomes active when there is cause for worry.",
+   "E": "Hypnosis is often mistaken for a kind of sleep in which people do whatever they are told."
+  },
+  "answer": "E",
+  "categories": [
+   "掌握篇章整體結構發展及段落與段落間的關係",
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意對比"
+  ],
+  "cueNote": "`But` 前後相反：`a kind of sleep`、`do whatever they are told` ↔ `highly focused attention and intense concentration`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第二段的第一句。第一段說 Spiegel 醫師動完手術不用止痛藥，而是替自己催眠，結果有效，大家都很意外。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `But according to Spiegel, it is a state of highly focused attention and intense concentration.`（不過根據 Spiegel 的說法，催眠是高度專注的狀態。）`But` 表示前後意思相反，**空格裡要有和「高度專注」相反的說法**。"
+    }
+   ],
+   "why": "E 說催眠常讓人誤以為是 `a kind of sleep`（一種睡眠），人在那種狀態下 `do whatever they are told`（別人叫他做什麼就做什麼）。睡著、任人擺布，和高度專注正好相反，`But` 前後才對得上。",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 的 `however` 也表示轉折，放在第一段的成功經驗後面，像在說「不是人人有效」。可是後一句的 `But` 要接一個和「高度專注」相反的說法，B 講的是人人反應不同，談不上相反。B 的位置在第 32 格。"
+    }
+   ],
+   "takeaway": "空格後面一開頭就是 `But`，先用自己的話把 `But` 後面的說法講一遍，再找意思相反的選項。"
+  }
+ },
+ {
+  "id": "DDSA-z108p2_32",
+  "year": "（十七）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z108p2",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Spiegel hopes that hypnosis can someday be used to replace painkillers.",
+   "B": "Not everyone, however, responds to hypnosis to the same degree.",
+   "C": "Such people are also more inclined to trust their gut feelings.",
+   "D": "Specifically, activity dropped in the brain region that usually becomes active when there is cause for worry.",
+   "E": "Hypnosis is often mistaken for a kind of sleep in which people do whatever they are told."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握段落主題句和細節的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "轉折詞",
+   "語意呼應"
+  ],
+  "cueNote": "`however` ↔ 上一段 `an effective tool`；`to the same degree` ↔ `slip into a trance easily`、`low in hypnotizability`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "上一段最後一句說，這種恍惚般的狀態可以是控制疼痛、緩解焦慮、應付壓力的 `an effective tool`（有效工具）。這是在講催眠的好處。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後面說，容易進入恍惚狀態的人往往比較信任別人、看電影比較容易入戲；研究團隊接著把這些 `highly hypnotizable`（很容易催眠）的人和 `low in hypnotizability`（不容易催眠）的人做比較。**這一段講的是人和人之間的差別。**"
+    }
+   ],
+   "why": "B 說不是每個人對催眠的反應都一樣強（`to the same degree`），正好概括後面兩句：一句講容易催眠的人有什麼特徵，一句把容易和不容易的兩組人拿來比。`however`（然而）也接得上上一段：前面說催眠是有效的工具，這裡轉過來說，效果因人而異。",
+   "distractors": [
+    {
+     "opt": "C",
+     "t": "C 也在講容易催眠的人有什麼特質，乍看和後一句很像。可是 C 的 `Such people`（這種人）要指前面提過的人，空格前面講的是恍惚狀態，還沒有出現任何一種人；這一段的段首也需要一句話說明「人和人不一樣」，C 只多加一項特質，概括不了整段。"
+    }
+   ],
+   "takeaway": "段首的空格，先讀完整段，看後面的句子共同在談什麼，再找能概括它們的選項；選項裡有 `such`、`these` 這類字，先確認前面有沒有東西可指。"
+  }
+ },
+ {
+  "id": "DDSA-z108p2_33",
+  "year": "（十七）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z108p2",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Spiegel hopes that hypnosis can someday be used to replace painkillers.",
+   "B": "Not everyone, however, responds to hypnosis to the same degree.",
+   "C": "Such people are also more inclined to trust their gut feelings.",
+   "D": "Specifically, activity dropped in the brain region that usually becomes active when there is cause for worry.",
+   "E": "Hypnosis is often mistaken for a kind of sleep in which people do whatever they are told."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "概括—列舉呼應",
+   "同義呼應"
+  ],
+  "cueNote": "`some interesting changes in the brain` ↔ `Specifically, activity dropped`；`worry` ↔ 下一段 `anxiety`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句說，研究人員觀察到大腦在催眠時出現 `some interesting changes`（一些有趣的變化），而且只出現在容易催眠的那一組。**是什麼變化，這一句沒有說。**"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "下一段第一句說 `This helps explain`（這有助於解釋）催眠為什麼能減輕壓力、焦慮、疼痛。`This` 指的那件事，必須說得通催眠為什麼能減輕焦慮。"
+    }
+   ],
+   "why": "D 的 `Specifically`（具體來說）表示要把前面籠統的說法講清楚：遇到值得擔心的事就會活躍起來的腦區，活動下降了。`worry`（擔心）和下一段的 `anxiety`（焦慮）意思相近，**負責擔心的腦區安靜下來，焦慮自然減輕**，`This` 也就有了著落。",
+   "distractors": [
+    {
+     "opt": "C",
+     "t": "C 的 `Such people` 剛好可以指前一句的 `the highly hypnotizable group`，是這一格最容易誤選的選項。可是相信直覺是個性，不是大腦掃描看到的變化，`some interesting changes` 還是沒有交代；下一段的 `This` 也沒辦法用「相信直覺」解釋催眠為什麼能減輕焦慮。"
+    }
+   ],
+   "takeaway": "前一句只說「有一些變化」，卻沒說是什麼，空格多半是把它講具體的那一句；填進去以後，再看下一句的 `This` 能不能指回它。"
+  }
+ },
+ {
+  "id": "DDSA-z108p2_34",
+  "year": "（十七）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z108p2",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Spiegel hopes that hypnosis can someday be used to replace painkillers.",
+   "B": "Not everyone, however, responds to hypnosis to the same degree.",
+   "C": "Such people are also more inclined to trust their gut feelings.",
+   "D": "Specifically, activity dropped in the brain region that usually becomes active when there is cause for worry.",
+   "E": "Hypnosis is often mistaken for a kind of sleep in which people do whatever they are told."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "人稱代名詞所有格",
+   "前提呼應"
+  ],
+  "cueNote": "`His own earlier research` 的 `His` ↔ `Spiegel`；`replace painkillers` ↔ `half as much pain medication`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格後面。",
+     "t": "後一句說 `His own earlier research`（他自己先前的研究）顯示，病人學了自我催眠以後，需要的止痛藥只有一半。**`His` 是誰？**前一句講的是催眠的效果，沒有出現任何人；上一次提到 Spiegel，已經是兩段以前。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "前一句說，大腦的這種變化有助於解釋催眠為什麼能減輕壓力、焦慮和疼痛。這是在講道理，還沒有講要拿催眠來做什麼。"
+    }
+   ],
+   "why": "A 一次補上兩件事：`Spiegel` 讓 `His` 有了對象；`replace painkillers`（取代止痛藥）是一個想法，後一句「止痛藥用量少了一半」正是支持它的證據。A 也呼應第一段：Spiegel 動完手術沒有用止痛藥，靠的就是自我催眠。A 是這一段的主旨句，也把全篇從研究帶到應用。",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 的 `however` 放在「催眠有強大效果」後面，像是在提醒效果因人而異。可是後一句的研究講的是病人少用一半的止痛藥，是催眠的好處，不是人和人的差別，`His` 也一樣沒有對象。B 的位置在第 32 格。"
+    }
+   ],
+   "takeaway": "空格後面一開頭就是「他的」「他們的」這類所有格，先往前找這個人；前面找不到，空格裡多半會出現他的名字，再看後一句是不是在支持他說的話。"
+  }
+ },
+ {
+  "id": "DDSA-z107p1_31",
+  "year": "（十八）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z107p1",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Also called the Draisine or the hobby horse, the running machine was in effect a very primitive bicycle.",
+   "B": "Such a machine, he believed, would let large numbers of people travel faster than on foot or by coach.",
+   "C": "For all the excitement it caused, the hobby horse did not stay popular for long.",
+   "D": "Even so, Drais’s invention marked the true beginning of the bicycle’s development.",
+   "E": "Among his other creations were two human-powered vehicles that ran on four wheels."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "概括—列舉呼應",
+   "名詞首次出現"
+  ],
+  "cueNote": "`a very primitive bicycle` ↔ `It had no chain`；第四段 `the hobby horse` 當作已知",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第二段的第一句。第一段最後一句說，讓 Drais 成名的是 `the running machine`（滑行車），第二段多半要開始介紹這輛車。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說車上沒有鏈條，騎的人靠雙腳蹬地前進；再下一句說車架和輪子都是木頭做的。前面需要一句話先說這輛車大致是什麼樣子。"
+    }
+   ],
+   "why": "A 說滑行車 `was in effect a very primitive bicycle`（其實是一種非常原始的自行車），後面的「沒有鏈條、用腳蹬地、木頭做的」正好說明它原始在哪裡。**A 是總說，後面是細節**，所以 A 也是這一段的主旨句。A 也交代了滑行車的別名 `the hobby horse`，第四段再提到這個名稱時才有來歷。",
+   "distractors": [
+    {
+     "opt": "D",
+     "t": "D 的 `Drais’s invention` 也指滑行車，放在段首好像可以接著第一段講下去。但 `Even so`（儘管如此）是讓步的說法，前面得先有一句講這輛車的缺點；第一段最後一句說的是滑行車讓他成名，沒有缺點可以讓步。D 的位置在第 32 格。"
+    }
+   ],
+   "takeaway": "段首的空格後面如果緊接著一串具體的細節，先找一句能把這些細節總括起來的話；後面段落直接用到的名稱（這一篇是 `the hobby horse`），也要能在這一句裡找到出處。"
+  }
+ },
+ {
+  "id": "DDSA-z107p1_32",
+  "year": "（十八）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z107p1",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Also called the Draisine or the hobby horse, the running machine was in effect a very primitive bicycle.",
+   "B": "Such a machine, he believed, would let large numbers of people travel faster than on foot or by coach.",
+   "C": "For all the excitement it caused, the hobby horse did not stay popular for long.",
+   "D": "Even so, Drais’s invention marked the true beginning of the bicycle’s development.",
+   "E": "Among his other creations were two human-powered vehicles that ran on four wheels."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "轉折詞",
+   "語意呼應"
+  ],
+  "cueNote": "`Even so` ↔ `no chain`／`made of wood`；`the true beginning` ↔ `the first vehicle`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前兩句說滑行車沒有鏈條，騎的人得用腳蹬地前進，車架和輪子也都是木頭做的。這是在講它**簡陋的地方**。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說它是 `the first vehicle with two wheels placed one behind the other`（第一輛兩個輪子前後排列的車），控制方向的橫桿也已經很像現代的把手。講的變成它開創的地方。"
+    }
+   ],
+   "why": "前面講簡陋、後面講開創，中間需要一句轉折。D 的 `Even so`（儘管如此）先承認前面說的簡陋，再說 Drais 的發明 `marked the true beginning of the bicycle’s development`（是自行車發展真正的起點）。至於為什麼算是起點，後一句的 `the first vehicle`（第一輛）正好給了理由。",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 也在描述滑行車，`a very primitive bicycle`（非常原始的自行車）和前面的「沒有鏈條」意思相近。但前面已經用 `it` 談了這輛車，A 到這裡才交代它的別名，順序顛倒；A 說的又是原始，接不上後一句「第一輛」的開創意味。A 的位置在第 31 格。"
+    }
+   ],
+   "takeaway": "空格前面講缺點、後面講優點，先找能轉折的選項，再確認它轉過去的方向和後一句一致。"
+  }
+ },
+ {
+  "id": "DDSA-z107p1_33",
+  "year": "（十八）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z107p1",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Also called the Draisine or the hobby horse, the running machine was in effect a very primitive bicycle.",
+   "B": "Such a machine, he believed, would let large numbers of people travel faster than on foot or by coach.",
+   "C": "For all the excitement it caused, the hobby horse did not stay popular for long.",
+   "D": "Even so, Drais’s invention marked the true beginning of the bicycle’s development.",
+   "E": "Among his other creations were two human-powered vehicles that ran on four wheels."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "指示詞",
+   "範圍呼應"
+  ],
+  "cueNote": "`Such a machine` ↔ `a muscle-powered replacement`；`large numbers of people` ↔ `democratic`",
+  "cuePosition": "前一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第三段的最後一句。這一段第一句說，這項發明背後有一個 `big democratic idea`（讓一般大眾都能受益的遠大構想）。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "接下來說馬很貴，不用時也得吃很多飼料，所以 Drais 想找 `a muscle-powered replacement`（靠人力推動的替代品）。**到這裡只說了要取代馬，還沒說一般大眾能得到什麼。**"
+    }
+   ],
+   "why": "B 的 `Such a machine`（這樣的車）回指前一句靠人力推動的替代品；`large numbers of people`（許多人）對上段首的 `democratic`，`travel faster than on foot or by coach`（移動得比走路或坐馬車更快）則說出好處在哪裡。有了 B，段首的構想才算講完。",
+   "distractors": [
+    {
+     "opt": "E",
+     "t": "E 的 `human-powered`（靠人力推動）和前一句的 `muscle-powered` 意思相同，接在後面好像很順。但 E 講的是 Drais 其他的四輪車；把 E 放進來，段首的 `democratic` 到段末仍然沒有交代，看不出一般大眾能得到什麼。"
+    }
+   ],
+   "takeaway": "段首的主旨句如果用了一個概括的詞（像 `democratic`），先看這一段有沒有把它說清楚；還沒說清楚，段末的空格多半就是那句說明。"
+  }
+ },
+ {
+  "id": "DDSA-z107p1_34",
+  "year": "（十八）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z107p1",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "Also called the Draisine or the hobby horse, the running machine was in effect a very primitive bicycle.",
+   "B": "Such a machine, he believed, would let large numbers of people travel faster than on foot or by coach.",
+   "C": "For all the excitement it caused, the hobby horse did not stay popular for long.",
+   "D": "Even so, Drais’s invention marked the true beginning of the bicycle’s development.",
+   "E": "Among his other creations were two human-powered vehicles that ran on four wheels."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意對比"
+  ],
+  "cueNote": "`For all the excitement it caused` ↔ 第四段 `a huge sensation`／`quickly caught on`；`did not stay popular for long` ↔ 後面 `heavy and hard to handle`／`banned`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "第四段一路在講滑行車的成功：試騎時 `created a huge sensation`（轟動一時），到了巴黎 `quickly caught on`（很快流行起來），熱潮還傳到了英國。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "第五段接著說這種車又重又難操控、沒有煞車和踏板、常常撞到行人，幾年後許多城市都禁止使用。**前一段講成功，這一段講的卻是失敗的原因。**"
+    }
+   ],
+   "why": "兩段之間需要一句話把方向轉過來。C 的 `For all the excitement it caused`（雖然它轟動一時）承接第四段的成功，`did not stay popular for long`（熱潮沒有維持多久）帶出第五段；後面的笨重、難騎、遭到禁止，就是熱潮退去的原因。",
+   "distractors": [
+    {
+     "opt": "E",
+     "t": "E 也在講 Drais 的車，放在新一段的段首，好像可以換一個話題。但 E 的四輪車沒有把成功轉成失敗；後面說遭到禁止的是 `Drais’s invention`，指的也是滑行車，不是四輪車。"
+    }
+   ],
+   "takeaway": "段首的空格如果前一段講好處、後一段講壞處，先找能承上啟下的那一句：前半要對上前一段，後半要帶出後一段。"
+  }
+ },
+ {
+  "id": "DDSA-z106p4_31",
+  "year": "（十九）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z106p4",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "About a decade later, a Japanese committee replaced Fenton’s melody with one by a court musician.",
+   "B": "Many anthems have lyrics that praise the beauty of the nation’s land.",
+   "C": "Others, notably Spain and France, chose marches, which are often played by military bands.",
+   "D": "The custom of having a national anthem first took root in Europe centuries ago.",
+   "E": "As a result, most anthems today are either hymns or marches played on European instruments."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "同義呼應",
+   "範圍呼應"
+  ],
+  "cueNote": "`first took root` ↔ `the world’s oldest national anthem`；`Europe` ↔ `Holland’s`、`the U.K.’s`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它是第二段的第一句。第一段只說國家獨立後會先確立國歌，以及國歌在什麼場合演奏，還沒有講到國歌從哪裡來。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說荷蘭的〈Het Wilhelmus〉`is widely considered the world’s oldest national anthem`（普遍公認是世界上最古老的國歌），再下一句說英國的國歌排在它後面。也就是說，這一段在數「最早的是哪幾首」。"
+    }
+   ],
+   "why": "空格要一句主題句，統攝這一段的細節。D 的 `first took root`（最早生根）對上後面的 `the world’s oldest`（世界上最古老的），說的是同一件事：國歌從哪裡開始；`Europe`（歐洲）則把荷蘭和英國兩個例子都包含進去。**有了 D，荷蘭和英國這兩首歌才成為「國歌最早出現在歐洲」的證據。**",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 讀起來接得上第一段最後的 `celebrate the nation’s identity`（慶祝國家認同），乍看很順。但第二段接著講哪一首最古老、哪一首排第二，B 只講歌詞的內容，沒有時間也沒有地點，帶不出這兩個例子。"
+    }
+   ],
+   "takeaway": "段首的空格，先問後面幾句共同在回答什麼問題（這一段是「最早的國歌在哪裡」），再找能回答它的選項；只和前一段接得順還不夠。"
+  }
+ },
+ {
+  "id": "DDSA-z106p4_32",
+  "year": "（十九）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z106p4",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "About a decade later, a Japanese committee replaced Fenton’s melody with one by a court musician.",
+   "B": "Many anthems have lyrics that praise the beauty of the nation’s land.",
+   "C": "Others, notably Spain and France, chose marches, which are often played by military bands.",
+   "D": "The custom of having a national anthem first took root in Europe centuries ago.",
+   "E": "As a result, most anthems today are either hymns or marches played on European instruments."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "One… Another… Some… Others 句型",
+   "語意對比"
+  ],
+  "cueNote": "`Many countries` ↔ `Others`；`martial rather than a monarchic` 和前面的聖歌對比",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句說 `Many countries`（許多國家）以英國那首歌為範本，採用了聖歌。說了「許多國家」，接下來就該交代其他國家。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說 `Such songs`（這類歌曲）表達的是 `martial`（尚武的）精神，而不是對君主的崇敬。向神明或重要人物祈禱的聖歌談不上尚武的精神，所以 `Such songs` 指的是另一種歌。"
+    }
+   ],
+   "why": "C 一次補上前後兩邊要的東西：`Others`（其他國家）和前一句的 `Many countries` 成對；`marches`（進行曲）由 `military bands`（軍樂隊）演奏，正好說明後一句的 `martial`（尚武的）從哪裡來。**聖歌對應君主，進行曲對應軍隊，後一句 `rather than` 前後的對比因此說得通。**",
+   "distractors": [
+    {
+     "opt": "E",
+     "t": "E 同時提到聖歌和進行曲，字面最接近。但 `As a result`（因此）要等原因說完才能下結論，這時帝國主義還沒有出現；E 也沒有說進行曲由誰演奏，`martial` 一樣沒有來由。E 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "前一句用 Many 或 Some 起頭，先找 `Others` 開頭的選項，再拿後一句核對，確認後一句的 `Such songs` 指的是 Others 選的那種歌，不是前一句的聖歌。"
+  }
+ },
+ {
+  "id": "DDSA-z106p4_33",
+  "year": "（十九）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z106p4",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "About a decade later, a Japanese committee replaced Fenton’s melody with one by a court musician.",
+   "B": "Many anthems have lyrics that praise the beauty of the nation’s land.",
+   "C": "Others, notably Spain and France, chose marches, which are often played by military bands.",
+   "D": "The custom of having a national anthem first took root in Europe centuries ago.",
+   "E": "As a result, most anthems today are either hymns or marches played on European instruments."
+  },
+  "answer": "E",
+  "categories": [
+   "掌握篇章整體結構發展及段落與段落間的關係",
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "轉折詞",
+   "語意呼應"
+  ],
+  "cueNote": "`As a result`，因果；`European instruments` ↔ `imitated the traditions of their old rulers`；第五段 `In addition to hymns and marches` ↔ `either hymns or marches`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第三段的最後一句。這一段先說各國採用聖歌或進行曲，再說帝國主義把歐洲音樂帶到海外，前殖民地獨立之後還是 `imitated the traditions of their old rulers`（模仿以前統治者的傳統）。原因講完了，還差一個結果。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "第五段開頭說 `In addition to hymns and marches`（除了聖歌和進行曲），還有兩種 `lesser`（次要的）類別。既然其他類別是次要的，前面就該有一句說過聖歌和進行曲是主流。"
+    }
+   ],
+   "why": "E 的 `As a result`（因此）承接前面的原因，`European instruments`（歐洲的樂器）呼應模仿以前統治者的傳統；`most anthems today`（今天大多數國歌）則說明聖歌和進行曲成了主流。**有了這一句，第五段才能接著談主流以外的小類。**",
+   "distractors": [
+    {
+     "opt": "D",
+     "t": "D 的 `custom`（慣例）和前一句的 `traditions`（傳統）意思相近。但 D 說的是國歌最早出現在哪裡，放在殖民地獨立之後，時間退回幾百年前，也沒有交代第五段需要的主流。D 的位置在第 31 格。"
+    }
+   ],
+   "takeaway": "段末空格前面如果是一連串原因，先想結果是什麼；再確認後面 `In addition to` 接的東西，前面已經講過。"
+  }
+ },
+ {
+  "id": "DDSA-z106p4_34",
+  "year": "（十九）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z106p4",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "About a decade later, a Japanese committee replaced Fenton’s melody with one by a court musician.",
+   "B": "Many anthems have lyrics that praise the beauty of the nation’s land.",
+   "C": "Others, notably Spain and France, chose marches, which are often played by military bands.",
+   "D": "The custom of having a national anthem first took root in Europe centuries ago.",
+   "E": "As a result, most anthems today are either hymns or marches played on European instruments."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "序列與時間詞",
+   "定冠詞 the"
+  ],
+  "cueNote": "`In the 1860s` ↔ `About a decade later`；`the new tune` ↔ `replaced Fenton’s melody with one by a court musician`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前面兩句說 `In the 1860s`（1860 年代）Fenton 發現日本沒有國歌，於是由大山巖選詞、Fenton 譜曲，日本有了第一版國歌。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說 `the new tune`（這首新曲子）雖然是為日本傳統樂器寫的，風格卻帶有 Fenton 編曲的影響。`the new tune` 用定冠詞，表示前面提過一首新曲子，可是前面只有 Fenton 那一首。如果指的就是 Fenton 那一首，後一句不會再說它『帶有 Fenton 編曲的影響』。"
+    }
+   ],
+   "why": "A 的 `About a decade later`（大約十年後）把時間從 1860 年代往後推，一個日本委員會 `replaced Fenton’s melody`（換掉了 Fenton 的曲子），改用宮廷樂師寫的曲子。**宮廷樂師的那首，就是後一句的 `the new tune`。**",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 的 `lyrics`（歌詞）緊接在大山巖選歌詞的後面，看起來最像正解。但後一句的 `the new tune` 要指一首新曲子，B 講的是歌詞，沒有任何曲子換掉；B 也沒有時間，接不上 1860 年代之後的發展。"
+    }
+   ],
+   "takeaway": "後一句出現 the new 加名詞，先回頭找那樣東西第一次出現在哪裡；找不到，空格就是把它帶出來的那一句。"
+  }
+ },
+ {
+  "id": "DDSA-z97p1_31",
+  "year": "（二十）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z97p1",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "With the same set of bricks, children can follow the instructions or build whatever they imagine.",
+   "B": "In 1947, the company expanded into making plastic toys.",
+   "C": "As junior managing director, he spent years improving how firmly the bricks locked together.",
+   "D": "Though already half a century old, the Lego brick remained the same product it had been in the 1950s.",
+   "E": "Stores sent many of the company’s shipments back because the toys sold poorly."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "指示詞",
+   "序列與時間詞"
+  ],
+  "cueNote": "`this new material` ↔ `plastic toys`；`At first` ↔ `In 1947`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格的位置。",
+     "t": "它在第二段的第一句。第一段講的是 1930 年代：Christiansen 做木頭玩具，又想到了 Lego 這個名字。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說，起初零售商不太看好 `toys made from this new material`（用這種新材料做的玩具）。指示詞 this 表示前面先提過某種材料，`At first`（起初）也表示前面先交代了事情的開頭。"
+    }
+   ],
+   "why": "第一段只提過木頭，而木頭是一開始就在用的，算不上新材料。B 的 `plastic toys`（塑膠玩具）讓 `this new material` 有了指的對象，`In 1947` 也讓 `At first` 有了起點。**B 把時間往後推，也把話題從木頭玩具轉到塑膠玩具。**",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 有 `bricks`（積木），看起來可以替第二段開頭。但 A 沒有提到任何材料，`this new material` 還是不知道指的是什麼；A 用現在式講孩子的玩法，也接不上 1930 年代的敘述。"
+    }
+   ],
+   "takeaway": "後一句出現 this 加上名詞，先回頭找前面有沒有那樣東西；要是找不到，空格裡的那一句就得先把它帶出來。"
+  }
+ },
+ {
+  "id": "DDSA-z97p1_32",
+  "year": "（二十）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z97p1",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "With the same set of bricks, children can follow the instructions or build whatever they imagine.",
+   "B": "In 1947, the company expanded into making plastic toys.",
+   "C": "As junior managing director, he spent years improving how firmly the bricks locked together.",
+   "D": "Though already half a century old, the Lego brick remained the same product it had been in the 1950s.",
+   "E": "Stores sent many of the company’s shipments back because the toys sold poorly."
+  },
+  "answer": "E",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意呼應",
+   "轉折詞"
+  ],
+  "cueNote": "`Stores` ↔ `retailers`，`sold poorly` ↔ `slow to accept`；`However`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前兩句說，零售商不太看好塑膠玩具，消費者也 `slow to accept them`（遲遲不肯接受）。這只說了大家的態度，還沒說結果。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "第三段一開頭是 `However`（不過），接著說 Godtfred 看出積木的潛力。要用 However 轉回正面，前面一定先有一件不順利的事情。"
+    }
+   ],
+   "why": "E 交代的正是結果：商店把很多貨退了回來。`Stores`（商店）對上 `retailers`（零售商），`sold poorly`（賣得不好）則是消費者不肯接受的後果。**前面是態度，E 是結果，下一段的 However 再從這個結果轉回正面。**",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 語氣正面，講孩子怎麼玩。但前面才說大家不肯接受，接著講玩法，中間少了交代；下一段的 `However` 也沒有負面的事情可以轉折。"
+    },
+    {
+     "opt": "C",
+     "t": "C 講改良積木，也屬於這段歷史。但放在這裡，`he` 只能指第一段的 Christiansen，而改良積木的是第三段才出場的兒子。C 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "下一段一開頭是 `However`，先比較前後的語氣：後面轉成正面，空格裡多半是那件不順利的事情。"
+  }
+ },
+ {
+  "id": "DDSA-z97p1_33",
+  "year": "（二十）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z97p1",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "With the same set of bricks, children can follow the instructions or build whatever they imagine.",
+   "B": "In 1947, the company expanded into making plastic toys.",
+   "C": "As junior managing director, he spent years improving how firmly the bricks locked together.",
+   "D": "Though already half a century old, the Lego brick remained the same product it had been in the 1950s.",
+   "E": "Stores sent many of the company’s shipments back because the toys sold poorly."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "人稱代名詞主格",
+   "序列與時間詞"
+  ],
+  "cueNote": "`he` ↔ `Godtfred Kirk Christiansen`；`spent years` ↔ `finally`",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句說 Godtfred 看出積木可以發展成 `a system for creative play`（一套激發創意的遊戲系統），但這只是想法。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後面先說他 `also found ways to make them more versatile`（也想辦法讓積木的用途更多），再說 1958 年互扣式積木 `was finally developed`（終於研發完成）。"
+    }
+   ],
+   "why": "`He also` 表示他之前已經做過另一件事情，`finally`（終於）也表示研發花了不少工夫。**C 的 `spent years improving`（花了好幾年改進）交代了工夫**，`how firmly the bricks locked together`（積木扣得多牢）改良的正是互扣式設計要解決的問題。`he` 就是前一句的 Godtfred。",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 的 `build whatever they imagine`（隨自己的想像去拼）好像在說明 `creative play`，乍看很順。但 A 裡面沒有人做事，`He also` 接不上，`finally` 前面也看不到那幾年的工夫。"
+    }
+   ],
+   "takeaway": "後面出現 also、finally 這類字，先問「在這之前做過什麼」，空格裡要的通常就是那件事情。"
+  }
+ },
+ {
+  "id": "DDSA-z97p1_34",
+  "year": "（二十）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-z97p1",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "With the same set of bricks, children can follow the instructions or build whatever they imagine.",
+   "B": "In 1947, the company expanded into making plastic toys.",
+   "C": "As junior managing director, he spent years improving how firmly the bricks locked together.",
+   "D": "Though already half a century old, the Lego brick remained the same product it had been in the 1950s.",
+   "E": "Stores sent many of the company’s shipments back because the toys sold poorly."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握段落主題句和細節的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "同義呼應",
+   "前提呼應"
+  ],
+  "cueNote": "`half a century old` ↔ `50th anniversary`；`in the 1950s` ↔ `back then`",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看空格前面。",
+     "t": "前一句說，那一年全世界的樂高迷慶祝這種小積木的 `50th anniversary`（50 週年）。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句說 `Bricks bought back then were still compatible with those made in 2008`（當年買的積木仍然可以和 2008 年做的積木組在一起）。可是 `back then`（當年）是哪一年，前面兩句都沒有交代。"
+    }
+   ],
+   "why": "D 的 `in the 1950s`（1950 年代）讓 `back then` 有了著落，`half a century old`（半個世紀之久）換個說法呼應 `50th anniversary`，`the same product`（同一種產品）則由後一句的新舊積木相容來證明。**D 是第五段的主旨句，後一句是佐證，也說出樂高一直受歡迎的原因。**",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 有年代 `In 1947`，`back then` 好像也有了著落。但互扣式積木到 1958 年才研發完成，說 1947 年的積木能和 2008 年的組在一起，和第三段不合，時間也倒退了。B 的位置在第 31 格。"
+    }
+   ],
+   "takeaway": "後一句出現 back then 這類指時間的字，先回頭找它指的是哪一年；空格前面找不到，那個年份就在空格裡。"
   }
  }
 ]

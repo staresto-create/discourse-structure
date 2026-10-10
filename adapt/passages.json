@@ -1487,5 +1487,1574 @@
    "選項長度變異係數": "21.7%",
    "建檔": "第三百六十三場建檔。改編自 z98p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
   }
+ },
+ {
+  "id": "DSA-g113p3",
+  "year": "（十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "冰島的「100% Fish」計畫（Iceland’s 100% Fish Project）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "D"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Under the guidance of 100% Fish, however, Icelanders now make use of almost 95% of each cod.",
+   "B": "Much of this success has come from people in different industries working together.",
+   "C": "As remarkable as it was, this medical triumph was only one part of a much larger effort.",
+   "D": "Fish, after all, has long been an important source of protein for people everywhere.",
+   "E": "By pooling their knowledge, these groups develop better ways of processing fish."
+  },
+  "optionsZh": {
+   "C": "這項醫學上的成就雖然了不起，卻只是一項規模大得多的行動當中的一部分。",
+   "A": "不過，在 100% Fish 的帶動下，冰島人現在幾乎能利用一條鱈魚的 95%。",
+   "B": "這番成就，很大一部分來自不同產業的人通力合作。",
+   "E": "這些團體匯集各自的知識，開發出更好的魚貨加工方式。",
+   "D": "畢竟，長久以來，魚一直是世界各地的人重要的蛋白質來源。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 讀起來很順，講的也是魚，而且 `protein`（蛋白質）和第三段的糧食危機、第四段的 `protein-rich soup` 都對得上。放進第 32 格，接在「浪費掉六成」後面，好像在補充浪費為什麼可惜，乍看最放得進去。\n\n問題在於：**全篇談的是「怎麼把一條魚用完」，D 談的是「魚為什麼重要」。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句把魚皮移植帶到一項更大的行動，後一句的 `this Icelandic project` 才有所指",
+     "why": "D 沒有提到任何計畫；魚是蛋白質來源，也和魚皮救人無關"
+    },
+    {
+     "blank": 32,
+     "want": "說完過去浪費六成，接著交代現在的成果，第四段的 `That figure` 才指得到",
+     "why": "D 沒有新的數字，`That figure` 只能指 60%，意思就反了"
+    },
+    {
+     "blank": 33,
+     "want": "一句主題句，把第四段的成果和這一段的跨產業合作接起來",
+     "why": "D 沒有成果，也沒有合作"
+    },
+    {
+     "blank": 34,
+     "want": "參與者聚在一起之後做了什麼，後一句的 `As a result` 才有原因",
+     "why": "魚的營養價值不是加工的改良，說明不了價值為什麼多出 30%"
+    }
+   ],
+   "summary": "**這一篇多出來的選項屬於「主題相同，切面不對」。**115 學測多出來的 D 答的是「微笑分幾種」，全篇問的卻是「什麼影響微笑」。這一篇全篇在講冰島怎麼減少浪費、把一條鱈魚用到幾乎不剩，這一篇的 D 卻講魚本身的營養價值。至於 115 學測參考試卷多出來的 C，則是另一種：「切面對，卻沒有段落在等它」。",
+   "extra": [],
+   "takeaway": "四格先各自配好，再回頭問剩下那一句回答的是不是全篇的問題。這一篇問的是魚「怎麼用」，D 回答的是魚「為什麼重要」，看出切面不同，就不必回頭懷疑前面的答案。"
+  },
+  "paraLabels": [
+   "開場：用一則觸電重傷、魚皮救命的故事引入",
+   "引出計畫：魚皮移植只是 100% Fish 的一部分，計畫要充分利用每一條魚",
+   "問題與成果：過去一條鱈魚浪費六成，如今利用將近九成五",
+   "實例：魚皮、魚頭、魚骨和下腳料各有用途",
+   "關鍵與結尾：跨產業合作提高每條魚的價值，也成為全球的典範"
+  ],
+  "marks": [
+   [
+    2,
+    "Reducing the waste of fish catch has become a serious issue today, when many countries are faced with food crises.",
+    "topic"
+   ],
+   [
+    1,
+    "It encourages the full use of every fish caught and pushes for innovation in seafood products.",
+    "gradient"
+   ],
+   [
+    3,
+    "That figure is achievable because nearly every part of the fish now goes into some kind of product.",
+    "topic"
+   ],
+   [
+    4,
+    "__33__",
+    "topic"
+   ],
+   [
+    0,
+    "however",
+    "trans"
+   ],
+   [
+    "C",
+    "As remarkable as it was",
+    "trans"
+   ],
+   [
+    "A",
+    "however",
+    "trans"
+   ],
+   [
+    4,
+    "also",
+    "trans"
+   ],
+   [
+    4,
+    "As a result",
+    "trans"
+   ],
+   [
+    4,
+    "Beyond these gains",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "In 2020, Petur Oddsson, a power station worker in Iceland, was struck by a 60,000-volt current. The electric shock burned almost half of his body and melted away several layers of his skin. Burns this deep and extensive can be fatal. Oddsson’s life, however, was saved by a creative invention: transplanting codfish skin onto the human body.",
+   "__31__ Known as “100% Fish,” this Icelandic project strives to bring about a fundamental change in the marine industry. It encourages the full use of every fish caught and pushes for innovation in seafood products.",
+   "Reducing the waste of fish catch has become a serious issue today, when many countries are faced with food crises. According to a 2003 study, about 60% of a cod caught in Iceland was lost or wasted while it was being processed for human consumption. __32__",
+   "That figure is achievable because nearly every part of the fish now goes into some kind of product. Cod skin is made into calcium supplements and energy drinks, and it even serves as material for skin transplants, as in Oddsson’s case. Dried fish heads and spines are exported to West Africa, where they form the base of a protein-rich soup. Other groundbreaking products, including Omega-3 capsules, cold virus pretreatment sprays, and dog snacks, are made from what was once thrown away as waste.",
+   "__33__ The 100% Fish initiative actively shows seafood companies the value of collaboration. It also connects fishing companies with other participants in the project, including academia, startups, and research and development teams. __34__ As a result, Icelanders get 30% more value from each cod than most developed countries do. Beyond these gains, the project offers an effective model for promoting resource efficiency worldwide."
+  ],
+  "zhTranslation": [
+   "2020 年，冰島電廠員工 Petur Oddsson 遭到 6 萬伏特的電流擊中。這次電擊燒傷了他將近一半的身體，還熔掉了好幾層皮膚。這麼深、面積又這麼大的燒傷可能致命。不過，一項創新的發明救了 Oddsson 一命：把鱈魚皮移植到人體上。",
+   "__31__ 這項冰島計畫名叫「100% Fish」，努力要從根本改變海洋產業。計畫鼓勵充分利用捕到的每一條魚，並推動海鮮產品的創新。",
+   "如今許多國家面臨糧食危機，減少漁獲的浪費成了一大課題。根據 2003 年的一項研究，冰島捕到的一條鱈魚，在加工成食品的過程中大約有 60% 流失或浪費掉了。__32__",
+   "能達到這個數字，是因為魚身上幾乎每個部位現在都會做成某種產品。鱈魚皮做成鈣片和能量飲料，甚至像 Oddsson 的例子那樣，當作皮膚移植的材料。曬乾的魚頭和魚骨外銷到西非，在當地用來熬煮富含蛋白質的湯。其他突破性的產品，包括 Omega-3 膠囊、預防感冒病毒的噴劑和狗零食，原料都是過去當作廢棄物丟掉的部分。",
+   "__33__ 100% Fish 計畫積極向海鮮業者說明合作的價值，也替漁業公司和計畫的其他參與者牽線，包括學術界、新創公司和研發團隊。__34__ 因此，冰島人從每一條鱈魚得到的價值，比大多數已開發國家多出 30%。除了這些收穫，這項計畫也為全世界推動資源有效利用，提供了一個有效的模式。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 113 年學測閱讀測驗〈「100% Fish」計畫〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 20,
+   "選項字數區間": "12-17",
+   "選項字數全距": 5,
+   "選項長度變異係數": "12.1%",
+   "建檔": "第三百六十四場建檔。改編自 g113p3；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g112p1",
+  "year": "（十二）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "呼拉圈的來歷（The Story of the Hula Hoop）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "E"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Moving very rapidly, they arranged the hoops around their bodies to form these symbolic shapes.",
+   "B": "As early as 1000 BC, Egyptian children played with hoops made of dried grapevine.",
+   "C": "Twenty-five million of the new toys were sold in less than four months.",
+   "D": "Though the dancers used no hoops, their movements closely resembled hooping.",
+   "E": "Keeping a hoop spinning around the waist takes practice and a good sense of balance."
+  },
+  "optionsZh": {
+   "B": "早在西元前 1000 年，埃及兒童就拿乾燥的葡萄藤做成的圈圈來玩。",
+   "D": "雖然舞者沒有用圈圈，他們的動作卻和轉呼拉圈非常相像。",
+   "A": "他們以非常快速的動作，把圈圈排在身體周圍，組成這些具有象徵意義的形狀。",
+   "C": "這種新玩具在不到四個月內就賣出了兩千五百萬個。",
+   "E": "要讓圈圈在腰間一直轉，需要練習，也需要很好的平衡感。"
+  },
+  "unusedExplanation": {
+   "opt": "E",
+   "lead": "E 談的也是呼拉圈，`around the waist`（在腰間）和第一段 `twirled around the waist` 說的是同一個動作，放在第一段之後讀起來也像在補充古人怎麼玩。可是這一篇從頭到尾在講**什麼時候、什麼地方、什麼人在玩圈圈**，E 講的卻是**圈圈要怎麼轉**。把 E 放進四個空格，每一格都會卡住：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句交代古代是哪個年代、哪些人在玩，好讓後面的 `They` 和 `them` 有東西可指",
+     "why": "E 沒有年代，也沒有任何一群人"
+    },
+    {
+     "blank": 32,
+     "want": "說出草裙舞和轉圈有什麼共同點，後面的 `Thus` 才能把 hula 和 hoop 兩個字放在一起",
+     "why": "E 只講轉圈，沒有提到舞者或草裙舞"
+    },
+    {
+     "blank": 33,
+     "want": "說明舞者怎麼用圈圈做出老鷹或蛇的形狀",
+     "why": "E 講的是讓圈圈在腰間轉，不是排出動物的形狀"
+    },
+    {
+     "blank": 34,
+     "want": "用數字證明塑膠呼拉圈風靡全球",
+     "why": "E 沒有數字，也和 1950 年代無關"
+    }
+   ],
+   "summary": "**全篇講的是「人類玩圈圈的歷史」，E 講的卻是「圈圈怎麼轉」。**這一篇的 E 是主題相同，切面不對。115 學測多出來的 D 也屬於這一種；至於 115 學測參考試卷多出來的 C，則是切面對，卻沒有段落在等它。",
+   "extra": [],
+   "takeaway": "讀完第一段，先用一句話寫下全篇在講什麼（這一篇講的是不同年代、不同地方的人怎麼玩圈圈），再拿每個選項來比。選項裡有和文章相同的字，例如 `waist`，不代表它講的是同一件事。"
+  },
+  "paraLabels": [
+   "破題：先用提問帶出呼拉圈，再說玩圈圈可以追溯到古代",
+   "古代：埃及兒童的葡萄藤圈，希臘的金屬圈兼作運動器材",
+   "英國：14 世紀的熱潮，以及 hula hooping 這個名稱的由來",
+   "美洲：原住民在儀式舞蹈中用圈圈代表動物",
+   "現代：塑膠呼拉圈風靡全球，熱潮延續到今天"
+  ],
+  "marks": [
+   [
+    0,
+    "Although the term “hula hoop” did not emerge until the 18th century, toy hoops twirled around the waist, limbs, or neck can be traced back to ancient times.",
+    "thesis"
+   ],
+   [
+    3,
+    "Hoops spun their way through the cultures of pre-colonial America as well.",
+    "topic"
+   ],
+   [
+    4,
+    "The hula hoop gained international popularity in the late 1950s, when California’s Wham-O toy company successfully marketed a plastic version.",
+    "topic"
+   ],
+   [
+    0,
+    "Although",
+    "trans"
+   ],
+   [
+    "B",
+    "As early as 1000 BC",
+    "trans"
+   ],
+   [
+    1,
+    "also",
+    "trans",
+    "They ",
+    " struck"
+   ],
+   [
+    1,
+    "too",
+    "trans"
+   ],
+   [
+    2,
+    "In the 14th century",
+    "trans"
+   ],
+   [
+    2,
+    "however",
+    "trans"
+   ],
+   [
+    "D",
+    "Though",
+    "trans"
+   ],
+   [
+    2,
+    "Thus",
+    "trans"
+   ],
+   [
+    3,
+    "as well",
+    "trans"
+   ],
+   [
+    4,
+    "Today",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "When did people first experience the joy of the hula hoop? Although the term “hula hoop” did not emerge until the 18th century, toy hoops twirled around the waist, limbs, or neck can be traced back to ancient times.",
+   "__31__ They tossed them into the air, jumped through them, and swung them around their bodies much as we do today. They also struck the hoops with sticks to send them rolling down the road. Hoop rolling caught on in ancient Greece, too, where hoops were often made of metal. Greek children used these rings not merely as toys but also as exercise equipment.",
+   "In the 14th century, hoops were a popular form of recreation in Great Britain. According to medical records, the craze even resulted in dislocated backs and heart attacks. The word “hula,” however, did not enter the English language until the 1700s, when British sailors first witnessed hula dancing in the Hawaiian Islands. __32__ Thus “hula” and “hoop” came together, giving rise to the term “hula hooping.”",
+   "Hoops spun their way through the cultures of pre-colonial America as well. Often regarded as representing the circle of life, they featured prominently in the ritual dances of Native Americans. Dancers used small reed hoops to stand for animals such as eagles or snakes. __33__",
+   "The hula hoop gained international popularity in the late 1950s, when California’s Wham-O toy company successfully marketed a plastic version. __34__ Today, the hula hoop “fad” is still going strong."
+  ],
+  "zhTranslation": [
+   "人類最早是什麼時候開始享受呼拉圈的樂趣？雖然「呼拉圈」這個名稱到 18 世紀才出現，但套在腰部、手腳或脖子上轉動的玩具圈，可以追溯到古代。",
+   "__31__ 他們把圈圈拋向空中、從圈中跳過，也把圈圈套在身上甩動，玩法和我們今天差不多。他們也會用棍子敲打圈圈，讓圈圈沿著道路滾下去。滾圈在古希臘也很流行，當地的圈圈通常是金屬做的。對希臘兒童來說，這些圈圈不只是玩具，也是運動器材。",
+   "14 世紀時，玩圈圈是英國很流行的消遣。根據醫療紀錄，這股熱潮甚至讓人背部脫臼、心臟病發作。不過 hula 這個字一直到 1700 年代才進入英文，當時英國水手在夏威夷群島第一次見到草裙舞（hula）。__32__ 於是 hula 和 hoop 結合在一起，就有了 hula hooping 這個說法。",
+   "在殖民時期以前的美洲文化裡，也看得到圈圈的蹤影。圈圈常常象徵生命的循環，在美洲原住民的儀式舞蹈中占有重要的地位。舞者用小小的蘆葦圈代表老鷹或蛇之類的動物。__33__",
+   "1950 年代末期，加州的 Wham-O 玩具公司成功推出塑膠款的呼拉圈，呼拉圈從此風靡全球。__34__ 到了今天，這股呼拉圈「熱潮」依然不退。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 112 年學測閱讀測驗〈呼拉圈的歷史〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 19,
+   "選項字數區間": "11-15",
+   "選項字數全距": 4,
+   "選項長度變異係數": "11.2%",
+   "建檔": "第三百六十四場建檔。改編自 g112p1；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g110p1",
+  "year": "（十三）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "仙人掌外皮發電（Turning Cactus Waste into Power）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "D"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Until recently, part of every cactus harvested in Mexico simply ended up in the trash.",
+   "B": "With these benefits, the Mexico City project offers new hope for reducing fossil fuel use.",
+   "C": "The generator now runs at the market, where vendors welcome this new use for their husks.",
+   "D": "Over the centuries, the cactus has become a proud symbol of Mexican identity.",
+   "E": "Therefore, using the plant as a fuel source will not put pressure on food prices."
+  },
+  "optionsZh": {
+   "A": "直到不久前，墨西哥收成的每一株仙人掌，都有一部分直接進了垃圾桶。",
+   "C": "現在發電機就在市場裡運轉，攤販也樂見這些仙人掌外皮有了新用途。",
+   "E": "因此，拿這種植物當燃料來源，不會對糧食價格造成壓力。",
+   "B": "有了這些好處，墨西哥城的這項計畫，為減少使用化石燃料帶來了新希望。",
+   "D": "幾百年來，仙人掌已經成為墨西哥人引以為傲的民族象徵。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 讀起來很通順，講的也是墨西哥的仙人掌，內容和第一段提到的國旗、阿茲特克人都相符。放在第 31 格，接在 `Known locally as nopal` 前面像在介紹這種植物；放在第 34 格，又像回到開頭的象徵、首尾呼應。可是四個空格都放不下它：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句主題句，說仙人掌有一部分白白丟掉，後面講嫩肉和外皮的兩句才有歸屬",
+     "why": "D 講的是象徵，第一段第一句已經說過；後面外皮當成廢棄物的事，D 也帶不出來"
+    },
+    {
+     "blank": 32,
+     "want": "交代新創公司的點子做成了沒有，發電機是不是已經在市場運轉",
+     "why": "D 沒有發電機、市場，也沒有攤販"
+    },
+    {
+     "blank": 33,
+     "want": "第一項優勢的結果：嫩肉留給人吃，所以不影響糧食價格",
+     "why": "D 不是和其他作物相比的優勢，放在 `For one thing` 和 `Moreover` 中間，這一串優勢就斷了"
+    },
+    {
+     "blank": 34,
+     "want": "總結第四段的優勢，同時交代後一句的 `it` 指哪一項計畫",
+     "why": "象徵沒辦法 `expanded across the country`，D 也沒有提到能源"
+    }
+   ],
+   "summary": "**全篇講的是「仙人掌怎麼變成能源、這樣做好在哪裡」，D 講的卻是「仙人掌對墨西哥人有什麼意義」。** 這和 115 學測多出來的 D 屬於同一種：主題相同，切面不對。不過這一篇的 D 用的事實都出自第一段，又剛好能和開頭呼應。和 115 學測多出來的 D 相比，它更容易誤選。",
+   "extra": [],
+   "takeaway": "最後一格如果有個選項看起來能首尾呼應，先別急著選。看後一句的代名詞能不能指它，再看它有沒有總結前面幾段；兩項都對不上，它就是多出來的。"
+  },
+  "paraLabels": [
+   "破題：仙人掌在墨西哥用途很多，如今又多了生產再生能源",
+   "背景：外皮向來當成廢棄物，直到沼氣發電機出現",
+   "實例：墨西哥城南部的試驗計畫，從構想到運轉",
+   "優勢：和其他生質燃料作物相比，不影響糧價，也不和糧食搶水搶地",
+   "結尾：試驗計畫帶來的希望與能源的未來"
+  ],
+  "marks": [
+   [
+    0,
+    "Now scientists have come up with a new use for the bright green plant: producing renewable energy.",
+    "gradient"
+   ],
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    3,
+    "The prickly pear has a number of advantages over other biofuel crops, such as wheat, sugarcane, and soybeans.",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "topic"
+   ],
+   [
+    0,
+    "Now",
+    "trans"
+   ],
+   [
+    "A",
+    "Until recently",
+    "trans"
+   ],
+   [
+    1,
+    "yet",
+    "trans"
+   ],
+   [
+    2,
+    "Then",
+    "trans"
+   ],
+   [
+    3,
+    "For one thing",
+    "trans"
+   ],
+   [
+    3,
+    "while",
+    "trans"
+   ],
+   [
+    "E",
+    "Therefore",
+    "trans"
+   ],
+   [
+    3,
+    "Moreover",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "The prickly pear cactus is such a powerful symbol in Mexico that it occupies a prime spot on the country’s national flag. The plant was considered sacred by the ancient Aztecs, and modern-day Mexicans eat it, drink it, and even use it in medicines and shampoos. Now scientists have come up with a new use for the bright green plant: producing renewable energy.",
+   "__31__ Known locally as nopal, the prickly pear is farmed on a massive scale, yet for years only its soft, edible flesh was used. The cactus’s thick outer layer, or husk, with all those spines, had always been viewed as a waste product until researchers developed a biogas generator to turn the husks into electricity.",
+   "The pilot project dedicated to developing the cactus biogas generator began in the south of Mexico City. The area produces 200,000 tons of prickly pear cactus a year, and up to 10 tons of it is dumped as waste on the floor of the local cactus market every day. Then, a green energy startup based nearby got the idea of turning that waste into power. __32__",
+   "The prickly pear has a number of advantages over other biofuel crops, such as wheat, sugarcane, and soybeans. For one thing, only the husk of the cactus goes into the fuel, while its inner flesh is still left for people to eat. __33__ Moreover, the cactus requires very little water, so it does not need to be grown on traditional farmland or pasture. This means that no new competition arises for the water or land presently used for food production.",
+   "__34__ If it can be expanded across the country, the prickly pear could be the key to Mexico’s energy future."
+  ],
+  "zhTranslation": [
+   "仙人掌在墨西哥是極具分量的象徵，甚至在墨西哥國旗上占了顯要的位置。古代阿茲特克人把這種植物視為神聖，現代的墨西哥人會吃仙人掌、喝仙人掌汁，甚至拿它來做藥品和洗髮精。如今科學家替這種鮮綠色的植物找到了新用途：生產再生能源。",
+   "__31__ 這種仙人掌在當地叫做 nopal，在墨西哥大量種植，可是多年來人們只用它柔軟、可以吃的嫩肉。至於布滿尖刺的厚外皮（husk），一直當成廢棄物，直到研究人員開發出一種沼氣發電機，把這些外皮變成電力。",
+   "開發仙人掌沼氣發電機的試驗計畫，從墨西哥城南部開始。這個地區一年生產 20 萬噸仙人掌，每天多達 10 噸當成廢棄物，丟在當地仙人掌市場的地上。後來，附近一家綠能新創公司想到，可以把這些廢棄物變成電力。__32__",
+   "和小麥、甘蔗、大豆等其他生質燃料作物相比，仙人掌有好幾項優勢。首先，做燃料只用仙人掌的外皮，裡面的嫩肉仍然留給人吃。__33__ 此外，仙人掌需要的水很少，所以不會種在傳統的農地或牧場上。也就是說，種仙人掌不會和糧食生產爭奪現有的水和土地。",
+   "__34__ 如果這項計畫能推廣到全國，仙人掌可能就是墨西哥能源未來的關鍵。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 110 年學測閱讀測驗〈仙人掌的再生能源應用〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "13-16",
+   "選項字數全距": 3,
+   "選項長度變異係數": "6.6%",
+   "建檔": "第三百六十四場建檔。改編自 g110p1；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g109p4",
+  "year": "（十四）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "用聲音驅趕鐵軌上的鹿（Sounds That Keep Deer off the Tracks）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "C"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Deer, RTRI officials explain, repeatedly give short, shrill snorts to warn one another of danger.",
+   "B": "In the past, flashing red lights and even lion faces were tried, but neither kept deer off the tracks.",
+   "C": "A deer that senses a threat may flash the white patch on its rear to warn the herd.",
+   "D": "Encouraged by the results, the institute plans to set up fixed barking devices where deer often gather.",
+   "E": "Japan has long been troubled by a serious problem on its railways: trains running into deer."
+  },
+  "optionsZh": {
+   "E": "長久以來，日本一直苦於鐵路上的一個嚴重問題：火車撞上鹿。",
+   "B": "過去試過閃爍的紅燈，甚至用過獅子的臉，但都沒能讓鹿遠離鐵軌。",
+   "A": "RTRI 的人員說明，鹿會反覆發出短促尖銳的鳴聲，警告同伴有危險。",
+   "D": "研究所受到這個結果鼓舞，打算在鹿常聚集的地方設置固定的狗吠裝置。",
+   "C": "鹿察覺威脅時，可能會亮出臀部的白斑，警告整個鹿群。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 讀起來很像正解。它講的是鹿怎麼警告同伴，第四段也在講鹿用鳴聲警告同伴；C 的 `flash` 又和選項 B 的 `flashing red lights` 是同一個字，放進第 32 格或第 33 格，乍看都說得通。可是四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句點出火車撞鹿是日本鐵路長久以來的嚴重問題，後一句的 613 起才有東西可以證明",
+     "why": "C 沒有火車，也沒有提出任何問題"
+    },
+    {
+     "blank": 32,
+     "want": "人們過去試過、靠鹿的眼睛起作用的方法，下一段的 `these earlier measures` 才指得到",
+     "why": "白斑雖然看得到，卻是鹿自己身上的毛色，不是人們想出來驅鹿的方法"
+    },
+    {
+     "blank": 33,
+     "want": "鹿用叫聲示警，後一句的 `the alarm call` 才有著落",
+     "why": "C 的警告是用看的；前一句才說新方法靠的是鹿聽到的聲音"
+    },
+    {
+     "blank": 34,
+     "want": "看到成效之後的下一步計畫，後一句的 `the noises` 才有出處",
+     "why": "C 接不上測試成效，白斑也發不出聲音"
+    }
+   ],
+   "summary": "**這一篇多出來的選項屬於「切面對，卻沒有段落在等它」，和 115 學測參考試卷多出來的 C 相同。**文章確實談到鹿怎麼警告同伴，這一篇的 C 談的也是這件事；可是第四段第一句已經說新方法靠的是鹿聽到的聲音，第 33 格後一句又在等一個叫聲（`the alarm call`），白斑要用眼睛看，沒有一段在等它。至於 115 學測多出來的 D，屬於「主題相同，切面不對」。",
+   "extra": [],
+   "takeaway": "有一格乍看放得進去時，把那一格前後的關鍵字找出來（這一篇是 `measures`、`hear`、`alarm call`），看選項對不對得上；對不上的那一個，四格都代進去試一次，每一格都放不下，它就是多出來的那一句。"
+  },
+  "paraLabels": [
+   "破題：日本在火車上裝喇叭，用狗吠和鹿鳴防止撞上動物",
+   "問題：火車撞鹿由來已久，2016 至 2017 年間造成六百多起停駛或延誤",
+   "成因與舊方法：鹿為了鐵質舔鐵軌，過去靠視覺驅鹿都沒有用",
+   "新方法：改從聽覺下手，用鹿的警告聲加上狗吠嚇走鹿",
+   "成效與展望：測試看到鹿的次數少了 45%，接著要設固定裝置，但避開住宅區"
+  ],
+  "marks": [
+   [
+    0,
+    "Researchers in Japan have fitted a train with a speaker that barks like a dog and snorts like a deer, hoping to prevent collisions with animals on the tracks.",
+    "thesis"
+   ],
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    3,
+    "Unlike these earlier measures, which relied on what deer see, the new one works on what they hear.",
+    "topic"
+   ],
+   [
+    "B",
+    "In the past",
+    "trans"
+   ],
+   [
+    3,
+    "Unlike",
+    "trans"
+   ],
+   [
+    "B",
+    "but",
+    "trans"
+   ],
+   [
+    4,
+    "however",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Researchers in Japan have fitted a train with a speaker that barks like a dog and snorts like a deer, hoping to prevent collisions with animals on the tracks.",
+   "__31__ According to the country’s transport ministry, collisions with deer and other wild animals led to 613 cases in 2016-17 in which train services were suspended or delayed for at least 30 minutes.",
+   "Deer are drawn to railway lines because they need iron in their diets. They lick the rails to pick up iron filings produced as the wheels grind against the tracks. This dietary need has led to a constant battle to keep the deer separate from the unforgiving nature of tons of onrushing rolling stock. __32__",
+   "Unlike these earlier measures, which relied on what deer see, the new one works on what they hear. It was invented by a team at Japan’s Railway Technical Research Institute (RTRI). __33__ The barking of a hound, which deer greatly fear, strengthens the effect of the alarm call. When deer hear a combination of a 3-second recording of a deer’s snort and 20 seconds of a barking dog, they panic and flee rapidly.",
+   "Late-night tests, held when deer are most often seen by the tracks, have so far cut sightings by 45 percent. __34__ Officials promise, however, that “the noises will not be blared in areas where people live beside the tracks.”"
+  ],
+  "zhTranslation": [
+   "日本的研究人員在一列火車上裝了一個喇叭，可以發出狗吠聲和鹿鳴聲，希望防止火車撞上軌道上的動物。",
+   "__31__ 根據日本國土交通省的資料，2016 至 2017 年間，因為撞上鹿和其他野生動物，火車停駛或延誤 30 分鐘以上的情形共有 613 起。",
+   "鹿之所以靠近鐵路，是因為飲食中需要鐵質。車輪和鐵軌摩擦會產生鐵屑，鹿就舔鐵軌來攝取這些鐵屑。因為有這種飲食上的需求，人們長年不斷設法讓鹿遠離重達數噸、疾駛而來、毫不留情的列車。__32__",
+   "這些早先的方法靠的是鹿看到的東西，新方法則是從鹿聽到的聲音下手。這個裝置是日本鐵道綜合技術研究所（RTRI）的團隊發明的。__33__ 鹿很怕獵犬的吠聲，吠聲可以加強警告叫聲的效果。鹿聽到 3 秒的鹿鳴錄音加上 20 秒的狗吠聲，就會驚慌地迅速逃開。",
+   "深夜測試選在鹿最常出現在鐵軌旁的時段進行，到目前為止，看到鹿的次數已經減少了 45%。__34__ 不過，相關人員保證，「鐵軌旁有住家的地區不會播放這些聲音」。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 109 年學測閱讀測驗〈用聲音驅趕鹿隻〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 15,
+   "選項字數區間": "15-19",
+   "選項字數全距": 4,
+   "選項長度變異係數": "8.3%",
+   "建檔": "第三百六十四場建檔。改編自 g109p4；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g105p4",
+  "year": "（十五）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "海蛇怎麼喝到淡水（How Sea Snakes Get Fresh Water）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "B"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "During those long dry spells, the snakes presumably have nothing to drink.",
+   "B": "For a sea snake, the vast ocean is in many ways like a desert.",
+   "C": "Part of the answer, it seems, comes from the sky.",
+   "D": "A snake’s willingness to drink was tied to its body condition as well.",
+   "E": "Taken together, the findings suggest that the snakes can endure some dehydration between rains."
+  },
+  "optionsZh": {
+   "C": "看來，答案有一部分來自天上。",
+   "A": "在那幾段漫長的乾旱期裡，海蛇大概沒有東西可以喝。",
+   "D": "海蛇願不願意喝水，也和牠的身體狀況有關。",
+   "E": "綜合這些結果來看，海蛇在兩場雨之間能夠忍受某種程度的脫水。",
+   "B": "對海蛇來說，廣闊的海洋在很多方面就像一片沙漠。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "**B 這一句本身沒有錯**：文法正確，內容也符合文章。它講的是海蛇喝不到淡水的處境，和全篇同一個主題；說海洋像一片沙漠，也符合第一段的意思。放在第一段的問句後面，或放在「七個月不下雨」後面，乍看都接得上。\n\n問題在於：**海蛇缺淡水這件事，第一段已經說完了，後面沒有任何一段在等這一句。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "回答開頭的提問，並帶出整段的雨水",
+     "why": "B 把難題再講一次，沒有回答，也沒有提到雨"
+    },
+    {
+     "blank": 32,
+     "want": "一句推測，下一段的 `this guess` 才有來由",
+     "why": "B 用肯定的語氣打比方，不是推測；而且一年到頭都成立，和乾季無關"
+    },
+    {
+     "blank": 33,
+     "want": "比較的條件從季節換到胖瘦，先說身體狀況也有影響",
+     "why": "B 沒有胖瘦，也不是研究結果"
+    },
+    {
+     "blank": 34,
+     "want": "歸納三項發現，讓後一句的 `Their tolerance` 有所指",
+     "why": "B 沒有研究結果，也沒有「忍受」這件事"
+    }
+   ],
+   "summary": "**這一篇多出來的選項屬於「切面對，卻沒有段落在等它」，和 115 學測參考試卷多出來的 C 相同。** 115 學測多出來的 D 屬於「主題相同，切面不對」，比較容易看出不同類；這一篇的 B 談的就是海蛇缺水，只是這個處境在第一段已經交代過，後面各段依序談雨水、推測、研究結果與結論，沒有一段需要回頭再說一次。",
+   "extra": [],
+   "takeaway": "判斷多出來的選項，先把四格前後各在等什麼寫成一句。某個選項如果只是把前面說過的事換個說法，就要問：後面有哪一句需要它？找不到，它就是多出來的。"
+  },
+  "paraLabels": [
+   "破題：海蛇的鹽腺應付不了海水，提問牠怎麼活下去",
+   "答案的前半：雨水是唯一的淡水來源",
+   "轉折：當地乾季漫長，引出海蛇沒水喝的推測",
+   "研究經過：查證推測，依序列出三項發現",
+   "結論：海蛇能忍受脫水，但耐受力有限"
+  ],
+  "marks": [
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "Rain, though, does not fall all year round.",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "gradient"
+   ],
+   [
+    0,
+    "But",
+    "trans"
+   ],
+   [
+    1,
+    "Because",
+    "trans"
+   ],
+   [
+    2,
+    "though",
+    "trans"
+   ],
+   [
+    3,
+    "while",
+    "trans"
+   ],
+   [
+    3,
+    "Finally",
+    "trans"
+   ],
+   [
+    4,
+    "however",
+    "trans"
+   ],
+   [
+    "E",
+    "Taken together",
+    "trans"
+   ],
+   [
+    "D",
+    "as well",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Many marine animals, including penguins and marine iguanas, have evolved ways to get rid of excess salt through special glands around their tongues. But the sea snake’s salt glands cannot handle the massive amounts of salt that would enter its body if it actually drank seawater. This poses a serious problem when it comes to getting enough water to drink. If seawater is not an option, how does the sea snake survive in the ocean?",
+   "__31__ Because yellow-bellied sea snakes usually spend their entire lives far from land, rain is their only source of fresh water. When it rains, a thin layer of fresh water forms on top of the ocean, giving the snakes a fleeting chance to lap up that precious resource.",
+   "Rain, though, does not fall all year round. An international team of researchers focused on a population of yellow-bellied sea snakes living near Costa Rica, where it may not rain for as long as seven months a year. __32__",
+   "To find out whether this guess was correct, the team collected more than 500 of the snakes and weighed them. During the dry season, about half of the snakes accepted fresh water offered to them, while almost none did in the wet season. __33__ Thinner, more withered snakes were more likely to drink, and drank larger amounts. Finally, as predicted, snakes captured in the dry season contained significantly less body water than those scooped up in the wet season.",
+   "__34__ Their tolerance has limits, however, and scientists believe that dehydration at sea may explain the declining populations of sea snakes in some parts of the world."
+  ],
+  "zhTranslation": [
+   "許多海洋動物，包括企鵝和海鬣蜥，都演化出排除多餘鹽分的方法，靠的是舌頭周圍的特殊腺體。但是海蛇如果真的喝下海水，大量的鹽分會進入體內，牠的鹽腺應付不了。說到要喝到足夠的水，這就成了一個嚴重的問題。既然不能喝海水，海蛇要怎麼在海洋裡生存呢？",
+   "__31__ 黃腹海蛇通常一輩子都待在遠離陸地的海上，所以雨水是牠們唯一的淡水來源。下雨時，海面上會形成一層薄薄的淡水，海蛇才有短暫的機會舔飲這珍貴的資源。",
+   "不過，雨並不是一年到頭都會下。一個國際研究團隊鎖定一群棲息在哥斯大黎加附近海域的黃腹海蛇，當地一年可能長達七個月不下雨。__32__",
+   "為了查證這個推測對不對，研究團隊捕捉了 500 多條海蛇，並替牠們秤重。乾季時，大約一半的海蛇會喝研究人員提供的淡水；到了雨季，幾乎沒有一條海蛇會喝。__33__ 越瘦、越乾癟的海蛇越可能喝水，喝的量也越多。最後，一如預期，乾季捕獲的海蛇體內水分明顯比雨季撈到的少。",
+   "__34__ 不過，海蛇的耐受力還是有限度。科學家認為，海上脫水或許可以解釋某些地區海蛇數量為什麼減少。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 105 年學測閱讀測驗〈海蛇的飲水策略〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "10-14",
+   "選項字數全距": 4,
+   "選項長度變異係數": "11.9%",
+   "建檔": "第三百六十四場建檔。改編自 g105p4；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g99p2",
+  "year": "（十六）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "畢業舞會的變遷（How the Prom Has Changed）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "A"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Most high schools hold their prom in the spring, shortly before the school year ends.",
+   "B": "Since the 1990s, some communities have begun holding alternative proms for students with particular needs.",
+   "C": "The spending does not stop at clothing: stretch limousines carry couples to pricey restaurants or discos.",
+   "D": "The word “prom” had been in use for decades before the dance became a school tradition.",
+   "E": "Prom-goers dressed neatly for the occasion, but their outfits were not fancy."
+  },
+  "optionsZh": {
+   "D": "早在這種舞會成為學校傳統之前，prom 這個字就已經用了好幾十年。",
+   "E": "參加舞會的人穿得整齊得體，但沒有特別盛裝打扮。",
+   "C": "花錢的地方不只服裝：加長型禮車還會載著一對對舞伴，前往高價的餐廳或舞廳。",
+   "B": "1990 年代以來，有些社區開始為有特定需求的學生舉辦另類舞會。",
+   "A": "大多數高中會在春天、學年快結束的時候舉辦畢業舞會。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 讀起來很通順，講的也是畢業舞會。放在第 31 格，接在第一段「舞會是成年禮」後面補一句什麼時候辦，乍看說得過去。\n\n問題在於：**全篇談的是舞會怎麼來、怎麼變、對青少年有什麼影響，A 談的卻是舞會在哪個季節辦。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句先提到 prom 這個字，後一句的 `the term` 才有所指，`Back in the 1890s` 也才接得上",
+     "why": "A 講的是今天的學校在春天辦舞會，沒有提到任何字詞，也沒有往前推到 1890 年代"
+    },
+    {
+     "blank": 32,
+     "want": "一句概括早年舞會的穿著：整齊但不華麗，後面才能接外套、領帶和星期天上教堂的洋裝",
+     "why": "A 講的是舉辦的季節，和穿著無關；這一段寫的是早年的舞會，A 寫的是今天"
+    },
+    {
+     "blank": 33,
+     "want": "順著前一句的過度消費往下說，從服裝講到禮車、餐廳和舞廳",
+     "why": "A 一個字都沒提到花錢"
+    },
+    {
+     "blank": 34,
+     "want": "一句先說出現了為特定學生辦的另類舞會，後面的 `For example` 才有東西可舉",
+     "why": "無家可歸青少年的舞會、不需舞伴的舞會，都不是「春天辦舞會」的例子"
+    }
+   ],
+   "summary": "**這一篇的多餘選項屬於「主題相同，切面不對」。**115 學測多出來的 D 答的是「微笑分幾種」，全篇問的卻是「什麼影響微笑」。這一篇從 prom 這個字的由來、舞會的演變一路寫到另類舞會，這一篇的 A 卻講舞會辦在春天。至於 115 學測參考試卷多出來的 C，則是另一種：「切面對，卻沒有段落在等它」。",
+   "extra": [],
+   "takeaway": "四格填完以後，先用一句話寫下全篇在回答什麼（這一篇是「舞會的由來、演變和對學生的影響」），再拿剩下的那一句對照，就說得出它多在哪裡，不必回頭懷疑前面的答案。"
+  },
+  "paraLabels": [
+   "破題：畢業舞會是第一次正式社交，也是成年禮",
+   "由來：先追溯 prom 這個字，再說家長和老師為什麼重視舞會",
+   "演變：從體育館裡的簡樸聚會，變成大肆消費的場合",
+   "轉折：不論簡樸或奢華，舞會都讓不少青少年難熬",
+   "回應：另類舞會照顧有特定需求的學生"
+  ],
+  "marks": [
+   [
+    3,
+    "Whether simple or lavish, proms have always been more or less traumatic events for adolescents who worry about self-image and fitting in with their peers.",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "topic"
+   ],
+   [
+    0,
+    "also",
+    "trans"
+   ],
+   [
+    1,
+    "Back in the 1890s",
+    "trans"
+   ],
+   [
+    1,
+    "That is why",
+    "trans"
+   ],
+   [
+    2,
+    "By the 1930s",
+    "trans"
+   ],
+   [
+    2,
+    "After the 1960s",
+    "trans"
+   ],
+   [
+    3,
+    "Whether",
+    "trans"
+   ],
+   [
+    4,
+    "For example",
+    "trans"
+   ],
+   [
+    4,
+    "also",
+    "trans"
+   ],
+   [
+    "B",
+    "Since the 1990s",
+    "trans"
+   ],
+   [
+    "E",
+    "but",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "The high school prom is the first formal social event for most American teenagers. It has also been a rite of passage for young Americans for nearly a century.",
+   "__31__ Back in the 1890s, the term referred to formal dances in which guests would display their fashions and dancing skills during the evening’s grand march. In the United States, parents and educators have come to regard the prom as an important lesson in social skills. That is why high schools hold proms every year, giving students a chance to learn proper social behavior.",
+   "The first high school proms were held in the 1920s. By the 1930s, the event had spread across the country. For many older Americans, the prom was a modest, home-grown affair in the school gymnasium. __32__ Boys wore jackets and ties, and girls their Sunday dresses. Couples danced to music provided by a local amateur band or a record player. After the 1960s, and especially from the 1980s on, the prom in many areas turned into a serious exercise in excessive consumption, with boys renting expensive tuxedos and girls wearing designer gowns. __33__",
+   "Whether simple or lavish, proms have always been more or less traumatic events for adolescents who worry about self-image and fitting in with their peers. Prom night can be a dreadful experience for socially awkward teens or for those who fail to find a date.",
+   "__34__ For example, proms organized by and for homeless youth have been reported. There have also been “couple-free” proms, to which all students are welcome."
+  ],
+  "zhTranslation": [
+   "對大多數美國青少年來說，高中畢業舞會是他們第一次參加的正式社交活動。將近一百年來，畢業舞會也一直是美國年輕人的成年禮。",
+   "__31__ 在 1890 年代，這個詞指的是正式的舞會，賓客會在晚上開場的列隊進場（grand march）中展示自己的服裝和舞技。在美國，家長和教育工作者逐漸把畢業舞會看作學習社交技巧的重要一課。正因為這樣，高中每年都會舉辦畢業舞會，讓學生有機會學習合宜的社交禮儀。",
+   "美國最早的高中畢業舞會在 1920 年代舉行。到了 1930 年代，這項活動已經遍及全國。對許多年紀較大的美國人來說，畢業舞會是在學校體育館舉辦、簡樸的自辦活動。__32__ 男生穿外套、打領帶，女生穿星期天上教堂的洋裝。一對對舞伴隨著當地業餘樂團或唱機播放的音樂跳舞。1960 年代以後，尤其是從 1980 年代起，許多地區的畢業舞會變成了大肆消費的場合，男生租昂貴的晚禮服，女生穿名牌禮服。__33__",
+   "不論簡樸還是奢華，對擔心自我形象、擔心能不能融入同儕的青少年來說，畢業舞會多少都是讓人難熬的事。對不擅社交的青少年，或是找不到舞伴的人來說，舞會那一晚可能是很可怕的經驗。",
+   "__34__ 例如，有報導提到由無家可歸的青少年籌辦、也專為他們舉辦的舞會。也有「不需舞伴」的舞會，歡迎所有學生參加。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 99 年學測閱讀測驗〈美國高中畢業舞會的演變與意義〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 19,
+   "選項字數區間": "12-16",
+   "選項字數全距": 4,
+   "選項長度變異係數": "9.9%",
+   "建檔": "第三百六十四場建檔。改編自 g99p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z108p2",
+  "year": "（十七）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "催眠到底是什麼（What Hypnosis Really Is）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "C"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Spiegel hopes that hypnosis can someday be used to replace painkillers.",
+   "B": "Not everyone, however, responds to hypnosis to the same degree.",
+   "C": "Such people are also more inclined to trust their gut feelings.",
+   "D": "Specifically, activity dropped in the brain region that usually becomes active when there is cause for worry.",
+   "E": "Hypnosis is often mistaken for a kind of sleep in which people do whatever they are told."
+  },
+  "optionsZh": {
+   "E": "很多人誤以為催眠是一種睡眠，人在這種狀態下，別人叫他做什麼，他就做什麼。",
+   "B": "然而，不是每個人對催眠的反應都一樣強。",
+   "D": "具體來說，有一個腦區平常遇到值得擔心的事就會活躍起來，這個區域的活動下降了。",
+   "A": "Spiegel 希望有一天催眠可以用來取代止痛藥。",
+   "C": "這種人也比較傾向相信自己的直覺。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 讀起來很順，談的是容易催眠的人有什麼特質，和第三段同一件事。放進第 33 格，`Such people` 剛好可以指前一句的 `the highly hypnotizable group`，`also` 也像在替這群人補一項特點，乍看最像答案。\n\n問題在於：**講特質的那一段已經講完了，沒有任何一格在等它。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句和「高度專注」相反的說法，讓後一句的 `But` 有東西可以轉",
+     "why": "C 沒提到睡眠或任人擺布，`Such people` 前面也沒有人可指"
+    },
+    {
+     "blank": 32,
+     "want": "段首一句說明人和人對催眠的反應不同，概括後面的特質和兩組比較",
+     "why": "C 只多加一項特質，概括不了整段，`Such people` 和 `also` 前面也還沒有東西可接"
+    },
+    {
+     "blank": 33,
+     "want": "把 `some interesting changes` 講具體，而且能解釋下一段的減輕焦慮",
+     "why": "相信直覺是個性，不是大腦掃描看到的變化"
+    },
+    {
+     "blank": 34,
+     "want": "帶出 Spiegel 這個人和他的一個想法，讓後一句的 `His` 和用藥減半的研究有著落",
+     "why": "C 沒有人名，也和止痛藥無關"
+    }
+   ],
+   "summary": "**這一篇多出來的選項屬於「切面對，卻沒有段落在等它」，和 115 學測參考試卷多出來的 C 一樣。**這一篇的 C 談的是容易催眠的人，可是第三段只有段首一格，要的是概括全段的主旨句，不是再加一項特質；第四段的空格要的是大腦的變化。115 學測多出來的 D 屬於「主題相同，切面不對」，比這一篇好認。",
+   "extra": [],
+   "takeaway": "選項裡有 `Such people`、`also` 這類字，先找它可以接在哪一句後面；找到了，再看那個位置前後是不是真的在談同一件事。字面接得上、內容接不上，就不是那一格。"
+  },
+  "paraLabels": [
+   "開場：用一則親身經歷引出催眠",
+   "定義：先點出常見的誤解，再說明催眠是高度專注的狀態",
+   "差異：不是每個人都一樣容易催眠",
+   "研究：大腦掃描看到的變化",
+   "應用：從研究結果到取代止痛藥的期望"
+  ],
+  "marks": [
+   [
+    1,
+    "But according to Spiegel, it is a state of highly focused attention and intense concentration.",
+    "topic"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "topic"
+   ],
+   [
+    0,
+    "Instead",
+    "trans"
+   ],
+   [
+    1,
+    "But",
+    "trans"
+   ],
+   [
+    "B",
+    "however",
+    "trans"
+   ],
+   [
+    "D",
+    "Specifically",
+    "trans"
+   ],
+   [
+    4,
+    "However",
+    "trans"
+   ],
+   [
+    "C",
+    "also",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "When Dr. David Spiegel emerged from a three-hour shoulder surgery in 1972, he did not use any pain medication to recover. Instead, he hypnotized himself. It worked—to the surprise of everyone but Spiegel himself, who has studied hypnosis for 45 years.",
+   "__31__ But according to Spiegel, it is a state of highly focused attention and intense concentration. Under hypnosis, you tune out most of the stimuli around you and focus intently on the subject at hand, to the near exclusion of any other thought. This trance-like state can be an effective tool to control pain, ease anxiety, and deal with stress.",
+   "__32__ In a recent study, Spiegel and his colleagues found that people who slip into a trance easily tend to be more trusting of others and more likely to get caught up in a good movie. The research team compared these highly hypnotizable people with those low in hypnotizability.",
+   "Both groups underwent fMRI scans under several different conditions: at rest, while recalling a memory, and during two sessions of hypnosis. The researchers observed some interesting changes in the brain during hypnosis—but only in the highly hypnotizable group. __33__",
+   "This helps explain how hypnosis can have such powerful effects, including reducing stress, anxiety, pain, and self-consciousness. __34__ His own earlier research has shown that when patients in pain were taught self-hypnosis, they needed half as much pain medication and suffered half as much pain as those who relied on medication alone. However, more needs to be learned about hypnosis before its full potential can be harnessed."
+  ],
+  "zhTranslation": [
+   "1972 年，David Spiegel 醫師動完三個小時的肩部手術，復原期間沒有用任何止痛藥，而是替自己催眠。結果真的有效。除了研究催眠已經 45 年的 Spiegel 本人，大家都很驚訝。",
+   "__31__ 不過，根據 Spiegel 的說法，催眠是一種高度專注、注意力非常集中的狀態。處在催眠狀態時，你會把周遭大部分的刺激都屏除在外，全神貫注在眼前的事情上，幾乎不去想任何別的事情。這種恍惚般的狀態，可以是控制疼痛、緩解焦慮、應付壓力的有效工具。",
+   "__32__ Spiegel 和同事在最近一項研究中發現，很容易進入恍惚狀態的人，往往比較信任別人，看到一部好電影，也比較容易沉浸其中。研究團隊把這些很容易催眠的人，和不容易催眠的人做比較。",
+   "兩組人都在幾種不同的情況下接受功能性磁振造影（fMRI）掃描：休息時、回想一段記憶時，以及兩次催眠過程中。研究人員觀察到大腦在催眠時出現一些有趣的變化，但只出現在很容易催眠的那一組。__33__",
+   "這有助於解釋催眠為什麼能有這麼強大的效果，包括減輕壓力、焦慮、疼痛，以及在意別人眼光的不自在。__34__ 他自己先前的研究顯示，身體疼痛的病人學了自我催眠以後，和只靠藥物的人相比，需要的止痛藥只有一半，感受到的疼痛也只有一半。不過，我們對催眠還需要更多了解，才能充分發揮它的潛力。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 108 年指考閱讀測驗〈催眠的科學與應用〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "10-17",
+   "選項字數全距": 7,
+   "選項長度變異係數": "23.7%",
+   "建檔": "第三百六十四場建檔。改編自 z108p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z107p1",
+  "year": "（十八）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "自行車的始祖（The Ancestor of the Bicycle）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "E"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Also called the Draisine or the hobby horse, the running machine was in effect a very primitive bicycle.",
+   "B": "Such a machine, he believed, would let large numbers of people travel faster than on foot or by coach.",
+   "C": "For all the excitement it caused, the hobby horse did not stay popular for long.",
+   "D": "Even so, Drais’s invention marked the true beginning of the bicycle’s development.",
+   "E": "Among his other creations were two human-powered vehicles that ran on four wheels."
+  },
+  "optionsZh": {
+   "A": "滑行車又叫 Draisine 或 hobby horse，其實就是一種非常原始的自行車。",
+   "D": "儘管如此，Drais 的發明是自行車發展真正的起點。",
+   "B": "他相信，這樣的車能讓許多人移動得比走路或坐馬車更快。",
+   "C": "滑行車雖然轟動一時，熱潮卻沒有維持多久。",
+   "E": "他的其他發明當中，有兩種靠人力推動的四輪車。"
+  },
+  "unusedExplanation": {
+   "opt": "E",
+   "lead": "E 讀起來很通順，講的也是 Drais 造的車；它的 `human-powered`（靠人力推動）和第三段的 `muscle-powered` 意思相同，放進第 33 格乍看最順。可是四個空格都放不下它：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句說明滑行車大致是什麼樣子，後面「沒有鏈條、用腳蹬地」的細節才有總說",
+     "why": "E 講的是四輪車，和這一段後面「兩個輪子前後排列」說的不是同一輛車"
+    },
+    {
+     "blank": 32,
+     "want": "一句轉折，從滑行車簡陋的地方轉到它開創的地方",
+     "why": "E 沒有轉折，也沒有說滑行車為什麼算是起點"
+    },
+    {
+     "blank": 33,
+     "want": "一句說明一般大眾能得到什麼好處，回應段首的 `democratic`",
+     "why": "E 講的是其他的車，沒有說到任何人得到好處"
+    },
+    {
+     "blank": 34,
+     "want": "一句把第四段的成功轉成第五段的失敗",
+     "why": "E 沒有提到熱潮，也沒有提到熱潮退去，前後兩段接不起來"
+    }
+   ],
+   "summary": "**全篇講的是「滑行車怎麼成為自行車的起點」，E 講的卻是「Drais 還造過哪些車」。** 這和 115 學測多出來的 D 屬於同一種：主題相同，切面不對。E 真正放得進去的地方，是第一段列舉各項發明的那一句，可是那裡沒有空格。",
+   "extra": [],
+   "takeaway": "填完四格以後，先用一句話說出全篇在講哪一件事，再拿剩下的選項比對。如果它講的是同一個人、卻是另一件事，那一句就是多出來的。"
+  },
+  "paraLabels": [
+   "破題：多產的發明家，靠滑行車成名",
+   "構造：簡陋，卻是自行車的起點",
+   "構想：用人力推動的車取代昂貴的馬",
+   "成功：試騎轟動，熱潮從巴黎傳到英國",
+   "轉折與結尾：熱潮退去，構想由後人接續"
+  ],
+  "marks": [
+   [
+    0,
+    "But it was the running machine, the ancestor of the modern bicycle, that made him famous.",
+    "thesis"
+   ],
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "Behind the invention lay a big democratic idea.",
+    "topic"
+   ],
+   [
+    0,
+    "But",
+    "trans"
+   ],
+   [
+    "D",
+    "Even so",
+    "trans"
+   ],
+   [
+    2,
+    "therefore",
+    "trans"
+   ],
+   [
+    3,
+    "A few months later",
+    "trans"
+   ],
+   [
+    3,
+    "Before long",
+    "trans"
+   ],
+   [
+    3,
+    "as well",
+    "trans"
+   ],
+   [
+    "C",
+    "For all",
+    "trans"
+   ],
+   [
+    4,
+    "too",
+    "trans"
+   ],
+   [
+    4,
+    "however",
+    "trans"
+   ],
+   [
+    4,
+    "Decades later",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Born in 1785 in southwestern Germany, Baron Karl Drais was one of the most creative German inventors of the 19th century. His numerous inventions include the earliest typewriter, the meat grinder, and a device to record piano music on paper. But it was the running machine, the ancestor of the modern bicycle, that made him famous.",
+   "__31__ It had no chain, so riders moved it forward by pushing off the ground with their feet. Its frame and wheels were made of wood. __32__ It was the first vehicle with two wheels placed one behind the other, and it was already steered with a bar much like a modern handlebar.",
+   "Behind the invention lay a big democratic idea. Horses were expensive and consumed lots of food even when not in use. Drais therefore hoped to find a muscle-powered replacement for them. __33__",
+   "Drais undertook his first documented ride on June 12, 1817, covering 13 kilometers in one hour. A few months later, he created a huge sensation by riding 60 kilometers in four hours. A marketing trip to Paris followed, and the hobby horse quickly caught on there. Before long, the fad had spread to Britain as well.",
+   "__34__ Riders found the machine heavy and hard to handle. Safety was a problem, too: it lacked a brake, as well as cranks and pedals. Collisions with unsuspecting pedestrians were frequent, and after a few years Drais’s invention was banned in many European and American cities. Drais’s ideas, however, did not disappear entirely. Decades later, two Frenchmen, Pierre Lallement and Pierre Michaux, equipped the machine with pedals, and the modern bicycle was born."
+  ],
+  "zhTranslation": [
+   "Karl Drais 男爵 1785 年生於德國西南部，是 19 世紀德國最有創意的發明家之一。他的發明很多，包括最早的打字機、絞肉機，還有一種能把鋼琴音樂記錄在紙上的裝置。不過，讓他成名的是現代自行車的始祖：滑行車（running machine）。",
+   "__31__ 這種車沒有鏈條，騎的人靠雙腳蹬地讓車子前進。車架和輪子都是木頭做的。__32__ 它是第一輛把兩個輪子前後排成一直線的車，而且已經用一根很像現代把手的橫桿來控制方向。",
+   "這項發明的背後，有一個讓一般大眾都能受益的遠大構想。馬很貴，不用的時候也要吃很多飼料。因此，Drais 希望找到一種靠人力推動的交通工具來取代馬。__33__",
+   "1817 年 6 月 12 日，Drais 第一次有紀錄的試騎，一個小時騎了 13 公里。幾個月後，他四個小時騎了 60 公里，轟動一時。之後他到巴黎推銷，滑行車很快就在當地流行起來。沒過多久，這股熱潮也傳到了英國。",
+   "__34__ 騎的人覺得這種車很重，也很難操控。安全也是問題：它沒有煞車，也沒有曲柄和踏板。滑行車常常撞上沒有防備的行人，幾年以後，歐洲和美國的許多城市都禁止使用 Drais 的發明。然而，Drais 的構想並沒有完全消失。數十年後，兩位法國人 Pierre Lallement 和 Pierre Michaux 替這種車裝上踏板，現代的自行車就此誕生。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 107 年指考閱讀測驗〈德萊斯的滑行車與自行車的起源〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 22,
+   "選項字數區間": "12-19",
+   "選項字數全距": 7,
+   "選項長度變異係數": "17.7%",
+   "建檔": "第三百六十四場建檔。改編自 z107p1；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z106p4",
+  "year": "（十九）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "國歌曲調的歐洲根源（The European Roots of National Anthems）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "B"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "About a decade later, a Japanese committee replaced Fenton’s melody with one by a court musician.",
+   "B": "Many anthems have lyrics that praise the beauty of the nation’s land.",
+   "C": "Others, notably Spain and France, chose marches, which are often played by military bands.",
+   "D": "The custom of having a national anthem first took root in Europe centuries ago.",
+   "E": "As a result, most anthems today are either hymns or marches played on European instruments."
+  },
+  "optionsZh": {
+   "D": "擁有國歌這個慣例，早在幾百年前就先在歐洲生根。",
+   "C": "其他國家，特別是西班牙和法國，選擇了進行曲，這種曲子常由軍樂隊演奏。",
+   "E": "因此，今天大多數的國歌不是聖歌就是進行曲，而且用歐洲的樂器演奏。",
+   "A": "大約十年後，日本的一個委員會改用一位宮廷樂師譜的曲，取代了 Fenton 的版本。",
+   "B": "許多國歌的歌詞都在讚美國家土地的美。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "B 讀起來完全通順，講的就是國歌。放在第 34 格，它的 `lyrics`（歌詞）接在大山巖從平安時代的詩選出歌詞之後，乍看非常順。問題在於，這一篇從第二段起談的都是國歌的曲子從哪裡來、屬於哪一類、受到誰的影響，B 談的卻是歌詞寫什麼。",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句交代國歌最早出現在歐洲，後面才能數荷蘭和英國這兩首最古老的國歌",
+     "why": "B 講歌詞的內容，沒有時間也沒有地點，帶不出「最古老」"
+    },
+    {
+     "blank": 32,
+     "want": "和 `Many countries` 成對的「其他國家」，而且要帶出軍樂隊演奏的歌",
+     "why": "讚美土地的歌詞談不上 `martial`（尚武的）精神，B 也沒有其他國家"
+    },
+    {
+     "blank": 33,
+     "want": "帝國主義與模仿造成的結果，也替第五段的 `hymns and marches` 先說明這兩種是主流",
+     "why": "B 不是帝國主義和模仿帶來的結果，也沒有提到聖歌或進行曲"
+    },
+    {
+     "blank": 34,
+     "want": "大約十年後換上的新曲子，後一句的 `the new tune` 才有對象",
+     "why": "B 講的是歌詞，後一句的 `the new tune` 要的是一首新曲子"
+    }
+   ],
+   "summary": "**這一篇多出來的 B 屬於「主題相同，切面不對」。** 這一類和 115 學測多出來的 D 相同。全篇問的是「國歌的曲子從哪裡來、受到誰的影響」，B 答的卻是「國歌的歌詞寫什麼」。至於 115 學測參考試卷多出來的 C，屬於「切面對，卻沒有段落在等它」，和這一篇不同。",
+   "extra": [],
+   "takeaway": "四格先各自找出前後在等什麼，配完以後，再拿剩下的那一句和全篇的問題核對一次：它回答的如果是另一個問題，就是多出來的那一句。"
+  },
+  "paraLabels": [
+   "破題：國家獨立後最先確立的事情之一，就是國歌",
+   "起源：最早的國歌出現在歐洲，而且是聖歌",
+   "傳播：從歐洲各國到前殖民地，聖歌與進行曲成為主流",
+   "實例：日本國歌如何受到歐洲影響",
+   "補充：聖歌與進行曲之外的兩個小類"
+  ],
+  "marks": [
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "As nationalism spread throughout Europe in the 18th and 19th centuries, so did anthems.",
+    "topic"
+   ],
+   [
+    3,
+    "Japan’s anthem makes for a good case study of European influence.",
+    "topic"
+   ],
+   [
+    4,
+    "In addition to hymns and marches, British composer Michael Bristow identifies two lesser categories.",
+    "topic"
+   ],
+   [
+    1,
+    "Next",
+    "trans"
+   ],
+   [
+    "C",
+    "Others",
+    "trans"
+   ],
+   [
+    2,
+    "Even after",
+    "trans"
+   ],
+   [
+    "E",
+    "As a result",
+    "trans"
+   ],
+   [
+    3,
+    "In the 1860s",
+    "trans"
+   ],
+   [
+    "A",
+    "About a decade later",
+    "trans"
+   ],
+   [
+    3,
+    "Though",
+    "trans"
+   ],
+   [
+    4,
+    "In addition to",
+    "trans"
+   ],
+   [
+    4,
+    "by contrast",
+    "trans"
+   ],
+   [
+    4,
+    "as",
+    "trans",
+    "category, ",
+    " they rely"
+   ]
+  ],
+  "paras": [
+   "During the past three hundred years, when a country gained its freedom or independence, one of the first things it established was a national anthem. Anthems are generally performed at formal state occasions and at other events that celebrate the nation’s identity.",
+   "__31__ Holland’s 16th-century hymn “Het Wilhelmus” is widely considered the world’s oldest national anthem. Next came the U.K.’s “God Save the King/Queen,” another hymn, popularized in the 1740s.",
+   "As nationalism spread throughout Europe in the 18th and 19th centuries, so did anthems. Many countries, such as the states that are now part of Germany, took “God Save the King/Queen” as a model and adopted hymns, songs of prayer typically addressed to a god or an important figure. __32__ Such songs conveyed a martial rather than a monarchic spirit. With imperialism, Europeans carried their musical taste abroad. Even after former colonies gained independence, they often imitated the traditions of their old rulers. __33__",
+   "Japan’s anthem makes for a good case study of European influence. In the 1860s, John William Fenton, a British bandmaster living in Japan, noticed that the country lacked a national anthem. A local military officer, Ōyama Iwao, chose the lyrics from a Heian-era poem, and Fenton composed the melody. __34__ Though written for traditional Japanese instruments, the new tune had a mixed style influenced by Fenton’s arrangement. The version in use today was further altered by a German, Franz Eckert, to fit a Western scale.",
+   "In addition to hymns and marches, British composer Michael Bristow identifies two lesser categories. Anthems in South and Central America are often operatic, with long, elaborate orchestral introductions that reflect the influence of 19th-century Italian opera. The anthems of Burma and Sri Lanka, by contrast, fall into a folk category, as they rely more on indigenous instruments."
+  ],
+  "zhTranslation": [
+   "過去三百年間，一個國家取得自由或獨立的時候，最先確立的事情之一，就是國歌。國歌通常在國家的正式場合演奏，也會出現在其他慶祝國家認同的活動上。",
+   "__31__ 荷蘭 16 世紀的聖歌〈Het Wilhelmus〉普遍公認是世界上最古老的國歌。接下來是英國的〈God Save the King/Queen〉（天佑吾王／女王），這首也是聖歌，在 1740 年代開始流行。",
+   "18、19 世紀，民族主義在歐洲各地擴散，國歌也一樣傳開了。許多國家，例如今天屬於德國的那些邦國，以〈God Save the King/Queen〉為範本，採用了聖歌，也就是通常向神明或重要人物祈禱的歌。__32__ 這類歌曲表達的是尚武的精神，而不是對君主的崇敬。隨著帝國主義擴張，歐洲人也把自己的音樂品味帶到海外。前殖民地即使獨立了，也常常模仿以前統治者的傳統。__33__",
+   "日本的國歌，是觀察歐洲影響的好例子。1860 年代，住在日本的英國軍樂隊隊長 John William Fenton 注意到，這個國家沒有國歌。當地的軍官大山巖（Ōyama Iwao）從平安時代的一首詩選出歌詞，再由 Fenton 譜曲。__34__ 這首新曲子雖然是為日本傳統樂器寫的，風格卻受到 Fenton 編曲的影響，顯得有些混雜。現在使用的版本，又經過德國人 Franz Eckert 修改，以配合西方的音階。",
+   "除了聖歌和進行曲，英國作曲家 Michael Bristow 還歸納出兩種次要的類別。中南美洲的國歌常常帶有歌劇風格，前面有很長、很繁複的管弦樂前奏，反映出 19 世紀義大利歌劇的影響。至於緬甸和斯里蘭卡的國歌，則屬於民謠類，因為它們比較依賴本土的樂器。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 106 年指考閱讀測驗〈國歌的歷史演變與文化影響〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 21,
+   "選項字數區間": "12-16",
+   "選項字數全距": 4,
+   "選項長度變異係數": "9.3%",
+   "建檔": "第三百六十四場建檔。改編自 z106p4；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z97p1",
+  "year": "（二十）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "樂高積木的五十年（Fifty Years of Lego Bricks）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "A"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "With the same set of bricks, children can follow the instructions or build whatever they imagine.",
+   "B": "In 1947, the company expanded into making plastic toys.",
+   "C": "As junior managing director, he spent years improving how firmly the bricks locked together.",
+   "D": "Though already half a century old, the Lego brick remained the same product it had been in the 1950s.",
+   "E": "Stores sent many of the company’s shipments back because the toys sold poorly."
+  },
+  "optionsZh": {
+   "B": "1947 年，公司擴大經營，開始生產塑膠玩具。",
+   "E": "商店把公司出的很多貨都退了回來，因為這些玩具賣得不好。",
+   "C": "他擔任副總經理，花了好幾年改進積木扣在一起的牢固程度。",
+   "D": "樂高積木雖然已經問世半個世紀，仍然是 1950 年代的那一種產品。",
+   "A": "同一盒積木，孩子可以照著說明書拼，也可以隨自己的想像去拼。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 讀起來很通順，講的也是樂高積木。放進第 33 格，`build whatever they imagine`（隨自己的想像去拼）乍看正好說明了前一句的 `creative play`（激發創意的遊戲）。但四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句交代 1947 年開始生產塑膠玩具，後一句的 `this new material` 才有所指",
+     "why": "A 沒有提到材料，也沒有年代"
+    },
+    {
+     "blank": 32,
+     "want": "一件不順利的事情，第三段開頭的 `However` 才能轉回正面",
+     "why": "A 語氣正面，沒有退貨，也沒有銷路不好"
+    },
+    {
+     "blank": 33,
+     "want": "Godtfred 動手改良積木的經過，後面的 `He also` 和 `finally` 才有前文",
+     "why": "A 講的是孩子怎麼玩，沒有人在改良積木"
+    },
+    {
+     "blank": 34,
+     "want": "交代積木從 1950 年代到 2008 年都沒有變，後一句的 `back then` 才知道是哪一年",
+     "why": "A 沒有年代，也沒有說積木變了還是沒變"
+    }
+   ],
+   "summary": "**全篇講的是樂高積木怎麼來的、為什麼一直沒有退流行，A 講的是孩子拿到積木以後怎麼玩。**這一篇的多餘選項屬於「主題相同，切面不對」，和 115 學測多出來的 D 相同：話題沒有離開樂高，談的卻是另一個切面。",
+   "extra": [],
+   "takeaway": "四格填完剩下一個，先用一句話說出全篇在講什麼，再看剩下的那一句談的是不是同一件事。談的是另一個切面，它就是多出來的那一句，不必回頭懷疑前面的答案。"
+  },
+  "paraLabels": [
+   "起源：木匠的工作坊與 Lego 這個名字的由來",
+   "轉折：1947 年開始生產塑膠玩具，市場卻不看好",
+   "突破：Godtfred 改良積木，1958 年取得專利",
+   "現況：到 2008 年為止的銷售與遊玩數字",
+   "結尾：五十週年仍是同一種產品，說明一直受歡迎的原因"
+  ],
+  "marks": [
+   [
+    0,
+    "The Lego Group had a very humble beginning in the workshop of Ole Kirk Christiansen, a carpenter from Denmark.",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "topic"
+   ],
+   [
+    0,
+    "two years later",
+    "trans"
+   ],
+   [
+    0,
+    "also",
+    "trans"
+   ],
+   [
+    "B",
+    "In 1947",
+    "trans"
+   ],
+   [
+    1,
+    "At first",
+    "trans"
+   ],
+   [
+    1,
+    "too",
+    "trans"
+   ],
+   [
+    2,
+    "However",
+    "trans"
+   ],
+   [
+    2,
+    "also",
+    "trans"
+   ],
+   [
+    2,
+    "In 1958",
+    "trans"
+   ],
+   [
+    2,
+    "finally",
+    "trans"
+   ],
+   [
+    3,
+    "By 2008",
+    "trans"
+   ],
+   [
+    4,
+    "That year",
+    "trans"
+   ],
+   [
+    "D",
+    "Though",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "The Lego Group had a very humble beginning in the workshop of Ole Kirk Christiansen, a carpenter from Denmark. Christiansen began making wooden toys in 1932, and two years later he came up with the name Lego by combining the first two letters of the Danish words Leg and Godt, which mean “play well.” The name could be interpreted as “I put together” in Latin; it also corresponds to the Greek verb meaning “gather” or “pick up.”",
+   "__31__ At first, retailers did not think highly of toys made from this new material. Consumers, too, were slow to accept them. __32__",
+   "However, Christiansen’s son, Godtfred Kirk Christiansen, saw immense potential for Lego bricks to become a system for creative play. __33__ He also found ways to make them more versatile. In 1958, the modern interlocking brick design was finally developed and patented.",
+   "By 2008, Lego was being sold in more than 130 countries. Every minute, 33,824 Lego bricks were produced, and children around the world spent five billion hours a year playing with them. More than 400 million people were expected to play with the bricks that year. On average, every person on the planet owned 62 Lego bricks, and about seven Lego sets were sold every second.",
+   "That year, Lego fans all over the world celebrated the 50th anniversary of the tiny building blocks. __34__ Bricks bought back then were still compatible with those made in 2008, and that is probably why the toy has never fallen out of favor."
+  ],
+  "zhTranslation": [
+   "樂高集團的起步非常簡陋，就在丹麥木匠 Ole Kirk Christiansen 的工作坊裡。Christiansen 在 1932 年開始做木頭玩具；兩年後，他取丹麥文 Leg 和 Godt 的前兩個字母拼在一起，想出了 Lego 這個名字；Leg Godt 的意思是「好好地玩」。這個名字在拉丁文裡可以解釋成「我組合起來」，也和希臘文裡表示「聚集」或「撿起」的動詞相符。",
+   "__31__ 起初，零售商不太看好用這種新材料做的玩具，消費者也遲遲不肯接受。__32__",
+   "不過，Christiansen 的兒子 Godtfred Kirk Christiansen 看出樂高積木有巨大的潛力，可以發展成一套激發創意的遊戲系統。__33__ 他也想辦法讓積木的用途更多。1958 年，現代的互扣式積木設計終於研發完成，也取得了專利。",
+   "到了 2008 年，樂高已經在超過 130 個國家銷售。當時每分鐘生產 33,824 塊樂高積木，全世界的孩子一年花 50 億個小時玩樂高。那一年，預計會有超過 4 億人玩樂高積木。平均下來，地球上每個人擁有 62 塊樂高積木，每秒大約賣出七盒樂高。",
+   "那一年，全世界的樂高迷慶祝這種小積木問世 50 週年。__34__ 當年買的積木，仍然可以和 2008 年做的積木組在一起，這大概就是這種玩具從來沒有退流行的原因。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 97 年指考閱讀測驗〈樂高積木的歷史與演變〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 18,
+   "選項字數區間": "8-19",
+   "選項字數全距": 11,
+   "選項長度變異係數": "26.0%",
+   "建檔": "第三百六十四場建檔。改編自 z97p1；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
  }
 ]
