@@ -72,6 +72,58 @@
    "設計考量三：做出獨一無二的手感",
    "結尾：算過、測過，設計才能動工"
   ],
+  "marks": [
+   [
+    0,
+    "__31__",
+    "gradient"
+   ],
+   [
+    1,
+    "The designers must first consider what kind of riders will use the coaster.",
+    "topic"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    3,
+    "The next objective for the designers is to achieve a unique “feel” for the coaster.",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "topic"
+   ],
+   [
+    1,
+    "first",
+    "trans"
+   ],
+   [
+    "A",
+    "then",
+    "trans"
+   ],
+   [
+    3,
+    "next",
+    "trans"
+   ],
+   [
+    "E",
+    "When",
+    "trans"
+   ],
+   [
+    4,
+    "Only after",
+    "trans"
+   ]
+  ],
   "paras": [
    "Roller coasters have been known for their agonizingly slow starts, near heart-stopping drops and scream-inducing turns and loops. __31__",
    "The designers must first consider what kind of riders will use the coaster. If the coaster is designed for small children, the hills and curves will be gentle, and the car speed will be relatively slow. Families usually want a somewhat faster ride with plenty of turns and moderate force. Ultimate thrill seekers want extreme heights and speed.",
@@ -171,6 +223,63 @@
    "面向三：社會組成——個人主義與移民多樣性",
    "結尾：收攏各項因素，回應開頭的提問"
   ],
+  "marks": [
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "Recent studies also show that interpretations of smiling may vary from culture to culture.",
+    "topic"
+   ],
+   [
+    3,
+    "The amount people smile is culturally influenced as well.",
+    "topic"
+   ],
+   [
+    4,
+    "__34__",
+    "gradient"
+   ],
+   [
+    0,
+    "But",
+    "trans"
+   ],
+   [
+    1,
+    "for example",
+    "trans"
+   ],
+   [
+    1,
+    "More importantly",
+    "trans"
+   ],
+   [
+    2,
+    "While",
+    "trans"
+   ],
+   [
+    "E",
+    "In fact",
+    "trans"
+   ],
+   [
+    "A",
+    "Another",
+    "trans"
+   ],
+   [
+    "B",
+    "thus",
+    "trans"
+   ]
+  ],
   "paras": [
    "Smiling is a gesture that many people engage in dozens of times a day without thought. Most people believe that smiling is an expression of good feelings, a simple way to show happiness and friendliness. But does this hold true across time and cultures?",
    "__31__ In the West, for example, portraits of men and women before the 1700s typically depicted them with a serious, unsmiling expression. The absence of smiles stemmed partly from the attempt to hide their decayed teeth caused by poor dental hygiene. More importantly, smiling and laughter had long been perceived in the society as manifestations of a lack of self-control and good manners. Paintings with white-toothed smiles emerged after the 1700s, with the gradual rise of a culture that valued perception and responsiveness.",
@@ -236,6 +345,63 @@
    "發展歷程：從擴散各國到迎向創新",
    "轉折：列出缺點，提醒不是人人適合"
   ],
+  "marks": [
+   [
+    0,
+    "A capsule hotel, also known as a pod hotel, is a unique type of basic, affordable accommodation.",
+    "gradient"
+   ],
+   [
+    1,
+    "A typical room of a capsule hotel is roughly the length and width of a single bed, with sufficient height for a guest to crawl in and sit up on the bed.",
+    "topic"
+   ],
+   [
+    3,
+    "While offering budget-conscious travelers a unique option, capsule hotels may not be suitable for everyone.",
+    "topic"
+   ],
+   [
+    "D",
+    "Today",
+    "trans"
+   ],
+   [
+    1,
+    "but",
+    "trans"
+   ],
+   [
+    2,
+    "Since then",
+    "trans"
+   ],
+   [
+    2,
+    "Instead of",
+    "trans"
+   ],
+   [
+    3,
+    "While",
+    "trans"
+   ],
+   [
+    3,
+    "Also",
+    "trans"
+   ],
+   [
+    0,
+    "initially",
+    "trans"
+   ],
+   [
+    "A",
+    "In response to",
+    "trans"
+   ]
+  ],
   "paras": [
    "A capsule hotel, also known as a pod hotel, is a unique type of basic, affordable accommodation. Originated in Japan, these hotels were initially meant for business professionals to stay close to populated business districts without spending a lot. __31__",
    "A typical room of a capsule hotel is roughly the length and width of a single bed, with sufficient height for a guest to crawl in and sit up on the bed. The walls of each capsule may be made of wood, metal or any rigid material, but are often fiberglass or plastic. __32__ Each capsule is equipped with a comfortable mattress, a small light, and sometimes a television or other entertainment options. Such minimalist design is what makes these hotels both inexpensive and efficient, providing only the essential elements for a good night sleep.",
@@ -298,6 +464,95 @@
    "對比：把故事拉到與常規做法的衝突",
    "分歧與共識：各專家做法不同，但底線一致",
    "結尾：從個案回到研究趨勢與注意事項"
+  ],
+  "marks": [
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "Dr. Weinstein is not alone in his treatment of sports injury, but the specific advice can differ from specialist to specialist.",
+    "topic"
+   ],
+   [
+    3,
+    "__34__",
+    "gradient"
+   ],
+   [
+    0,
+    "So",
+    "trans"
+   ],
+   [
+    1,
+    "But",
+    "trans"
+   ],
+   [
+    1,
+    "In fact",
+    "trans"
+   ],
+   [
+    2,
+    "but",
+    "trans",
+    "injury, ",
+    " the specific"
+   ],
+   [
+    2,
+    "nevertheless",
+    "trans"
+   ],
+   [
+    "A",
+    "For example",
+    "trans"
+   ],
+   [
+    2,
+    "however",
+    "trans"
+   ],
+   [
+    3,
+    "Thus",
+    "trans"
+   ],
+   [
+    3,
+    "however",
+    "trans"
+   ],
+   [
+    2,
+    "Others",
+    "trans"
+   ],
+   [
+    2,
+    "Still others",
+    "trans"
+   ],
+   [
+    2,
+    "that is",
+    "trans"
+   ],
+   [
+    3,
+    "despite",
+    "trans"
+   ],
+   [
+    "B",
+    "Over time",
+    "trans"
+   ]
   ],
   "paras": [
    "While Dr. Weinstein, a surgeon at Dartmouth College, was trying to lift a heavy box, he twisted his back. The pain was agonizing. The surgeon could not sit, and when he lay down he could barely get up. So he decided to go out for a run. He took an aspirin, iced the injured area, and off he went. When he returned, he felt “pretty good.”",
@@ -362,6 +617,72 @@
    "真實性：從被質疑到取得證據",
    "成因：先天基因與後天環境並存",
    "普遍性：從罕見到人人可能都有"
+  ],
+  "marks": [
+   [
+    1,
+    "Synesthesia is a condition in which people’s senses intermix.",
+    "gradient"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    4,
+    "Once thought to be extremely rare, synesthesia is now found to affect about one to four percent of the population.",
+    "topic"
+   ],
+   [
+    2,
+    "however",
+    "trans",
+    "1990s, ",
+    ""
+   ],
+   [
+    2,
+    "however",
+    "trans",
+    "support, ",
+    ""
+   ],
+   [
+    3,
+    "because",
+    "trans"
+   ],
+   [
+    3,
+    "But",
+    "trans"
+   ],
+   [
+    "B",
+    "Meanwhile",
+    "trans"
+   ],
+   [
+    3,
+    "For example",
+    "trans"
+   ],
+   [
+    3,
+    "Also",
+    "trans"
+   ],
+   [
+    4,
+    "while",
+    "trans"
+   ],
+   [
+    2,
+    "even if",
+    "trans"
+   ]
   ],
   "paras": [
    "Have you ever thought of “coloring” the names of the days of the week? When you listen to someone speaking, do you see a rainbow of colors? Or perhaps Mozart’s music tastes like an apple pie to you? If so, it is very likely that you have synesthesia.",
@@ -428,6 +749,40 @@
    "衝突：新學說如何牴觸當時的宇宙觀與信仰",
    "結局：求認可失敗，著作遭禁"
   ],
+  "marks": [
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "__33__",
+    "topic"
+   ],
+   [
+    3,
+    "Ironically, Copernicus had dedicated his work to Pope Paul III.",
+    "topic"
+   ],
+   [
+    "A",
+    "however",
+    "trans"
+   ],
+   [
+    3,
+    "Ironically",
+    "trans"
+   ],
+   [
+    1,
+    "as",
+    "trans",
+    "so to speak, ",
+    " a hundred"
+   ]
+  ],
   "paras": [
    "Copernicus, founder of modern astronomy, was born in 1473 to a well-to-do merchant family in Torun, Poland. He was sent off to attend university in Italy, studying mathematics and optics, and canon law. Returning from his studies abroad, Copernicus was appointed to an administrative position in the cathedral of Frauenburg. There he spent a sheltered and academic life for the rest of his days.",
    "__31__ He made his observations from a tower situated on the protective wall around the cathedral. His observations were made with the “bare eyeball,” so to speak, as a hundred years were to pass before the invention of the telescope. In 1530, Copernicus completed his famous work De Revolutionibus, which later played a major role in changing the philosophical view of humankind’s place in the universe. __32__",
@@ -490,6 +845,40 @@
    "前段儀式：迎火、掃墓與供品",
    "後段儀式：送火、水燈與盆踊"
   ],
+  "marks": [
+   [
+    0,
+    "Obon, or the Bon Festival, is a Japanese holiday that honors the spirits of the dead.",
+    "gradient"
+   ],
+   [
+    1,
+    "Though not a national holiday, Obon is surely one of the most traditional events of the year.",
+    "topic"
+   ],
+   [
+    2,
+    "__33__",
+    "topic"
+   ],
+   [
+    1,
+    "Though",
+    "trans"
+   ],
+   [
+    2,
+    "but",
+    "trans",
+    "region ",
+    " is"
+   ],
+   [
+    2,
+    "Originally",
+    "trans"
+   ]
+  ],
   "paras": [
    "Obon, or the Bon Festival, is a Japanese holiday that honors the spirits of the dead. __31__ The festival usually lasts for four to five days in August. During this period, many people travel back to their hometowns and spend time with loved ones, both past and present.",
    "Though not a national holiday, Obon is surely one of the most traditional events of the year. Celebration often begins with mukaebi (welcoming fire), during which people make a small bonfire in front of their house to guide spirits upon their return back home. __32__ Food offerings are presented at house altars and temples. Some regions prepare horses made of cucumbers and cows made of eggplants, hoping that the spirits will come back to Earth quickly, on a horse, and leave slowly, riding the cow.",
@@ -550,6 +939,43 @@
    "前半生：白手起家到成為億萬富翁",
    "轉折：把全部財產交出去",
    "影響：理念如何擴散，以及他的結局"
+  ],
+  "marks": [
+   [
+    0,
+    "__31__",
+    "gradient"
+   ],
+   [
+    1,
+    "Feeney, who grew up in a poor neighborhood of New Jersey, is a genius at finding business opportunities.",
+    "topic"
+   ],
+   [
+    2,
+    "Influenced by his upbringing, Feeney decided to give away all his money to those in need in his lifetime.",
+    "topic"
+   ],
+   [
+    3,
+    "Pioneering the idea of “Giving while Living,” Feeney is a role model for many famous billionaires today, including Bill Gates and Warren Buffet.",
+    "topic"
+   ],
+   [
+    0,
+    "but",
+    "trans"
+   ],
+   [
+    1,
+    "Then",
+    "trans"
+   ],
+   [
+    "A",
+    "However",
+    "trans"
+   ]
   ],
   "paras": [
    "Generous billionaires are not hard to come by, but it is definitely a challenge to find a billionaire who spends all his fortune on charity just to end up broke. __31__",

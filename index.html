@@ -145,6 +145,17 @@
   }
   .paraLabel b{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11.5px; color:var(--sage); margin-right:4px;}
   .labelHint{font-size:12.5px; line-height:1.8; color:var(--ink-soft); background:#F6F9F5; border:1px solid var(--rule); border-radius:3px; padding:8px 11px; margin-bottom:14px;}
+  .passage .mk-topic{background:var(--yellow);}
+  .passage .mk-thesis{background:var(--blue);}
+  .passage .mk-gradient{background:#CFE8C9; font-weight:700;}
+  .passage .mk-trans{color:var(--crimson); font-weight:700;}
+  .passage .ans-sent{margin-left:4px;}
+  .mkLegend{display:flex; flex-wrap:wrap; gap:8px; font-size:12.5px; margin:-6px 0 14px;}
+  .mkLegend span{padding:1px 7px; border-radius:2px;}
+  .mkLegend .lg-gradient{background:#CFE8C9; font-weight:700;}
+  .mkLegend .lg-thesis{background:var(--blue);}
+  .mkLegend .lg-topic{background:var(--yellow);}
+  .mkLegend .lg-trans{color:var(--crimson); font-weight:700;}
 
   /* 選項對照表 */
   .optMap{border:1px solid var(--rule); border-radius:4px; background:#fff; padding:4px 12px; text-align:left;}
@@ -656,6 +667,7 @@ function renderPractice(){
     <div class="tagRow">${tags}</div>
     ${p.flagNote ? `<div class="flagNote">${p.flagNote}</div>` : ''}
     ${(graded && hasParaLabels(p)) ? `<div class="labelHint">每段前面的綠色標籤，<b>冒號前</b>寫的是這一段在整篇裡做什麼，<b>冒號後</b>才是這一段講的內容。作答時不顯示，因為那等於先把答案的位置告訴你。現在回頭看一次：你答錯的那一格，是不是卡在沒看出冒號前那半——這一段的功能？</div>` : ''}
+    ${(graded && hasMarks(p)) ? markLegend() : ''}
     <div class="passage" id="passageText">${renderParas(p)}</div>`;
 
   const zhBtn = hasZh(p)
@@ -711,8 +723,51 @@ function renderParas(p){
     const lab = (graded && labels[idx])
       ? `<div class="paraLabel"><b>${p.paras.length === 1 ? '【全篇】' : '【第 ' + (idx+1) + ' 段】'}</b>${esc(labels[idx])}</div>` : '';
     const zh = (zhOn && hasZh(p)) ? renderZhPara(p, idx) : '';
-    return lab + `<p>${body}</p>` + zh;
+    return lab + `<p>${(graded && hasMarks(p)) ? renderMarkedPara(p, idx, par) : body}</p>` + zh;
   }).join('');
+}
+
+/* 交卷後的主旨句標示（marks 欄）。作答中一律不顯示：本題型的空格常常就是主旨句。 */
+function hasMarks(p){ return Array.isArray(p.marks) && p.marks.length > 0; }
+function markTags(text, list){
+  const tags = new Array(text.length).fill(null);
+  list.forEach(([frag, tag, pre, post]) => {
+    pre = pre || ''; post = post || '';
+    let i = text.indexOf(pre + frag + post); if(i < 0) return; i += pre.length;
+    for(let k = i; k < i + frag.length; k++){ if(tag === 'trans' || !tags[k]) tags[k] = tag; }
+  });
+  return tags;
+}
+function runsHtml(text, tags, unit){
+  let out = '', i = 0;
+  while(i < text.length){
+    const t = tags[i]; let j = i, inner = '';
+    while(j < text.length && tags[j] === t){ inner += unit(text[j]); j++; }
+    out += t ? `<span class="mk-${t}">${inner}</span>` : inner;
+    i = j;
+  }
+  return out;
+}
+function renderMarkedPara(p, idx, par){
+  const blanks = [];
+  const text = par.replace(/__(\d+)__/g, (m, n) => { blanks.push(n); return String.fromCharCode(0xE000 + blanks.length - 1); });
+  const list = p.marks.filter(m => m[0] === idx).map(m => [m[1], m[2], m[3] || '', m[4] || ''].map((s, j) => j === 1 ? s : s.replace(/__(\d+)__/g, (x, n) => String.fromCharCode(0xE000 + blanks.indexOf(n)))));
+  const unit = ch => {
+    const c = ch.charCodeAt(0);
+    if(c < 0xE000 || c >= 0xE000 + blanks.length) return esc(ch);
+    const n = blanks[c - 0xE000], pick = picks[n];
+    const it = curItems.find(x => String(x.blankNum) === String(n));
+    if(!it) return `<span class="blank">${n}</span>`;
+    const chip = `<span class="blank ${pick === it.answer ? 'ok' : 'ng'}">${n} ${pick || '—'}</span>`;
+    const sent = p.options[it.answer];
+    const olist = p.marks.filter(m => m[0] === it.answer).map(m => [m[1], m[2], m[3] || '', m[4] || '']);
+    return chip + `<span class="ans-sent">${runsHtml(sent, markTags(sent, olist), esc)}</span>`;
+  };
+  return runsHtml(text, markTags(text, list), unit);
+}
+function markLegend(){
+  return `<div class="labelHint">交卷之後，原文用顏色標出整篇的骨架，每一格後面也補上了正解那一句。仔細看會發現，好幾格的正解本身就是該段的主旨句；這個題型考的，正是能不能從前後文看出一段話缺的是哪一句主旨句。</div>
+    <div class="mkLegend"><span class="lg-gradient">兩者都是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>`;
 }
 
 /* 逐段中譯。與 paras 同一套 __n__ 標記；未批改前空格處不顯示答案 */
