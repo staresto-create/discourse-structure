@@ -3056,5 +3056,1548 @@
    "選項長度變異係數": "26.0%",
    "建檔": "第三百六十四場建檔。改編自 z97p1；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
   }
+ },
+ {
+  "id": "DSA-g110tp1",
+  "year": "（二十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "島上哺乳類的體型變化（How Island Mammals Change Size）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "C"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "On an island, with few natural predators and less competition, being really big is no longer an advantage.",
+   "B": "Among mammals that settle on islands, big species tend to shrink while small ones grow larger.",
+   "C": "Because of their isolation, islands are often home to species found nowhere else on Earth.",
+   "D": "Red deer on one of the Channel Islands show just how fast this can happen.",
+   "E": "On islands with balanced, species-rich ecosystems, competition with rivals often keeps such shrinking relatively small."
+  },
+  "optionsZh": {
+   "B": "遷居島上的哺乳類當中，大型物種往往會變小，小型物種則會變大。",
+   "A": "到了島上，天敵少、競爭也少，體型很大不再是優勢。",
+   "E": "在生態平衡、物種豐富的島上，和其他物種的競爭，往往讓這種縮小的幅度比較小。",
+   "D": "英法海峽群島中一座島上的紅鹿，說明了這種變化能發生得多快。",
+   "C": "由於與世隔絕，島上常有世界上其他地方都找不到的物種。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 講的是島嶼，又用了 `isolation`（隔絕）這個字，和第一段最後一句的 `The size and isolation of islands` 正好接得上。放在第 31 格，乍看像在接著說明隔絕帶來什麼影響。可是四個空格都放不下它：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句「大的變小、小的變大」的規律，讓後一句的 `This pattern` 有得指，也讓鹿、象和老鼠、松鼠成為它的例子",
+     "why": "C 講的是島上有哪些特有物種，沒有任何體型的變化，後面的例子對不上"
+    },
+    {
+     "blank": 32,
+     "want": "把前一句大陸上的情形換到島上，說出體型大在島上不再有利，讓後一句的 `In fact` 有可以推進的說法",
+     "why": "C 雖然談島嶼，卻沒有談體型大有沒有好處，後一句說體型大反而是負擔，在 C 裡找不到可以推進的說法"
+    },
+    {
+     "blank": 33,
+     "want": "另一種島嶼和另一種結果，讓後一句的 `In contrast` 有相反的對象",
+     "why": "C 沒有分島嶼的種類，也沒有說縮小多少"
+    },
+    {
+     "blank": 34,
+     "want": "一座具體的島和一種鹿，讓下一段開頭的 `the island`、`the deer` 有指的對象",
+     "why": "C 沒有點名任何一座島或任何一種動物，也沒有談速度"
+    }
+   ],
+   "summary": "**全篇談的是「動物到了島上，體型怎麼變、為什麼變」，C 談的卻是「島上住著哪些獨有的物種」。** 這和 115 學測多出來的 D 屬於同一種：主題相同，切面不對。不過這一篇的 C 借用了第一段的 `isolation`，放在第二段段首特別像正解。和 115 學測多出來的 D 相比，它更容易誤選。",
+   "extra": [],
+   "takeaway": "選項裡出現和前一段相同的字，先別急著放進去。先看空格後面的例子在講什麼，再看選項說的是不是同一件事；字相同、講的事情不同，它就是多出來的。"
+  },
+  "paraLabels": [
+   "破題：島嶼的面積與隔絕，深深影響島上的生物",
+   "現象：福斯特法則——大型哺乳類變小，小型的變大",
+   "原因：體型決定一切，到了島上體型大反而不利",
+   "進一步：島嶼的條件決定縮小的程度，再引出紅鹿的例子",
+   "實例：海峽群島的紅鹿縮小的幅度與速度"
+  ],
+  "marks": [
+   [
+    0,
+    "The size and isolation of islands have a profound effect on island ecosystems and their inhabitants.",
+    "gradient"
+   ],
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "Foster’s rule shows that body size regulates everything.",
+    "topic"
+   ],
+   [
+    3,
+    "A new fossil study of island-dwelling proboscideans (prehistoric hairy elephants) further shows that the physical features and ecological structure of an island may affect how much big mammals shrink.",
+    "topic"
+   ],
+   [
+    "B",
+    "while",
+    "trans"
+   ],
+   [
+    1,
+    "For instance",
+    "trans"
+   ],
+   [
+    1,
+    "while",
+    "trans"
+   ],
+   [
+    1,
+    "Although",
+    "trans"
+   ],
+   [
+    2,
+    "In fact",
+    "trans"
+   ],
+   [
+    2,
+    "since",
+    "trans"
+   ],
+   [
+    3,
+    "In contrast",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Islands are quite different from continents and other mainland areas. The size and isolation of islands have a profound effect on island ecosystems and their inhabitants.",
+   "__31__ This pattern, first described by J. Bristol Foster in 1964, has come to be known as Foster’s rule, or the island effect. For instance, rodents such as rats and squirrels tend toward gigantism on islands, while large mammals like deer and elephants are more likely to become dwarfed. Although there are a number of exceptions, the trend generally holds true for both fossil species and mammals living on islands today.",
+   "Foster’s rule shows that body size regulates everything. In a mainland environment, being large is often a safer and more adaptive way for an animal to avoid predators. __32__ In fact, great size can become a burden, since huge animals need far more food to survive and reproduce.",
+   "A new fossil study of island-dwelling proboscideans (prehistoric hairy elephants) further shows that the physical features and ecological structure of an island may affect how much big mammals shrink. __33__ In contrast, some smaller islands have limited food sources and few competitors. On such islands, big mammals grow smaller surprisingly quickly. __34__",
+   "After the island, 15 miles off the coast of France, became isolated from the mainland, the deer living there shrank to one-sixth the size of their relatives on continental Europe. The whole process took a mere 6,000 years."
+  ],
+  "zhTranslation": [
+   "島嶼和大陸，或其他大片陸地，有很大的不同。島嶼的面積和與世隔絕的環境，對島上的生態系和生物有深遠的影響。",
+   "__31__ 這個模式在 1964 年由 J. Bristol Foster 首先提出，後來稱為福斯特法則，也叫島嶼效應。例如老鼠、松鼠這類囓齒類到了島上，往往有變大的傾向，鹿和大象這類大型哺乳類則比較可能變小。這個模式雖然有不少例外，但無論是化石物種還是今天住在島上的哺乳類，大致上都符合這個趨勢。",
+   "福斯特法則顯示，體型決定一切。在大陸上，體型大往往是動物躲避掠食者比較安全、也比較能適應環境的方式。__32__ 事實上，體型大反而可能成為負擔，因為大型動物需要多得多的食物才能生存和繁衍。",
+   "一項針對島上長鼻目動物（也就是史前多毛的象）的化石新研究進一步顯示，島嶼的自然條件和生態結構，可能影響大型哺乳類縮小的程度。__33__ 相反地，有些小島食物來源有限，競爭者又少。在這樣的島上，大型哺乳類縮小的速度快得驚人。__34__",
+   "這座島距離法國海岸 15 英里，和大陸隔絕之後，島上的鹿縮小到歐洲大陸鹿的六分之一。整個過程只花了短短 6,000 年。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 110 年學測試辦考試閱讀測驗〈福斯特法則：島嶼效應〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "15-18",
+   "選項字數全距": 3,
+   "選項長度變異係數": "7.4%",
+   "建檔": "第三百七十一場建檔。改編自 g110tp1；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g111rp3",
+  "year": "（二十二）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "汽車撞擊測試怎麼做（How Cars Are Crash-Tested）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "D"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "In an offset test, only a portion of the car’s front strikes a barrier or another vehicle.",
+   "B": "A rollover test verifies a car’s ability to support itself in a crash, especially through its roof pillars.",
+   "C": "In the first of these, a car is accelerated straight into a solid concrete barrier.",
+   "D": "Auto insurers also lend their support to the work of both these institutes.",
+   "E": "This test is essential because side impact accidents have a high fatality rate."
+  },
+  "optionsZh": {
+   "C": "其中第一種測試是讓車子加速，直直撞上堅固的混凝土牆。",
+   "A": "偏置撞擊測試只讓車頭的一部分撞上障礙物或另一輛車。",
+   "E": "這項測試非常重要，因為側面撞擊事故的死亡率很高。",
+   "B": "翻滾測試檢驗車子在撞擊中支撐車身的能力，尤其是靠車頂支柱。",
+   "D": "汽車保險業者也支持這兩個機構的工作。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 的內容來自原文，文法和語氣都沒有問題；`both these institutes`（這兩個機構）指的是第一段的兩個機構，`also` 則追加另一個支持者。把 D 接在第一段最後，念起來非常順；第 34 格在段末，`also` 看起來也能再補一件事。\n\n問題在於：**談機構的只有第一段，第一段卻沒有空格；其他各段講的都是測試本身，沒有任何一段在等它。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "清單上第一種測試的做法，後一句的 `This scenario` 和 `head-on` 才有東西可指",
+     "why": "D 講的是誰支持這兩個機構，沒有任何撞擊的場面"
+    },
+    {
+     "blank": 32,
+     "want": "偏置撞擊測試的做法：只有車頭的一部分撞上去，後面的 `this smaller area` 才有對象",
+     "why": "D 和撞擊力、承受撞擊的面積都無關"
+    },
+    {
+     "blank": 33,
+     "want": "一句說側面撞擊的死亡率很高，後一句的 `so deadly` 才有前提",
+     "why": "D 沒有提到任何事故，也沒有提到死亡"
+    },
+    {
+     "blank": 34,
+     "want": "第二段清單上還沒說明的最後一項，也就是翻滾測試",
+     "why": "D 不是一種測試，補進去之後四種測試還是缺一種"
+    }
+   ],
+   "summary": "**這一篇的 D 屬於「切面對，卻沒有段落在等它」。**全篇確實談到哪些機構負責撞擊測試，D 的切面沒有錯，只是沒有空格留給它。這和 115 學測參考試卷多出來的 C 是同一種情形。至於 115 學測多出來的 D，則是「主題相同，切面不對」，比這一篇容易看出來。",
+   "extra": [],
+   "takeaway": "四格各自問清楚前後在等什麼，配完以後，再拿剩下的那一句回頭找它最自然的位置；如果那個位置落在沒有空格的段落裡，它就是多出來的。"
+  },
+  "paraLabels": [
+   "破題：撞擊測試能減少車禍傷亡，美國由 IIHS 負責",
+   "總覽與測試一：列出四種測試，先說明正面撞擊",
+   "測試二：偏置撞擊——撞擊力一樣大，承受的面積卻比較小",
+   "測試三、四：側面撞擊死亡率高，翻滾測試檢驗車頂支柱",
+   "結尾：世界各地都有撞擊測試，提供貼近真實的數據"
+  ],
+  "marks": [
+   [
+    0,
+    "Crash testing for vehicles plays a vital role in minimizing the deaths, injuries, and property damage that result from road accidents.",
+    "gradient"
+   ],
+   [
+    1,
+    "Vehicles undergo several kinds of crash tests so that their owners can get the information and guidance they need.",
+    "topic"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    0,
+    "Another",
+    "trans"
+   ],
+   [
+    1,
+    "Some examples",
+    "trans"
+   ],
+   [
+    "C",
+    "first",
+    "trans"
+   ],
+   [
+    "D",
+    "also",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Crash testing for vehicles plays a vital role in minimizing the deaths, injuries, and property damage that result from road accidents. In the United States, one organization responsible for ensuring that this task is carried out correctly is the Insurance Institute for Highway Safety (IIHS), a nonprofit, independent scientific and educational body. Another group, the Highway Loss Data Institute, supports the mission of the IIHS.",
+   "Vehicles undergo several kinds of crash tests so that their owners can get the information and guidance they need. Some examples are frontal impact tests, offset tests, side impact tests, and rollover tests. __31__ This scenario re-creates what would happen if two cars collided head-on or a single vehicle ran into a fixed object.",
+   "__32__ The forces in this kind of test are just as great as those in a frontal impact test. What makes the test so important is that this smaller area must absorb the full force of the crash.",
+   "A side impact test simulates a car crossing an intersection and being hit on the side by another vehicle that has run a red light. __33__ Such accidents are so deadly because cars usually lack a significant crumple zone on their sides. Without this buffer, there is little to cushion the impact before the people inside are hurt. __34__",
+   "Many crash test programs like these are run around the world, providing necessary safety performance data based on real-world conditions."
+  ],
+  "zhTranslation": [
+   "車輛撞擊測試對於減少車禍造成的死亡、傷害和財物損失，扮演非常重要的角色。在美國，負責確保這項工作正確執行的機構之一，是公路安全保險協會（IIHS），這是一個非營利、獨立的科學與教育機構。另一個組織「公路損失數據協會」（Highway Loss Data Institute）則支援 IIHS 的任務。",
+   "車輛要經過好幾種撞擊測試，好讓車主得到需要的資訊和指引，例如正面撞擊測試、偏置撞擊測試、側面撞擊測試和翻滾測試。__31__ 這個情境重現的是兩車迎面相撞，或單一車輛撞上固定物體時會發生的狀況。",
+   "__32__ 這種測試的撞擊力和正面撞擊測試一樣大。這項測試之所以重要，是因為這塊比較小的面積必須承受全部的撞擊力。",
+   "側面撞擊測試模擬的情況是：車子穿越路口時，一輛闖紅燈的車從側面撞上來。__33__ 這類事故之所以這麼致命，是因為車子側面通常沒有夠大的潰縮區。少了這一層緩衝，車內的人受傷之前，幾乎沒有什麼東西能減輕撞擊。__34__",
+   "世界各地都有許多像這樣的撞擊測試計畫，根據真實世界的狀況，提供必要的安全性能數據。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 111 年學測參考試卷閱讀測驗〈車輛撞擊測試〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 16,
+   "選項字數區間": "13-18",
+   "選項字數全距": 5,
+   "選項長度變異係數": "13.4%",
+   "建檔": "第三百七十一場建檔。改編自 g111rp3；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g114p3",
+  "year": "（二十三）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "俄羅斯飲酒習慣的由來（How Russia Took to Drinking）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "D"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "In ancient Russia, drinking alcohol was far from an everyday habit.",
+   "B": "Largely in response to illegally made, low-quality vodka, the emperors created a state monopoly in the 19th century.",
+   "C": "The heaviest drinkers in medieval Europe were actually the Germans.",
+   "D": "Toasts are an important part of weddings, birthdays, and other family gatherings in Russia.",
+   "E": "Matters grew even worse when industrial production made vodka so cheap that low-income citizens, too, could afford it."
+  },
+  "optionsZh": {
+   "A": "在古代俄羅斯，喝酒根本不是日常的習慣。",
+   "C": "中世紀歐洲最會喝酒的，其實是德國人。",
+   "B": "沙皇在 19 世紀建立國家專賣制度，主要是為了因應非法製造的劣質伏特加。",
+   "E": "等到工業化生產讓伏特加便宜到連低收入的民眾也買得起，情況就更糟了。",
+   "D": "在俄羅斯，婚禮、生日和其他家庭聚會上，敬酒是很重要的一環。"
+  },
+  "unusedExplanation": {
+   "opt": "D",
+   "lead": "D 讀起來很通順，講的也是俄羅斯人和酒。放進第 32 格，`weddings, birthdays, and other family gatherings`（婚禮、生日和其他家庭聚會）乍看正好說明前一句的 `whenever the occasion arises`（一有機會）。但四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句統攝第二段的話：古代俄羅斯人很少喝酒，回應第一段的 `However, there is more to the story.`",
+     "why": "D 講的是今天的敬酒習俗，沒有古代，也沒有說喝得少"
+    },
+    {
+     "blank": 32,
+     "want": "一句先提到德國人，後一句的 `their` 和「醉得像個德國人」才有著落",
+     "why": "D 沒有德國人；接了 D，`their` 只能指俄羅斯人，例子卻是德國人"
+    },
+    {
+     "blank": 33,
+     "want": "一種制度，後面的 `this system` 和 `This policy` 才有所指",
+     "why": "敬酒是習俗，不是「只有政府可以生產酒」的制度"
+    },
+    {
+     "blank": 34,
+     "want": "一件比前一句更糟的事情，說明國家怎麼讓伏特加更普及",
+     "why": "D 沒有提到國家，也沒有說情況變得更糟"
+    }
+   ],
+   "summary": "**全篇談的是俄羅斯人愛喝酒是不是天生的，從古代、15 和 16 世紀一路講到 19 世紀；D 談的卻是俄羅斯人在什麼場合敬酒。**這一篇的多餘選項屬於「主題相同，切面不對」，和 115 學測多出來的 D 相同：話題沒有離開俄羅斯人喝酒，談的卻是另一個切面。",
+   "extra": [],
+   "takeaway": "填完四格以後，先用一句話說出這一篇在回答什麼問題，再拿剩下的那一句來比。它回答的如果是另一個問題，就是多出來的那一句，前面填好的答案不必再改。"
+  },
+  "paraLabels": [
+   "破題：先提出一般人的看法，再用 However 表示事情沒有這麼簡單",
+   "反證一：古代俄羅斯人很少喝酒，伏特加也不是本地發明",
+   "反證二：15、16 世紀的記載互相矛盾，最會喝酒的其實是德國人",
+   "原因：國家專賣與工業化生產讓伏特加越來越普及",
+   "結尾：禁酒運動持續多年，俄羅斯的飲酒量仍然名列前茅"
+  ],
+  "marks": [
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "Historical records give contradictory information about how much Russians drank in the 15th and 16th centuries.",
+    "topic"
+   ],
+   [
+    3,
+    "The Russian state played a significant role in the growth of alcohol consumption.",
+    "topic"
+   ],
+   [
+    4,
+    "Meanwhile, a powerful anti-alcohol movement arose in the 19th century.",
+    "topic"
+   ],
+   [
+    0,
+    "However",
+    "trans"
+   ],
+   [
+    1,
+    "therefore",
+    "trans"
+   ],
+   [
+    2,
+    "while",
+    "trans"
+   ],
+   [
+    3,
+    "but",
+    "trans"
+   ],
+   [
+    3,
+    "also",
+    "trans"
+   ],
+   [
+    4,
+    "Meanwhile",
+    "trans"
+   ],
+   [
+    4,
+    "however",
+    "trans"
+   ],
+   [
+    4,
+    "Although",
+    "trans"
+   ],
+   [
+    "E",
+    "too",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Russia is widely portrayed as the most alcohol-dependent country in the world. Critics of the country say that drinking is almost an inherent trait of the Russian people. However, there is more to the story.",
+   "__31__ Before Russia adopted Christianity in the 10th century, there were no vineyards in the country and therefore no wine. People drank only beverages with low alcohol content. Even vodka, Russia’s national drink, was not a Russian invention. It began as a grape alcohol introduced from France in the late 14th century. The first Russian-made vodka appeared in the 15th century, and the drink remained fairly mild until the mid-18th century.",
+   "Historical records give contradictory information about how much Russians drank in the 15th and 16th centuries. Some documents noted that Russians “indulge in excessive drinking whenever the occasion arises,” while others claimed that Russians “rarely drink wine.” __32__ There were many sayings about their fondness for alcohol, such as “drunk as a German.”",
+   "The Russian state played a significant role in the growth of alcohol consumption. __33__ Under this system, only the government was permitted to produce alcohol. This policy soon filled the state treasury with huge revenues, but it also encouraged people to drink more vodka. __34__",
+   "Meanwhile, a powerful anti-alcohol movement arose in the 19th century. Government measures were introduced, and public organizations were set up to prevent alcoholism from spreading across the country. The movement continued for many years; however, the problem remains. Although Russia does not rank first in alcohol consumption per capita, it is still close to the top."
+  ],
+  "zhTranslation": [
+   "一般人常把俄羅斯說成全世界最依賴酒精的國家，批評俄羅斯的人更說，愛喝酒幾乎是俄羅斯人與生俱來的特質。不過，事情沒有這麼簡單。",
+   "__31__ 俄羅斯在 10 世紀接受基督教之前，境內沒有葡萄園，所以也沒有葡萄酒，人們只喝酒精濃度低的飲料。就連俄羅斯的國酒伏特加，也不是俄羅斯人發明的；伏特加原本是 14 世紀末從法國傳入的葡萄烈酒。第一批俄羅斯自製的伏特加在 15 世紀出現，一直到 18 世紀中葉，這種酒都還算溫和。",
+   "關於 15、16 世紀的俄羅斯人喝多少酒，歷史記載的說法互相矛盾。有的文獻記載俄羅斯人「一有機會就喝得過量」，有的卻說俄羅斯人「很少喝葡萄酒」。__32__ 當時有許多俗語形容他們嗜酒，例如「醉得像個德國人」。",
+   "俄羅斯的國家力量在酒類消費的成長上扮演了重要的角色。__33__ 在這種制度下，只有政府可以生產酒。這項政策很快為國庫帶來龐大的收入，卻也讓人們喝更多伏特加。__34__",
+   "同一時期，19 世紀也興起一股強大的禁酒運動：政府推出各項措施，民間也成立團體，要防止酗酒在國內蔓延。這股運動持續了很多年，問題卻依然存在。雖然以人均飲酒量來說，俄羅斯並不是第一名，但仍然名列前茅。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 114 年學測閱讀測驗〈俄羅斯人的飲酒文化史〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 22,
+   "選項字數區間": "10-18",
+   "選項字數全距": 8,
+   "選項長度變異係數": "23.7%",
+   "建檔": "第三百七十一場建檔。改編自 g114p3；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g99rp1",
+  "year": "（二十四）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "陶笛的古今流傳（The Ocarina Through the Ages）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "A"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "The player produces different notes by covering and uncovering the holes on its body.",
+   "B": "Like many other ocarinas, it is made of earthenware clay and often shaped like an egg.",
+   "C": "Soldiers took up playing it as a way to pass the time.",
+   "D": "Other cultures, too, put the ocarina to a variety of uses over the centuries.",
+   "E": "In 1999, Nintendo released “Zelda: The Ocarina of Time,” the most popular title of all time."
+  },
+  "optionsZh": {
+   "B": "它和許多其他的陶笛一樣，是用陶土做的，形狀常常像一顆蛋。",
+   "D": "幾百年來，其他文化也把陶笛拿來做各種不同的用途。",
+   "C": "士兵開始吹奏它，用來打發時間。",
+   "E": "1999 年，任天堂推出《薩爾達傳說：時之笛》，這是有史以來最受歡迎的電玩遊戲。",
+   "A": "吹奏的人按住或放開笛身上的孔，就能吹出不同的音。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 讀起來完全通順，講的也是陶笛。放在第 31 格，它的 `its body`（它的笛身）可以指前一句的塤，乍看就是在介紹這件樂器，非常順。問題在於，這一篇從頭到尾談的是陶笛出現在哪些地方、哪些時代、拿來做什麼，A 談的卻是陶笛怎麼吹出不同的音。",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句說明塤的材質和樣子，後一句的 `this oval instrument` 才有來歷",
+     "why": "A 只講按孔吹音，沒有提到形狀，「橢圓形」沒有著落"
+    },
+    {
+     "blank": 32,
+     "want": "一句說中國以外的文化也在用陶笛，好讓後面的馬雅人和歐洲旅人當例子",
+     "why": "A 沒有任何文化，馬雅人的儀式證明不了怎麼吹出不同的音"
+    },
+    {
+     "blank": 33,
+     "want": "陶笛傳入美國以後，由誰吹、吹來做什麼",
+     "why": "A 沒有士兵，也和戰爭期間無關；下一段的 `as well` 找不到前面那一群人"
+    },
+    {
+     "blank": 34,
+     "want": "一款具體的電玩，後一句的 `The game` 才有對象",
+     "why": "A 的 `The player` 是吹陶笛的人，沒有提到任何一款遊戲"
+    }
+   ],
+   "summary": "**這一篇多出來的 A 屬於「主題相同，切面不對」。** 這一類和 115 學測多出來的 D 相同。全篇問的是「陶笛傳到哪裡、在什麼時代、拿來做什麼」，A 答的卻是「陶笛怎麼吹出不同的音」。至於 115 學測參考試卷多出來的 C，屬於「切面對，卻沒有段落在等它」，和這一篇不同。",
+   "extra": [],
+   "takeaway": "先替每一格寫下前後在等什麼，四格配完以後，再問剩下的那一句回答的是不是全篇的問題；答的是另一個問題，它就是多出來的。"
+  },
+  "paraLabels": [
+   "引言：陶笛從石器時代就有，各大洲都找得到",
+   "中國：塤的歷史、樣子與在宮廷樂隊裡的角色",
+   "其他文化：馬雅人用在儀式，歐洲人帶回改良",
+   "近代：義大利的發展與二戰時傳入美國",
+   "二十世紀：陶笛普及大眾，進入電玩"
+  ],
+  "marks": [
+   [
+    0,
+    "The ocarina, a flute-like musical instrument, has been around since the Stone Age.",
+    "topic"
+   ],
+   [
+    1,
+    "One variation of the ocarina in Chinese culture is the xun, which has a history of more than 7,000 years.",
+    "topic"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    4,
+    "Over the 20th century, the ocarina caught on with the general public as well, and ocarina music eventually found its way into video games.",
+    "topic"
+   ],
+   [
+    0,
+    "though",
+    "trans"
+   ],
+   [
+    0,
+    "Because",
+    "trans"
+   ],
+   [
+    "D",
+    "too",
+    "trans"
+   ],
+   [
+    2,
+    "for example",
+    "trans"
+   ],
+   [
+    2,
+    "From there",
+    "trans"
+   ],
+   [
+    3,
+    "In the 1800s",
+    "trans"
+   ],
+   [
+    3,
+    "During World War II",
+    "trans"
+   ],
+   [
+    4,
+    "Over the 20th century",
+    "trans"
+   ],
+   [
+    4,
+    "as well",
+    "trans"
+   ],
+   [
+    "E",
+    "In 1999",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "The ocarina, a flute-like musical instrument, has been around since the Stone Age. Ancient ocarinas have turned up in places as far apart as Africa, Asia, Europe, and South America. Most of those unearthed were made from clay, though some were fashioned from bone, wood, or other materials. Because the instrument produces sounds similar to bird calls, it has been credited with magical powers.",
+   "One variation of the ocarina in Chinese culture is the xun, which has a history of more than 7,000 years. __31__ At various points in Chinese music history, this oval instrument played an important role in the imperial orchestra, where it was heard during religious worship and palace entertainment.",
+   "__32__ The Mayans of South America, for example, used ocarinas in special ceremonies, much as the Chinese did. From there, European travelers carried this South American “whistle” back home, where it was later modified to play the Western scale.",
+   "In the 1800s, Italy saw the greatest development of the ocarina, with musicians there forming groups to play ocarinas of various sizes together. During World War II, the instrument was introduced to the United States. __33__",
+   "Over the 20th century, the ocarina caught on with the general public as well, and ocarina music eventually found its way into video games. __34__ The game features a character named Link, who plays songs on an ocarina in order to move between different areas of its world."
+  ],
+  "zhTranslation": [
+   "陶笛是一種類似長笛的樂器，從石器時代就已經存在。從非洲、亞洲、歐洲到南美洲，這些相隔遙遠的地方都發現過古代的陶笛。出土的陶笛大多是用黏土做的，不過也有一些是用骨頭、木頭或其他材料做成。陶笛發出的聲音很像鳥叫，所以人們認為它具有神奇的魔力。",
+   "塤（ㄒㄩㄣ）是陶笛在中國文化裡的一種變體，有七千多年的歷史。__31__ 在中國音樂史上的不同時期，這種橢圓形的樂器在宮廷樂隊裡扮演重要的角色，宗教祭祀和宮廷娛樂的場合都聽得到它。",
+   "__32__ 例如南美洲的馬雅人就和中國人一樣，在特殊的儀式上使用陶笛。後來，歐洲的旅人從那裡把這種南美洲的「哨子」帶回家鄉，之後經過改良，陶笛就能吹奏西方音階。",
+   "1800 年代，陶笛在義大利發展得最好，當地的樂手組成樂團，一起吹奏各種尺寸的陶笛。第二次世界大戰期間，陶笛傳入美國。__33__",
+   "到了二十世紀，陶笛在一般大眾之間也流行起來，陶笛音樂後來更進入了電玩遊戲。__34__ 遊戲裡有一個叫做 Link 的角色，他用陶笛吹奏樂曲，好在遊戲世界的不同區域之間移動。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 99 課綱學測參考試卷（102 年施測）閱讀測驗〈陶笛的歷史與文化〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 16,
+   "選項字數區間": "12-16",
+   "選項字數全距": 4,
+   "選項長度變異係數": "9.3%",
+   "建檔": "第三百七十一場建檔。改編自 g99rp1；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-g99rp3",
+  "year": "（二十五）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "研究快樂這件事（The Science of Happiness）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "A"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Psychologists also disagree about how the word “happiness” should be defined.",
+   "B": "Researchers have linked several other habits to a happier life.",
+   "C": "Comparing one person’s sense of well-being with another person’s is no easier.",
+   "D": "A sincere smile reaches the corners of the eyes and involves mouth muscles that fake smilers cannot control.",
+   "E": "In recent years, however, scientists have developed a few reliable ways to measure happiness."
+  },
+  "optionsZh": {
+   "C": "要比較一個人和另一個人的幸福感，也一樣不容易。",
+   "E": "不過，近年來科學家已經發展出幾種可靠的方法來測量快樂。",
+   "D": "真心的笑容會牽動眼角，也會用到假笑的人控制不了的嘴部肌肉。",
+   "B": "研究人員發現，還有其他幾種習慣和比較快樂的生活有關。",
+   "A": "心理學家對於「快樂」這個詞該怎麼定義，也看法不一。"
+  },
+  "unusedExplanation": {
+   "opt": "A",
+   "lead": "A 和全篇談的是同一件事，而且它談的正是研究快樂的困難，和第二段的方向一致。放進第 31 格，`also`（也）接在「快樂很難測量」那個例子後面，乍看像是第二個難題。問題只有一個：**沒有任何一段的內容在等它。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句說「拿兩個人來比也很難」，後一句我的「8」和你的「6」才是它的例子",
+     "why": "A 談的是定義上的爭議，後面的例子比的是兩個人的分數"
+    },
+    {
+     "blank": 32,
+     "want": "先提出幾種測量方法，後面的 `One of the techniques` 才有所指",
+     "why": "A 還在講困難，一種方法也沒有"
+    },
+    {
+     "blank": 33,
+     "want": "說明真笑和假笑憑什麼分辨",
+     "why": "A 和笑容無關，前一句說容易，A 卻又回到困難"
+    },
+    {
+     "blank": 34,
+     "want": "先說還有好幾種習慣，後面的 `One is`、`Others include` 才有一組可以挑",
+     "why": "A 沒有任何習慣可以讓 `One` 指"
+    }
+   ],
+   "summary": "**A 的切面沒有錯，第二段確實在數研究快樂的難題；可是全篇從頭到尾沒有一句提到「快樂該怎麼定義」。**這一篇的多餘選項屬於「切面對，卻沒有段落在等它」，和 115 學測參考試卷多出來的 C 相同：`also` 讀起來通順，卻找不到需要它的段落。",
+   "extra": [],
+   "takeaway": "四格填完剩下一個，不要因為它和全篇同一個主題就回頭換答案。先看它帶出的話題，前後文有沒有任何一句接著談；找不到，它就是多出來的那一句。"
+  },
+  "paraLabels": [
+   "引言：快樂從不受重視，變成熱門的研究主題",
+   "難題：快樂很難用科學方法測量，人與人之間也很難比較",
+   "突破：研究人員找出測量方法，例如觀察真心的笑容",
+   "發現：常做好事的人最快樂，其他幾種習慣也有研究支持"
+  ],
+  "marks": [
+   [
+    0,
+    "But today, happiness is a hot subject of research.",
+    "gradient"
+   ],
+   [
+    1,
+    "Even so, the field still has significant obstacles to overcome.",
+    "topic"
+   ],
+   [
+    2,
+    "__32__",
+    "topic"
+   ],
+   [
+    0,
+    "Instead",
+    "trans"
+   ],
+   [
+    0,
+    "But",
+    "trans"
+   ],
+   [
+    1,
+    "Even so",
+    "trans"
+   ],
+   [
+    1,
+    "For one thing",
+    "trans"
+   ],
+   [
+    1,
+    "for instance",
+    "trans"
+   ],
+   [
+    "E",
+    "however",
+    "trans"
+   ],
+   [
+    3,
+    "Others",
+    "trans"
+   ],
+   [
+    "A",
+    "also",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Not long ago, joy was not considered serious enough for psychologists to study. Instead, these scientists traditionally focused on helping people who suffered from depression or other mental illnesses. But today, happiness is a hot subject of research. As part of a growing field called positive psychology, more and more researchers are looking for ways to help people become happier.",
+   "Even so, the field still has significant obstacles to overcome. For one thing, it is difficult to gauge happiness scientifically. Suppose your best friend tells you that she feels great but is crying a lot and acting more depressed than usual. For the purposes of a scientific study, would you rate her as happy or sad? __31__ On a scale of 1 to 10, for instance, how can we be sure that my “8” is happier than your “6”?",
+   "__32__ One of the techniques involves looking at how often people genuinely smile in their daily lives. It is quite easy to tell a real smile from the forced ones that people put on for photographs. __33__",
+   "With the help of these techniques, recent studies have found that the happiest people are those who frequently do kind things for both friends and strangers. __34__ One is keeping a diary of your future dreams. Others include setting and pursuing goals, making friends and family members a big part of your life, expressing optimism about your future, extending gratitude to people who help you, and exercising regularly."
+  ],
+  "zhTranslation": [
+   "不久之前，心理學家還認為快樂不夠嚴肅，不值得研究。這些科學家向來專注於幫助患有憂鬱症或其他心理疾病的人。但是現在，快樂成了熱門的研究主題。正向心理學這個領域日漸成長，越來越多研究人員在這個領域裡尋找讓人更快樂的方法。",
+   "即使如此，這個領域還是有一些重大的障礙要克服。第一，快樂很難用科學方法測量。假設你最好的朋友告訴你她感覺很好，卻常常哭，看起來也比平常沮喪。如果是為了做科學研究，你會把她評為快樂還是難過？__31__ 比方說，在 1 到 10 分的量表上，我們怎麼能確定我的「8」比你的「6」快樂？",
+   "__32__ 其中一種技巧，是觀察人們在日常生活中真心微笑的頻率。真心的笑容和人們拍照時擺出來的勉強笑容很容易分辨。__33__",
+   "藉助這些技巧，最近的研究發現，最快樂的人是那些經常替朋友和陌生人做好事的人。__34__ 其中一種是把對未來的夢想寫成日記。其他的還包括設定並追求目標、讓親友在生活中占重要的位置、對未來抱持樂觀、向幫助過你的人表達感謝，以及規律運動。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 99 課綱學測參考試卷（102 年施測）閱讀測驗〈正面心理學與幸福研究〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 18,
+   "選項字數區間": "10-18",
+   "選項字數全距": 8,
+   "選項長度變異係數": "21.8%",
+   "建檔": "第三百七十一場建檔。改編自 g99rp3；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z101p3",
+  "year": "（二十六）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "遊戲以外的憤怒鳥（Angry Birds Beyond the Game）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "B"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "The battle between the birds and the pigs has even inspired works of philosophical analogy.",
+   "B": "The birds and pigs have also turned up on toys, clothing, and other goods sold worldwide.",
+   "C": "Clips of the segment went viral, drawing viewers from all around the world.",
+   "D": "That same year, Nokia advertised its new phone by projecting the characters onto a building in Austin, Texas.",
+   "E": "In Israel, a TV comedy showed the birds and the pigs sitting down to negotiate."
+  },
+  "optionsZh": {
+   "E": "在以色列，一個電視喜劇節目讓鳥和豬坐下來談判。",
+   "C": "這段節目的影片在網路上瘋傳，吸引了世界各地的觀眾。",
+   "D": "同一年，Nokia 把這些角色投影在德州奧斯汀的一棟大樓上，替新手機打廣告。",
+   "A": "鳥和豬之間的這場大戰，甚至啟發了用哲學來類比的作品。",
+   "B": "鳥和豬也出現在玩具、衣服和其他銷往世界各地的商品上。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "B 讀起來很通順，講的也是憤怒鳥的角色出現在遊戲以外的地方，和全篇同一件事。放進第 34 格，它的 `also` 乍看正好接在第三段一連串的廣告後面，像是再多舉一種商業用途。\n\n問題只有一個：**沒有任何一段的內容在等它。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "美國以外的一個電視節目，後一句的 `the show`、`this scene` 和 `the country` 才有所指",
+     "why": "B 講的是商品，沒有節目，也沒有國家"
+    },
+    {
+     "blank": 32,
+     "want": "替以色列節目的那一幕補上後續，說明它傳遍了全世界",
+     "why": "B 的 `also` 乍看像段末再補一種用途，但第二段第一句圈定的是電視節目，玩具和衣服不在範圍內；那一幕的後續也還沒交代"
+    },
+    {
+     "blank": 33,
+     "want": "2011 年的另一則廣告，而且廣告主得是 Nokia，後面的 `Later` 和 `Nokia also` 才接得上",
+     "why": "B 沒有年份，也沒有 Nokia"
+    },
+    {
+     "blank": 34,
+     "want": "一句帶出新的領域，後面那篇用遊戲詮釋瑜伽的文章就是這個領域的例子",
+     "why": "B 講的是玩具和衣服，那篇文章不是商品"
+    }
+   ],
+   "summary": "**這一篇的多餘選項屬於「切面對，卻沒有段落在等它」，和 115 學測參考試卷多出來的 C 相同。** 全篇講的正是憤怒鳥的角色出現在遊戲以外的地方，這一篇的 B 談的也是這件事；只是電視、廣告、哲學類比各有一段，沒有一段談商品。115 學測多出來的 D 屬於「主題相同，切面不對」，比較容易看出不同類。這一篇的 B 則看起來和正解一樣像樣，要靠每一格前後的內容才分得出來。",
+   "extra": [],
+   "takeaway": "四格填完剩下一個，先回頭把每一格前後在等什麼各說一句，再看剩下的那一句在每一格缺了什麼。四格都說得出缺什麼，它就是多出來的，不必回頭懷疑前面的答案。"
+  },
+  "paraLabels": [
+   "引言：遊戲的來歷、銷售成績與知名玩家",
+   "媒體一：電視——美國主持人與以色列喜劇節目",
+   "媒體二：廣告——各家企業用不同形式宣傳",
+   "媒體三：哲學類比——用遊戲詮釋瑜伽"
+  ],
+  "marks": [
+   [
+    1,
+    "As its popularity has grown worldwide, the game and its characters—angry birds and their enemy pigs—have been referenced in television programs in many countries.",
+    "topic"
+   ],
+   [
+    2,
+    "Angry Birds and its characters have also been featured in advertisements in different forms.",
+    "topic"
+   ],
+   [
+    3,
+    "__34__",
+    "topic"
+   ],
+   [
+    0,
+    "Since then",
+    "trans"
+   ],
+   [
+    2,
+    "also",
+    "trans",
+    "its characters have ",
+    " been featured"
+   ],
+   [
+    2,
+    "In March 2011",
+    "trans"
+   ],
+   [
+    "B",
+    "also",
+    "trans"
+   ],
+   [
+    "D",
+    "That same year",
+    "trans"
+   ],
+   [
+    2,
+    "Later",
+    "trans"
+   ],
+   [
+    2,
+    "also",
+    "trans",
+    "Nokia ",
+    " used"
+   ]
+  ],
+  "paras": [
+   "Angry Birds is a video game developed by the Finnish game company Rovio Mobile. Inspired mainly by a sketch of stylized wingless birds, the game was first released for Apple’s mobile operating system in December 2009. Since then, more than 12 million copies have been purchased from Apple’s App Store. Some of its more notable fans include Prime Minister David Cameron of the United Kingdom, who plays the iPad version, and author Salman Rushdie, who is believed to be “something of a master at Angry Birds.”",
+   "As its popularity has grown worldwide, the game and its characters—angry birds and their enemy pigs—have been referenced in television programs in many countries. In the United States, television hosts Conan O’Brien, Jon Stewart, and Daniel Tosh have worked the game into comedy sketches on their own shows. __31__ Through this scene, the show satirized the country’s recent failed peace attempts with the Palestinians. Known as “A Wonderful Country,” it is one of the nation’s most popular TV programs. __32__",
+   "Angry Birds and its characters have also been featured in advertisements in different forms. In March 2011, the characters began appearing in a series of advertisements for Microsoft’s Bing search engine. __33__ Later, a T-Mobile commercial filmed in Spain included a real-life mock-up of the game in a city plaza. Nokia also used the game in Malaysia to promote an attempt to set a world record for the largest number of people playing a single mobile game.",
+   "__34__ In Brazil, Giridhari Dasar wrote a five-part essay entitled “Angry Birds Yoga—How to Eliminate the Green Pigs in Your Life,” in which he used the characters and gameplay to interpret various concepts of yoga. The piece attracted much media attention for its unique way of presenting these ideas."
+  ],
+  "zhTranslation": [
+   "《憤怒鳥》是芬蘭遊戲公司 Rovio Mobile 開發的電玩遊戲。這款遊戲的靈感主要來自一張草圖，畫的是造型簡化、沒有翅膀的鳥；2009 年 12 月首先在蘋果的行動作業系統上推出。從那時起，蘋果的 App Store 已經賣出超過 1,200 萬份。這款遊戲比較有名的玩家，包括英國首相 David Cameron，他玩的是 iPad 版；還有作家 Salman Rushdie，據說他「玩憤怒鳥可以說是個高手」。",
+   "隨著這款遊戲在全世界越來越受歡迎，遊戲本身和裡面的角色──憤怒鳥和牠們的敵人豬──在許多國家的電視節目裡都有人引用。在美國，電視主持人 Conan O’Brien、Jon Stewart 和 Daniel Tosh 都在自己的節目裡，把這款遊戲寫進喜劇短劇。__31__ 節目藉著這一幕，諷刺這個國家最近和巴勒斯坦人和談失敗的事情。這個節目叫做《美好國度》（A Wonderful Country），是以色列最受歡迎的電視節目之一。__32__",
+   "憤怒鳥和裡面的角色，也以各種形式出現在廣告裡。2011 年 3 月，這些角色開始出現在微軟 Bing 搜尋引擎的一系列廣告中。__33__ 後來，T-Mobile 在西班牙拍的一支廣告，在一座城市廣場上用實物重現了這款遊戲。Nokia 也在馬來西亞用這款遊戲，宣傳一場挑戰世界紀錄的活動，挑戰同時玩同一款手機遊戲的最多人數。",
+   "__34__ 巴西的 Giridhari Dasar 寫了一篇分成五部分的文章，題目是〈憤怒鳥瑜伽：如何消滅你生命中的綠豬〉，用遊戲的角色和玩法來詮釋瑜伽的各種概念。這篇文章呈現這些概念的方式很獨特，吸引了很多媒體的注意。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 101 年指考閱讀測驗〈憤怒鳥在各種媒體的流行〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 18,
+   "選項字數區間": "13-18",
+   "選項字數全距": 5,
+   "選項長度變異係數": "10.6%",
+   "建檔": "第三百七十一場建檔。改編自 z101p3；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z104p2",
+  "year": "（二十七）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "追求零瑕疵的六標準差（Six Sigma and the Pursuit of Zero Defects）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "E"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Its users range from local governments, prisons, and hospitals to the armed forces, banks, and multinational corporations.",
+   "B": "At first, engineers there used the term only informally, for a plan to cut down on manufacturing faults.",
+   "C": "In 1995, Jack Welch, CEO of General Electric (GE), decided to bring Six Sigma into the company he ran.",
+   "D": "Two elements are essential if a company hopes to reach this goal: training and teamwork.",
+   "E": "In statistics, sigma is used to measure how far a given process falls short of perfection."
+  },
+  "optionsZh": {
+   "D": "公司要達到這個目標，有兩個要素不可或缺：訓練和團隊合作。",
+   "B": "起初，那裡的工程師只是非正式地用這個名稱，稱呼一項減少生產錯誤的計畫。",
+   "C": "1995 年，奇異公司（GE）的執行長 Jack Welch 決定把六標準差引進他領導的公司。",
+   "A": "它的使用者從地方政府、監獄、醫院，到軍隊、銀行和跨國企業都有。",
+   "E": "在統計學上，sigma 用來衡量一個流程離完美還差多遠。"
+  },
+  "unusedExplanation": {
+   "opt": "E",
+   "lead": "E 讀起來很通順，談的也是六標準差：它說明的正是名稱裡的 sigma。放進第 32 格，後一句剛好談到「六標準差」這個名稱，乍看像在交代名稱的由來。但四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句提出六標準差的要素，`this goal` 指回第一段的零瑕疵，後一句的 `In other words` 才有可以重述的話",
+     "why": "E 講的是統計學上的定義，後一句講人員訓練，不是 E 的另一種說法"
+    },
+    {
+     "blank": 32,
+     "want": "摩托羅拉起初怎麼使用這個名稱，後一句的 `those modest beginnings` 才有指的內容",
+     "why": "E 是統計學上的通則，沒有說摩托羅拉起初拿這個名稱做什麼"
+    },
+    {
+     "blank": 33,
+     "want": "先介紹 General Electric 和它的縮寫，後一句的 `GE` 才知道指哪一家公司",
+     "why": "E 沒有提到任何公司，`GE` 還是沒有交代"
+    },
+    {
+     "blank": 34,
+     "want": "把前一句「各式各樣的組織」一一列出來",
+     "why": "E 談的是統計，不是使用六標準差的組織"
+    }
+   ],
+   "summary": "**這一篇多出來的選項屬於「切面對，卻沒有段落在等它」**，和 115 學測參考試卷多出來的 C 是同一種。這一篇的 E 解釋名稱裡的 sigma，本來就是在介紹六標準差，切面沒有錯；可是第一段沒有空格，其他四格前後等的都是別的內容，沒有一格需要這個定義。至於 115 學測多出來的 D，屬於「主題相同，切面不對」，和這一篇是不同的類型。",
+   "extra": [],
+   "takeaway": "四格填完剩下一句，如果它談的和文章是同一件事，先不要回頭改答案。把每一格前後在等什麼各說一句，四格都對得上，剩下的那一句就是多出來的。"
+  },
+  "paraLabels": [
+   "破題：六標準差是什麼，核心概念是算出瑕疵、盡量接近零瑕疵",
+   "要素：訓練與團隊合作，人員要學會工具和溝通技巧",
+   "起源：摩托羅拉發展出來，從非正式的減少瑕疵計畫擴大成一般的績效改善方法",
+   "推廣：奇異公司大力推行，宣稱省下大筆成本",
+   "普及：自成一個產業，各式各樣的組織都採用"
+  ],
+  "marks": [
+   [
+    0,
+    "Six Sigma is a highly disciplined process that helps companies focus on developing and delivering near-perfect products and services.",
+    "topic"
+   ],
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    4,
+    "By 2000, Six Sigma had effectively grown into an industry in its own right, with firms offering training, consulting, and implementation services to all sorts of organizations around the world eager to improve quality and processes.",
+    "topic"
+   ],
+   [
+    1,
+    "In other words",
+    "trans"
+   ],
+   [
+    1,
+    "also",
+    "trans"
+   ],
+   [
+    "B",
+    "At first",
+    "trans"
+   ],
+   [
+    2,
+    "A few years later",
+    "trans"
+   ],
+   [
+    "C",
+    "In 1995",
+    "trans"
+   ],
+   [
+    3,
+    "By 1998",
+    "trans"
+   ],
+   [
+    4,
+    "By 2000",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Six Sigma is a highly disciplined process that helps companies focus on developing and delivering near-perfect products and services. The central idea behind it is that if a company can measure how many “defects” turn up in a commercial production process, it can then systematically work out how to eliminate those problems and come as close to “zero defects” as possible.",
+   "__31__ In other words, a company must make sure that its team leaders and members are taught how to carry out the Six Sigma processes. They must learn to use the tools that Six Sigma provides for measurement and improvement. They also need the communication skills required to involve customers and suppliers in the process and to serve their needs.",
+   "Six Sigma was developed in 1986 by Motorola, an American telecommunications company. __32__ A few years later, Motorola moved beyond those modest beginnings, extending the name “Six Sigma” to a general method for improving performance, not just “defect reduction” in the production process.",
+   "__33__ By 1998, GE was claiming that Six Sigma had already generated more than three-quarters of a billion dollars in cost savings for the company.",
+   "By 2000, Six Sigma had effectively grown into an industry in its own right, with firms offering training, consulting, and implementation services to all sorts of organizations around the world eager to improve quality and processes. __34__"
+  ],
+  "zhTranslation": [
+   "六標準差（Six Sigma）是一套非常嚴謹的流程，幫助公司專心開發並提供近乎完美的產品和服務。它背後的核心概念是：公司如果能算出商業生產流程中出現了多少「瑕疵」，就能有系統地想出消除這些問題的方法，盡可能接近「零瑕疵」。",
+   "__31__ 也就是說，公司必須確保組長和組員都學會怎麼執行六標準差的流程。他們必須學會使用六標準差提供的測量與改善工具，也需要必要的溝通技巧，讓顧客和供應商參與這套流程，並且滿足他們的需求。",
+   "六標準差是美國電信公司摩托羅拉在 1986 年發展出來的。__32__ 幾年後，摩托羅拉不再只是非正式地用在一項計畫上，而是把「六標準差」這個名稱擴大到一般的績效改善方法，不只是生產流程中的「減少瑕疵」。",
+   "__33__ 到了 1998 年，奇異公司宣稱六標準差已經替公司省下超過七億五千萬美元的成本。",
+   "到了 2000 年，六標準差實際上已經自成一個產業，有業者為世界各地想要提升品質、改善流程的各式各樣組織，提供訓練、諮詢和協助實施的服務。__34__"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 104 年指考閱讀測驗〈六標準差管理〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 13,
+   "選項字數區間": "15-18",
+   "選項字數全距": 3,
+   "選項長度變異係數": "6.9%",
+   "建檔": "第三百七十一場建檔。改編自 z104p2；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z99p1",
+  "year": "（二十八）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "美國的總統硬幣（America’s Presidential $1 Coins）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "E"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "He is the only U.S. president to have served nonconsecutive terms.",
+   "B": "Each coin will show a portrait of a president on its face, or heads side.",
+   "C": "That’s because no president can be pictured on a coin while he is still alive.",
+   "D": "The Mint will issue four of these coins every year through 2016.",
+   "E": "Many countries honor their former leaders by putting their faces on money."
+  },
+  "optionsZh": {
+   "D": "鑄幣局每年會發行四枚這樣的硬幣，一直到 2016 年。",
+   "B": "每一枚硬幣的正面（也就是人頭那一面）是一位總統的肖像。",
+   "A": "他是唯一兩次任期不連續的美國總統。",
+   "C": "這是因為總統在世的時候，不能出現在硬幣上。",
+   "E": "許多國家都把過去領袖的肖像放在錢幣上，用來紀念他們。"
+  },
+  "unusedExplanation": {
+   "opt": "E",
+   "lead": "E 讀起來很通順，也沒有離開主題：它講的就是用錢幣紀念領袖。放進第 31 格，`honor their former leaders`（紀念過去的領袖）接在第一段的 `to honor former U.S. presidents` 後面，乍看像是順著往下說。但四個空格都放不下：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "交代整個系列每年發行幾枚、發行到哪一年，後一句的 `this timetable` 才有所指",
+     "why": "E 沒有年份，也沒有數量"
+    },
+    {
+     "blank": 32,
+     "want": "介紹硬幣的某一面和上面的總統，後面的 `the same side`、`The other side` 才有著落",
+     "why": "E 講的是各國的錢幣，沒有指出哪一面，也沒有哪一位總統"
+    },
+    {
+     "blank": 33,
+     "want": "說明 Grover Cleveland 為什麼會有兩枚",
+     "why": "E 和 Cleveland 的任期無關"
+    },
+    {
+     "blank": 34,
+     "want": "交代 Gerald Ford 為什麼排在最後，後一句的 `In addition` 才有第一個條件可以追加",
+     "why": "E 不是總統能不能上硬幣的條件"
+    }
+   ],
+   "summary": "**全篇談的是美國這一套總統硬幣怎麼發行、長什麼樣子、有哪些規定，E 談的卻是許多國家普遍的做法。**這一篇的多餘選項屬於「主題相同，切面不對」，和 115 學測多出來的 D 相同：話題同樣是用錢幣紀念領袖，範圍卻從這一套硬幣擴大到各國的錢幣。",
+   "extra": [],
+   "takeaway": "每一格先確認後面的 this、the same、In addition 這類字，指得到選項裡的哪些內容。四格配好之後，再拿剩下的那一句和全篇的範圍比一比；全篇只談美國這一套硬幣，剩下那一句卻談各國，它就是多出來的那一句。"
+  },
+  "paraLabels": [
+   "引言（2007 年的報導）：華盛頓硬幣發行，帶出紀念歷任總統的新系列",
+   "發行時程：每年四枚、到 2016 年，依任職先後推出",
+   "設計：邊緣刻字，正面是總統，背面是自由女神像",
+   "有趣的事實一：每位總統一枚，只有 Cleveland 有兩枚",
+   "有趣的事實二：Ford 排在最後，因為在世的總統不能上硬幣"
+  ],
+  "marks": [
+   [
+    0,
+    "The gold-colored coin is the first in a new series by the U.S. Mint to honor former U.S. presidents.",
+    "gradient"
+   ],
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    2,
+    "The presidential coins have a special design.",
+    "topic"
+   ],
+   [
+    3,
+    "There are some interesting facts about the coins, too.",
+    "topic"
+   ],
+   [
+    4,
+    "Second, not every president can be included in the series just yet.",
+    "topic"
+   ],
+   [
+    2,
+    "as well",
+    "trans"
+   ],
+   [
+    3,
+    "too",
+    "trans"
+   ],
+   [
+    3,
+    "First",
+    "trans"
+   ],
+   [
+    4,
+    "Second",
+    "trans"
+   ],
+   [
+    "C",
+    "That’s because",
+    "trans"
+   ],
+   [
+    4,
+    "In addition",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "The following report appeared in a newspaper in February 2007. On February 15, 2007, hundreds of people came to Grand Central Terminal, New York City’s famous railroad station, to trade in their old dollar bills for the new George Washington presidential U.S. $1 coins. The gold-colored coin is the first in a new series by the U.S. Mint to honor former U.S. presidents.",
+   "__31__ Under this timetable, the coins will come out one after another in the order in which the presidents served. Washington’s coin is the first to be released. Coins featuring John Adams, Thomas Jefferson, and James Madison, the next three presidents, will follow later this year.",
+   "The presidential coins have a special design. For the first time since the 1930s, words are carved into the edge of each coin. They include both the year in which the coin was issued and traditional mottos. __32__ The president’s name will appear on the same side as well. The other side of the coin will show the Statue of Liberty along with the inscriptions “United States of America” and “$1.”",
+   "There are some interesting facts about the coins, too. First, there will be one coin for every president, with a single exception: Grover Cleveland will get two of them. __33__",
+   "Second, not every president can be included in the series just yet. The last president now scheduled to get a coin is Gerald Ford. __34__ In addition, a president must have been deceased for two years before he can appear on a coin."
+  ],
+  "zhTranslation": [
+   "下面這篇報導刊登在 2007 年 2 月的報紙上。2007 年 2 月 15 日，數百人來到紐約市著名的火車站 Grand Central Terminal（中央車站），用舊的一美元紙鈔兌換新的 George Washington 總統一美元硬幣。這枚金色的硬幣，是美國鑄幣局為了紀念歷任美國總統推出的新系列裡的第一枚。",
+   "__31__ 照這個時程，這些硬幣會依總統任職的先後，一枚接一枚推出。Washington 的硬幣是第一枚發行的；接下來的三位總統 John Adams、Thomas Jefferson 和 James Madison，他們的硬幣會在今年稍後陸續推出。",
+   "總統硬幣的設計很特別。這是 1930 年代以來第一次在硬幣的邊緣刻字，刻的有硬幣的發行年份，也有傳統的格言。__32__ 這位總統的名字也會出現在同一面。硬幣的另一面是自由女神像，以及「United States of America」和「$1」字樣。",
+   "這些硬幣也有一些有趣的事實。首先，每一位總統都會有一枚硬幣，只有一個例外：Grover Cleveland 會有兩枚。__33__",
+   "其次，並不是每一位總統現在都能列入這個系列。目前排定最後一位發行硬幣的總統是 Gerald Ford。__34__ 此外，總統必須過世滿兩年，才能出現在硬幣上。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 99 年指考閱讀測驗〈美國總統 1 美元硬幣系列〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 20,
+   "選項字數區間": "11-15",
+   "選項字數全距": 4,
+   "選項長度變異係數": "12.9%",
+   "建檔": "第三百七十一場建檔。改編自 z99p1；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-z99p3",
+  "year": "（二十九）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "麝香貓咖啡的價格與來歷（The Price and Origin of Kopi Luwak）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "B"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Another possible reason is that palm civets have an unfailing instinct for picking cherries at the peak of ripeness.",
+   "B": "Even celebrated beans like Kona and Blue Mountain sell for less than this.",
+   "C": "Most of the world’s supply currently goes to buyers in Japan.",
+   "D": "While the beans survive the trip through the animal, they do not come out unchanged.",
+   "E": "What is surprising is why this coffee is so hard to come by."
+  },
+  "optionsZh": {
+   "E": "令人意外的是，這種咖啡為什麼這麼難取得。",
+   "D": "咖啡豆雖然完好地通過椰子狸的身體，出來的時候卻已經不是原來的樣子。",
+   "A": "另一個可能的原因是，椰子狸天生就能準確挑出最成熟的咖啡果實。",
+   "C": "目前全世界的供應量，大部分都賣給日本的買家。",
+   "B": "就連可娜、藍山這類知名的咖啡豆，價錢也比這個低。"
+  },
+  "unusedExplanation": {
+   "opt": "B",
+   "lead": "B 讀起來很通順，講的也是麝香貓咖啡的價錢，和第一段是同一個切面。放進第 31 格，前一句剛說 `Such a price`（這樣的價格），B 的 `less than this`（比這個低）乍看正好接著談價錢，`Kona and Blue Mountain` 又是第一段出現過的名字。問題在於，四個空格沒有一格在等它：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一句提出問題，說明真正令人意外的是這種咖啡為什麼難取得，後一句的 `The answer` 才有問題可以回答",
+     "why": "B 只拿別的咖啡比價錢，沒有提出任何問題，`The answer` 沒有回答的對象"
+    },
+    {
+     "blank": 32,
+     "want": "第四段的主題句：咖啡豆完整保留，出來時卻起了變化，後一句的化學物質才是在說明這個變化",
+     "why": "B 談的是價錢，和豆子在椰子狸體內的變化無關"
+    },
+    {
+     "blank": 33,
+     "want": "前一句說這不是唯一的解釋，這裡要的是第二個原因",
+     "why": "B 沒有提出任何原因，讀者還是不知道特別的味道還有什麼來由"
+    },
+    {
+     "blank": 34,
+     "want": "一句交代主要的市場，後一句的 `A few markets`、`however`、`also` 才有比較的對象",
+     "why": "B 沒有提到任何市場；放在談味道的句子後面，`this` 也找不到價錢可以指"
+    }
+   ],
+   "summary": "**第一段已經說麝香貓咖啡是全世界最貴的咖啡，第二段也從價錢轉到稀少的原因，B 這時再拿可娜、藍山來比價錢，切面雖然對，卻沒有任何一段需要它。**這一篇多出來的選項屬於「切面對，卻沒有段落在等它」，和 115 學測參考試卷多出來的 C 是同一種。",
+   "extra": [],
+   "takeaway": "四格都填完以後，回頭問剩下的那一句：它說的事情，前面是不是已經說過了？如果已經說過，前後又沒有一格在等它，它就是多出來的那一句。"
+  },
+  "paraLabels": [
+   "引言：從高價咖啡豆帶到全世界最貴的麝香貓咖啡",
+   "提問與解答：價錢高不意外，難取得的原因在糞便",
+   "背景：椰子狸是什麼動物，怎麼吃咖啡果實",
+   "風味：咖啡豆在體內起了變化，以及兩種可能的解釋",
+   "結尾：味道的特色與主要的市場"
+  ],
+  "marks": [
+   [
+    0,
+    "Then there is Kopi Luwak (translated as “civet coffee”), the world’s most expensive coffee, which sells for as much as US$50 per quarter-pound.",
+    "topic"
+   ],
+   [
+    1,
+    "__31__",
+    "topic"
+   ],
+   [
+    3,
+    "__32__",
+    "topic"
+   ],
+   [
+    0,
+    "Then",
+    "trans"
+   ],
+   [
+    1,
+    "given that",
+    "trans"
+   ],
+   [
+    2,
+    "also",
+    "trans"
+   ],
+   [
+    "D",
+    "While",
+    "trans"
+   ],
+   [
+    3,
+    "However",
+    "trans"
+   ],
+   [
+    "A",
+    "Another",
+    "trans"
+   ],
+   [
+    4,
+    "however",
+    "trans"
+   ],
+   [
+    4,
+    "also",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Coffee experts are willing to pay large sums of money for high-quality beans. Premium varieties such as Kona and Blue Mountain are known to cost extraordinary amounts. Then there is Kopi Luwak (translated as “civet coffee”), the world’s most expensive coffee, which sells for as much as US$50 per quarter-pound.",
+   "Such a price is hardly surprising, given that the entire world supply amounts to only about 500 pounds a year. __31__ The answer lies not in the coffee plants but in the civet droppings. That’s right—the body waste of the palm civet. Coffee beans do not become Kopi Luwak until they have been eaten by this animal and have come out in its droppings.",
+   "Palm civets are small, raccoon-like animals that live in trees and are native to Southeast Asia and the Indonesian islands. They are also fond of coffee cherries. According to Kopi Luwak suppliers, the civets swallow the fruit whole but digest only its outer flesh, leaving the beans intact.",
+   "__32__ A chemical substance in the civet’s digestive system alters the beans and gives them a unique flavor. However, this is not the only explanation for the beans’ distinctive taste. __33__",
+   "Kopi Luwak is said to taste unlike any other coffee: complex, with caramel undertones and an earthy or gamey flavor. __34__ A few markets in the United States, however, have also started to stock it."
+  ],
+  "zhTranslation": [
+   "咖啡專家願意花大錢買高品質的咖啡豆。可娜、藍山這類高檔品種，價錢都貴得驚人。再來還有 Kopi Luwak（譯為「麝香貓咖啡」），這是全世界最貴的咖啡，四分之一磅要價高達 50 美元。",
+   "這樣的價格其實不太令人意外，因為全世界一年的供應量總共只有大約 500 磅。__31__ 答案不在咖啡樹，而在麝香貓的糞便。沒錯，就是椰子狸（一種麝香貓）的排泄物。咖啡豆要先讓椰子狸吃下肚，再隨著糞便排出來，才算是麝香貓咖啡。",
+   "椰子狸是住在樹上、長得像浣熊的小動物，原生於東南亞和印尼群島。牠們也很愛吃咖啡果實。根據麝香貓咖啡供應商的說法，椰子狸把整顆果實吞下去，但只消化外層的果肉，咖啡豆則完整保留下來。",
+   "__32__ 椰子狸消化系統裡的一種化學物質，會改變咖啡豆，帶來獨特的風味。不過，咖啡豆的味道這麼特別，這不是唯一的解釋。__33__",
+   "據說麝香貓咖啡的味道和其他咖啡都不一樣，層次豐富，帶有焦糖的底韻，以及泥土或野味般的風味。__34__ 不過，美國也有少數市場開始進貨了。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 99 年指考閱讀測驗〈麝香貓咖啡（Kopi Luwak）的獨特產製與價格〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 18,
+   "選項字數區間": "11-19",
+   "選項字數全距": 8,
+   "選項長度變異係數": "19.1%",
+   "建檔": "第三百七十一場建檔。改編自 z99p3；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
+ },
+ {
+  "id": "DSA-zref95p4",
+  "year": "（三十）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "馬雅城市為什麼消失（Why the Mayan Cities Vanished）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "C"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "Mayan culture lived on and still exists today, but mainly in the countryside.",
+   "B": "With so many mouths to feed, the Maya overused the forest that supplied their food.",
+   "C": "Today, thick jungle once again covers much of the land where the ancient Maya lived.",
+   "D": "This loss of trees damaged the local environment and caused a shortage of water.",
+   "E": "Even so, a handful of factors seem to be part of the explanation."
+  },
+  "optionsZh": {
+   "A": "馬雅文化延續了下來，至今仍然存在，只是大多在鄉間。",
+   "E": "儘管如此，有幾個因素似乎能說明一部分的原因。",
+   "B": "要養活這麼多人，馬雅人過度利用了供應他們糧食的森林。",
+   "D": "樹木消失破壞了當地的環境，也造成水源短缺。",
+   "C": "今天，茂密的叢林又覆蓋了古代馬雅人住過的大片土地。"
+  },
+  "unusedExplanation": {
+   "opt": "C",
+   "lead": "C 談的是古代馬雅人住過的土地，和全篇同一個主題，文法也沒有問題。放在第 34 格，它緊接在「熱帶森林幾乎沒有剩下」之後，`once again`（又一次）像是在說森林後來又長了回來，乍看很順。\n\n問題在於：**全篇要回答的是馬雅城市為什麼消失，C 描述的卻是那片土地今天的樣子。**",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "一樣和城市命運不同的東西，後一句的 `The cities themselves, however` 才有對比的對象",
+     "why": "叢林覆蓋土地和城市淹沒在叢林裡是同一個方向，後一句的 `however` 構不成對比"
+    },
+    {
+     "blank": 32,
+     "want": "一句統攝第四段的主旨句，帶出戰爭和 `Another factor` 這一串原因",
+     "why": "C 不是原因，後面的 `Another factor` 仍然找不到第一個因素"
+    },
+    {
+     "blank": 33,
+     "want": "人口太多帶來的後果，同時交代下一段森林為什麼幾乎沒有剩下",
+     "why": "C 說叢林又長了回來，給不出森林消失的原因，順序也倒過來了"
+    },
+    {
+     "blank": 34,
+     "want": "從森林消失推到缺水，後一句的 `this lack of water` 才有所指",
+     "why": "C 沒有提到水；因果才講到一半，C 就跳到了今天"
+    }
+   ],
+   "summary": "**這一篇多出來的 C 屬於「主題相同，切面不對」。** 這一類和 115 學測多出來的 D 相同。全篇問的是「馬雅城市為什麼消失」，這一篇的 C 答的卻是「那片土地今天是什麼樣子」。至於 115 學測參考試卷多出來的 C，屬於「切面對，卻沒有段落在等它」，和這一篇不同。",
+   "extra": [],
+   "takeaway": "四格先各自找出前後在等什麼，配完以後，再拿剩下的那一句和全篇的問題核對一次。文章一路在講原因，它講的如果是事情過後很久的景象，就是多出來的那一句。"
+  },
+  "paraLabels": [
+   "背景：馬雅文明的範圍、成就與鼎盛時期",
+   "轉折：古典期之後城市衰落，文化卻留在鄉間",
+   "提問：城市為什麼消失，專家至今沒有共識",
+   "原因：城邦之間的戰爭、人口過多與森林的過度利用",
+   "後果與結論：森林消失、缺水乾旱，歸納四項因素"
+  ],
+  "marks": [
+   [
+    1,
+    "Strangely, after the Classic Period ended in 900, these cities ceased to be centers of importance.",
+    "topic"
+   ],
+   [
+    2,
+    "One question that interests scholars is why the cities vanished.",
+    "topic"
+   ],
+   [
+    3,
+    "__32__",
+    "topic"
+   ],
+   [
+    4,
+    "Thus warfare, overpopulation, overuse of resources, and destruction of the environment all appear to have played a part in the disappearance of the Mayan cities.",
+    "thesis"
+   ],
+   [
+    1,
+    "Rather than",
+    "trans"
+   ],
+   [
+    1,
+    "Strangely",
+    "trans"
+   ],
+   [
+    1,
+    "however",
+    "trans"
+   ],
+   [
+    "E",
+    "Even so",
+    "trans"
+   ],
+   [
+    "C",
+    "Today",
+    "trans"
+   ],
+   [
+    3,
+    "Toward the end",
+    "trans"
+   ],
+   [
+    3,
+    "Another",
+    "trans"
+   ],
+   [
+    4,
+    "Eventually",
+    "trans"
+   ],
+   [
+    4,
+    "Thus",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "The Maya built a civilization that covered one third of Central America. It is famous for its fully developed written language, striking art, huge buildings, and advanced knowledge of mathematics and astronomy. These features first appeared in the Preclassic Period but reached their highest development in the Classic Period, which lasted from 250 to 900 AD. At its height, Mayan society was one of the most densely populated and culturally active in the world.",
+   "Rather than a single empire, Mayan civilization was made up of many separate city-states that shared a common cultural background. Strangely, after the Classic Period ended in 900, these cities ceased to be centers of importance. __31__ The cities themselves, however, were swallowed up by the tropical jungle. Only in the last two hundred years or so have travelers and scholars rediscovered and studied them.",
+   "One question that interests scholars is why the cities vanished. There is still no agreement among experts about what happened.",
+   "__32__ Toward the end, the city-states were caught up in large-scale, continuous warfare. Their highly competitive rulers made fierce war on one another. Another factor scholars consider is overpopulation. The Mayan population reached as many as 200 people per square kilometer, among the highest densities in the pre-industrial world. __33__",
+   "Research on ancient pollen indicates that almost no tropical forest was left. __34__ Eventually, this lack of water turned into drought. Thus warfare, overpopulation, overuse of resources, and destruction of the environment all appear to have played a part in the disappearance of the Mayan cities."
+  ],
+  "zhTranslation": [
+   "馬雅人建立的文明，範圍涵蓋中美洲的三分之一。這個文明以完整的文字、引人注目的藝術、宏偉的建築，以及先進的數學和天文知識聞名。這些特色在前古典期就已出現，到了古典期（西元 250 年到 900 年）才發展到最高峰。在最鼎盛的時候，馬雅社會是世界上人口最稠密、文化最活躍的社會之一。",
+   "馬雅文明不是一個統一的帝國，而是由許多各自獨立、有共同文化背景的城邦組成。奇怪的是，西元 900 年古典期結束以後，這些城市就不再是重要的中心了。__31__ 然而，城市本身卻淹沒在熱帶叢林裡。一直到最近兩百年左右，旅人和學者才重新發現這些城市，開始研究它們。",
+   "學者感興趣的一個問題，是這些城市為什麼消失了。對於當時發生了什麼事情，專家至今仍然沒有共識。",
+   "__32__ 到了末期，城邦之間陷入大規模、持續不斷的戰爭。各城邦的統治者彼此競爭激烈，互相激烈交戰。學者考慮的另一個因素是人口過多。馬雅的人口密度最高達到每平方公里 200 人，在前工業時代的世界裡數一數二。__33__",
+   "古代花粉的研究顯示，當時的熱帶森林幾乎沒有剩下。__34__ 後來，缺水的情形演變成乾旱。因此，戰爭、人口過多、資源過度利用和環境破壞，似乎都是馬雅城市消失的原因。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改編自 95 課綱指考參考試卷（98 年施測）閱讀測驗〈馬雅文明的興衰與城市消失原因〉，照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 21,
+   "選項字數區間": "13-15",
+   "選項字數全距": 2,
+   "選項長度變異係數": "6.4%",
+   "建檔": "第三百七十一場建檔。改編自 zref95p4；命題分身出題，兩次盲測、四方審閱（引文事實、文法、學生讀者、大考體例）後裁定修訂，修訂後再以十篇全測的第三次盲測確認唯一解。"
+  }
  }
 ]
