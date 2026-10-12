@@ -445,7 +445,7 @@ const WRONG_KEY   = 'gsat_ds_wrong_ids_v1';
 
 function loadHistory(){ try{ return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }catch(e){ return []; } }
 function saveHistory(h){ try{ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }catch(e){} }
-function loadWrongIds(){ try{ return JSON.parse(localStorage.getItem(WRONG_KEY)) || []; }catch(e){ return []; } }
+function loadWrongIds(){ let w; try{ w = JSON.parse(localStorage.getItem(WRONG_KEY)) || []; }catch(e){ return []; } return (typeof ITEMS !== 'undefined' && ITEMS.length) ? w.filter(id => ITEMS.some(it => it.id === id)) : w; }
 function saveWrongIds(w){ try{ localStorage.setItem(WRONG_KEY, JSON.stringify(w)); }catch(e){} }
 function isTestMode(){ const el=document.getElementById('testModeToggle'); return !!(el && el.checked); }
 
