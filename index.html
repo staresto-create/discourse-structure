@@ -268,6 +268,15 @@
   }
   :focus-visible{outline:2px solid var(--crimson); outline-offset:2px;}
 </style>
+<style id="map-entry-css">
+/* 題目地圖入口（2026-10-22 新增，對應 map/）：樣式比照文意選填站的難題入口 */
+.map-entry{display:block; text-decoration:none; border:1.5px solid var(--crimson);
+  background:#FBF1EE; border-radius:4px; padding:14px 16px; margin:14px 0 4px;}
+.map-entry:hover{background:var(--crimson);}
+.map-entry:hover .me-title, .map-entry:hover .me-sub{color:#fff;}
+.me-title{display:block; font-family:'Noto Serif TC',serif; font-weight:700; font-size:15px; color:var(--crimson);}
+.me-sub{display:block; margin-top:6px; font-size:12.5px; line-height:1.8; color:var(--ink-soft);}
+</style>
 <style id="anti-copy">
 /* 防盜用措施（2026-10-14）：畫面浮水印、列印浮水印、頁尾授權聲明 */
 @media screen{body::before{content:"";position:fixed;top:0;left:0;right:0;bottom:0;z-index:2147483000;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22460%22%20height%3D%22240%22%3E%3Cg%20transform%3D%22rotate%28-20%20230%20120%29%22%20font-family%3D%22Noto%20Sans%20TC%2Csans-serif%22%20fill%3D%22%23D9A400%22%20fill-opacity%3D%22.2%22%20text-anchor%3D%22middle%22%3E%3Ctext%20x%3D%22230%22%20y%3D%22112%22%20font-size%3D%2220%22%3E%E7%AF%87%E7%AB%A0%E7%B5%90%E6%A7%8B%3C%2Ftext%3E%3Ctext%20x%3D%22230%22%20y%3D%22140%22%20font-size%3D%2214%22%3Estaresto-create.github.io%2Fdiscourse-structure%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-repeat:repeat;}}
@@ -286,6 +295,11 @@
     <div class="card">
       <div class="home-lead">開始練習前</div>
       <p class="home-desc">本題庫收錄學測 110 年試辦考試至 115 年、指考 91–110 年的篇章結構歷屆試題，含補考、參考試卷與研究用試卷，共 <b>167 題、35 篇</b>，<b>每一題都有解析</b>——為什麼是這一句、你為什麼會被那個選項騙走、下次先看哪裡。每一篇選文都附逐段中譯。另有本題庫自己改編的<b>改編練習</b> 30 篇、120 題：文章改編自歷屆學測、指考閱讀測驗，照現行學測篇章結構的版面出題（5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。</p>
+
+      <a class="map-entry" href="map/">
+        <span class="me-title">題目地圖：167 題依答對率排成一張圖 →</span>
+        <span class="me-sub">學測、指考每題一格，顏色越紅答對率越低，可以依難易、題型篩選。點任何一格，就進到那一題的詳解。</span>
+      </a>
 
       <details class="sk-box">
         <summary><div class="sk-title">115 學測起改為 5 選 4：選項數不是固定的，先看清楚這一篇是幾選幾</div></summary>
