@@ -276,6 +276,17 @@
  :root{--yellow:#463C14;--blue:#233F5B}
 }
 
+.unitbar{margin:12px 0 18px; font-size:14px; line-height:1.5;}
+.unitbar .ubrow{display:flex; flex-wrap:wrap; align-items:center; gap:6px;}
+.unitbar .ubrow + .ubrow{margin-top:8px;}
+.unitbar .ublab{font-size:12px; font-weight:700; letter-spacing:.06em; border:1px solid currentColor; border-radius:12px; padding:2px 10px; opacity:.75; white-space:nowrap;}
+.unitbar a, .unitbar .cur{display:inline-block; border:1px solid rgba(128,128,128,.45); border-radius:14px; padding:3px 11px; white-space:nowrap; font-weight:700; text-decoration:none;}
+.unitbar a{color:var(--crimson);}
+.unitbar a:hover{text-decoration:underline; text-underline-offset:3px;}
+.unitbar .cur{background:rgba(128,128,128,.2);}
+@media print{.unitbar, .toBar{display:none!important;}}
+.toBar{position:fixed; right:12px; bottom:14px; z-index:20; font-size:12.5px; font-weight:700; line-height:1.3; color:var(--crimson); border:1px solid currentColor; border-radius:999px; padding:5px 11px; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,.18);}
+.toBar[hidden]{display:none;}
 </style>
 <style id="map-entry-css">
 /* 題目地圖入口（2026-10-22 新增，對應 map/）：樣式比照文意選填站的難題入口 */
@@ -301,6 +312,7 @@
   </header>
 
   <div id="homeView">
+    <nav class="unitbar" id="unitbar" aria-label="本頁單元"><div class="ubrow"><span class="ublab">同一題庫</span><a href="map/">題目地圖</a></div><div class="ubrow"><span class="ublab">本頁單元</span><a href="#u-start">開始練習</a><a href="#u-hist">我的學習歷程</a><a href="#u-range">依考別／規格篩選</a><a href="#adapt">仿真練習</a><a href="#u-about">關於本題庫的資料</a></div></nav>
     <div class="card">
       <div class="home-lead">開始練習前</div>
       <p class="home-desc">本題庫收錄學測 110 年試辦考試至 115 年、指考 91–110 年的篇章結構歷屆試題，含補考、參考試卷與研究用試卷，共 <b>167 題、35 篇</b>，<b>每一題都有解析</b>——為什麼是這一句、你為什麼會被那個選項騙走、下次先看哪裡。每一篇選文都附逐段中譯。另有本題庫自己改編的<b>改編練習</b> 30 篇、120 題：文章改編自歷屆學測、指考閱讀測驗，照現行學測篇章結構的版面出題（5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。</p>
@@ -391,7 +403,7 @@
         </div>
       </details>
 
-      <div class="sec-title">我的學習歷程</div>
+      <div class="sec-title" id="u-hist">我的學習歷程</div>
       <div class="stats-box" id="statsBox"></div>
       <div class="stats-actions">
         <button class="link-btn" onclick="startWrongBook()">📕 只練錯題本(<span id="wrongCount">0</span>題)</button>
@@ -400,13 +412,13 @@
         <button class="link-btn" onclick="clearWrongBook()">清除錯題本</button>
       </div>
 
-      <button class="big-btn" style="margin-bottom:14px;" onclick="quickStart()">立即開始 · 隨機一篇</button>
+      <button class="big-btn" id="u-start" style="margin-bottom:14px;" onclick="quickStart()">立即開始 · 隨機一篇</button>
       <label style="display:flex; align-items:center; gap:8px; margin:4px 0 6px; font-size:12.5px; color:var(--ink-soft); cursor:pointer; font-family:'IBM Plex Mono','Noto Sans TC',monospace;">
         <input type="checkbox" id="testModeToggle" style="width:15px; height:15px; cursor:pointer;">
         測試模式（本次作答不計入學習歷程與錯題本）
       </label>
 
-      <div class="sec-title">依考別篩選<span class="sec-note">（可複選，不選則全部列出）</span></div>
+      <div class="sec-title" id="u-range">依考別篩選<span class="sec-note">（可複選，不選則全部列出）</span></div>
       <div class="cat-grid" id="examGrid"></div>
 
       <div class="sec-title">依規格篩選<span class="sec-note">（可複選，不選則不限規格）</span></div>
@@ -418,7 +430,7 @@
       <button class="big-btn" id="startBtn" onclick="startSelected()">開始練習</button>
     </div>
 
-    <div class="note-box">
+    <div class="note-box" id="u-about">
       <b>關於本題庫的資料</b><br>
       <span class="srcLine"><b style="font-size:12.5px;">試題來源：</b>大學入學考試中心。原文、選項與答案都取自大考中心公布的試卷與參考答案。</span>
       <span class="srcLine"><b style="font-size:12.5px;">分類依據：</b>大考中心 115 學年度起適用參考試卷試題解析對篇章結構四題所寫的四種「本題評量……」說法；<b style="font-size:12.5px;">每一題的歸類由本題庫標註</b>，只有 115 學年度參考試卷那 4 題例外，那 4 題是官方解析原文。</span>
@@ -1135,5 +1147,38 @@ function applyAdaptHash(){
 }
 init().then(applyAdaptHash);
 </script>
-</body>
+<a class="toBar" id="toBar" href="#unitbar" hidden>↑ 單元列</a>
+<script>
+/* 單元列：連到收合區塊的錨點會先展開；「↑ 單元列」在單元列捲出畫面後才出現 */
+(function(){
+  var bar=document.getElementById('unitbar'), to=document.getElementById('toBar');
+  if(bar) bar.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href^="#"]'); if(!a) return;
+    var t=document.getElementById(a.getAttribute('href').slice(1)); if(!t) return;
+    var d=t.tagName==='DETAILS'?t:t.closest('details'); if(d) d.open=true;
+  });
+  if(to){
+    to.addEventListener('click',function(e){e.preventDefault(); if(bar) bar.scrollIntoView({block:'center'});});
+    function bg(){
+      var c=getComputedStyle(document.body).backgroundColor;
+      if(!c||c==='rgba(0, 0, 0, 0)'||c==='transparent') c=getComputedStyle(document.documentElement).backgroundColor;
+      if(!c||c==='rgba(0, 0, 0, 0)'||c==='transparent') c='#fff';
+      to.style.background=c;
+    }
+    if('IntersectionObserver' in window && bar){
+      new IntersectionObserver(function(es){
+        var r=es[0], hide=r.isIntersecting||r.boundingClientRect.top>=0;
+        if(!hide) bg();
+        to.hidden=hide;
+      }).observe(bar);
+    }
+  }
+})();
+</script>
+<script>
+(function(){var a=document.querySelector('#unitbar a[href="#adapt"]'); if(a) a.addEventListener('click',function(e){
+  e.preventDefault(); history.replaceState(null,'','#adapt');
+  try{applyAdaptHash();}catch(err){location.reload();}
+});})();
+</script></body>
 </html>
