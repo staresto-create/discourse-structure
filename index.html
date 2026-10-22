@@ -19,11 +19,11 @@
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
   body{
-    background: var(--paper);
+    background:var(--paper);
     background-image:
-      radial-gradient(circle at 100% 0%, rgba(174,54,38,.05), transparent 40%),
-      repeating-linear-gradient(0deg, rgba(34,31,26,0.025) 0px, rgba(34,31,26,0.025) 1px, transparent 1px, transparent 34px);
-    color: var(--ink); font-family:'Noto Sans TC', sans-serif;
+      radial-gradient(circle at 100% 0%, var(--glow), transparent 40%),
+      repeating-linear-gradient(0deg, var(--grid-line) 0px, var(--grid-line) 1px, transparent 1px, transparent 34px);
+    color:var(--ink); font-family:'Noto Sans TC', sans-serif;
     -webkit-font-smoothing:antialiased; min-height:100vh; padding:32px 16px 60px;
   }
   .wrap{max-width:820px; width:100%; margin:0 auto;}
@@ -39,11 +39,11 @@
   .sec-note{font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px; color:var(--ink-soft);}
 
   .cat-grid{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:6px;}
-  .chip{border:1.5px solid var(--rule); border-radius:20px; padding:6px 14px; font-size:13px; cursor:pointer; background:#fff; user-select:none;}
+  .chip{border:1.5px solid var(--rule); border-radius:20px; padding:6px 14px; font-size:13px; cursor:pointer; background:var(--surface); user-select:none;}
   .chip:hover{border-color:var(--ink);}
   .chip.active{border-color:var(--crimson); background:var(--crimson); color:#fff;}
 
-  details.sk-box{border:1px solid var(--rule); border-radius:4px; background:#fff; padding:12px 15px; margin-bottom:10px;}
+  details.sk-box{border:1px solid var(--rule); border-radius:4px; background:var(--surface); padding:12px 15px; margin-bottom:10px;}
   details.sk-box summary{cursor:pointer; list-style:none;}
   details.sk-box summary::-webkit-details-marker{display:none;}
   .sk-title{font-family:'Noto Serif TC',serif; font-weight:700; font-size:14.5px; display:inline;}
@@ -53,7 +53,7 @@
   details.sk-box b{color:var(--ink);}
 
   /* 線索數據列表 */
-  .cueList{border:1px solid var(--rule); border-radius:3px; background:#fff; padding:3px 11px; margin:9px 0 10px;}
+  .cueList{border:1px solid var(--rule); border-radius:3px; background:var(--surface); padding:3px 11px; margin:9px 0 10px;}
   .cueRow{display:flex; justify-content:space-between; align-items:baseline; gap:12px; padding:6px 2px; border-bottom:1px dashed var(--rule); font-size:13px;}
   .cueRow:last-child{border-bottom:none;}
   .cueRow .pct{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:12.5px; color:var(--ink-soft); white-space:nowrap;}
@@ -64,7 +64,7 @@
   .cueRow.sub{padding-left:15px; font-size:12.5px;}
 
   .stats-box{display:flex; gap:10px; flex-wrap:wrap;}
-  .stat-pill{flex:1; min-width:96px; border:1px solid var(--rule); border-radius:4px; background:#fff; padding:11px 6px; text-align:center;}
+  .stat-pill{flex:1; min-width:96px; border:1px solid var(--rule); border-radius:4px; background:var(--surface); padding:11px 6px; text-align:center;}
   .stat-pill .num{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-weight:600; font-size:20px;}
   .stat-pill .lbl{font-size:11px; color:var(--ink-soft); margin-top:2px;}
   .stats-actions{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 4px;}
@@ -73,24 +73,24 @@
      顏色不能單獨當可點訊號。「← 回選單」另有箭頭作訊號，不加底線。 */
   .link-btn{background:none; border:none; color:var(--crimson); font-size:12.5px; cursor:pointer; padding:4px 6px; font-family:inherit; text-decoration:underline; text-underline-offset:2px;}
 
-  .year-list{max-height:260px; overflow-y:auto; border:1px solid var(--rule); border-radius:4px; padding:10px; background:#fff;}
+  .year-list{max-height:260px; overflow-y:auto; border:1px solid var(--rule); border-radius:4px; padding:10px; background:var(--surface);}
   .year-item{display:flex; justify-content:space-between; align-items:center; gap:10px; padding:8px 6px; font-size:13.5px; border-bottom:1px dashed var(--rule); cursor:pointer;}
   .year-item:last-child{border-bottom:none;}
-  .year-item:hover{background:#FBF7EC;}
-  .year-item.sel{background:#FBF1EE;}
+  .year-item:hover{background:var(--tint-warm4);}
+  .year-item.sel{background:var(--tint-crimson);}
   .year-item .cnt{color:var(--ink-soft); font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11.5px; white-space:nowrap;}
 
   .big-btn{
     display:block; width:100%; text-align:center; cursor:pointer;
-    background: var(--ink); color: var(--paper-card);
+    background:var(--ink); color:var(--paper-card);
     font-family:'Noto Serif TC',serif; font-weight:700; font-size:19px;
     padding:16px; border:none; border-radius:3px; letter-spacing:.06em;
     transition: transform .12s ease, background .15s ease; margin-top:20px;
   }
-  .big-btn:hover{background:#000; transform: translateY(-1px);}
+  .big-btn:hover{background:var(--btn-hover); transform: translateY(-1px);}
   .big-btn:disabled{opacity:.4; cursor:not-allowed; transform:none;}
-  .ghost-btn{padding:11px 16px; border-radius:4px; border:1.5px solid var(--ink); background:#fff; color:var(--ink); font-family:'Noto Serif TC',serif; font-weight:700; font-size:14px; cursor:pointer;}
-  .ghost-btn:hover{background:var(--ink); color:#fff;}
+  .ghost-btn{padding:11px 16px; border-radius:4px; border:1.5px solid var(--ink); background:var(--surface); color:var(--ink); font-family:'Noto Serif TC',serif; font-weight:700; font-size:14px; cursor:pointer;}
+  .ghost-btn:hover{background:var(--ink); color:var(--on-ink);}
   .row{display:flex; gap:10px; flex-wrap:wrap;}
 
   .backLink{display:inline-block; color:var(--crimson); font-size:13px; cursor:pointer; margin-bottom:12px;}
@@ -99,9 +99,9 @@
   /* 練習區 */
   .pTitle{font-family:'Noto Serif TC',serif; font-weight:700; font-size:17px; margin-bottom:6px;}
   .tagRow{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px;}
-  .catTag{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11px; border:1px solid var(--rule); border-radius:3px; padding:3px 8px; color:var(--ink-soft); background:#fff;}
+  .catTag{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11px; border:1px solid var(--rule); border-radius:3px; padding:3px 8px; color:var(--ink-soft); background:var(--surface);}
   .catTag.primary{border-color:var(--crimson); color:var(--crimson);}
-  .flagNote{font-size:12.5px; line-height:1.75; color:var(--ink-soft); background:#FFFBEA; border-left:3px solid var(--gold); padding:9px 12px; border-radius:2px; margin-bottom:14px;}
+  .flagNote{font-size:12.5px; line-height:1.75; color:var(--ink-soft); background:var(--tint-note); border-left:3px solid var(--gold); padding:9px 12px; border-radius:2px; margin-bottom:14px;}
 
   .passage{font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-size:15.5px; line-height:2.1; margin-bottom:18px;}
   .passage p{margin:0 0 15px;}
@@ -111,60 +111,60 @@
     font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-size:13.5px; font-weight:600;
     padding:1px 8px; margin:0 2px; border-radius:2px 2px 0 0; vertical-align:baseline;
   }
-  .blank:hover{background:#FFE97A;}
+  .blank:hover{background:var(--hl-strong);}
   .blank.filled{background:var(--blue);}
-  .blank.ok{background:#D6EFD2; border-bottom-color:var(--sage);}
-  .blank.ng{background:#F7D6D1; border-bottom-color:var(--crimson);}
-  .restored{background:#F3EFE0; border-radius:2px; padding:0 2px;}
+  .blank.ok{background:var(--tint-grn); border-bottom-color:var(--sage);}
+  .blank.ng{background:var(--tint-crimson4); border-bottom-color:var(--crimson);}
+  .restored{background:var(--tint-chip); border-radius:2px; padding:0 2px;}
 
   .optList{border-top:1px solid var(--rule); padding-top:14px;}
-  .optRow{display:flex; gap:10px; align-items:flex-start; padding:9px 10px; border:1px solid var(--rule); border-radius:4px; background:#fff; margin-bottom:7px; font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-size:14px; line-height:1.7; cursor:pointer;}
+  .optRow{display:flex; gap:10px; align-items:flex-start; padding:9px 10px; border:1px solid var(--rule); border-radius:4px; background:var(--surface); margin-bottom:7px; font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-size:14px; line-height:1.7; cursor:pointer;}
   .optRow:hover{border-color:var(--ink);}
   .optRow.used{opacity:.42;}
-  .optRow.pick{border-color:var(--crimson); background:#FBF1EE;}
+  .optRow.pick{border-color:var(--crimson); background:var(--tint-crimson);}
   .optRow .ltr{font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-weight:600; color:var(--crimson); flex-shrink:0;}
-  .optRow.ok{border-color:var(--sage); background:#F0F7EE;}
-  .optRow.ng{border-color:var(--crimson); background:#FCF2F0;}
+  .optRow.ok{border-color:var(--sage); background:var(--tint-sage6);}
+  .optRow.ng{border-color:var(--crimson); background:var(--tint-crimson2);}
 
   .prog{display:flex; justify-content:space-between; font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:12px; color:var(--ink-soft); margin-bottom:6px;}
   .bar{height:4px; background:var(--rule); border-radius:2px; overflow:hidden; margin-bottom:16px;}
   .bar-fill{height:100%; background:var(--crimson); transition:width .2s;}
 
-  .result{border:1px solid var(--rule); border-radius:4px; padding:16px; background:#fff; margin-bottom:16px; text-align:center;}
+  .result{border:1px solid var(--rule); border-radius:4px; padding:16px; background:var(--surface); margin-bottom:16px; text-align:center;}
   .result .big{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:28px; font-weight:600;}
   .result .lbl{font-size:12.5px; color:var(--ink-soft);}
   .ansLine{font-size:13.5px; line-height:1.9; text-align:left; margin-top:12px; border-top:1px dashed var(--rule); padding-top:10px;}
   .objTag{font-size:12px; color:var(--sage); display:block; margin-top:2px;}
-  .myPick{font-size:13px; color:var(--crimson); background:#FCF2F0; border-left:3px solid var(--crimson); padding:5px 10px; border-radius:2px; margin-top:5px; line-height:1.7;}
+  .myPick{font-size:13px; color:var(--crimson); background:var(--tint-crimson2); border-left:3px solid var(--crimson); padding:5px 10px; border-radius:2px; margin-top:5px; line-height:1.7;}
 
   /* 段落功能標籤（批改後才顯示） */
   .paraLabel{
     font-size:12.5px; line-height:1.65; color:var(--sage);
-    background:#F0F6EF; border-left:3px solid var(--sage);
+    background:var(--tint-sage8); border-left:3px solid var(--sage);
     padding:5px 10px; border-radius:2px; margin:0 0 7px;
   }
   .paraLabel b{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11.5px; color:var(--sage); margin-right:4px;}
-  .labelHint{font-size:12.5px; line-height:1.8; color:var(--ink-soft); background:#F6F9F5; border:1px solid var(--rule); border-radius:3px; padding:8px 11px; margin-bottom:14px;}
+  .labelHint{font-size:12.5px; line-height:1.8; color:var(--ink-soft); background:var(--tint-sage9); border:1px solid var(--rule); border-radius:3px; padding:8px 11px; margin-bottom:14px;}
   .passage .mk-topic{background:var(--yellow);}
   .passage .mk-thesis{background:var(--blue);}
-  .passage .mk-gradient{background:#CFE8C9; font-weight:700;}
+  .passage .mk-gradient{background:var(--hl-dual); font-weight:700;}
   .passage .mk-trans{color:var(--crimson); font-weight:700;}
   .passage .ans-sent{margin-left:4px;}
   .mkLegend{display:flex; flex-wrap:wrap; gap:8px; font-size:12.5px; margin:-6px 0 14px;}
   .mkLegend span{padding:1px 7px; border-radius:2px;}
-  .mkLegend .lg-gradient{background:#CFE8C9; font-weight:700;}
+  .mkLegend .lg-gradient{background:var(--hl-dual); font-weight:700;}
   .mkLegend .lg-thesis{background:var(--blue);}
   .mkLegend .lg-topic{background:var(--yellow);}
   .mkLegend .lg-trans{color:var(--crimson); font-weight:700;}
 
   /* 選項對照表 */
-  .optMap{border:1px solid var(--rule); border-radius:4px; background:#fff; padding:4px 12px; text-align:left;}
+  .optMap{border:1px solid var(--rule); border-radius:4px; background:var(--surface); padding:4px 12px; text-align:left;}
   .optMapRow{display:flex; gap:10px; align-items:flex-start; font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-size:13.5px; line-height:1.75; padding:9px 2px; border-bottom:1px dashed var(--rule);}
   .optMapRow:last-child{border-bottom:none;}
   .optMapRow .ltr{font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-weight:600; color:var(--crimson); flex-shrink:0;}
   .slotTag{display:inline-block; font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11px; border-radius:3px; padding:2px 8px; margin-top:3px;}
-  .slotTag.hit{border:1px solid var(--sage); color:var(--sage); background:#F0F7EE;}
-  .slotTag.miss{border:1px solid var(--gold); color:var(--gold); background:#FFFBEA;}
+  .slotTag.hit{border:1px solid var(--sage); color:var(--sage); background:var(--tint-sage6);}
+  .slotTag.miss{border:1px solid var(--gold); color:var(--gold); background:var(--tint-note);}
 
   /* 選項彈出 */
   #sheetMask{display:none; position:fixed; inset:0; background:rgba(34,31,26,.45); z-index:40;}
@@ -183,17 +183,17 @@
   .report-btn:hover{border-color:var(--crimson);}
 
   /* ===== 解析區 ===== */
-  code{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:.92em; background:#F3EFE0; border-radius:2px; padding:1px 4px;}
+  code{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:.92em; background:var(--tint-chip); border-radius:2px; padding:1px 4px;}
 
   .zh{color:var(--ink-soft); font-size:14.5px; line-height:1.95;}
-  .zhPara{border-left:3px solid var(--blue); background:#F5FAFD; padding:8px 12px; border-radius:2px; margin:0 0 15px; font-size:14.5px; line-height:1.95; color:var(--ink-soft);}
-  .zhPara .blank{background:#E7EEF3; border-bottom-color:#7FA8C4; color:var(--ink-soft); cursor:default;}
+  .zhPara{border-left:3px solid var(--blue); background:var(--tint-blue2); padding:8px 12px; border-radius:2px; margin:0 0 15px; font-size:14.5px; line-height:1.95; color:var(--ink-soft);}
+  .zhPara .blank{background:var(--tint-blue3); border-bottom-color:#7FA8C4; color:var(--ink-soft); cursor:default;}
   .zhHint{font-size:12px; color:var(--ink-soft); margin:-6px 0 14px;}
 
-  .exBox{border:1px solid var(--rule); border-radius:4px; background:#fff; padding:16px 18px; margin-bottom:14px; text-align:left;}
+  .exBox{border:1px solid var(--rule); border-radius:4px; background:var(--surface); padding:16px 18px; margin-bottom:14px; text-align:left;}
   .exHead{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; margin-bottom:10px; padding-bottom:9px; border-bottom:1px dashed var(--rule);}
   .exHead .vd{font-family:'Noto Sans TC',sans-serif; font-size:13px; font-weight:500;}
-  .exAns{font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-size:14.5px; line-height:1.85; background:#F0F7EE; border-left:3px solid var(--sage); padding:8px 12px; border-radius:2px; margin-bottom:12px;}
+  .exAns{font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-size:14.5px; line-height:1.85; background:var(--tint-sage6); border-left:3px solid var(--sage); padding:8px 12px; border-radius:2px; margin-bottom:12px;}
   .exAns .ltr{font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-weight:600; color:var(--sage); margin-right:4px;}
   .exAns .zh{display:block; margin-top:3px;}
   .exStep{font-size:14.5px; line-height:1.95; margin:0 0 11px;}
@@ -201,16 +201,16 @@
   .exWhy{font-size:14.5px; line-height:1.95; margin:0 0 11px;}
   ul.exWhy{padding-left:22px;}
   ul.exWhy li{margin-bottom:6px;}
-  .exDis{font-size:14px; line-height:1.9; background:#FCF2F0; border-left:3px solid var(--crimson); padding:8px 12px; border-radius:2px; margin:0 0 11px; color:var(--ink-soft);}
+  .exDis{font-size:14px; line-height:1.9; background:var(--tint-crimson2); border-left:3px solid var(--crimson); padding:8px 12px; border-radius:2px; margin:0 0 11px; color:var(--ink-soft);}
   .exDis b{color:var(--ink);}
-  .exTake{font-size:14.5px; line-height:1.9; background:#FFFBEA; border-left:3px solid var(--gold); padding:10px 13px; border-radius:2px;}
+  .exTake{font-size:14.5px; line-height:1.9; background:var(--tint-note); border-left:3px solid var(--gold); padding:10px 13px; border-radius:2px;}
   .exTake .lb{display:block; font-family:'Noto Serif TC',serif; font-weight:700; color:var(--gold); font-size:13px; margin-bottom:3px; letter-spacing:.04em;}
   /* 延伸閱讀（readMore）：樣式比照克漏字站 .why-readmore，2026-10-03 加 */
   .why-readmore{margin-top:12px;}
   .why-readmore-hint{font-size:13px; color:var(--ink-soft); line-height:1.7; margin-bottom:6px; border-left:2px solid var(--sage); padding-left:8px;}
   .why-readmore a{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:12px; color:var(--sage); text-decoration:underline;}
 
-  details.dataBox{border:1px dashed var(--rule); border-radius:3px; background:#FBF9F2; padding:8px 12px; margin-top:12px;}
+  details.dataBox{border:1px dashed var(--rule); border-radius:3px; background:var(--tint-warm3); padding:8px 12px; margin-top:12px;}
   details.dataBox summary{cursor:pointer; list-style:none; font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11.5px; letter-spacing:.06em; color:var(--ink-soft);}
   details.dataBox summary::-webkit-details-marker{display:none;}
   details.dataBox summary::before{content:"▸ "; color:var(--crimson);}
@@ -223,7 +223,7 @@
 
   .exTable{width:100%; border-collapse:collapse; font-size:13.5px; line-height:1.75; margin:10px 0 12px;}
   .exTable th,.exTable td{border:1px solid var(--rule); padding:7px 9px; text-align:left; vertical-align:top;}
-  .exTable th{background:#F3EFE0; font-family:'Noto Serif TC',serif; font-size:13px;}
+  .exTable th{background:var(--tint-chip); font-family:'Noto Serif TC',serif; font-size:13px;}
   .exTable td.n{font-family:'IBM Plex Mono','Noto Sans TC',monospace; text-align:center; width:44px; color:var(--crimson);}
 
   /* 逐題摺疊 */
@@ -237,15 +237,15 @@
 
   /* 跳格鈕 */
   .jumpBar{display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin:14px 0 4px; font-size:12.5px; color:var(--ink-soft);}
-  .jumpBtn{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:12.5px; border:1.5px solid var(--rule); background:#fff; border-radius:4px; padding:5px 11px; cursor:pointer; color:var(--ink);}
+  .jumpBtn{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:12.5px; border:1.5px solid var(--rule); background:var(--surface); border-radius:4px; padding:5px 11px; cursor:pointer; color:var(--ink);}
   .jumpBtn:hover{border-color:var(--ink);}
-  .jumpBtn.ng{border-color:var(--crimson); color:var(--crimson); background:#FCF2F0;}
+  .jumpBtn.ng{border-color:var(--crimson); color:var(--crimson); background:var(--tint-crimson2);}
   .jumpBtn.ok{border-color:var(--sage); color:var(--sage);}
 
   /* 同題篇的解析共用提示 */
-  .twinNote{font-size:13px; line-height:1.8; color:var(--ink-soft); background:#F5FAFD; border-left:3px solid var(--blue); padding:9px 12px; border-radius:2px; margin-bottom:14px;}
+  .twinNote{font-size:13px; line-height:1.8; color:var(--ink-soft); background:var(--tint-blue2); border-left:3px solid var(--blue); padding:9px 12px; border-radius:2px; margin-bottom:14px;}
 
-  .closeBox{border:1px solid var(--ink); border-radius:4px; background:#FFFDF7; padding:18px 20px; margin-top:18px; text-align:left;}
+  .closeBox{border:1px solid var(--ink); border-radius:4px; background:var(--paper-card); padding:18px 20px; margin-top:18px; text-align:left;}
   .closeBox .ct{font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; margin-bottom:8px;}
   .closeBox p{font-size:14.5px; line-height:1.95; margin:0 0 10px; color:var(--ink-soft);}
   .closeBox p b{color:var(--ink);}
@@ -267,11 +267,20 @@
     *{transition:none !important;}
   }
   :focus-visible{outline:2px solid var(--crimson); outline-offset:2px;}
+
+/* 深色模式（2026-10-22）：淺色數值與原本寫死的顏色相同；只在螢幕、手機或電腦設成深色外觀時生效，列印不受影響。 */
+:root{--btn-hover:#000;--foot-note:#8a8278;--hl-dual:#CFE8C9;--hl-strong:#FFE97A;--link-crimson:#9C2C1E;--on-ink:#fff;--surface:#fff;--tint-blue2:#F5FAFD;--tint-blue3:#E7EEF3;--tint-blue4:#F8FCFE;--tint-chip:#F3EFE0;--tint-crimson:#FBF1EE;--tint-crimson2:#FCF2F0;--tint-crimson4:#F7D6D1;--tint-grn:#D6EFD2;--tint-note:#FFFBEA;--tint-sage6:#F0F7EE;--tint-sage8:#F0F6EF;--tint-sage9:#F6F9F5;--tint-warm3:#FBF9F2;--tint-warm4:#FBF7EC;--tint-warm8:#FFFDF6;--glow:rgba(174,54,38,.05);--grid-line:rgba(34,31,26,0.025);color-scheme:light}
+@media screen and (prefers-color-scheme: dark){
+ :root{--paper:#1B1916;--paper-card:#26231F;--ink:#EDE7D8;--ink-soft:#B8B0A0;--rule:#4C463B;--crimson:#E57B68;--sage:#82C09C;--gold:#DDA94F;--btn-hover:#FFFFFF;--foot-note:#A29A8B;--hl-dual:#2E4A2A;--hl-strong:#5A4C12;--link-crimson:#E57B68;--on-ink:#1B1916;--surface:#2D2A25;--tint-blue2:#1F2A35;--tint-blue3:#243442;--tint-blue4:#1F2A35;--tint-chip:#302C24;--tint-crimson:#3A2420;--tint-crimson2:#3A2420;--tint-crimson4:#4A2B25;--tint-grn:#2E4A2A;--tint-note:#342C18;--tint-sage6:#1F2D25;--tint-sage8:#1F2D25;--tint-sage9:#202C25;--tint-warm3:#2B2823;--tint-warm4:#2B2823;--tint-warm8:#2B2823;--glow:rgba(229,123,104,.07);--grid-line:rgba(255,255,255,0.02);--shadow:0 1px 0 rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);color-scheme:dark}
+ footer a{color:var(--crimson) !important}
+ :root{--yellow:#463C14;--blue:#233F5B}
+}
+
 </style>
 <style id="map-entry-css">
 /* 題目地圖入口（2026-10-22 新增，對應 map/）：樣式比照文意選填站的難題入口 */
 .map-entry{display:block; text-decoration:none; border:1.5px solid var(--crimson);
-  background:#FBF1EE; border-radius:4px; padding:14px 16px; margin:14px 0 4px;}
+  background:var(--tint-crimson); border-radius:4px; padding:14px 16px; margin:14px 0 4px;}
 .map-entry:hover{background:var(--crimson);}
 .map-entry:hover .me-title, .map-entry:hover .me-sub{color:#fff;}
 .me-title{display:block; font-family:'Noto Serif TC',serif; font-weight:700; font-size:15px; color:var(--crimson);}
@@ -281,7 +290,7 @@
 /* 防盜用措施（2026-10-14）：畫面浮水印、列印浮水印、頁尾授權聲明 */
 @media screen{body::before{content:"";position:fixed;top:0;left:0;right:0;bottom:0;z-index:2147483000;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22460%22%20height%3D%22240%22%3E%3Cg%20transform%3D%22rotate%28-20%20230%20120%29%22%20font-family%3D%22Noto%20Sans%20TC%2Csans-serif%22%20fill%3D%22%23D9A400%22%20fill-opacity%3D%22.2%22%20text-anchor%3D%22middle%22%3E%3Ctext%20x%3D%22230%22%20y%3D%22112%22%20font-size%3D%2220%22%3E%E7%AF%87%E7%AB%A0%E7%B5%90%E6%A7%8B%3C%2Ftext%3E%3Ctext%20x%3D%22230%22%20y%3D%22140%22%20font-size%3D%2214%22%3Estaresto-create.github.io%2Fdiscourse-structure%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-repeat:repeat;}}
 @media print{body::after{content:"篇章結構\A staresto-create.github.io/discourse-structure\A 免費資源，請勿販售";white-space:pre;position:fixed;top:42%;left:0;right:0;text-align:center;transform:rotate(-25deg);font-family:"Noto Sans TC",sans-serif;font-size:26pt;line-height:1.7;color:#c8c8c8;z-index:2147483000;pointer-events:none;}}
-.cc-note{font-size:12px;line-height:1.8;color:#8a8278;margin:12px auto;max-width:60em;padding:0 1em;}.cc-note a{color:inherit;}
+.cc-note{font-size:12px;line-height:1.8;color:var(--foot-note);margin:12px auto;max-width:60em;padding:0 1em;}.cc-note a{color:inherit;}
 </style>
 </head>
 <body>
@@ -443,9 +452,9 @@
   </div>
 
   <footer>
-    <div style="font-family:'Noto Sans TC',sans-serif; font-size:13px; line-height:2; margin-bottom:12px;"><a href="https://staresto-create.github.io/JCEE-vocab-questions/" style="color:#9C2C1E; font-weight:700; text-decoration:underline; text-underline-offset:2px; white-space:nowrap;">← 回題庫首頁</a><span style="padding:0 8px; opacity:.5;">·</span><a href="https://staresto-create.github.io/JCEE-vocab-questions/#rules" style="color:#9C2C1E; font-weight:700; text-decoration:underline; text-underline-offset:2px; white-space:nowrap;">🧩 五個詞：拼圖的規則</a></div>
+    <div style="font-family:'Noto Sans TC',sans-serif; font-size:13px; line-height:2; margin-bottom:12px;"><a href="https://staresto-create.github.io/JCEE-vocab-questions/" style="color:var(--link-crimson); font-weight:700; text-decoration:underline; text-underline-offset:2px; white-space:nowrap;">← 回題庫首頁</a><span style="padding:0 8px; opacity:.5;">·</span><a href="https://staresto-create.github.io/JCEE-vocab-questions/#rules" style="color:var(--link-crimson); font-weight:700; text-decoration:underline; text-underline-offset:2px; white-space:nowrap;">🧩 五個詞：拼圖的規則</a></div>
     資料來源：學測 110 年試辦考試至 115 年、指考 91–110 年歷屆篇章結構（大考中心公布）；改編練習由本題庫改編自歷屆學測、指考閱讀測驗<br>
-    © 2026 staresto-create ZZSH · 免費、無廣告的非營利自學題庫 · <a href="https://staresto-create.github.io/JCEE-vocab-questions/#terms" style="color:#9C2C1E; font-weight:700; text-decoration:underline; text-underline-offset:2px; white-space:nowrap;">📖 使用與著作權</a><br>
+    © 2026 staresto-create ZZSH · 免費、無廣告的非營利自學題庫 · <a href="https://staresto-create.github.io/JCEE-vocab-questions/#terms" style="color:var(--link-crimson); font-weight:700; text-decoration:underline; text-underline-offset:2px; white-space:nowrap;">📖 使用與著作權</a><br>
     <a class="report-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd6P1s7HqjvOmGqOzNDWcBQQ3F539SifSNiAfXvi6NqD2YP-Q/viewform?usp=pp_url&entry.1257494378=%E7%AF%87%E7%AB%A0%E7%B5%90%E6%A7%8B" target="_blank" rel="noopener">🐛 回報錯誤</a>
   <p class="cc-note">本題庫自己寫的部分（解析、中譯、分類、標註與編排）採用 <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hant" target="_blank" rel="license noopener">CC BY-NC 4.0</a>（姓名標示─非商業性）授權：可以分享，但須註明出處，不得用於商業用途。試題來源與完整說明請見<a href="https://staresto-create.github.io/JCEE-vocab-questions/#terms">使用與著作權</a>。</p>
 </footer>
@@ -718,7 +727,7 @@ function renderPractice(){
         <button class="ghost-btn" onclick="toggleRestored()">${restoredOn?'顯示空格編號':'檢視填入後的全文'}</button>
         ${zhBtn}
         <button class="ghost-btn" onclick="clearPicks()">清空重填</button>
-        <button class="ghost-btn" style="background:var(--ink); color:#fff;" onclick="grade()">交卷批改</button>
+        <button class="ghost-btn" style="background:var(--ink); color:var(--on-ink);" onclick="grade()">交卷批改</button>
       </div>
       ${zhHint}
       <div style="font-size:12.5px; color:var(--ink-soft); line-height:1.8; margin-top:12px;">
@@ -945,9 +954,9 @@ function renderUnusedBox(p){
   const rows = u.rows.map(r => `<tr><td class="n">${r.blank}</td><td>${mk(r.want)}</td><td>${mk(r.why)}</td></tr>`).join('');
   const extra = (u.extra||[]).map(x => mkp(x, 'exWhy')).join('');
   const zh = (p.optionsZh && p.optionsZh[u.opt]) ? `<span class="zh">${esc(p.optionsZh[u.opt])}</span>` : '';
-  return `<div class="exBox" style="border-color:var(--gold); background:#FFFDF6;">
+  return `<div class="exBox" style="border-color:var(--gold); background:var(--tint-warm8);">
     <div class="exHead">多出來的那一個：${u.opt}</div>
-    <div class="exAns" style="background:#FFFBEA; border-left-color:var(--gold);">
+    <div class="exAns" style="background:var(--tint-note); border-left-color:var(--gold);">
       <span class="ltr" style="color:var(--gold);">(${u.opt})</span>${esc(p.options[u.opt])}${zh}</div>
     ${u.lead ? mkp(u.lead, 'exWhy') : ''}
     ${rows ? `<table class="exTable">
@@ -967,7 +976,7 @@ function renderCrossRef(p){
   const head = `<tr><th></th>${c.cols.map(x => '<th>' + esc(x) + '</th>').join('')}</tr>`;
   const rows = c.rows.map(r =>
     `<tr><td><b>${esc(r[0])}</b></td>${r.slice(1).map(x => '<td>' + mk(x) + '</td>').join('')}</tr>`).join('');
-  return `<div class="exBox" style="border-color:var(--blue); background:#F8FCFE;">
+  return `<div class="exBox" style="border-color:var(--blue); background:var(--tint-blue4);">
     <div class="exHead">${esc(c.title)}</div>
     ${c.lead ? mkp(c.lead, 'exWhy') : ''}
     <table class="exTable">${head}${rows}</table>
