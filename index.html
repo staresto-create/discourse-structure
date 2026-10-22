@@ -1143,7 +1143,7 @@ function applyAdaptHash(){
     document.querySelectorAll('#examGrid .chip').forEach(c => { if(c.textContent.indexOf(k) === 0) c.classList.add('active'); });
     buildYearList();
   }
-  const box = document.getElementById('examGrid'); if(box) (box.closest('.card') || box).scrollIntoView({block:'start'});
+  const g0 = document.getElementById('examGrid'); const box = g0 ? (g0.previousElementSibling || g0) : null; if(box) box.scrollIntoView({block:'start'});
 }
 init().then(applyAdaptHash);
 </script>
