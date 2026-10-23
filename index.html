@@ -304,6 +304,32 @@
 @media print{body::after{content:"篇章結構\A staresto-create.github.io/discourse-structure\A 免費資源，請勿販售";white-space:pre;position:fixed;top:42%;left:0;right:0;text-align:center;transform:rotate(-25deg);font-family:"Noto Sans TC",sans-serif;font-size:26pt;line-height:1.7;color:#c8c8c8;z-index:2147483000;pointer-events:none;}}
 .cc-note{font-size:12px;line-height:1.8;color:var(--foot-note);margin:12px auto;max-width:60em;padding:0 1em;}.cc-note a{color:inherit;}
 </style>
+<style id="print-paper">
+/* 紙本列印版面（2026-10-23）：只影響列印，畫面不變。印出來像考卷，且不印任何會透露答案的東西：
+   篇名、題型與刪去法標籤、整題回收說明、解析、中譯、批改結果都不印；空格印成空白，句子選項列在文章後面。
+   已批改的畫面含答案，整頁不印，改印一行說明。 */
+.print-blank, .print-opts{display:none;}
+@media print{
+  body{background:#fff !important;}
+  .wrap{max-width:none !important; padding:0 !important;}
+  .noPrint, .sc-back, .scr-strip, .scr-card, .backLink, .prog, .bar, .tagRow, .flagNote, .pTitle .ttl, .zhHint, .zhPara, .row, .blank, .restored, #sheetMask, #sheet, .toBar, #historyView, .report-btn, footer > div:first-child{display:none !important;}
+  header.top{padding-bottom:6px !important; margin-bottom:10px !important;}
+  .card{border:0 !important; box-shadow:none !important; padding:0 !important; margin:0 !important; background:none !important;}
+  .pTitle{font-size:11pt !important; margin-bottom:6px !important;}
+  .passage{font-size:11.5pt !important; line-height:1.9 !important;}
+  .passage p{orphans:3; widows:3;}
+  .print-blank{display:inline !important; white-space:nowrap;}
+  .print-opts{display:block !important; margin:12px 0 0; font-size:11pt; line-height:1.6; break-inside:avoid;}
+  .print-opts .po-title{font-weight:700; margin-bottom:4px;}
+  .print-opts .po{margin:0 0 4px; padding-left:1.8em; text-indent:-1.8em;}
+  footer{font-size:8.5pt !important; line-height:1.5 !important; margin-top:8px !important; padding-top:6px !important; text-align:left !important;}
+  .cc-note{font-size:8.5pt !important; line-height:1.5 !important; margin:4px 0 0 !important; padding:0 !important; max-width:none !important;}
+  #practiceBody.isGraded > *{display:none !important;}
+  #practiceBody.isGraded::before{content:"這一頁是批改後的畫面，含答案與解析，所以不列印。要印空白試卷，請按畫面上的「再做一次」，或重新整理頁面後再印。"; display:block; font-size:12pt; line-height:1.8; padding:20mm 0;}
+  body::after{content:"篇章結構・staresto-create.github.io/discourse-structure・免費資源，請勿販售" !important; position:fixed !important; top:auto !important; bottom:0 !important; left:0 !important; right:0 !important; transform:none !important; font-size:8pt !important; line-height:1.4 !important; color:#777 !important; text-align:center !important;}
+  @page{margin:12mm 14mm 14mm;}
+}
+</style>
 <script src="https://staresto-create.github.io/JCEE-vocab-questions/resume.js" defer></script>
 </head>
 <body>
@@ -735,6 +761,12 @@ function mkp(s, cls){
     }).join('');
 }
 function hasZh(p){ return Array.isArray(p.zhTranslation) && p.zhTranslation.length === p.paras.length && !!p.optionsZh; }
+/* 紙本列印用：把各個空格可選的句子依字母列出來。畫面上不顯示，只在列印時出現 */
+function printOpts(p){
+  if(!p || !p.options) return '';
+  return '<div class="print-opts"><div class="po-title">選項</div>' + Object.keys(p.options).sort().map(L =>
+    '<div class="po"><b>(' + L + ')</b> ' + esc(p.options[L]) + '</div>').join('') + '</div>';
+}
 function renderPractice(){
   const p = PASSAGES[curPid];
   const done = Object.keys(picks).length, total = curItems.length;
@@ -750,12 +782,12 @@ function renderPractice(){
   ].join('');
 
   let html = `<div class="card">
-    <div class="pTitle">${examYear(p)} · ${dispTitle(p)}</div>
+    <div class="pTitle">${examYear(p)}<span class="ttl"> · ${dispTitle(p)}</span></div>
     <div class="tagRow">${tags}</div>
     ${p.flagNote ? `<div class="flagNote">${p.flagNote}</div>` : ''}
     ${(graded && hasParaLabels(p)) ? `<div class="labelHint">每段前面的綠色標籤，<b>冒號前</b>寫的是這一段在整篇裡做什麼，<b>冒號後</b>才是這一段講的內容。作答時不顯示，因為那等於先把答案的位置告訴你。現在回頭看一次：你答錯的那一格，是不是卡在沒看出冒號前那半——這一段的功能？</div>` : ''}
     ${(graded && hasMarks(p)) ? markLegend() : ''}
-    <div class="passage" id="passageText">${renderParas(p)}</div>`;
+    <div class="passage" id="passageText">${renderParas(p)}</div>${graded ? '' : printOpts(p)}`;
 
   const zhBtn = hasZh(p)
     ? `<button class="ghost-btn" onclick="toggleZh()">${zhOn?'關掉中譯':'看中譯'}</button>` : '';
@@ -770,7 +802,7 @@ function renderPractice(){
         <button class="ghost-btn" style="background:var(--ink); color:var(--on-ink);" onclick="grade()">交卷批改</button>
       </div>
       ${zhHint}
-      <div style="font-size:12.5px; color:var(--ink-soft); line-height:1.8; margin-top:12px;">
+      <div class="noPrint" style="font-size:12.5px; color:var(--ink-soft); line-height:1.8; margin-top:12px;">
         點空格挑句子。全部填完前也可以交卷，沒填的算未作答。填完後建議先用「檢視填入後的全文」從頭讀一遍，確認接得順再交卷。
       </div>`;
   }else if(zhBtn){
@@ -779,6 +811,7 @@ function renderPractice(){
   html += `</div>`;
   if(graded) html += renderResult(p);
   document.getElementById('practiceBody').innerHTML = html;
+  document.getElementById('practiceBody').classList.toggle('isGraded', !!graded);
 }
 
 function hasParaLabels(p){
@@ -800,12 +833,13 @@ function renderParas(p){
         cls = 'blank ' + (pick === it.answer ? 'ok' : 'ng');
         label = `${n} ${pick || '—'}`;
       }
+      const pb = graded ? '' : `<span class="print-blank">___(${n})___</span>`;
       if(restoredOn && pick){
-        return `<span class="restored">${esc(p.options[pick])}</span>`;
+        return `<span class="restored">${esc(p.options[pick])}</span>` + pb;
       }
       const click = graded ? '' : ` onclick="openSheet('${n}')"`;
       const tab = graded ? '' : ' tabindex="0" role="button"';
-      return `<span class="${cls}"${click}${tab}>${label}</span>`;
+      return `<span class="${cls}"${click}${tab}>${label}</span>` + pb;
     }).join('');
     const lab = (graded && labels[idx])
       ? `<div class="paraLabel"><b>${p.paras.length === 1 ? '【全篇】' : '【第 ' + (idx+1) + ' 段】'}</b>${esc(labels[idx])}</div>` : '';
