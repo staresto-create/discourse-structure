@@ -825,7 +825,8 @@ function renderPractice(){
     html += `<div class="row">${zhBtn}</div>`;
   }
   html += `</div>`;
-  if(graded) html += '<div id="pvSlot" class="noPrint"></div>' + renderResult(p);
+  /* 生字表放在交卷後畫面的最上面，讀者一進來就看得到 */
+  if(graded) html = '<div id="pvSlot" class="noPrint"></div>' + html + renderResult(p);
   document.getElementById('practiceBody').innerHTML = html;
   document.getElementById('practiceBody').classList.toggle('isGraded', !!graded);
   /* 交卷後才顯示「這一篇的生字表」：文章全文（空格那一句也算）加上全部選項 */
