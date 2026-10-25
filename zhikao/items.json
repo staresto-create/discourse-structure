@@ -49,7 +49,8 @@
    "takeaway": "後面出現 Fortunately、Luckily（幸好），前面多半有一件壞事。找不到，那件壞事就在空格裡。"
   },
   "accuracyRate": 74,
-  "discrimination": 63
+  "discrimination": 63,
+  "clue": {"prev": ["rejected"], "a": ["Her rebelliousness"], "b": ["nervous breakdown"], "next": ["Fortunately", "an effective therapy"]}
  },
  {
   "id": "Dz110_32",
@@ -99,7 +100,8 @@
    "takeaway": "前面只誇一件作品有名、有意義，後面卻直接說「這些雕塑」「這些畫」，空格就是交代它是什麼形式的那一句。"
   },
   "accuracyRate": 53,
-  "discrimination": 57
+  "discrimination": 57,
+  "clue": {"prev": [], "a": [], "b": ["life-size dolls of women"], "next": ["these sculptures"]}
  },
  {
   "id": "Dz110_33",
@@ -150,7 +152,8 @@
    "takeaway": "段落最後一句是空格，先看這一段從頭到尾在講什麼。空格通常是把整段的意思收成一句話。"
   },
   "accuracyRate": 63,
-  "discrimination": 65
+  "discrimination": 65,
+  "clue": {"prev": ["vivid colors", "cheerfully and merrily"], "a": ["these joyful and powerful images"], "b": [], "next": []}
  },
  {
   "id": "Dz110_34",
@@ -201,7 +204,8 @@
    "takeaway": "介紹一個地方或一件作品時，先數前後兩句各交代了哪一項（地點、時間、內容），空格通常就是漏掉的那一項。"
   },
   "accuracyRate": 67,
-  "discrimination": 65
+  "discrimination": 65,
+  "clue": {"prev": ["sculptural park"], "a": ["the garden"], "b": [], "next": []}
  },
  {
   "id": "Dz110_35",
@@ -252,7 +256,8 @@
    "takeaway": "前一句說「不是○○」，空格通常就是「而是△△」。看到 Instead、Rather，先往前找那句否定。"
   },
   "accuracyRate": 66,
-  "discrimination": 69
+  "discrimination": 69,
+  "clue": {"prev": ["nothing to do with"], "a": ["Instead", "focus on"], "b": [], "next": []}
  },
  {
   "id": "Dz109_31",
@@ -353,7 +358,8 @@
    "takeaway": "段落開頭是空格、後面接 Some… some… others… 的清單，空格就是那句總說。總說的內容要和清單同一個方向。"
   },
   "accuracyRate": 74,
-  "discrimination": 61
+  "discrimination": 61,
+  "clue": {"prev": [], "a": [], "b": ["different sources"], "next": ["Some were slaves", "some were prisoners of war"]}
  },
  {
   "id": "Dz109_33",
@@ -455,7 +461,8 @@
    "takeaway": "前一句給了一個名稱或外號、後一句給了一份證據，空格通常是把兩者接起來的那一句。"
   },
   "accuracyRate": 72,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["hordearii", "barley eaters"], "a": ["this name"], "b": ["literal"], "next": ["Chemical analyses of the bones", "barley"]}
  },
  {
   "id": "Dz109_35",
@@ -506,7 +513,8 @@
    "takeaway": "後面出現「除了……之外」，先看它括起來的那個結論站不站得住。少一塊，缺的那一塊就在空格裡。"
   },
   "accuracyRate": 71,
-  "discrimination": 67
+  "discrimination": 67,
+  "clue": {"prev": ["wheat, barley, and beans"], "a": ["Also"], "b": ["little sign of meat"], "next": ["a plant-heavy diet"]}
  },
  {
   "id": "Dz109b_31",
@@ -557,7 +565,8 @@
    "takeaway": "前一句講身分、後一句講他因此能做什麼，空格就是把身分換算成權力的那一句。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["the divine representative of gods"], "a": ["As a living god"], "b": ["the Pharaoh", "absolute control"], "next": ["He", "the supreme ruler", "owned all of Egypt"]}
  },
  {
   "id": "Dz109b_32",
@@ -608,7 +617,8 @@
    "takeaway": "段落開頭是空格、上一段剛下了一個很絕對的結論，空格通常是那句「不過，事情沒那麼簡單」。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["owned all of Egypt"], "a": ["however"], "b": ["could not run the government"], "next": ["a hierarchy of rulers", "below him"]}
  },
  {
   "id": "Dz109b_33",
@@ -659,7 +669,8 @@
    "takeaway": "後面出現一個沒見過的專名（這裡是 nome），空格裡通常就有它的雙胞胎（nomarks）。名字對得上，位置就對了。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["local governors", "nomarks"], "next": ["They", "a nome"]}
  },
  {
   "id": "Dz109b_34",
@@ -710,7 +721,8 @@
    "takeaway": "一段一段往下分層的文章，最後一格常常是把每一層再點一次名的總結句。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["a kind of nobility"], "a": ["these officials and nobles"], "b": ["governed the country"], "next": ["the general method of governing"]}
  },
  {
   "id": "Dz109b_35",
@@ -761,7 +773,8 @@
    "takeaway": "前後兩句講的是同一件事（都在說「沒變」），空格常常是那個唯一的例外。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["the general method of governing", "quite consistent"], "a": ["It", "only changed"], "b": ["only changed"], "next": ["The consistency"]}
  },
  {
   "id": "Dz108_31",
@@ -811,7 +824,8 @@
    "takeaway": "後面出現「his + 名詞」「their + 名詞」，把某件事當成已知，往前找那件事第一次出現的地方。找不到，就在空格裡。"
   },
   "accuracyRate": 72,
-  "discrimination": 63
+  "discrimination": 63,
+  "clue": {"prev": [], "a": [], "b": ["studied the stars"], "next": ["his observations"]}
  },
  {
   "id": "Dz108_32",
@@ -862,7 +876,8 @@
    "takeaway": "前後兩句各有一個年份、中間隔了好幾年，空格通常就是這段空白裡發生的事。"
   },
   "accuracyRate": 64,
-  "discrimination": 68
+  "discrimination": 68,
+  "clue": {"prev": ["In 1530", "De Revolutionibus"], "a": ["however", "The book"], "b": ["two months before his death", "wasn't published until"], "next": ["Copernicus died in 1543", "never to know"]}
  },
  {
   "id": "Dz108_33",
@@ -913,7 +928,8 @@
    "takeaway": "前一句是甲的主張、後一句是乙的主張、兩邊相反，空格就是點破這層關係的那一句。"
   },
   "accuracyRate": 57,
-  "discrimination": 75
+  "discrimination": 75,
+  "clue": {"prev": ["rotated on its axis"], "a": ["This"], "b": ["went against", "beliefs held during medieval times"], "next": ["People then regarded", "the Earth as stationary"]}
  },
  {
   "id": "Dz108_34",
@@ -963,7 +979,8 @@
    "takeaway": "後面出現 Other、Another、followed suit（跟進），前面一定要有第一個。第一個不在，就在空格裡。"
   },
   "accuracyRate": 56,
-  "discrimination": 71
+  "discrimination": 71,
+  "clue": {"prev": [], "a": [], "b": ["Martin Luther", "voiced his opposition"], "next": ["Other ministers", "followed suit"]}
  },
  {
   "id": "Dz108_35",
@@ -1014,7 +1031,8 @@
    "takeaway": "看到 Ironically（諷刺的是），先找落差的兩頭。兩頭都在，空格就是把落差說破的那一句。"
   },
   "accuracyRate": 47,
-  "discrimination": 63
+  "discrimination": 63,
+  "clue": {"prev": ["Ironically", "dedicated his work"], "a": ["this act"], "b": ["of no use"], "next": ["The Church ultimately banned"]}
  },
  {
   "id": "Dzref107_31",
@@ -1064,7 +1082,8 @@
    "takeaway": "前面說「有一些好處／有幾項特點」卻一項也沒列，空格就是第一項。選項裡帶 also、another 的，先往後放。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["some positive characteristics"], "a": ["more creative"], "b": ["more creative"], "next": ["more curiosity about the world", "obsessed by hobbies"]}
  },
  {
   "id": "Dzref107_32",
@@ -1115,7 +1134,8 @@
    "takeaway": "兩個選項都帶 also 的時候，別用 also 分辨。直接看空格後面那幾句在講什麼，空格就是它們的標題。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["more curiosity"], "a": ["also"], "b": ["do not follow conventions"], "next": ["a world of their own", "do not worry about"]}
  },
  {
   "id": "Dzref107_33",
@@ -1166,7 +1186,8 @@
    "takeaway": "段落第一句是空格，先讀完整段再回頭選：後面那些細節在佐證什麼，空格就寫什麼。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": ["also"], "b": ["healthier"], "next": ["Statistics show", "visit their doctors less"]}
  },
  {
   "id": "Dzref107_34",
@@ -1216,7 +1237,8 @@
    "takeaway": "後面出現 This may explain（這可以解釋）、Because of this（因為這樣），先問一句「這」指得到嗎。指不到，缺的那一步就在空格裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["humor and happiness", "innate traits"], "a": ["Such personal traits"], "b": ["boosting the body’s immune system"], "next": ["This may explain", "healthier"]}
  },
  {
   "id": "Dzref107_35",
@@ -1267,7 +1289,8 @@
    "takeaway": "前面舉了一個人，後面卻用 they／their，空格通常就是第二個人，而且句型會和前一句長得一模一樣。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["It could be our aunt"], "a": ["Or it could be", "who wears"], "b": ["our best friend’s brother"], "next": ["Their", "keeps them going"]}
  },
  {
   "id": "Dz107_31",
@@ -1318,7 +1341,8 @@
    "takeaway": "第一段最後一句是空格，先數後面有幾段、各講什麼。空格通常就是把那幾段一次點名的句子。"
   },
   "accuracyRate": 58,
-  "discrimination": 71
+  "discrimination": 71,
+  "clue": {"prev": ["food"], "a": ["Specifically", "bread and salt"], "b": ["bread and salt"], "next": ["bread"]}
  },
  {
   "id": "Dz107_32",
@@ -1368,7 +1392,8 @@
    "takeaway": "前一句是數字、後一句是後果，中間那一格通常是把數字講成人的處境。"
   },
   "accuracyRate": 70,
-  "discrimination": 69
+  "discrimination": 69,
+  "clue": {"prev": ["88 percent of his earnings"], "a": ["could not afford"], "b": ["enough food"], "next": ["was starving"]}
  },
  {
   "id": "Dz107_33",
@@ -1424,7 +1449,8 @@
    "label": "延伸閱讀：this 指回前文——段落裡的 it、this、that",
    "url": "https://dictionary.cambridge.org/grammar/british-grammar/it-this-and-that-in-paragraphs",
    "hint": "重點：英文用 this 指回前面已經寫過的東西，而且多半是接下來還要繼續談的重點。所以後一句一出現 this tax，空格就得先把這項稅講出來；六個選項裡，只有 C 的 gabelle 能讓 this tax 有所指。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["the gabelle"], "next": ["this tax on salt consumption"]}
  },
  {
   "id": "Dz107_34",
@@ -1475,7 +1501,8 @@
    "takeaway": "後面出現 The results、The consequences（那些結果），先問「哪一件事的結果」。找不到那件事，它就在空格裡。"
   },
   "accuracyRate": 53,
-  "discrimination": 74
+  "discrimination": 74,
+  "clue": {"prev": [], "a": [], "b": ["massive riots"], "next": ["The results"]}
  },
  {
   "id": "Dz107_35",
@@ -1526,7 +1553,8 @@
    "takeaway": "後面用 Yet、However 開頭，先確定空格要放的是相反方向的那一句。方向對了再挑內容。"
   },
   "accuracyRate": 33,
-  "discrimination": 52
+  "discrimination": 52,
+  "clue": {"prev": [], "a": [], "b": ["calm was restored gradually"], "next": ["Yet", "remained"]}
  },
  {
   "id": "Dz106_31",
@@ -1628,7 +1656,8 @@
    "takeaway": "前一句寫「科學家正在研究……」，空格常常就是「他們希望……」。先確認 They 指得到誰。"
   },
   "accuracyRate": 61,
-  "discrimination": 61
+  "discrimination": 61,
+  "clue": {"prev": ["scientists"], "a": ["They"], "b": [], "next": []}
  },
  {
   "id": "Dz106_33",
@@ -1679,7 +1708,8 @@
    "takeaway": "後面出現「另一方面」「相對地」，先找相對的另一邊在哪裡。找不到，那一邊就在空格裡。"
   },
   "accuracyRate": 54,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["can’t generate a new cockroach"], "a": ["this"], "b": ["unidirectional"], "next": ["Bidirectional", "on the other hand"]}
  },
  {
   "id": "Dz106_34",
@@ -1730,7 +1760,8 @@
    "takeaway": "段首是空格、下一句直接用某個動物或某個名詞舉例，空格就是第一次把它講出來的那一句。"
   },
   "accuracyRate": 70,
-  "discrimination": 57
+  "discrimination": 57,
+  "clue": {"prev": ["Bidirectional regeneration"], "a": ["This type of regeneration"], "b": ["hydras"], "next": ["a hydra"]}
  },
  {
   "id": "Dz106_35",
@@ -1781,7 +1812,8 @@
    "takeaway": "後面出現 one、it、they 卻找不到對象，空格就是把那個對象講出來的那一句。這個方法在整份考卷都通用。"
   },
   "accuracyRate": 58,
-  "discrimination": 67
+  "discrimination": 67,
+  "clue": {"prev": [], "a": [], "b": ["the planarian"], "next": ["A single one"]}
  },
  {
   "id": "Dz105_31",
@@ -1831,7 +1863,8 @@
    "takeaway": "後面出現「the + 名詞」，卻在前面找不到這個名詞第一次出現的地方，空格就是把它講出來的那一句。"
   },
   "accuracyRate": 75,
-  "discrimination": 59
+  "discrimination": 59,
+  "clue": {"prev": ["a franchise"], "a": ["A franchise"], "b": ["a license", "an individual"], "next": ["the license", "the individual"]}
  },
  {
   "id": "Dz105_32",
@@ -1881,7 +1914,8 @@
    "takeaway": "前一句只給年代、後一句用 Then、Later 接下去，空格就是時間線上的第一件事。"
   },
   "accuracyRate": 57,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["19th century"], "a": ["Isaac Singer"], "b": ["Isaac Singer"], "next": ["Then", "in the 1930s"]}
  },
  {
   "id": "Dz105_33",
@@ -2035,7 +2069,8 @@
    "takeaway": "後面出現 Other + 名詞（其他缺點、其他原因），空格通常要和它同一類。"
   },
   "accuracyRate": 57,
-  "discrimination": 67
+  "discrimination": 67,
+  "clue": {"prev": ["pay an annual fee"], "a": ["Moreover"], "b": ["no right to renew"], "next": ["Other disadvantages"]}
  },
  {
   "id": "Dz104_31",
@@ -2086,7 +2121,8 @@
    "takeaway": "前一句出現專業名詞、後一句直接講好處，中間那一格通常是 That is、In other words 開頭的白話說明。"
   },
   "accuracyRate": 65,
-  "discrimination": 67
+  "discrimination": 67,
+  "clue": {"prev": ["energy density"], "a": ["That is", "more power"], "b": ["a smaller unit", "weight and size"], "next": ["This feature", "more portable"]}
  },
  {
   "id": "Dz104_32",
@@ -2142,7 +2178,8 @@
    "label": "延伸閱讀：maintenance 是保養——low maintenance 就是不太需要照顧",
    "url": "https://dictionary.cambridge.org/dictionary/english-chinese-traditional/maintenance",
    "hint": "重點：maintenance 是讓機器、房屋保持良好狀態所需的保養工作，low maintenance 就是不太需要花心力照顧。這一段說鋰電池不必定期充放電、每次都能充飽，講的正是省事、不必費心保養；段落第一句的空格常是概括全段的主題句，A 就是這一句。B 和 F 講的是缺點，方向不對；E 用 That is（也就是說）開頭，必須接在一句話後面換個說法，不能放在段落第一句。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["low maintenance"], "next": ["retain no “memory”"]}
  },
  {
   "id": "Dz104_33",
@@ -2193,7 +2230,8 @@
    "takeaway": "段首是空格、後面整段換了立場（優點轉缺點、支持轉反對），空格就是那句「話說回來」。"
   },
   "accuracyRate": 49,
-  "discrimination": 56
+  "discrimination": 56,
+  "clue": {"prev": [], "a": [], "b": ["has its drawbacks"], "next": ["It is fragile", "a protection circuit"]}
  },
  {
   "id": "Dz104_34",
@@ -2244,7 +2282,8 @@
    "takeaway": "後面出現一個沒交代過的專門說法（這裡是「高內阻」），空格就是第一次把它講出來的那一句。"
   },
   "accuracyRate": 46,
-  "discrimination": 63
+  "discrimination": 63,
+  "clue": {"prev": ["could overheat the pack"], "a": ["Another downside"], "b": ["internal resistance"], "next": ["high internal resistance"]}
  },
  {
   "id": "Dz104_35",
@@ -2295,7 +2334,8 @@
    "takeaway": "後面出現 such、so 加形容詞（這麼快、這麼貴），前面通常要有一個具體的量。找不到，那個量就在空格裡。"
   },
   "accuracyRate": 57,
-  "discrimination": 78
+  "discrimination": 78,
+  "clue": {"prev": ["constantly"], "a": ["every six months or so"], "b": ["every six months or so"], "next": ["such rapid progress"]}
  },
  {
   "id": "Dz103_31",
@@ -2345,7 +2385,8 @@
    "takeaway": "前面說「有一些好處／有幾項特點」卻一項也沒列，空格就是第一項。選項裡帶 also、another 的，先往後放。"
   },
   "accuracyRate": 54,
-  "discrimination": 52
+  "discrimination": 52,
+  "clue": {"prev": ["some positive characteristics"], "a": ["more creative"], "b": ["more creative"], "next": ["curiosity about the world", "obsessed by hobbies"]}
  },
  {
   "id": "Dz103_32",
@@ -2396,7 +2437,8 @@
    "takeaway": "兩個選項都帶 also 的時候，別用 also 分辨。直接看空格後面那幾句在講什麼，空格就是它們的標題。"
   },
   "accuracyRate": 45,
-  "discrimination": 59
+  "discrimination": 59,
+  "clue": {"prev": ["more curiosity about the world"], "a": ["also"], "b": ["do not follow conventions"], "next": ["a world of their own", "do not worry"]}
  },
  {
   "id": "Dz103_33",
@@ -2447,7 +2489,8 @@
    "takeaway": "段落第一句是空格，先讀完整段再回頭選：後面那些細節在佐證什麼，空格就寫什麼。"
   },
   "accuracyRate": 71,
-  "discrimination": 64
+  "discrimination": 64,
+  "clue": {"prev": [], "a": [], "b": ["healthier"], "next": ["Statistics show", "visit their doctors less"]}
  },
  {
   "id": "Dz103_34",
@@ -2497,7 +2540,8 @@
    "takeaway": "後面出現 This may explain（這可以解釋）、Because of this（因為這樣），先問一句「這」指得到嗎。指不到，缺的那一步就在空格裡。"
   },
   "accuracyRate": 65,
-  "discrimination": 75
+  "discrimination": 75,
+  "clue": {"prev": ["humor and happiness", "innate traits"], "a": ["Such personal traits"], "b": ["boosting the body’s immune system"], "next": ["This may explain", "healthier"]}
  },
  {
   "id": "Dz103_35",
@@ -2548,7 +2592,8 @@
    "takeaway": "前面舉了一個人，後面卻用 they／their，空格通常就是第二個人，而且句型會和前一句長得一模一樣。"
   },
   "accuracyRate": 54,
-  "discrimination": 70
+  "discrimination": 70,
+  "clue": {"prev": ["It could be our aunt"], "a": ["Or it could be"], "b": ["our best friend’s brother"], "next": ["Their", "them"]}
  },
  {
   "id": "Dz102_31",
@@ -2598,7 +2643,8 @@
    "takeaway": "後面出現 `She`、`He` 卻找不到人，空格裡一定要先讓那個人出場。"
   },
   "accuracyRate": 82,
-  "discrimination": 45
+  "discrimination": 45,
+  "clue": {"prev": ["flew open"], "a": ["In walked"], "b": ["an old woman"], "next": ["She"]}
  },
  {
   "id": "Dz102_32",
@@ -2648,7 +2694,8 @@
    "takeaway": "段落開頭是空格、後面接一串具體的壞事，空格通常就是那句「從那天起就不對勁了」。"
   },
   "accuracyRate": 83,
-  "discrimination": 46
+  "discrimination": 46,
+  "clue": {"prev": ["Then she was gone"], "a": ["From that day"], "b": ["everything went wrong"], "next": ["His bread rose too high"]}
  },
  {
   "id": "Dz102_33",
@@ -2698,7 +2745,8 @@
    "takeaway": "後面突然做了一個夢、或想起某個人，先回頭找「他為什麼會想到那個」。找不到，那句就在空格裡。"
   },
   "accuracyRate": 75,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["no customer came"], "a": ["his unsold Saint Nicholas cookies"], "b": ["prayed", "Saint Nicholas could help him"], "next": ["had a dream"]}
  },
  {
   "id": "Dz102_34",
@@ -2799,7 +2847,8 @@
    "takeaway": "故事寫到結尾，空格通常是「他這次做了什麼不一樣的事」。回頭找他第一次怎麼做，答案往往正好相反。"
   },
   "accuracyRate": 80,
-  "discrimination": 51
+  "discrimination": 51,
+  "clue": {"prev": ["a dozen"], "a": ["twelve cookies—and one more"], "b": ["twelve cookies—and one more"], "next": ["thirteen as a dozen"]}
  },
  {
   "id": "Dzref99_31",
@@ -2846,7 +2895,8 @@
    "takeaway": "後面用「她的每一位鄰居」「其他人」把一群人當作已知，先回頭找他們第一次出現在哪裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["getting down and dirty"], "a": ["planting cucumbers"], "b": ["dozens of her neighbors"], "next": ["Each of her neighbors"]}
  },
  {
   "id": "Dzref99_32",
@@ -2949,7 +2999,8 @@
    "takeaway": "後面說「這些數字很驚人」，前面卻一個數字也沒有，空格就是那些數字；前面說「原因有好幾個」而後面沒接上，同理。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["grow their own food"], "a": ["will grow vegetables"], "b": ["43 million"], "next": ["The numbers"]}
  },
  {
   "id": "Dzref99_34",
@@ -2999,7 +3050,8 @@
    "takeaway": "前面說「有金錢上的回報」卻沒說多少，下一句常常是 `That is` 開頭的數字。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["financial rewards"], "a": ["That is", "more than $8 worth"], "b": [], "next": []}
  },
  {
   "id": "Dzref99_35",
@@ -3096,7 +3148,8 @@
    "takeaway": "開頭一句下了定義，下一格常常是「換句話說」。看到 `To put it another way`、`In other words`，先確認前一句是不是一個定義。"
   },
   "accuracyRate": 53,
-  "discrimination": 69
+  "discrimination": 69,
+  "clue": {"prev": ["an attempt to persuade"], "a": ["To put it another way", "get someone to do something"], "b": ["get someone to do something"], "next": ["Even if", "still has persuasion"]}
  },
  {
   "id": "Dz101_32",
@@ -3194,7 +3247,8 @@
    "takeaway": "後面的例子強調「不是賣東西、是賣人」，中間那一句要先把這個差別講明。"
   },
   "accuracyRate": 54,
-  "discrimination": 68
+  "discrimination": 68,
+  "clue": {"prev": ["political ads"], "a": ["They"], "b": ["commercial goods", "candidates"], "next": ["for instance", "buy anything", "Bush campaign ad"]}
  },
  {
   "id": "Dz101_34",
@@ -3245,7 +3299,8 @@
    "takeaway": "兩個選項都用「除了……之外」時，看後面的例子換掉的是哪一項：換人，還是換用途。"
   },
   "accuracyRate": 57,
-  "discrimination": 69
+  "discrimination": 69,
+  "clue": {"prev": ["Bush campaign ad"], "a": ["Aside from campaign advertising"], "b": ["proposals"], "next": ["health care plan"]}
  },
  {
   "id": "Dz101_35",
@@ -3295,7 +3350,8 @@
    "takeaway": "段首的空格，先看後面的例子屬於哪一類，空格那一句必須先把那一類講出來。"
   },
   "accuracyRate": 70,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["used advertising to influence lawmakers"], "a": ["In addition to political parties"], "b": ["environmental groups"], "next": ["Greenpeace", "international organization"]}
  },
  {
   "id": "Dz100_31",
@@ -3392,7 +3448,8 @@
    "takeaway": "段首的空格，先讀完整段找出「這一段在講哪一條規律」。"
   },
   "accuracyRate": 46,
-  "discrimination": 52
+  "discrimination": 52,
+  "clue": {"prev": [], "a": [], "b": ["the victim", "becomes the bully"], "next": ["they themselves were bullied"]}
  },
  {
   "id": "Dz100_33",
@@ -3442,7 +3499,8 @@
    "takeaway": "前面是「許多人如何如何」、後面是收尾評論，中間常缺一個具體的例子。看到 `for example` 開頭的選項，先找它要證明哪一句。"
   },
   "accuracyRate": 49,
-  "discrimination": 57
+  "discrimination": 57,
+  "clue": {"prev": ["Numerous dictators and invaders"], "a": ["Hitler", "for example"], "b": ["a victim of bullying"], "next": ["victims of bullying"]}
  },
  {
   "id": "Dz100_34",
@@ -3489,7 +3547,8 @@
    "takeaway": "後面出現 `Many of them`、`They` 卻找不到人，空格裡要先出現一群人。字面重複不算數。"
   },
   "accuracyRate": 48,
-  "discrimination": 60
+  "discrimination": 60,
+  "clue": {"prev": ["crowd behavior and passer-by behavior"], "a": ["inactivity of crowds and bystanders"], "b": ["Psychologists", "inactivity of crowds and bystanders"], "next": ["Many of them", "this decline"]}
  },
  {
   "id": "Dz100_35",
@@ -3590,7 +3649,8 @@
    "takeaway": "後面用 `They`、`It` 卻找不到對象，空格裡一定要先把那個主角講出來。用代名詞開頭的選項解決不了這個問題。"
   },
   "accuracyRate": 84,
-  "discrimination": 42
+  "discrimination": 42,
+  "clue": {"prev": [], "a": [], "b": ["Cockroaches"], "next": ["They"]}
  },
  {
   "id": "Dz99_32",
@@ -3640,7 +3700,8 @@
    "takeaway": "後面說「用某樣東西當獎勵或處罰」，先確認前面有沒有交代過那樣東西對牠們是好是壞。沒有，那句交代就在空格裡。"
   },
   "accuracyRate": 46,
-  "discrimination": 73
+  "discrimination": 73,
+  "clue": {"prev": [], "a": [], "b": ["like sugar water"], "next": ["Therefore", "sugar water"]}
  },
  {
   "id": "Dz99_33",
@@ -3690,7 +3751,8 @@
    "takeaway": "後面用括號或摘要列出兩組對應，先數前面交代過幾組。少一組，那一組就在空格裡。"
   },
   "accuracyRate": 51,
-  "discrimination": 65
+  "discrimination": 65,
+  "clue": {"prev": ["rewarding the insects"], "a": ["on the other hand", "were punished"], "b": ["vanilla smell", "taste of salt"], "next": ["vanilla = salt water"]}
  },
  {
   "id": "Dz99_34",
@@ -3735,7 +3797,8 @@
    "takeaway": "段末的空格，先問「這一段的結果講完了沒」。收尾那一句是把剛剛兩三句提煉成一句話，就算下一段還會再說一次也不算重複。"
   },
   "accuracyRate": 60,
-  "discrimination": 66
+  "discrimination": 66,
+  "clue": {"prev": ["trained in the morning", "quickly forgot"], "a": ["This result", "when they were trained"], "b": [], "next": []}
  },
  {
   "id": "Dz99_35",
@@ -3784,7 +3847,8 @@
    "takeaway": "後面用 `Because of this`、`For this reason` 推出一個新結論，先確認「這樣」指的內容夠不夠推得出那個結論。推不出來，中間就缺一個新事實。"
   },
   "accuracyRate": 69,
-  "discrimination": 53
+  "discrimination": 53,
+  "clue": {"prev": [], "a": [], "b": ["more active", "during the night"], "next": ["Because of this", "gather at night"]}
  },
  {
   "id": "Dz98_31",
@@ -3829,7 +3893,8 @@
    "takeaway": "後面用 `though`、`however` 說「她做不到」，前面通常要先有一句「她其實很想」。字面最像的選項不一定是答案。"
   },
   "accuracyRate": 56,
-  "discrimination": 67
+  "discrimination": 67,
+  "clue": {"prev": [], "a": [], "b": ["did want"], "next": ["though", "make good friends"]}
  },
  {
   "id": "Dz98_32",
@@ -3874,7 +3939,8 @@
    "takeaway": "段末的空格，先看這一段一路在鋪什麼情緒。收尾那一句通常把情緒收成一個具體的擔心。"
   },
   "accuracyRate": 67,
-  "discrimination": 55
+  "discrimination": 55,
+  "clue": {"prev": ["a single person she knew", "in town"], "a": ["this new environment", "make friends"], "b": [], "next": []}
  },
  {
   "id": "Dz98_33",
@@ -3923,7 +3989,8 @@
    "takeaway": "前一句說「發生了一件事」卻沒說是什麼，空格就是那件事。後面出現「這種場合」，先回頭找場合交代過沒有。"
   },
   "accuracyRate": 83,
-  "discrimination": 40
+  "discrimination": 40,
+  "clue": {"prev": ["something happened"], "a": ["she was asked to share"], "b": ["In her English Composition class", "share a little about herself"], "next": ["such situations", "where she came from"]}
  },
  {
   "id": "Dz98_34",
@@ -4023,7 +4090,8 @@
    "takeaway": "前面把畫面停在一個懸而未決的動作（手伸著、門開著、電話響著），空格就是「她怎麼回應」。"
   },
   "accuracyRate": 80,
-  "discrimination": 49
+  "discrimination": 49,
+  "clue": {"prev": ["the hand extended"], "a": ["stretched her hand out"], "b": ["stretched her hand out", "a friendship was formed"], "next": ["taking action"]}
  },
  {
   "id": "Dzref95_31",
@@ -4068,7 +4136,8 @@
    "takeaway": "後面是 `For example`，先把幾個例子的**共同點**抓出來，空格那一句必須罩得住那個共同點。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["Different changes", "lengths of time"], "next": ["For example", "within days", "within months"]}
  },
  {
   "id": "Dzref95_32",
@@ -4114,7 +4183,8 @@
    "takeaway": "例子全部偏向一邊，段末的空格常常就是「另一邊」。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["within days", "within months"], "a": ["But", "many years or even centuries"], "b": ["many years or even centuries"], "next": ["more quickly"]}
  },
  {
   "id": "Dzref95_33",
@@ -4159,7 +4229,8 @@
    "takeaway": "後面出現「這個做法叫做○○」，前一句一定是在**描述那個做法**，而且**不會先用到那個名字**。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["can be added"], "next": ["This process", "called liming"]}
  },
  {
   "id": "Dzref95_34",
@@ -4208,7 +4279,8 @@
    "takeaway": "前一句說「只有某某地方在用」，空格常常是「為什麼別人不用」。後面接著 `In addition` 在數缺點，第一項就在空格裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["not in other countries"], "a": ["expensive", "done repeatedly"], "b": ["expensive"], "next": ["at best a short-term remedy"]}
  },
  {
   "id": "Dzref95_35",
@@ -4258,7 +4330,8 @@
    "takeaway": "前面一路在數缺點、後面突然講好處，中間一定有一句 `However` 把方向轉回來。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["does not solve"], "a": ["However"], "b": ["fish"], "next": ["native fish populations"]}
  },
  {
   "id": "Dz97_41",
@@ -4307,7 +4380,8 @@
    "takeaway": "段首的空格，先看整段的時間落在哪裡。整段講過去，段首就不會是「如今」。"
   },
   "accuracyRate": 84,
-  "discrimination": 40
+  "discrimination": 40,
+  "clue": {"prev": [], "a": [], "b": ["When did", "start"], "next": ["The oldest café in Paris"]}
  },
  {
   "id": "Dz97_42",
@@ -4407,7 +4481,8 @@
    "takeaway": "後面突然出現「那些男人」「那些女人」，先回頭找哪一句先講過性別。找不到，那句就在空格裡。"
   },
   "accuracyRate": 61,
-  "discrimination": 66
+  "discrimination": 66,
+  "clue": {"prev": ["some 700 cafés"], "a": ["These"], "b": [], "next": []}
  },
  {
   "id": "Dz97_44",
@@ -4456,7 +4531,8 @@
    "takeaway": "後面出現「不如過去那些」這種比較，先確認前面有沒有先把「現在」講出來。沒有，那句就在空格裡。"
   },
   "accuracyRate": 49,
-  "discrimination": 43
+  "discrimination": 43,
+  "clue": {"prev": [], "a": [], "b": ["Nowadays", "contemporary life"], "next": ["those of the past"]}
  },
  {
   "id": "Dz97_45",
@@ -4502,7 +4578,8 @@
    "takeaway": "後面用 `You’ll see` 直接給一串清單，空格裡那一句要做兩件事：先把「你」帶進來，再給那串清單一個總稱。"
   },
   "accuracyRate": 44,
-  "discrimination": 48
+  "discrimination": 48,
+  "clue": {"prev": [], "a": [], "b": ["you will see", "the Parisian stereotypes"], "next": ["You’ll see", "the old men"]}
  },
  {
   "id": "Dz96_41",
@@ -4548,7 +4625,8 @@
    "takeaway": "後面出現 `By so doing`、`This way`、「這麼做」，先確認前面有沒有一個**動作**。只有問題、沒有做法，空格就是那個做法。"
   },
   "accuracyRate": 30,
-  "discrimination": 27
+  "discrimination": 27,
+  "clue": {"prev": ["an aging population"], "a": ["Therefore", "aged Japanese"], "b": ["encouraged to work longer"], "next": ["By so doing"]}
  },
  {
   "id": "Dz96_42",
@@ -4598,7 +4676,8 @@
    "takeaway": "看到 `What’s more`、`Besides`、「而且」，先確認前面已經有同一類的第一項。前一句是好消息、後一句是壞消息，中間就缺那句開頭的壞消息。"
   },
   "accuracyRate": 44,
-  "discrimination": 43
+  "discrimination": 43,
+  "clue": {"prev": ["In 2000", "at 60"], "a": ["by 2025", "65"], "b": ["won’t get any"], "next": ["What’s more"]}
  },
  {
   "id": "Dz96_43",
@@ -4647,7 +4726,8 @@
    "takeaway": "前一句是某一方的做法，後一句突然講另一方的處境，中間常缺一句「這對那一方是負擔」。"
   },
   "accuracyRate": 27,
-  "discrimination": 33
+  "discrimination": 33,
+  "clue": {"prev": ["a law", "companies"], "a": ["The new policy", "employers"], "b": ["employers"], "next": ["large companies"]}
  },
  {
   "id": "Dz96_44",
@@ -4697,7 +4777,8 @@
    "takeaway": "後面是 `Consequently`、`As a result`，先問「這個結果有多強」。反應很激烈，前面通常要有一個具體數字來支持。"
   },
   "accuracyRate": 30,
-  "discrimination": 34
+  "discrimination": 34,
+  "clue": {"prev": ["Japan’s baby boomers", "personnel costs"], "a": ["These people"], "b": ["5.2 million members"], "next": ["Consequently", "much opposition"]}
  },
  {
   "id": "Dz96_45",
@@ -4746,7 +4827,8 @@
    "takeaway": "一段結尾在數「為什麼推不動」，空格多半是清單上的另一項。先確認這一項和後一句是**同一種東西**。"
   },
   "accuracyRate": 29,
-  "discrimination": 22
+  "discrimination": 22,
+  "clue": {"prev": ["hesitate in raising"], "a": ["And"], "b": ["And", "no law against discrimination"], "next": ["administrative guidance", "not penalties"]}
  },
  {
   "id": "Dz95_41",
@@ -4795,7 +4877,8 @@
    "takeaway": "前面在講一樣東西的性質，後面突然舉「我」的例子，中間常缺一句「所以這個性質會影響人怎麼做」。"
   },
   "accuracyRate": 54,
-  "discrimination": 59
+  "discrimination": 59,
+  "clue": {"prev": ["actual space", "take time"], "a": ["The time and distance"], "b": ["the letter-writer"], "next": ["If I am writing"]}
  },
  {
   "id": "Dz95_42",
@@ -4844,7 +4927,8 @@
    "takeaway": "看到 `also` 開頭的選項，先確認兩件事：前面正在列清單嗎？這一項的語氣和清單上其他項一致嗎？"
   },
   "accuracyRate": 43,
-  "discrimination": 63
+  "discrimination": 63,
+  "clue": {"prev": ["I will probably write"], "a": ["also"], "b": ["worth reading"], "next": ["regard letters as important"]}
  },
  {
   "id": "Dz95_43",
@@ -4889,7 +4973,8 @@
    "takeaway": "段落第一句就是空格、後面馬上用 `It`、`They`，空格裡一定要先把那樣東西講出來。"
   },
   "accuracyRate": 68,
-  "discrimination": 52
+  "discrimination": 52,
+  "clue": {"prev": [], "a": [], "b": ["E-mail"], "next": ["It"]}
  },
  {
   "id": "Dz95_44",
@@ -4938,7 +5023,8 @@
    "takeaway": "後面用 `the` 指回一個抽象名詞（the ease、the problem、the difference），先回頭找那個名詞的具體內容出現過沒有。沒有，它就在空格裡。"
   },
   "accuracyRate": 45,
-  "discrimination": 59
+  "discrimination": 59,
+  "clue": {"prev": ["geography is no obstacle", "time is not important"], "a": ["to Kenya", "whenever I want to"], "b": ["I can zap a message", "almost in a second"], "next": ["The ease"]}
  },
  {
   "id": "Dz95_45",
@@ -4988,7 +5074,8 @@
    "takeaway": "兩段在做對比時，同一個話題常常兩邊各出現一次。**話題對了還不夠，方向也要對。**"
   },
   "accuracyRate": 36,
-  "discrimination": 50
+  "discrimination": 50,
+  "clue": {"prev": ["profundity"], "a": ["deeper"], "b": ["The downside"], "next": ["glance at my mail", "delete it"]}
  },
  {
   "id": "Dz94_41",
@@ -5034,7 +5121,8 @@
    "takeaway": "後面用 `the` 把某樣東西當作已知（the test、the scores），先回頭找它第一次出現在哪裡。找不到，它就在空格裡。"
   },
   "accuracyRate": 53,
-  "discrimination": 45
+  "discrimination": 45,
+  "clue": {"prev": ["the Netherlands"], "a": ["Dutch"], "b": ["An intelligence test"], "next": ["The test"]}
  },
  {
   "id": "Dz94_42",
@@ -5130,7 +5218,8 @@
    "takeaway": "空格前後的年份差很多，中間多半漏了「這段期間發生什麼」。選項裡有 `Since then`、`In the following years` 就先試它。"
   },
   "accuracyRate": 33,
-  "discrimination": 36
+  "discrimination": 36,
+  "clue": {"prev": ["In 1975", "the confluence theory"], "a": ["Since then", "the theory"], "b": ["elaborated and even extended", "the theory"], "next": ["However", "in 1991", "tested the theory"]}
  },
  {
   "id": "Dz94_44",
@@ -5175,7 +5264,8 @@
    "takeaway": "後面第一句是 `On one side...`、`Some people say...`，空格裡常常就是一句「這件事有兩種立場」。"
   },
   "accuracyRate": 66,
-  "discrimination": 61
+  "discrimination": 61,
+  "clue": {"prev": [], "a": [], "b": ["two sides"], "next": ["On one side"]}
  },
  {
   "id": "Dz94_45",
@@ -5222,7 +5312,8 @@
    "takeaway": "後面出現 `They` 卻找不到人，又冒出一個沒提過的資料來源，空格裡那一句要**同時**把人和資料帶出來。一次只補一半的選項就不是它。"
   },
   "accuracyRate": 61,
-  "discrimination": 57
+  "discrimination": 57,
+  "clue": {"prev": [], "a": [], "b": ["Rutherford and Sewell", "American high school graduates"], "next": ["They", "the American data"]}
  },
  {
   "id": "Dz93_41",
@@ -5275,7 +5366,8 @@
    "takeaway": "空格在第一段最後、後面還有一大篇沒讀，先問「這篇接下來是照什麼順序走的」。"
   },
   "accuracyRate": 51,
-  "discrimination": 41
+  "discrimination": 41,
+  "clue": {"prev": ["traditional Chinese brush painting", "has developed continuously"], "a": ["Its growth", "the changes of time"], "b": ["the changes of time"], "next": ["During the 1st century A.D."]}
  },
  {
   "id": "Dz93_42",
@@ -5329,7 +5421,8 @@
    "takeaway": "空格後面是 `For example`，就回頭找「這個例子在證明哪一句話」，那一句就是答案。"
   },
   "accuracyRate": 43,
-  "discrimination": 54
+  "discrimination": 54,
+  "clue": {"prev": ["religious murals"], "a": ["However", "beyond religious themes"], "b": ["beyond religious themes"], "next": ["For example", "historical characters", "everyday life"]}
  },
  {
   "id": "Dz93_43",
@@ -5375,7 +5468,8 @@
    "takeaway": "空格後面有兩個並排的東西，先回頭找哪個選項提到數字。"
   },
   "accuracyRate": 34,
-  "discrimination": 42
+  "discrimination": 42,
+  "clue": {"prev": ["this particular type of painting", "By the 4th century"], "a": ["It", "then"], "b": ["two separate styles"], "next": ["The blue-and-green landscape", "the ink-and-wash landscape"]}
  },
  {
   "id": "Dz93_44",
@@ -5420,7 +5514,8 @@
    "takeaway": "後面有 this、these 這種字，先問「這個『這個』指的是什麼」，那樣東西就在空格裡。"
   },
   "accuracyRate": 52,
-  "discrimination": 64
+  "discrimination": 64,
+  "clue": {"prev": ["blue-and-green landscape"], "a": ["Another"], "b": ["Another genre", "flower-and-bird painting"], "next": ["this genre"]}
  },
  {
   "id": "Dz93_45",
@@ -5520,7 +5615,8 @@
    "takeaway": "前一句描述了某人在做什麼，空格常常是「這件事叫什麼」。選項裡有「The word for... is...」這種命名句，先找它要命名的是哪一件事。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["making old buildings"], "a": ["what she does"], "b": [], "next": []}
  },
  {
   "id": "Dz93b_42",
@@ -5565,7 +5661,8 @@
    "takeaway": "一段講完一件事的意義（如果……就會……），段末常常要把話題轉回主角：「她做的正是這件事。」"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["If they could be fixed"], "a": ["That", "what Carrie does"], "b": [], "next": []}
  },
  {
   "id": "Dz93b_43",
@@ -5614,7 +5711,8 @@
    "takeaway": "後面把某樣東西當成她已經看過的（「她看到的那種」），先回頭找她是在什麼場合看到的。找不到，那句就在空格裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["letter carrier"], "a": ["look at"], "b": ["new houses being built", "look at"], "next": ["the new kind", "she saw going up"]}
  },
  {
   "id": "Dz93b_44",
@@ -5664,7 +5762,8 @@
    "takeaway": "前一句說她學的是甲、後一句說她做的是乙，中間常缺「她後來又去學了乙」這一步。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["art history"], "a": ["Then", "architecture"], "b": ["study architecture"], "next": ["finished her studies"]}
  },
  {
   "id": "Dz93b_45",
@@ -5709,7 +5808,8 @@
    "takeaway": "後面用 `But` 說「其實不必那麼厲害」，前面通常會先有一句話讓人覺得「這一行看起來要很厲害」。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["make drawings", "careful plans"], "next": ["great artist", "very good in math"]}
  },
  {
   "id": "Dz92_41",
@@ -5754,7 +5854,8 @@
    "takeaway": "看到 `finally`（終於），回頭找「終於之前卡在哪裡」，那裡就是空格。"
   },
   "accuracyRate": 69,
-  "discrimination": 72
+  "discrimination": 72,
+  "clue": {"prev": ["keep a pet puppy"], "a": ["gave in"], "b": ["felt reluctant", "gave in"], "next": ["we finally decided"]}
  },
  {
   "id": "Dz92_42",
@@ -5803,7 +5904,8 @@
    "takeaway": "前面一句很空、後面一堆很細，空格通常是那句「中等具體」的話。"
   },
   "accuracyRate": 71,
-  "discrimination": 66
+  "discrimination": 66,
+  "clue": {"prev": ["encouraging"], "a": ["part of our life"], "b": ["Derek", "fit into our family routine"], "next": ["Derek", "take a walk"]}
  },
  {
   "id": "Dz92_43",
@@ -5852,7 +5954,8 @@
    "takeaway": "看到 `Finally`，先數一數前面已經列了幾件事，空格多半是還缺的那一件。"
   },
   "accuracyRate": 73,
-  "discrimination": 66
+  "discrimination": 66,
+  "clue": {"prev": ["feel irritated", "licked my cheek"], "a": ["One time", "even"], "b": ["even shouted at Derek"], "next": ["Finally", "get rid of the animal"]}
  },
  {
   "id": "Dz92_44",
@@ -5898,7 +6001,8 @@
    "takeaway": "看到 `again`、`another`、`also`，一定回頭找「第一次」；前面找不到，第一次就在空格裡。"
   },
   "accuracyRate": 65,
-  "discrimination": 72
+  "discrimination": 72,
+  "clue": {"prev": ["left Derek in a park"], "a": ["the puppy"], "b": ["there was the puppy", "pulled into the driveway"], "next": ["beat me home again", "The next day"]}
  },
  {
   "id": "Dz92_45",
@@ -5944,7 +6048,8 @@
    "takeaway": "空格後面出現 `She`、`He`、`They` 而前面找不到人，空格裡一定要先出現一個人。"
   },
   "accuracyRate": 71,
-  "discrimination": 63
+  "discrimination": 63,
+  "clue": {"prev": [], "a": [], "b": ["my daughter", "if she saw Derek"], "next": ["She", "Yes"]}
  },
  {
   "id": "Dz91p1_41",
@@ -5993,7 +6098,8 @@
    "takeaway": "空格後面兩句一句往東、一句往西，空格裡放的常是「兩邊都有可能」這種話。"
   },
   "accuracyRate": 55,
-  "discrimination": 68
+  "discrimination": 68,
+  "clue": {"prev": ["stories that are make-believe"], "a": ["But", "isn’t always different"], "b": ["isn’t always different"], "next": ["so close to the truth", "seems as real"]}
  },
  {
   "id": "Dz91p1_42",
@@ -6039,7 +6145,8 @@
    "takeaway": "後面那一句突然把某樣東西當作大家都知道，前面又找不到，那樣東西多半先在空格裡出現過。"
   },
   "accuracyRate": 57,
-  "discrimination": 59
+  "discrimination": 59,
+  "clue": {"prev": ["a fictional story", "made up"], "a": ["a story", "fly to the moon"], "b": ["you", "the moon"], "next": ["You", "the moon is real"]}
  },
  {
   "id": "Dz91p1_43",
@@ -6089,7 +6196,8 @@
    "takeaway": "後面出現 `It`、`They` 而前面沒有對應的東西，空格就是要把那樣東西講出來的地方。"
   },
   "accuracyRate": 59,
-  "discrimination": 55
+  "discrimination": 55,
+  "clue": {"prev": ["are real", "would be real"], "a": ["But", "fiction"], "b": ["your trip through space"], "next": ["It", "in your imagination"]}
  },
  {
   "id": "Dz91p1_44",
@@ -6182,7 +6290,8 @@
    "takeaway": "看到 `too`、`also`、`as well`，先確認前面有一份名單，這一句是要往名單上再加一項。"
   },
   "accuracyRate": 49,
-  "discrimination": 57
+  "discrimination": 57,
+  "clue": {"prev": ["So are articles"], "a": ["too"], "b": ["History"], "next": ["writing history"]}
  },
  {
   "id": "Dz91p2_46",
@@ -6232,7 +6341,8 @@
    "takeaway": "前面是「她不做什麼」，空格多半就是「那她做什麼」。看到 `Instead`，先回頭找那個否定句。"
   },
   "accuracyRate": 50,
-  "discrimination": 65
+  "discrimination": 65,
+  "clue": {"prev": ["not interested in the views"], "a": ["Instead", "paid much attention"], "b": ["the streetcar motorman"], "next": ["the motorman"]}
  },
  {
   "id": "Dz91p2_47",
@@ -6281,7 +6391,8 @@
    "takeaway": "前面說「試過各種方法」，後面有人另起爐灶，空格要填的通常是「結果都不管用」。"
   },
   "accuracyRate": 38,
-  "discrimination": 65
+  "discrimination": 65,
+  "clue": {"prev": ["tried various ways"], "a": ["however", "the only solution"], "b": ["the only solution"], "next": ["drew her device"]}
  },
  {
   "id": "Dz91p2_48",
@@ -6325,7 +6436,8 @@
    "takeaway": "後面是一長串細節，空格常是那句「先給評價」的短句，別因為它短就跳過。"
   },
   "accuracyRate": 35,
-  "discrimination": 54
+  "discrimination": 54,
+  "clue": {"prev": ["Mary", "drew her device"], "a": ["Her solution"], "b": ["simple"], "next": ["a lever", "a swinging arm"]}
  },
  {
   "id": "Dz91p2_49",
@@ -6375,7 +6487,8 @@
    "takeaway": "看到 `first`、`at first`、「一開始」，回頭找有沒有「後來」。只有一半，另一半常常就在空格裡。"
   },
   "accuracyRate": 29,
-  "discrimination": 41
+  "discrimination": 41,
+  "clue": {"prev": ["the device", "first"], "a": ["Its function", "later"], "b": [], "next": []}
  },
  {
   "id": "Dz91p2_50",
@@ -6424,7 +6537,8 @@
    "takeaway": "前後兩句之間跨了好幾年，空格裡多半是中間那一步。先看清楚這一段是照時間走的，還是照道理走的。"
   },
   "accuracyRate": 39,
-  "discrimination": 44
+  "discrimination": 44,
+  "clue": {"prev": ["didn’t give in", "awkward invention"], "a": ["A year later", "for it"], "b": ["A year later", "a patent"], "next": ["By 1913", "standard equipment"]}
  },
  {
   "id": "Dzres100_31",
@@ -6471,7 +6585,8 @@
    "takeaway": "後面用「她的每一位鄰居」「其他人」把一群人當作已知，先回頭找他們第一次出現在哪裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["the 77-year-old retiree"], "a": ["Mayberry"], "b": ["dozens of her neighbors"], "next": ["Each of her neighbors"]}
  },
  {
   "id": "Dzres100_32",
@@ -6522,7 +6637,8 @@
    "takeaway": "第一段講一個人、第二段講一群人，段首那一句通常是「他不是特例」。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["hardly alone"], "next": ["Across the country", "Americans of all ages"]}
  },
  {
   "id": "Dzres100_33",
@@ -6624,7 +6740,8 @@
    "takeaway": "前面說「有金錢上的回報」卻沒說多少，下一句常常是 `That is` 開頭的數字。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["reap financial rewards"], "a": ["That is", "$8 worth of produce"], "b": [], "next": []}
  },
  {
   "id": "Dzres100_35",

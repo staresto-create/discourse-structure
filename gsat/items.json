@@ -102,7 +102,8 @@
    "takeaway": "段首的空格，先把整段讀完再回頭挑。選項只要有一個關鍵詞在這一段裡找不到對應的內容，就不是它。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["the space"], "next": ["room", "on the ground", "in the air"]}
  },
  {
   "id": "Dg115r_33",
@@ -155,7 +156,8 @@
    "takeaway": "前面給目標、後面接一串具體做法，空格通常是「有好幾種辦法」這種概括句。先數後面列了幾項，再找哪個選項罩得住。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["a unique “feel”"], "a": ["a memorable ride"], "b": ["a number of techniques"], "next": ["the first drop"]}
  },
  {
   "id": "Dg115r_34",
@@ -201,7 +203,8 @@
    "takeaway": "後面那一句把某件事當作已經做過（「確認之後」「檢查完畢」），先回頭找那件事在哪裡做的。找不到，它就在空格裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["testing procedures"], "next": ["its safety is assured"]}
  },
  {
   "id": "Dg115_31",
@@ -305,7 +308,8 @@
    "takeaway": "前一句拋出一個聽起來很反常的說法，後面卻沒有下文，空格多半是那個佐證。看到 `In fact` 開頭的選項，先確認前面有沒有一句話等著被補強。"
   },
   "accuracyRate": 60,
-  "discrimination": 75
+  "discrimination": 75,
+  "clue": {"prev": ["less intelligent"], "a": ["In fact", "stupidity"], "b": [], "next": []}
  },
  {
   "id": "Dg115_33",
@@ -354,7 +358,8 @@
    "takeaway": "後面突然冒出一群前面沒提過的人，空格裡一定先把那群人帶出來。看到 `Another`，先回頭數「第一個是什麼」。"
   },
   "accuracyRate": 60,
-  "discrimination": 72
+  "discrimination": 72,
+  "clue": {"prev": [], "a": ["Another crucial factor"], "b": ["immigration diversity"], "next": ["Newcomers"]}
  },
  {
   "id": "Dg115_34",
@@ -404,7 +409,8 @@
    "takeaway": "空格在最後一段的第一句，先回頭數這篇一共講了幾件事。最後一段要的通常是「把前面全部總結起來」的那一句，不是再加一項。"
   },
   "accuracyRate": 50,
-  "discrimination": 58
+  "discrimination": 58,
+  "clue": {"prev": [], "a": ["thus"], "b": ["Various factors"], "next": ["far more complicated"]}
  },
  {
   "id": "Dg114_31",
@@ -502,7 +508,8 @@
    "takeaway": "選項和上一句有同一個字，先別急著填。再問一次：這一句的**語氣**跟這一段合不合？"
   },
   "accuracyRate": 46,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["each capsule"], "a": ["The chambers"], "b": ["The chambers"], "next": ["Each capsule"]}
  },
  {
   "id": "Dg114_33",
@@ -550,7 +557,8 @@
    "takeaway": "後面出現 `Instead of the traditional...`、`no longer...`，先確認前面有沒有人宣布過「要改了」。沒有，那句宣布就在空格裡。"
   },
   "accuracyRate": 56,
-  "discrimination": 67
+  "discrimination": 67,
+  "clue": {"prev": [], "a": [], "b": ["a wave of innovation"], "next": ["Instead of the traditional", "new chains now feature"]}
  },
  {
   "id": "Dg114_34",
@@ -598,7 +606,8 @@
    "takeaway": "看到 `Also`、`Besides`、「此外」，先看前面列的是哪一類的東西。空格夾在同一份清單中間，要填的就是同一類的那一項。"
   },
   "accuracyRate": 46,
-  "discrimination": 66
+  "discrimination": 66,
+  "clue": {"prev": ["poor air flow"], "a": ["the sound of snoring"], "b": ["the sound of snoring"], "next": ["Also"]}
  },
  {
   "id": "Dg113_31",
@@ -692,7 +701,8 @@
    "takeaway": "看到 `Others`、`Still others`，先確認前面有沒有「第一群人」。沒有，第一群就在空格裡。"
   },
   "accuracyRate": 33,
-  "discrimination": 41
+  "discrimination": 41,
+  "clue": {"prev": [], "a": [], "b": ["Many", "the sport they love"], "next": ["They", "nevertheless"]}
  },
  {
   "id": "Dg113_33",
@@ -740,7 +750,8 @@
    "takeaway": "前面出現一個專門的詞卻沒舉例，空格常常就是那個例子。看到 `For example` 開頭的選項，先找它要說明哪一句。"
   },
   "accuracyRate": 40,
-  "discrimination": 47
+  "discrimination": 47,
+  "clue": {"prev": ["cross-train"], "a": ["For example", "cycling and swimming"], "b": [], "next": []}
  },
  {
   "id": "Dg113_34",
@@ -788,7 +799,8 @@
    "takeaway": "空格後面第一個字是 `Thus`、`Therefore`、「因此」，空格裡放的一定是原因。"
   },
   "accuracyRate": 47,
-  "discrimination": 48
+  "discrimination": 48,
+  "clue": {"prev": [], "a": [], "b": ["exercising when injured"], "next": ["Thus", "keep moving"]}
  },
  {
   "id": "Dg112_31",
@@ -886,7 +898,8 @@
    "takeaway": "後面出現「最有力的證據／支持」這種比較過的說法，先回頭找那項比較弱的。前面找不到，它就在空格裡。"
   },
   "accuracyRate": 54,
-  "discrimination": 65
+  "discrimination": 65,
+  "clue": {"prev": ["persistently give the same answer"], "a": ["This consistency"], "b": ["a proof"], "next": ["The most compelling support"]}
  },
  {
   "id": "Dg112_33",
@@ -938,7 +951,8 @@
    "takeaway": "段落開頭是「是 X 還是 Y」的問句，往下就邊讀邊分哪幾句屬 X、哪幾句屬 Y。空格常常是換邊的那一句。"
   },
   "accuracyRate": 43,
-  "discrimination": 52
+  "discrimination": 52,
+  "clue": {"prev": ["synesthesia gene (or genes)"], "a": ["Meanwhile", "environmental influences"], "b": ["environmental influences"], "next": ["For example", "childhood flavors"]}
  },
  {
   "id": "Dg112_34",
@@ -1089,7 +1103,8 @@
    "takeaway": "這一段照時間走的時候，先把看得到的年份排成一列。兩個年份之間隔太久，空格多半就是中間漏掉的那一步。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["In 1530", "De Revolutionibus"], "a": ["however", "The book"], "b": ["two months before his death", "wasn’t published until"], "next": ["Copernicus died in 1543", "never to know"]}
  },
  {
   "id": "Dg111r_33",
@@ -1138,7 +1153,8 @@
    "takeaway": "前後兩句各講一套互相矛盾的說法，中間常常缺一句「這和那是牴觸的」。少了那一句，讀者不會知道作者是在做對比。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["rotated on its axis"], "a": ["This"], "b": ["went against", "beliefs held during medieval times"], "next": ["People then regarded", "the Earth as stationary"]}
  },
  {
   "id": "Dg111r_34",
@@ -1187,7 +1203,8 @@
    "takeaway": "看到 `Ironically`（諷刺的是），先確認諷刺的兩頭在不在：一頭是「他做了什麼好意的事」，另一頭是「結果卻怎樣」。缺哪一頭，哪一頭就在空格裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["Ironically", "dedicated his work"], "a": ["this act"], "b": ["of no use"], "next": ["The Church ultimately banned"]}
  },
  {
   "id": "Dg111_31",
@@ -1235,7 +1252,8 @@
    "takeaway": "第一段的空格先問「這一段有沒有交代來歷」。介紹一件事物的文章，來歷幾乎都放在最前面。"
   },
   "accuracyRate": 63,
-  "discrimination": 58
+  "discrimination": 58,
+  "clue": {"prev": ["Obon, or the Bon Festival"], "a": ["this annual event"], "b": [], "next": []}
  },
  {
   "id": "Dg111_32",
@@ -1331,7 +1349,8 @@
    "takeaway": "空格在段落最前面，先讀完整段再回頭選——段首那一句要能罩住整段。"
   },
   "accuracyRate": 47,
-  "discrimination": 35
+  "discrimination": 35,
+  "clue": {"prev": ["come back to Earth"], "a": ["see the ancestors’ spirits off"], "b": ["see the ancestors’ spirits off"], "next": ["back to their resting place", "accompany the ancestors"]}
  },
  {
   "id": "Dg111_34",
@@ -1379,7 +1398,8 @@
    "takeaway": "一段把某個活動描寫得很細，卻沒說「在哪裡辦」「什麼時候辦」，空格常常就是補這一項。"
   },
   "accuracyRate": 50,
-  "discrimination": 58
+  "discrimination": 58,
+  "clue": {"prev": ["dance to the music"], "a": ["Such festive activities"], "b": [], "next": []}
  },
  {
   "id": "Dg110t_31",
@@ -1432,7 +1452,8 @@
    "takeaway": "下一段一開頭就直接用姓氏稱呼某個人，前面一定有一句先報過全名。那一句多半就在空格裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["spends all his fortune"], "a": ["This"], "b": ["Charles Feeney"], "next": ["Feeney"]}
  },
  {
   "id": "Dg110t_32",
@@ -1481,7 +1502,8 @@
    "takeaway": "前後兩句方向相反卻看不到轉折詞，先找開頭是 `However`、`But` 的選項。另外，選項的時態要和前後的敘述一致，時態不合可以直接刪掉。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["billionaire status"], "a": ["However", "the lifestyle of the wealthy"], "b": ["never felt at ease"], "next": ["He lived modestly"]}
  },
  {
   "id": "Dg110t_33",
@@ -1530,7 +1552,8 @@
    "takeaway": "選項開頭是 `Such + 名詞`，先回頭找前一句有沒有實際發生過的事可以對應。注意對應的不一定是同一個字，意思接得上就算。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["donated", "more than $8 billion", "anonymously"], "a": ["Such incredible", "secret generosity"], "b": [], "next": []}
  },
  {
   "id": "Dg110t_34",
@@ -1579,6 +1602,7 @@
    "takeaway": "四格四個選項，最後剩兩格時，先處理帶 `Such`、`This` 的那一個——它必須指回前一句，位置最挑，把它放定，另一個自然就位。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["Feeney is a role model"], "a": ["He", "encourages"], "b": ["encourages"], "next": ["now lives"]}
  }
 ]

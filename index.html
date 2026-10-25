@@ -170,7 +170,8 @@
   .clueTri .ctx .lab{font-family:'Noto Sans TC',sans-serif; font-size:12px; font-weight:700; margin-right:8px; color:var(--ink-soft);}
   .clueTri .exAns{margin:4px 0;}
   .clueTri .clueKey{font-size:12.5px; line-height:1.9; color:var(--ink-soft); margin:6px 0 0;}
-  .clueTri .clueKey span{margin-right:12px; font-weight:700;}
+  .clueTri .clueKey .kk{display:inline-block; white-space:nowrap; margin-right:14px;}
+  .clueTri .clueKey .kk > span{font-weight:700; margin-right:6px;}
   .clueLg{margin-top:-6px;}
   .clueLg span{font-weight:700; padding:0 2px;}
   @media print{.clueTri .clueKey{display:none;}}
@@ -1202,7 +1203,7 @@ function renderExplanation(p, it){
       + (nb.prev ? `<p class="ctx"><span class="lab">前一句</span>${clueSentHtml(nb.prev.s, c.prev, 'a')}</p>` : '')
       + `<div class="exAns"><span class="ltr">正解 (${it.answer})</span>${ansHtml}${zhOf(it.answer)}</div>`
       + (nb.next ? `<p class="ctx"><span class="lab">後一句</span>${clueSentHtml(nb.next.s, c.next, 'b')}</p>` : '')
-      + `<div class="clueKey"><span class="cl-a">往前接</span>與前一句相扣的字詞　<span class="cl-b">往後接</span>與後一句相扣的字詞` + (clueHasBoth(it) ? `　<span class="cl-ab">兩邊都接</span>同時銜接前後` : '') + `</div></div>`;
+      + `<div class="clueKey"><span class="kk"><span class="cl-a">往前接</span>與前一句相扣的字詞</span><span class="kk"><span class="cl-b">往後接</span>與後一句相扣的字詞</span>` + (clueHasBoth(it) ? `<span class="kk"><span class="cl-ab">兩邊都接</span>同時銜接前後</span>` : '') + `</div></div>`;
   }
   const mine = (!good && my)
     ? `<div class="myPick"><b>你選的 (${my})：</b>${esc(p.options[my])}${p.optionsZh && p.optionsZh[my] ? '<br>'+esc(p.optionsZh[my]) : ''}</div>` : '';
