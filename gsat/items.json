@@ -51,7 +51,8 @@
    "takeaway": "空格後面出現 `first`、`then`、「首先」，先確認前面有沒有人宣布過「要開始一連串步驟了」。沒有，那句宣布就在空格裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["design", "starts with"], "next": ["The designers", "first"]}
  },
  {
   "id": "Dg115r_32",
@@ -249,7 +250,8 @@
    "takeaway": "空格後面第一句就有 `for example`，先把那個例子的特徵一項一項列出來（講的是什麼時候？講的是什麼現象？），空格裡那一句必須每一項都對上。"
   },
   "accuracyRate": 73,
-  "discrimination": 52
+  "discrimination": 52,
+  "clue": {"prev": ["across time and cultures"], "a": ["recorded human history"], "b": ["open smile", "deeply unfashionable"], "next": ["for example", "before the 1700s", "unsmiling expression"]}
  },
  {
   "id": "Dg115_32",
@@ -451,7 +453,8 @@
    "takeaway": "看到 `initially`、`at first`、「最初」，先找「後來怎麼了」。段落最後一格常常就是那句「後來」。"
   },
   "accuracyRate": 56,
-  "discrimination": 68
+  "discrimination": 68,
+  "clue": {"prev": ["initially", "these hotels"], "a": ["Today", "they"], "b": [], "next": []}
  },
  {
   "id": "Dg114_32",
@@ -643,7 +646,8 @@
    "takeaway": "第一段講一個故事、第二段開頭是空格，先問「這個故事跟接下來要講的道理是什麼關係」——多半是相反。"
   },
   "accuracyRate": 49,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["he felt “pretty good.”"], "a": ["This"], "b": ["the common practice"], "next": ["they are usually advised"]}
  },
  {
   "id": "Dg113_32",
@@ -832,7 +836,8 @@
    "takeaway": "空格在段首、後面第一句就有 `however`，先問「它要轉掉的是哪一種說法」。那種說法就在空格裡。"
   },
   "accuracyRate": 41,
-  "discrimination": 47
+  "discrimination": 47,
+  "clue": {"prev": [], "a": [], "b": ["used to", "accused of"], "next": ["however", "In the early 1990s"]}
  },
  {
   "id": "Dg112_32",
@@ -977,7 +982,8 @@
    "takeaway": "前一句說「只有少數人」、後一句說「我們大多數人」，空格就是把範圍推開的那一句。前後兩句涵蓋的人數對不起來，中間一定缺一句。"
   },
   "accuracyRate": 44,
-  "discrimination": 58
+  "discrimination": 58,
+  "clue": {"prev": ["one to four percent"], "a": ["even", "all"], "b": ["all", "to some degree"], "next": ["most of us"]}
  },
  {
   "id": "Dg111r_31",
@@ -1029,7 +1035,8 @@
    "takeaway": "後面出現「他的觀測」「他的研究」這種把某件事當作已知的說法，先回頭找他是什麼時候開始做的。找不到，那一句就在空格裡。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["the stars and the planets"], "next": ["his observations"]}
  },
  {
   "id": "Dg111r_32",

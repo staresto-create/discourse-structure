@@ -302,7 +302,8 @@
    "takeaway": "後面突然出現一群人（觀眾、顧客、讀者），先回頭找「他們為什麼會在這裡」。找不到，那一句就在空格裡。"
   },
   "accuracyRate": 69,
-  "discrimination": 65
+  "discrimination": 65,
+  "clue": {"prev": [], "a": [], "b": ["entertainment"], "next": ["enjoyed the sight"]}
  },
  {
   "id": "Dz109_32",
@@ -402,7 +403,8 @@
    "takeaway": "後面用 both A and B、all of them 把某一類人當成已知，先確認那一類人出現過沒有。沒出現，就在空格裡。"
   },
   "accuracyRate": 65,
-  "discrimination": 63
+  "discrimination": 63,
+  "clue": {"prev": [], "a": [], "b": ["females"], "next": ["both male and female"]}
  },
  {
   "id": "Dz109_34",
@@ -1575,7 +1577,8 @@
    "takeaway": "後面出現 even（甚至），代表那是「更厲害的一個」。往前找那一批普通的，找不到就在空格裡。"
   },
   "accuracyRate": 67,
-  "discrimination": 49
+  "discrimination": 49,
+  "clue": {"prev": ["starfish", "grow a new one"], "a": ["The same thing"], "b": ["lobsters, salamanders"], "next": ["even"]}
  },
  {
   "id": "Dz106_32",
@@ -1928,7 +1931,8 @@
    "takeaway": "前一句拋出一個概括的說法（現成的、有支援的、有名氣的），下一句又換了話題，中間那一格就是把概括說法拆開來講的內容。"
   },
   "accuracyRate": 50,
-  "discrimination": 63
+  "discrimination": 63,
+  "clue": {"prev": ["ready-made business operation"], "a": ["built-in business formula", "products, services"], "b": [], "next": []}
  },
  {
   "id": "Dz105_34",
@@ -1979,7 +1983,8 @@
    "takeaway": "段落最後一句是空格，先看這一段的主題句在講什麼，空格通常是替它補上理由或證據。"
   },
   "accuracyRate": 51,
-  "discrimination": 66
+  "discrimination": 66,
+  "clue": {"prev": ["well-established brand name"], "a": ["a brand they recognize"], "b": [], "next": []}
  },
  {
   "id": "Dz105_35",
@@ -2743,7 +2748,8 @@
    "takeaway": "上一段結束在夢裡，下一段開頭卻在講他想通了什麼，中間一定有「他醒了」。"
   },
   "accuracyRate": 66,
-  "discrimination": 60
+  "discrimination": 60,
+  "clue": {"prev": ["turned into"], "a": ["awoke"], "b": ["awoke"], "next": ["suddenly realized"]}
  },
  {
   "id": "Dz102_35",
@@ -2891,7 +2897,8 @@
    "takeaway": "第一段講一個人、第二段講一群人，段首那一句通常是「他不是特例」。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": [], "a": [], "b": ["Mayberry", "hardly alone"], "next": ["Across the country", "Americans of all ages"]}
  },
  {
   "id": "Dzref99_33",
@@ -3038,7 +3045,8 @@
    "takeaway": "一段在列同一類的東西（有些人……另一些人……），先數列到第幾項，空格就是缺的那一項。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["Others"], "a": ["Still others"], "b": [], "next": []}
  },
  {
   "id": "Dz101_31",
@@ -3138,7 +3146,8 @@
    "takeaway": "後面突然把某個名詞當成已知，空格裡那一句要先把它引進來。引進的句子通常很短。"
   },
   "accuracyRate": 72,
-  "discrimination": 61
+  "discrimination": 61,
+  "clue": {"prev": ["an idea or a person"], "a": ["one example"], "b": ["Political advertising"], "next": ["political ads"]}
  },
  {
   "id": "Dz101_33",
@@ -3332,7 +3341,8 @@
    "takeaway": "後面出現 `That year`、`At that time`、「那一年」，先回頭找年份或時間點。找不到，那個時間點就在空格裡。"
   },
   "accuracyRate": 68,
-  "discrimination": 57
+  "discrimination": 57,
+  "clue": {"prev": [], "a": [], "b": ["the 1999 tragedy"], "next": ["That year"]}
  },
  {
   "id": "Dz100_32",
@@ -3530,7 +3540,8 @@
    "takeaway": "前面說「不只是甲和乙」，後面那一句要立刻把「還有誰」講出來。"
   },
   "accuracyRate": 57,
-  "discrimination": 55
+  "discrimination": 55,
+  "clue": {"prev": ["not only"], "a": ["The friends and classmates"], "b": ["The friends and classmates"], "next": ["friends and classmates"]}
  },
  {
   "id": "Dz99_31",
@@ -3962,7 +3973,8 @@
    "takeaway": "前一句是「大多數人怎麼樣」，後一句是「她怎麼樣」，中間常缺一句「她和別人不一樣」。"
   },
   "accuracyRate": 66,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["Most of the students"], "a": ["something entirely different"], "b": ["Whitney"], "next": ["She"]}
  },
  {
   "id": "Dz98_35",
@@ -4344,7 +4356,8 @@
    "takeaway": "選項開頭是 `These`、`Those`，先數前面提到的是一個還是很多個。只有一個，就不是它。"
   },
   "accuracyRate": 67,
-  "discrimination": 62
+  "discrimination": 62,
+  "clue": {"prev": ["It"], "a": ["Le Procope"], "b": [], "next": []}
  },
  {
   "id": "Dz97_43",
@@ -5066,7 +5079,8 @@
    "takeaway": "前面說「兩者之間有很強的關聯」卻沒說是正是負，空格多半就是把方向講清楚的那一句。"
   },
   "accuracyRate": 51,
-  "discrimination": 48
+  "discrimination": 48,
+  "clue": {"prev": ["a strong relationship", "birth order", "scores"], "a": ["Scores decreased", "birth order"], "b": [], "next": []}
  },
  {
   "id": "Dz94_43",
@@ -5456,7 +5470,8 @@
    "takeaway": "前面是「怎麼做」、後面是「這個做法很好用」，中間要填的就是「做了以後得到什麼」。"
   },
   "accuracyRate": 42,
-  "discrimination": 41
+  "discrimination": 41,
+  "clue": {"prev": ["painters", "mixed several colors"], "a": ["As a result", "they"], "b": ["more natural", "richly varied colors"], "next": ["Such techniques", "widely adopted"]}
  },
  {
   "id": "Dz93b_41",
@@ -6558,7 +6573,8 @@
    "takeaway": "前面說「數字很驚人」「原因有好幾個」，後面卻沒有東西接上，空格就是那個數字或那些原因。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["The numbers are impressive"], "a": ["43 million"], "b": ["43 million"], "next": ["And", "21 percent"]}
  },
  {
   "id": "Dzres100_34",
@@ -6654,6 +6670,7 @@
    "takeaway": "一段在列同一類的東西（有些人……另一些人……），先數列到第幾項，空格就是缺的那一項。"
   },
   "accuracyRate": null,
-  "discrimination": null
+  "discrimination": null,
+  "clue": {"prev": ["Others"], "a": ["Still others"], "b": [], "next": []}
  }
 ]

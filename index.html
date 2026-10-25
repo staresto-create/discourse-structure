@@ -156,6 +156,24 @@
   .mkLegend .lg-thesis{background:var(--blue);}
   .mkLegend .lg-topic{background:var(--yellow);}
   .mkLegend .lg-trans{color:var(--crimson); font-weight:700;}
+  /* 線索標色：全文只用底線（已有黃、藍、綠底色）；逐題解析小卡用淡底加底線 */
+  :root{--cl-a-bg:#FAD9CC; --cl-a-line:#AE3626; --cl-b-bg:#E2D8F3; --cl-b-line:#6A4FA3;}
+  @media screen and (prefers-color-scheme: dark){:root{--cl-a-bg:#5A2D25; --cl-a-line:#E57B68; --cl-b-bg:#3F3560; --cl-b-line:#B7A1EA;}}
+  .cl-a{text-decoration:underline solid var(--cl-a-line); text-decoration-thickness:2px; text-underline-offset:3px;}
+  .cl-b{text-decoration:underline dashed var(--cl-b-line); text-decoration-thickness:2px; text-underline-offset:3px;}
+  .cl-ab{text-decoration:underline solid var(--cl-a-line); text-decoration-thickness:2px; text-underline-offset:2px; border-bottom:2px dashed var(--cl-b-line);}
+  .clueTri .cl-ab{background:linear-gradient(var(--cl-a-bg), var(--cl-b-bg)); border-radius:2px; padding:0 1px;}
+  .clueTri .cl-a{background:var(--cl-a-bg); border-radius:2px; padding:0 1px;}
+  .clueTri .cl-b{background:var(--cl-b-bg); border-radius:2px; padding:0 1px;}
+  .clueTri{margin:0 0 12px;}
+  .clueTri .ctx{font-family:'Times New Roman',Times,'Liberation Serif','Noto Serif','Noto Sans TC',sans-serif; font-size:14.5px; line-height:1.85; padding:6px 12px; border-left:3px solid var(--rule); color:var(--ink-soft); margin:0;}
+  .clueTri .ctx .lab{font-family:'Noto Sans TC',sans-serif; font-size:12px; font-weight:700; margin-right:8px; color:var(--ink-soft);}
+  .clueTri .exAns{margin:4px 0;}
+  .clueTri .clueKey{font-size:12.5px; line-height:1.9; color:var(--ink-soft); margin:6px 0 0;}
+  .clueTri .clueKey span{margin-right:12px; font-weight:700;}
+  .clueLg{margin-top:-6px;}
+  .clueLg span{font-weight:700; padding:0 2px;}
+  @media print{.clueTri .clueKey{display:none;}}
 
   /* 選項對照表 */
   .optMap{border:1px solid var(--rule); border-radius:4px; background:var(--surface); padding:4px 12px; text-align:left;}
@@ -972,19 +990,70 @@ function markTags(text, list){
   });
   return tags;
 }
-function runsHtml(text, tags, unit){
+function runsHtml(text, tags, unit, cl){
   let out = '', i = 0;
   while(i < text.length){
-    const t = tags[i]; let j = i, inner = '';
-    while(j < text.length && tags[j] === t){ inner += unit(text[j]); j++; }
-    out += t ? `<span class="mk-${t}">${inner}</span>` : inner;
+    const t = tags[i], c = cl ? cl[i] : null; let j = i, inner = '';
+    while(j < text.length && tags[j] === t && (cl ? cl[j] : null) === c){ inner += unit(text[j]); j++; }
+    const klass = (t ? 'mk-' + t : '') + (c ? (t ? ' ' : '') + 'cl-' + c : '');
+    out += klass ? `<span class="${klass}">${inner}</span>` : inner;
     i = j;
   }
   return out;
 }
+
+/* ---------- 線索標色（往前接／往後接） ----------
+   資料：item.clue = {prev:[前一句的字詞], a:[正解裡往前接的字詞], b:[正解裡往後接的字詞], next:[後一句的字詞]}
+   切句規則：句末標點後接空白，下一個字是大寫字母、引號、左括號；空格自成一句；縮寫（U.S.、Mr. 等）後面的句點不算句末。 */
+function clueSplit(str){
+  const out = []; let start = 0, m; const re = /([.!?\u201d"])\s+(?=[A-Z\u201c"(\[])/g;
+  while((m = re.exec(str))){
+    if(m[1] === '.' && /(\b[A-Za-z]\.[A-Za-z]\.|\b(?:Mr|Mrs|Ms|Dr|St|Jr|Sr)\.)$/.test(str.slice(0, m.index + 1))) continue;
+    out.push(str.slice(start, m.index + 1)); start = m.index + m[0].length;
+  }
+  out.push(str.slice(start));
+  return out.filter(x => x);
+}
+function clueUnits(p){
+  const U = [];
+  p.paras.forEach((par, pi) => {
+    par.split(/(__\d+__)/).forEach(piece => {
+      if(!piece.trim()) return;
+      const m = /^__(\d+)__$/.exec(piece);
+      if(m) U.push({pi, b: m[1]});
+      else clueSplit(piece.trim()).forEach(s => U.push({pi, s}));
+    });
+  });
+  return U;
+}
+function clueNeighbors(p, n){
+  const U = clueUnits(p), k = U.findIndex(u => u.b === String(n));
+  if(k < 0) return {prev: null, next: null};
+  return {prev: (k > 0 && U[k-1].s) ? U[k-1] : null, next: (k + 1 < U.length && U[k+1].s) ? U[k+1] : null};
+}
+/* 在 sentence 裡把 words 逐一找出來，回傳 [start, end] 陣列（相對於 sentence） */
+function clueSpans(sentence, words){
+  const r = [];
+  (words || []).forEach(w => { const i = sentence.indexOf(w); if(i >= 0) r.push([i, i + w.length]); });
+  return r;
+}
+function clueTagArr(len, spans, cls, arr){
+  arr = arr || new Array(len).fill(null);
+  spans.forEach(([a, b]) => { for(let k = a; k < b; k++) arr[k] = (arr[k] && arr[k] !== cls) ? 'ab' : cls; });
+  return arr;
+}
+/* 小卡用：整句加上標色 */
+function clueHasBoth(it){
+  const A = (it.clue && it.clue.a) || [], B = (it.clue && it.clue.b) || [];
+  return A.some(w => B.some(v => w === v || w.indexOf(v) >= 0 || v.indexOf(w) >= 0));
+}
+function clueSentHtml(sentence, words, cls){
+  return runsHtml(sentence, new Array(sentence.length).fill(null), esc, clueTagArr(sentence.length, clueSpans(sentence, words), cls));
+}
 function renderMarkedPara(p, idx, par){
   const blanks = [];
   const text = par.replace(/__(\d+)__/g, (m, n) => { blanks.push(n); return String.fromCharCode(0xE000 + blanks.length - 1); });
+  const cl = clueParaTags(p, idx, text, blanks);
   const list = p.marks.filter(m => m[0] === idx).map(m => [m[1], m[2], m[3] || '', m[4] || ''].map((s, j) => j === 1 ? s : s.replace(/__(\d+)__/g, (x, n) => String.fromCharCode(0xE000 + blanks.indexOf(n)))));
   const unit = ch => {
     const c = ch.charCodeAt(0);
@@ -995,13 +1064,38 @@ function renderMarkedPara(p, idx, par){
     const chip = `<span class="blank ${pick === it.answer ? 'ok' : 'ng'}">${n} ${pick || '—'}</span>`;
     const sent = p.options[it.answer];
     const olist = p.marks.filter(m => m[0] === it.answer).map(m => [m[1], m[2], m[3] || '', m[4] || '']);
-    return chip + `<span class="ans-sent">${runsHtml(sent, markTags(sent, olist), esc)}</span>`;
+    let acl = null;
+    if(it.clue){ acl = clueTagArr(sent.length, clueSpans(sent, it.clue.a), 'a'); clueTagArr(sent.length, clueSpans(sent, it.clue.b), 'b', acl); }
+    return chip + `<span class="ans-sent">${runsHtml(sent, markTags(sent, olist), esc, acl)}</span>`;
   };
-  return runsHtml(text, markTags(text, list), unit);
+  return runsHtml(text, markTags(text, list), unit, cl);
+}
+/* 第 idx 段的線索底線：空格前一句（往前接）與後一句（往後接）。text 是這一段把空格換成私用字元之後的樣子 */
+function clueParaTags(p, idx, text, blanks){
+  let arr = null;
+  curItems.forEach(it => {
+    if(!it.clue) return;
+    const nb = clueNeighbors(p, it.blankNum);
+    const bpos = blanks.indexOf(String(it.blankNum));            // 空格在這一段的第幾個，-1 代表不在這一段
+    const bchar = bpos >= 0 ? text.indexOf(String.fromCharCode(0xE000 + bpos)) : -1;
+    const put = (nbr, words, cls, before) => {
+      if(!nbr || nbr.pi !== idx || !words || !words.length) return;
+      let at;
+      if(bchar >= 0) at = before ? text.lastIndexOf(nbr.s, bchar) : text.indexOf(nbr.s, bchar + 1);
+      else at = before ? text.lastIndexOf(nbr.s) : text.indexOf(nbr.s);
+      if(at < 0) return;
+      arr = arr || new Array(text.length).fill(null);
+      clueSpans(nbr.s, words).forEach(([a, b]) => { for(let k = at + a; k < at + b; k++) arr[k] = (arr[k] && arr[k] !== cls) ? 'ab' : cls; });
+    };
+    put(nb.prev, it.clue.prev, 'a', true);
+    put(nb.next, it.clue.next, 'b', false);
+  });
+  return arr;
 }
 function markLegend(){
   return `<div class="labelHint">交卷之後，原文用顏色標出整篇的骨架，每一格後面也補上了正解那一句。仔細看會發現，好幾格的正解本身就是該段的主旨句；這個題型考的，正是能不能從前後文看出一段話缺的是哪一句主旨句。</div>
-    <div class="mkLegend"><span class="lg-gradient">兩者都是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>`;
+    <div class="mkLegend"><span class="lg-gradient">兩者都是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>` + (curItems.some(it => it.clue)
+    ? `<div class="mkLegend clueLg"><span class="cl-a">往前接</span><span class="cl-b">往後接</span>` + (curItems.some(clueHasBoth) ? `<span class="cl-ab">兩邊都接</span>` : '') + `<span style="font-weight:400;">底線標出正解與前後句相扣的字詞（只標有整理的題目）</span></div>` : '');
 }
 
 /* 逐段中譯。與 paras 同一套 __n__ 標記；未批改前空格處不顯示答案 */
@@ -1100,7 +1194,16 @@ function renderExplanation(p, it){
     : (my ? `<span class="vd" style="color:var(--crimson);">✗ 答錯，你選的是 (${my})</span>`
           : '<span class="vd" style="color:var(--crimson);">✗ 未作答</span>');
   const zhOf = (l) => (p.optionsZh && p.optionsZh[l]) ? `<span class="zh">${esc(p.optionsZh[l])}</span>` : '';
-  const ans = `<div class="exAns"><span class="ltr">正解 (${it.answer})</span>${esc(p.options[it.answer])}${zhOf(it.answer)}</div>`;
+  let ans = `<div class="exAns"><span class="ltr">正解 (${it.answer})</span>${esc(p.options[it.answer])}${zhOf(it.answer)}</div>`;
+  if(it.clue){
+    const nb = clueNeighbors(p, it.blankNum), c = it.clue, A = p.options[it.answer];
+    const ansHtml = (() => { const t = clueTagArr(A.length, clueSpans(A, c.a), 'a'); clueTagArr(A.length, clueSpans(A, c.b), 'b', t); return runsHtml(A, new Array(A.length).fill(null), esc, t); })();
+    ans = `<div class="clueTri">`
+      + (nb.prev ? `<p class="ctx"><span class="lab">前一句</span>${clueSentHtml(nb.prev.s, c.prev, 'a')}</p>` : '')
+      + `<div class="exAns"><span class="ltr">正解 (${it.answer})</span>${ansHtml}${zhOf(it.answer)}</div>`
+      + (nb.next ? `<p class="ctx"><span class="lab">後一句</span>${clueSentHtml(nb.next.s, c.next, 'b')}</p>` : '')
+      + `<div class="clueKey"><span class="cl-a">往前接</span>與前一句相扣的字詞　<span class="cl-b">往後接</span>與後一句相扣的字詞` + (clueHasBoth(it) ? `　<span class="cl-ab">兩邊都接</span>同時銜接前後` : '') + `</div></div>`;
+  }
   const mine = (!good && my)
     ? `<div class="myPick"><b>你選的 (${my})：</b>${esc(p.options[my])}${p.optionsZh && p.optionsZh[my] ? '<br>'+esc(p.optionsZh[my]) : ''}</div>` : '';
   const steps = (e.steps||[]).map(s => `<p class="exStep"><span class="h">${mk(s.h)}</span> ${mk(s.t)}</p>`).join('');
