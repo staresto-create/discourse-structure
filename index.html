@@ -1009,7 +1009,7 @@ function runsHtml(text, tags, unit, cl){
 function clueSplit(str){
   const out = []; let start = 0, m; const re = /([.!?\u201d"])\s+(?=[A-Z\u201c"(\[])/g;
   while((m = re.exec(str))){
-    if(m[1] === '.' && /(\b[A-Za-z]\.[A-Za-z]\.|\b(?:Mr|Mrs|Ms|Dr|St|Jr|Sr)\.)$/.test(str.slice(0, m.index + 1))) continue;
+    if(m[1] === '.' && /(\b(?!(?:B\.C|A\.D|a\.m|p\.m)\.$)[A-Za-z]\.[A-Za-z]\.|\b(?:Mr|Mrs|Ms|Dr|St|Jr|Sr|Mt|Prof|Gov|Gen|Capt|Lt|Col|Sen|Rev|Ft|Fig|vs)\.|(?:^|[\s(“\"‘—])[A-HJ-Z]\.)$/.test(str.slice(0, m.index + 1))) continue;
     out.push(str.slice(start, m.index + 1)); start = m.index + m[0].length;
   }
   out.push(str.slice(start));
@@ -1096,7 +1096,7 @@ function clueParaTags(p, idx, text, blanks){
 function markLegend(){
   return `<div class="labelHint">交卷之後，原文用顏色標出整篇的骨架，每一格後面也補上了正解那一句。仔細看會發現，好幾格的正解本身就是該段的主旨句；這個題型考的，正是能不能從前後文看出一段話缺的是哪一句主旨句。</div>
     <div class="mkLegend"><span class="lg-gradient">兩者都是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>` + (curItems.some(it => it.clue)
-    ? `<div class="mkLegend clueLg"><span class="cl-a">往前接</span><span class="cl-b">往後接</span>` + (curItems.some(clueHasBoth) ? `<span class="cl-ab">兩邊都接</span>` : '') + `<span style="font-weight:400;">底線標出正解與前後句相扣的字詞（只標有整理的題目）</span></div>` : '');
+    ? `<div class="mkLegend clueLg"><span class="cl-a">往前接</span><span class="cl-b">往後接</span>` + (curItems.some(clueHasBoth) ? `<span class="cl-ab">兩邊都接</span>` : '') + `<span style="font-weight:400;">底線標出正解與前後句相扣的字詞</span></div>` : '');
 }
 
 /* 逐段中譯。與 paras 同一套 __n__ 標記；未批改前空格處不顯示答案 */

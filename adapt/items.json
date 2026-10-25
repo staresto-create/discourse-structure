@@ -58,7 +58,8 @@
     }
    ],
    "takeaway": "第一段的空格如果接在定義後面，通常要一句說出「這件事為什麼重要」的話，而且要和後面幾段的方向接得上。先把後面每一段在講什麼看一遍，再回來選第一段的句子。"
-  }
+  },
+  "clue": {"prev": ["hard hat is a helmet"], "a": ["saved countless lives"], "b": ["the early 20th century"], "next": ["in 1919"]}
  },
  {
   "id": "DDSA-g111p2_32",
@@ -110,7 +111,8 @@
     }
    ],
    "takeaway": "後一句用 `The result`（結果）、`This led to`（這導致了）這類說法開頭時，空格裡要的是造成這個結果的打算或行動。先問「是誰想做什麼」，再看哪一個選項交代了這件事。"
-  }
+  },
+  "clue": {"prev": ["Before the war", "smear their hats with tar"], "a": ["in the war", "he"], "b": ["wanted to give workers"], "next": ["The result", "every worker"]}
  },
  {
   "id": "DDSA-g111p2_33",
@@ -167,7 +169,8 @@
     }
    ],
    "takeaway": "空格後面一出現 `for example`，先把例子歸類（這一題是新款式和配件），再找能把它們全部概括進去的那一句。選項只是和例子談同一樣東西、卻概括不了例子，就不是答案。"
-  }
+  },
+  "clue": {"prev": ["Over the past century"], "a": ["Recently"], "b": ["new models and accessories"], "next": ["A ventilated hard hat", "a see-through face shield"]}
  },
  {
   "id": "DDSA-g111p2_34",
@@ -224,7 +227,8 @@
     }
    ],
    "takeaway": "段首的空格要找這一段的主題句：先讀完這一段的其他句子，說出它們共同在講什麼，再挑能概括它們的選項。和後一句談同一個話題（這一題是顏色）的選項，講的未必是同一面。"
-  }
+  },
+  "clue": {"prev": ["attachments include radios"], "a": ["has also been developed"], "b": ["A common color code", "each person’s role on site"], "next": ["Yellow", "white (or sometimes black)", "green"]}
  },
  {
   "id": "DDSA-g107p2_31",
@@ -281,7 +285,8 @@
     }
    ],
    "takeaway": "段末的空格，先看這一段是照什麼順序寫的（這一篇是由輕到重），空格通常就是這個順序的最後一步；再看下一段第一句要以什麼為前提，兩邊都說得通的選項就是答案。"
-  }
+  },
+  "clue": {"prev": ["paralysis, and coma"], "a": ["die"], "b": ["die"], "next": ["That is what made", "so frightening"]}
  },
  {
   "id": "DDSA-g107p2_32",
@@ -337,7 +342,8 @@
     }
    ],
    "takeaway": "後一句寫到有人反對、抗議，就往前找「誰做了什麼」；空格裡那一句通常就是被反對的那個做法。"
-  }
+  },
+  "clue": {"prev": ["particularly bad", "killed 19"], "a": ["declared a state of emergency"], "b": ["spraying pesticide"], "next": ["the cure", "worse than the disease", "objected"]}
  },
  {
   "id": "DDSA-g107p2_33",
@@ -393,7 +399,8 @@
     }
    ],
    "takeaway": "段落一開頭用問句，下一句通常就是答案；後面如果是一項一項的細節，就找一句能把這些細節都包括進去的答案。"
-  }
+  },
+  "clue": {"prev": ["the summer of 2012", "so hospitable"], "a": ["Much of the blame", "the weather"], "b": ["unusually good year"], "next": ["An extremely mild winter", "more mosquitoes than usual"]}
  },
  {
   "id": "DDSA-g107p2_34",
@@ -450,7 +457,8 @@
     }
    ],
    "takeaway": "段首的空格要找這一段的主題句。先讀完整段，看後面的例子和最後的總結都在講什麼（這一篇是政府），再找一句把它說出來的選項。"
-  }
+  },
+  "clue": {"prev": ["could not pay", "breeding grounds"], "a": ["also depends on"], "b": ["governments are able and willing", "protect people"], "next": ["Dallas County was not doing", "key things that help slow"]}
  },
  {
   "id": "DDSA-g106p4_31",
@@ -507,7 +515,8 @@
     }
    ],
    "takeaway": "下一段開頭說某種風氣「從哪裡傳到哪裡」，就回頭看上一段有沒有交代它原本在哪裡流行。還沒交代，空格裡就要把這個起點說出來；選項不一定用同一個字，要看意思是不是同一群人、同一個地方。"
-  }
+  },
+  "clue": {"prev": ["Catherine of Braganza", "married King Charles II"], "a": ["the new queen"], "b": ["made it popular at court"], "next": ["The fashion soon spread", "beyond the circle", "the nobility"]}
  },
  {
   "id": "DDSA-g106p4_32",
@@ -563,7 +572,8 @@
     }
    ],
    "takeaway": "空格後面接著列出原因或例子時，先問這些原因或例子是用來說明什麼；空格裡要的，就是它們說明的那個結論。"
-  }
+  },
+  "clue": {"prev": ["tea became a popular drink", "coffeehouses"], "a": ["however", "For most British people"], "b": ["rarely afford", "a luxury"], "next": ["high price tag", "taxed it heavily"]}
  },
  {
   "id": "DDSA-g106p4_33",
@@ -620,7 +630,8 @@
     }
    ],
    "takeaway": "段首的空格，先把後面幾句講的事歸納成一句話，再找能把它們都包括進去的選項；後面如果出現 `At the time`、`the custom` 這類要回頭找的說法，正好可以用來確認。"
-  }
+  },
+  "clue": {"prev": [], "a": ["Around 1840"], "b": ["wealthy families", "afternoon tea"], "next": ["At the time", "the rich"]}
  },
  {
   "id": "DDSA-g106p4_34",
@@ -677,7 +688,8 @@
     }
    ],
    "takeaway": "空格前一句是概括的說法（像「傳遍每一個角落」），空格裡常常是它的例子；再用後一句確認這個例子講的人、事、時間對不對得上。"
-  }
+  },
+  "clue": {"prev": ["every corner of British society"], "a": ["Even working-class families"], "b": ["their supper", "long, hard day’s work"], "next": ["Unlike", "afternoon tea of the rich", "this filling evening meal"]}
  },
  {
   "id": "DDSA-g115rp2_31",
@@ -733,7 +745,8 @@
     }
    ],
    "takeaway": "段落用 `But`（不過）把前面的說法限定住（這一篇是船長只負責到港外），段末的空格多半要把另一半補上（港內由誰負責）。先想清楚前一句留下了什麼問題，再找回答這個問題的選項。"
-  }
+  },
+  "clue": {"prev": ["a ship’s captain", "guides the vessel only until", "just outside a port"], "a": ["then"], "b": ["A local professional", "marine pilot"], "next": ["A marine pilot", "an expert with specialized knowledge"]}
  },
  {
   "id": "DDSA-g115rp2_32",
@@ -789,7 +802,8 @@
     }
    ],
    "takeaway": "空格後面一開頭就說「可能受損」「可能造成危害」這類結果，空格多半是造成這個結果的那件事。先問「是什麼讓船受損」，再回頭看前一句的地形，就知道要找的是擱淺。"
-  }
+  },
+  "clue": {"prev": ["deep channels", "shallow seabeds"], "a": ["the channel", "strays even slightly"], "b": ["run aground"], "next": ["its cargo", "could then be badly damaged"]}
  },
  {
   "id": "DDSA-g115rp2_33",
@@ -845,7 +859,8 @@
     }
    ],
    "takeaway": "主題句一次提出兩件事（這一篇是潮汐和風），後面通常會依序說明。先找出空格說的是哪一件，再看後一句缺的是原因還是例子；選項不一定重複主題句的字，要看它說的是不是同一件事。"
-  }
+  },
+  "clue": {"prev": ["tide and wind", "further challenges"], "a": ["rises and falls"], "b": ["reverse direction"], "next": ["incoming tide", "outgoing tide", "The same strategy"]}
  },
  {
   "id": "DDSA-g115rp2_34",
@@ -902,7 +917,8 @@
     }
    ],
    "takeaway": "空格後面出現 `Above all`（最重要的是），表示前面已經說過幾件事，後一句要補上最重要的一件。所以要找的是一句先說出這些事的話，而不是和後一句共用一個字的句子。"
-  }
+  },
+  "clue": {"prev": ["the wind can significantly alter", "adding to the difficulty"], "a": ["Marine pilotage"], "b": ["a high level of skill", "quick and independent thinking"], "next": ["Above all", "it is about risk management"]}
  },
  {
   "id": "DDSA-g100p2_31",
@@ -958,7 +974,8 @@
     }
    ],
    "takeaway": "第一段如果以問句結束，空格多半是在回答問題，而這個回答往往就是全篇主旨。先數清楚問句問了幾件事，再找每一件都回答到、後文也照著展開的選項；只和問句共用 `can` 這類字，不代表回答了問題。"
-  }
+  },
+  "clue": {"prev": ["other animals", "pose a threat", "and if so, how"], "a": ["Elephants can"], "b": ["both sight and smell"], "next": ["In Kenya, researchers studied", "elephants respond to men"]}
  },
  {
   "id": "DDSA-g100p2_32",
@@ -1014,7 +1031,8 @@
     }
    ],
    "takeaway": "段首的空格後面如果是一連串實驗做法和結果，空格多半是這一段的主題句。先把後面的細節歸納成一句結論，再找說出這個結論、範圍也剛好相合的選項。"
-  }
+  },
+  "clue": {"prev": ["The Kamba", "pose little danger"], "a": ["tell the two groups apart"], "b": ["Smell alone"], "next": ["placed clothing near", "worn for five days"]}
  },
  {
   "id": "DDSA-g100p2_33",
@@ -1071,7 +1089,8 @@
     }
    ],
    "takeaway": "段首空格的前後如果換了話題（這一篇從氣味換到視覺），空格往往要同時做到兩件事：說出新的話題，也點出它和上一段哪裡不同。"
-  }
+  },
+  "clue": {"prev": ["never came close enough", "its scent", "the only clue"], "a": ["What the elephants saw", "mattered as well"], "b": ["angry rather than afraid"], "next": ["In the same study", "clean red and white clothing"]}
  },
  {
   "id": "DDSA-g100p2_34",
@@ -1123,7 +1142,8 @@
     }
    ],
    "takeaway": "空格後面是 `Therefore` 這類表示結果的字時，先讀懂它推出了什麼結果，再找能當作理由的選項。前一句如果只說了兩種情況中的一種，空格多半是另一種。"
-  }
+  },
+  "clue": {"prev": ["Smelling a potential danger", "run away and hide"], "a": ["seen but not smelled"], "b": ["the risk is lower"], "next": ["Therefore", "instead of showing fear", "express their anger"]}
  },
  {
   "id": "DDSA-g93p3_31",
@@ -1179,7 +1199,8 @@
     }
    ],
    "takeaway": "一句話說了「原因有好幾個」「方法有幾種」卻沒有列出來，下一句通常就要一一列舉；再往後看各段，如果正好是這些項目的例子，這一句就是全篇的總述。"
-  }
+  },
+  "clue": {"prev": ["for a number of reasons", "they flash their lights"], "a": ["The flashes"], "b": ["communicate with their own kind", "lure prey"], "next": ["Some fish produce light"]}
  },
  {
   "id": "DDSA-g93p3_32",
@@ -1231,7 +1252,8 @@
     }
    ],
    "takeaway": "前一句說了一個事實（光一直亮著），後一句卻出現看似相反的情形（光一明一滅），空格常常就是交代「怎麼做到的」那一句。"
-  }
+  },
+  "clue": {"prev": ["glow all the time"], "a": ["To turn its lights off"], "b": ["slides two black lids"], "next": ["By blinking their lights", "blinks faster"]}
  },
  {
   "id": "DDSA-g93p3_33",
@@ -1288,7 +1310,8 @@
     }
    ],
    "takeaway": "段首的空格，先看整段的細節在講哪一件事，主題句要把這件事說出來；開頭和答案一樣的選項（像這裡的 C 也用 On land 開頭），要確認它講的是不是同一件事。"
-  }
+  },
+  "clue": {"prev": ["a flashlight fish"], "a": ["On land"], "b": ["fireflies", "flash to attract a mate"], "next": ["female fireflies", "wait in the grass"]}
  },
  {
   "id": "DDSA-g93p3_34",
@@ -1349,7 +1372,8 @@
     }
    ],
    "takeaway": "段首的空格要先讀完整段，再找能概括這些細節的那一句；和後一句用了同一個字（像這裡的 lure）的選項，要看它的重點和整段是不是同一件事。"
-  }
+  },
+  "clue": {"prev": [], "a": ["On land", "as in the sea"], "b": ["deceive other animals"], "next": ["lure the males"]}
  },
  {
   "id": "DDSA-z108p4_31",
@@ -1405,7 +1429,8 @@
     }
    ],
    "takeaway": "後一句如果拿別的東西作比，先想想這個比喻要成立需要什麼前提；前文找不到這個前提，它多半就在空格裡。"
-  }
+  },
+  "clue": {"prev": ["little known"], "a": ["Yet", "everywhere"], "b": ["only home in the wild", "Democratic Republic of Congo"], "next": ["is to the country", "the giant panda"]}
  },
  {
   "id": "DDSA-z108p4_32",
@@ -1461,7 +1486,8 @@
     }
    ],
    "takeaway": "後面連著出現幾項差別（或幾個例子），空格常常是先替它們下結論的概括句。選之前先確認選項說的是「相同」還是「不同」，方向要和後面的細節一致。"
-  }
+  },
+  "clue": {"prev": [], "a": ["Despite being close relatives"], "b": ["not hard to tell apart"], "next": ["much smaller", "looks more like a deer"]}
  },
  {
   "id": "DDSA-z108p4_33",
@@ -1518,7 +1544,8 @@
     }
    ],
    "takeaway": "段首空格先問兩件事：上一段講完了什麼？這一段後面在講什麼？選項要能替這一段開頭，而且要排在這一段事件順序的最前面。"
-  }
+  },
+  "clue": {"prev": [], "a": ["Western writing", "in 1890"], "b": ["African donkey"], "next": ["In the years that followed", "more stories"]}
  },
  {
   "id": "DDSA-z108p4_34",
@@ -1575,7 +1602,8 @@
     }
    ],
    "takeaway": "一段在敘述一連串猜測或誤會，段末空格多半要交代真相。選項要能更正前面的說法，而不是只重述一項已經知道的事實。"
-  }
+  },
+  "clue": {"prev": ["a new species of zebra"], "a": ["It was only later", "related to the giraffe"], "b": [], "next": []}
  },
  {
   "id": "DDSA-z103p2_31",
@@ -1631,7 +1659,8 @@
     }
    ],
    "takeaway": "段落一開頭說有一個謎題或矛盾時，先找出互相衝突的兩件事。前面已經有一件，空格多半就是方向相反的另一件。"
-  }
+  },
+  "clue": {"prev": ["Most of them smoked", "strongest risk factors"], "a": ["Their rate of heart disease", "far lower"], "b": ["far lower"], "next": ["What, then", "protecting their hearts"]}
  },
  {
   "id": "DDSA-z103p2_32",
@@ -1687,7 +1716,8 @@
     }
    ],
    "takeaway": "段末的空格要往下一段多看一句。下一段要解釋、要討論的那件事，常常就得在空格裡先說出來。"
-  }
+  },
+  "clue": {"prev": ["Japan, Hawaii, or California", "three very different places"], "a": ["The farther from Japan"], "b": ["the more likely", "heart disease"], "next": ["the gap between the groups"]}
  },
  {
   "id": "DDSA-z103p2_33",
@@ -1743,7 +1773,8 @@
     }
    ],
    "takeaway": "段首的空格，先遮住它看後面幾句：這幾句共同在比較什麼、說明什麼，空格就要先把這個重點說出來。"
-  }
+  },
+  "clue": {"prev": ["the gap unexplained"], "a": ["What did seem to matter"], "b": ["how closely", "Japanese ways of life"], "next": ["most traditional men", "as little heart disease"]}
  },
  {
   "id": "DDSA-z103p2_34",
@@ -1799,7 +1830,8 @@
     }
    ],
    "takeaway": "結尾段的空格，如果前面還在說研究、後面已經換成「我們」，空格多半就是把研究的發現推廣到每一個人的那一句，也就是全篇的主旨。"
-  }
+  },
+  "clue": {"prev": ["close-knit groups", "protected the men from stress"], "a": ["Staying close", "may protect anyone’s heart"], "b": ["anyone’s heart", "not just the hearts"], "next": ["We need to feel part", "something bigger"]}
  },
  {
   "id": "DDSA-z105p3_31",
@@ -1856,7 +1888,8 @@
     }
    ],
    "takeaway": "空格後面緊接著一個具體的例子時，先把例子的重點挑出來（這一題是罐頭、快速、輕鬆），再找哪個選項用概括的說法講了同一件事。"
-  }
+  },
+  "clue": {"prev": ["By the 1950s", "explained step by step"], "a": ["Aired in the daytime", "these programs"], "b": ["convenient meals", "middle-class women"], "next": ["Poppy Cannon, for example", "The Can-Opener Cookbook"]}
  },
  {
   "id": "DDSA-z105p3_32",
@@ -1913,7 +1946,8 @@
     }
    ],
    "takeaway": "段首的空格，前面要讀上一段最後一句，後面要讀本段的下一句。下一句如果說「變得沒那麼……」「擴大到……」，空格裡就要有一個比較的起點，而且這個起點要和上一段的內容不一樣。"
-  }
+  },
+  "clue": {"prev": ["canned foods", "quickly and easily"], "a": ["Some later shows"], "b": ["fine European dishes", "famous chefs"], "next": ["less fancy", "from all over the world"]}
  },
  {
   "id": "DDSA-z105p3_33",
@@ -1970,7 +2004,8 @@
     }
    ],
    "takeaway": "前一句說「光有……不夠」，空格多半就要補上「還需要什麼」。找到之後，再讀下一段的第一句，確認後文是不是順著這個方向往下發展。"
-  }
+  },
+  "clue": {"prev": ["Good food alone", "was not enough"], "a": ["By then"], "b": ["a chef with personality", "fun to watch"], "next": ["new shows were created", "celebrities and reality TV"]}
  },
  {
   "id": "DDSA-z105p3_34",
@@ -2027,7 +2062,8 @@
     }
    ],
    "takeaway": "最後一句提出一個結果時，回頭看空格裡是不是缺了原因。全文最後如果又提到第一段的人物，空格那一句常常是在比較過去和現在，也就是在回答全文的主旨。"
-  }
+  },
+  "clue": {"prev": ["Top chefs", "as famous as rock stars"], "a": ["their fans"], "b": ["would rather watch others cook", "do the cooking themselves"], "next": ["Cooking from a show’s recipes", "Aunt Sammy’s listeners"]}
  },
  {
   "id": "DDSA-z93bp3_31",
@@ -2083,7 +2119,8 @@
     }
    ],
    "takeaway": "第一句提出一個讀者未必熟悉的名稱，後一句卻直接談細節時，中間多半缺一句說明「它是什麼」的話。"
-  }
+  },
+  "clue": {"prev": ["the language laboratory"], "a": ["It"], "b": ["divided into small booths", "listens to recordings"], "next": ["record their own responses", "a teacher listens in"]}
  },
  {
   "id": "DDSA-z93bp3_32",
@@ -2140,7 +2177,8 @@
     }
    ],
    "takeaway": "段末的空格後面如果是下一段的開頭，先看下一段第一句把什麼當成已知的事；如果那件事前面還沒有交代，空格多半就是要說這件事。"
-  }
+  },
+  "clue": {"prev": ["Many schools were quick", "expensive equipment"], "a": ["Within just a few years", "however"], "b": ["the hoped-for breakthrough", "was not coming"], "next": ["the language lab’s failure", "live up to expectations"]}
  },
  {
   "id": "DDSA-z93bp3_33",
@@ -2192,7 +2230,8 @@
     }
    ],
    "takeaway": "段首空格前後的內容如果方向相反（前面失敗、後面受歡迎），先找說明「情況怎麼變了」的選項，再確認後面的細節是不是在具體說明它。"
-  }
+  },
+  "clue": {"prev": ["proved difficult to maintain"], "a": ["In the 1980s", "made a comeback"], "b": ["equipment improved", "better understood"], "next": ["The newer labs", "much more than"]}
  },
  {
   "id": "DDSA-z93bp3_34",
@@ -2245,7 +2284,8 @@
     }
    ],
    "takeaway": "最後一段的空格後面如果接 For example 和兩三個例子，先說出這些例子的共同點，再找把共同點說出來的選項；結論段的主題句也常常回應前面的段落。"
-  }
+  },
+  "clue": {"prev": ["Computer programs", "extremely popular"], "a": ["It is now clear that"], "b": ["add real value", "language teaching"], "next": ["For example", "recordings can give learners"]}
  },
  {
   "id": "DDSA-g113p3_31",
@@ -2298,7 +2338,8 @@
     }
    ],
    "takeaway": "前面把情況寫到「可能致命」，下一段又把結果當成已知的事來談，空格就要補上「後來怎麼了」。選的時候先問這一句有沒有交代結果；只是提到同一個人、同一種東西，還不夠。"
-  }
+  },
+  "clue": {"prev": ["can be fatal"], "a": ["Petur survived"], "b": ["an unusual treatment", "codfish skin"], "next": ["That treatment"]}
  },
  {
   "id": "DDSA-g113p3_32",
@@ -2351,7 +2392,8 @@
     }
    ],
    "takeaway": "段首空格後面一開頭就縮到某個國家或某個例子時，先看整段的數字和細節在說明什麼，再找一句能概括它們、範圍又比較大的話。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["many countries", "Reducing fish waste"], "next": ["In Iceland", "use only about 40%"]}
  },
  {
   "id": "DDSA-g113p3_33",
@@ -2404,7 +2446,8 @@
     }
    ],
    "takeaway": "主題句後面接著一串例子時，夾在中間的空格多半也是一個例子。先確認選項說的東西和後面的例子屬於同一類，再看它有沒有呼應文章其他地方的內容。"
-  }
+  },
+  "clue": {"prev": ["Nearly every part", "some kind of product"], "a": ["Cod skin", "like Petur’s"], "b": ["health supplements and energy drinks"], "next": ["Dried fish heads and spines", "a protein-rich soup"]}
  },
  {
   "id": "DDSA-g113p3_34",
@@ -2460,7 +2503,8 @@
     }
    ],
    "takeaway": "空格前面介紹了一群人、後面出現一個結果時，空格要的通常是這群人的做法。選的時候檢查這一句是否同時說得通「他們做了什麼」和「為什麼有這個結果」。"
-  }
+  },
+  "clue": {"prev": ["fishing companies", "universities, startups, and research teams"], "a": ["By sharing their knowledge", "businesses and scientists"], "b": ["better ways to handle fish", "create new products"], "next": ["worth far more", "than it used to be"]}
  },
  {
   "id": "DDSA-g110tp2_31",
@@ -2513,7 +2557,8 @@
     }
    ],
    "takeaway": "前一句講一個想法，後一句突然出現一個具體的成品，空格多半是把兩者連起來的那一句：說明這個想法怎麼變成行動。選項要同時說得出「為了什麼」和「做了什麼」。"
-  }
+  },
+  "clue": {"prev": ["equal right to use", "the land"], "a": ["challenge the capitalist system", "property ownership"], "b": ["a board game"], "next": ["her Landlord’s Game"]}
  },
  {
   "id": "DDSA-g110tp2_32",
@@ -2564,7 +2609,8 @@
     }
    ],
    "takeaway": "段首空格後面如果接著列出兩三項並列的內容（這一篇是兩套規則），空格多半是概括它們的主題句。先數一數後面列了幾項、各是什麼，再找能把它們全部說進去的選項；主題句不一定重複後面的字（這一篇 A 說的是 `two ways`（兩種玩法），不是 rules），要看意思是否涵蓋得了。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["played in two ways", "a different goal"], "next": ["the Prosperity rules", "every player gained"]}
  },
  {
   "id": "DDSA-g110tp2_33",
@@ -2621,7 +2667,8 @@
     }
    ],
    "takeaway": "空格後面出現「真正的起源」「真相」這類說法，先想想前面缺的是不是一個不實的說法。選項裡要有和「真相」相對的內容，前後才連得起來。"
-  }
+  },
+  "clue": {"prev": ["modified the game board"], "a": ["a modified version"], "b": ["as his own"], "next": ["However", "the game’s true origin"]}
  },
  {
   "id": "DDSA-g110tp2_34",
@@ -2677,7 +2724,8 @@
     }
    ],
    "takeaway": "空格後面用一個名詞總括前面的事（這一篇是 `a rags-to-riches myth`），先把這個名詞拆開，看它包含哪幾件事（一個人原本窮、後來富、不是事實），再找把這幾件事都說出來的選項；只提到發財還不夠，要看發財的是誰。"
-  }
+  },
+  "clue": {"prev": [], "a": ["The company promoted Darrow"], "b": ["had become a millionaire", "the inventor"], "next": ["Thus", "a rags-to-riches myth"]}
  },
  {
   "id": "DDSA-g110p1_31",
@@ -2730,7 +2778,8 @@
     }
    ],
    "takeaway": "前一句用 `only`（只）說只用了一部分，空格常常就是交代另一部分怎麼處理。也可以往後幾段看看：後文一直在談的東西（這一篇是外皮做成的燃料），如果前面還沒有交代來由，空格多半就是補上它的那一句。"
-  }
+  },
+  "clue": {"prev": ["only its soft, edible flesh"], "a": ["The thick outer skin"], "b": ["was simply thrown away"], "next": []}
  },
  {
   "id": "DDSA-g110p1_32",
@@ -2786,7 +2835,8 @@
     }
    ],
    "takeaway": "一段話前面講問題、後面講解決的辦法時，中間常有一句交代「誰想到要怎麼做」。先弄清楚空格前後各在講什麼，再找能從問題帶到辦法的那一句。"
-  }
+  },
+  "clue": {"prev": ["10 tons of it", "waste on the floor"], "a": ["turning this waste into power"], "b": ["A local green energy startup"], "next": ["Its biogas generator", "turns cactus skins into gas"]}
  },
  {
   "id": "DDSA-g110p1_33",
@@ -2837,7 +2887,8 @@
     }
    ],
    "takeaway": "段首的空格，先把後面幾句的重點各用一句話說出來，再找能概括它們的選項。這一篇後面兩項好處都是在和糧食作物比，主題句就要說出「比誰好」。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["a better biofuel crop", "wheat, sugarcane, or soybeans"], "next": ["For one thing", "only the skin"]}
  },
  {
   "id": "DDSA-g110p1_34",
@@ -2894,7 +2945,8 @@
     }
    ],
    "takeaway": "最後一段的空格，先看後面幾句往哪個方向談（這一篇是從一個市場推廣到全國），再找能替這個方向起頭的那一句（這一篇是先說目前只有一個地方在試）。"
-  }
+  },
+  "clue": {"prev": [], "a": ["a pilot project"], "b": ["still only", "a single farming district"], "next": ["City officials would like", "other produce markets"]}
  },
  {
   "id": "DDSA-g109p4_31",
@@ -2950,7 +3002,8 @@
     }
    ],
    "takeaway": "主題句用 common、serious 這類字下判斷，後面多半會接數字或例子當證據。空格夾在判斷和補充說明之間時，先問「這一段要證明什麼」，再找提供證據的那一句；有數字還不夠，要看數字證明的是不是這件事。"
-  }
+  },
+  "clue": {"prev": ["collisions with deer", "a common and serious problem"], "a": ["crashes with deer", "613 times"], "b": ["613 times", "disrupted train services"], "next": ["Each time", "stopped or delayed"]}
  },
  {
   "id": "DDSA-g109p4_32",
@@ -3007,7 +3060,8 @@
     }
    ],
    "takeaway": "段末的空格，要往前看這一段講到哪裡，也要往後看下一段怎麼開頭。下一段說新方法「不靠 X」，空格裡多半就是靠 X 的舊方法。"
-  }
+  },
+  "clue": {"prev": ["several ways", "scaring them off"], "a": ["had little effect"], "b": ["Flashing red lights", "lion dung"], "next": ["The new device", "relies on sound", "sight or smell"]}
  },
  {
   "id": "DDSA-g109p4_33",
@@ -3063,7 +3117,8 @@
     }
    ],
    "takeaway": "後一句說「又加上……」「改用……」，空格裡多半是原本做法的不足，就算前後沒有「所以」這類字也一樣。先遮住選項，想一想「為什麼要加」，再找說出這個原因的那一句。"
-  }
+  },
+  "clue": {"prev": ["short, shrill snorts", "warn one another of danger"], "a": ["A snort alone", "puts deer on alert"], "b": ["not always make them leave"], "next": ["The team added", "the barking of a dog"]}
  },
  {
   "id": "DDSA-g109p4_34",
@@ -3120,7 +3175,8 @@
     }
    ],
    "takeaway": "文章介紹完一個新方法，下一段開頭常常就是測試的結果。後一句出現「受到鼓舞」「決定擴大」這類說法時，空格裡要找一個好結果；選項裡有數字還不夠，要看那個數字是好消息還是壞消息。"
-  }
+  },
+  "clue": {"prev": ["they panic and run away", "3-second snort"], "a": ["In late-night tests"], "b": ["cut deer sightings", "45 percent"], "next": ["Encouraged by the outcome", "now plans"]}
  },
  {
   "id": "DDSA-g105p4_31",
@@ -3177,7 +3233,8 @@
     }
    ],
    "takeaway": "段末的空格，要問這一段的主旨說完了沒有。本段的主旨是「雨水是唯一的淡水來源」，前一句只說雨水落在海面上，還差「海蛇怎麼喝到」這一步，空格就是把主旨說完的那一句。"
-  }
+  },
+  "clue": {"prev": ["a thin layer", "on top of the ocean"], "a": ["Snakes on the surface", "drink their fill"], "b": ["a brief chance"], "next": ["the dry season"]}
  },
  {
   "id": "DDSA-g105p4_32",
@@ -3234,7 +3291,8 @@
     }
    ],
    "takeaway": "介紹研究背景的段落，最後一句常常是研究問題；下一段如果直接寫研究方法，就找一句說出「想查證什麼」的選項。前面出現 `presumably`（想必）、`probably`（可能）這類表示推想的字，研究問題通常就是要查證這個推想。"
-  }
+  },
+  "clue": {"prev": ["those dry months", "presumably have nothing to drink"], "a": ["The team"], "b": ["really became dehydrated"], "next": ["The researchers collected", "weighed them"]}
  },
  {
   "id": "DDSA-g105p4_33",
@@ -3287,7 +3345,8 @@
     }
    ],
    "takeaway": "一段裡列了好幾項結果，如果後一句突然換了比較的條件，空格多半是先提出這個新條件的概括句，後一句再舉出細節。"
-  }
+  },
+  "clue": {"prev": ["During the dry season", "in the wet season"], "a": ["chose to drink", "depended partly on"], "b": ["body condition"], "next": ["Thinner, more withered", "more likely to drink"]}
  },
  {
   "id": "DDSA-g105p4_34",
@@ -3348,7 +3407,8 @@
     }
    ],
    "takeaway": "最後一段的段首空格，常常是全篇的結論。先回想第一段提了什麼問題，再看前一段的結果指向什麼，能同時回答提問、又能歸納結果的那一句，就是答案。"
-  }
+  },
+  "clue": {"prev": ["Finally, as predicted", "significantly less body water"], "a": ["The results suggest"], "b": ["live with some dehydration", "between rains"], "next": ["stay dehydrated", "six or seven months"]}
  },
  {
   "id": "DDSA-g99p2_31",
@@ -3404,7 +3464,8 @@
     }
    ],
    "takeaway": "段末的空格，先看這一段已經說了什麼、還缺什麼。前一句提出一個看法，段末常常補上這個看法帶來的做法或結果；這一格的 C 沒有「因此」這類字，前後的因果關係要靠讀懂意思才看得出來。"
-  }
+  },
+  "clue": {"prev": ["important lesson in social skills"], "a": ["learn proper social behavior"], "b": [], "next": []}
  },
  {
   "id": "DDSA-g99p2_32",
@@ -3460,7 +3521,8 @@
     }
    ],
    "takeaway": "空格後面如果接著好幾句細節，先問這些細節有什麼共同點（這裡是「不鋪張」），再找能說出這個共同點的選項。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["a modest, home-grown affair"], "next": ["well dressed but not fancily"]}
  },
  {
   "id": "DDSA-g99p2_33",
@@ -3517,7 +3579,8 @@
     }
    ],
    "takeaway": "段首的空格，前面是上一段的最後一句，後面是這一段的細節，正解要兩邊都顧到。前一段如果寫了兩種相反的情形，這一句可能先把兩種一起帶過，再說出新的一段要談什麼。"
-  }
+  },
+  "clue": {"prev": ["Stretch limousines", "expensive restaurants"], "a": ["Whether simple or lavish"], "b": ["traumatic"], "next": ["worry"]}
  },
  {
   "id": "DDSA-g99p2_34",
@@ -3574,7 +3637,8 @@
     }
    ],
    "takeaway": "段首的空格後面如果馬上舉例，空格裡多半是這些例子的共同類別。先把例子讀懂，問它們是「什麼的例子」，再看哪個選項說得出來。"
-  }
+  },
+  "clue": {"prev": ["socially awkward teens", "fail to find a date"], "a": ["teens with particular needs"], "b": ["alternative proms"], "next": ["for example", "homeless youth"]}
  },
  {
   "id": "DDSA-z108p2_31",
@@ -3630,7 +3694,8 @@
     }
    ],
    "takeaway": "後一句說「有效」「大家都很意外」，表示前面一定先交代了某人試了什麼方法；空格要補的是那個具體的作法，不是一般性的說明。"
-  }
+  },
+  "clue": {"prev": ["not use any pain medication"], "a": ["relied on self-hypnosis"], "b": ["self-hypnosis"], "next": ["It worked", "hypnosis"]}
  },
  {
   "id": "DDSA-z108p2_32",
@@ -3683,7 +3748,8 @@
     }
    ],
    "takeaway": "前一句先說一個誤解，像是 `is often misunderstood as`（常被誤解為）、`many people believe`（很多人以為），空格多半就是說出正確看法的那一句。正確看法不一定帶著 `actually`（其實）這類字，要看它和誤解是不是意思相反，再看後面的句子是不是在說明這個正確看法的細節。"
-  }
+  },
+  "clue": {"prev": ["often misunderstood", "a kind of sleep"], "a": ["highly focused attention"], "b": ["highly focused attention", "intense concentration"], "next": ["tune out"]}
  },
  {
   "id": "DDSA-z108p2_33",
@@ -3740,7 +3806,8 @@
     }
    ],
    "takeaway": "段首的空格，先讀上一段最後一句，再把這一段讀完；正解要能把上一段的話題轉到這一段，也要概括得了這一段後面的內容。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["Not everyone", "to the same degree"], "next": ["people who are easily hypnotized"]}
  },
  {
   "id": "DDSA-z108p2_34",
@@ -3797,7 +3864,8 @@
     }
    ],
    "takeaway": "前一句只說「有一些變化」卻沒說是什麼，空格多半是把它講具體的那一句；填進去以後，再看下一段開頭說的「這」能不能順著指回它。"
-  }
+  },
+  "clue": {"prev": ["some interesting changes"], "a": ["Activity dropped"], "b": ["when people worry"], "next": ["This helps explain", "stress, anxiety"]}
  },
  {
   "id": "DDSA-z107p1_31",
@@ -3854,7 +3922,8 @@
     }
    ],
    "takeaway": "空格前後如果一邊講缺點、一邊講優點，空格多半需要一句先讓步、再轉向的話；接著看這一句預告了什麼（這一題是「兩個特點」），後面的內容要能一一對上。"
-  }
+  },
+  "clue": {"prev": ["made of wood"], "a": ["Though not a modern bike"], "b": ["two features"], "next": ["first vehicle with two wheels"]}
  },
  {
   "id": "DDSA-z107p1_32",
@@ -3907,7 +3976,8 @@
     }
    ],
    "takeaway": "段首的空格如果後面幾句先講問題、再講解決的辦法，空格裡要的是一句說出這一段目的的話；和後面字面相近的選項，不一定說出了這一段的用意。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["ordinary people", "an affordable way"], "next": ["Horses cost a lot"]}
  },
  {
   "id": "DDSA-z107p1_33",
@@ -3960,7 +4030,8 @@
     }
    ],
    "takeaway": "一段舉了好幾個例子以後，段末的空格常常是一句總括；下一段如果一開頭就轉向，這一句總括要和前面的例子朝同一個方向。"
-  }
+  },
+  "clue": {"prev": ["Riders in Britain", "racing on their own copies"], "a": ["In just two years"], "b": ["an international craze"], "next": ["The success", "short-lived", "though"]}
  },
  {
   "id": "DDSA-z107p1_34",
@@ -4017,7 +4088,8 @@
     }
    ],
    "takeaway": "最後一段如果先講失敗、再講後來的發展，中間常需要一句說明「事情並沒有就此結束」的話；判斷時回頭看第一段的主旨，結尾要和它一致。"
-  }
+  },
+  "clue": {"prev": ["had banned the machine"], "a": ["lived on long after"], "b": ["lived on"], "next": ["Decades later", "added pedals"]}
  },
  {
   "id": "DDSA-z106p4_31",
@@ -4069,7 +4141,8 @@
     }
    ],
    "takeaway": "空格前後講的範圍不一樣大時，先想想中間少了哪一步。這一題前面只有兩首國歌，後面已經是許多國家，空格就要交代國歌怎麼普及開來。"
-  }
+  },
+  "clue": {"prev": ["Next came Britain", "popular in the 1740s"], "a": ["18th and 19th centuries"], "b": ["spread through Europe", "so did national anthems"], "next": ["Many states", "took the British hymn"]}
  },
  {
   "id": "DDSA-z106p4_32",
@@ -4122,7 +4195,8 @@
     }
    ],
    "takeaway": "段首的空格，先把整段讀完再回頭找。後一句出現「前殖民地」「以前的統治者」這類要有前提的說法，空格就要先把這個前提講出來。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["the growth of empires", "distant parts of the world"], "next": ["former colonies", "their old rulers"]}
  },
  {
   "id": "DDSA-z106p4_33",
@@ -4175,7 +4249,8 @@
     }
    ],
    "takeaway": "主題句說「有兩種」「有幾類」，就數一數段落裡已經列出幾種；少了的那一種，常常就是空格要補的句子。"
-  }
+  },
+  "clue": {"prev": ["Italian opera"], "a": ["closer to folk music"], "b": ["local instruments"], "next": ["an anthem that sounds traditional"]}
  },
  {
   "id": "DDSA-z106p4_34",
@@ -4227,7 +4302,8 @@
     }
    ],
    "takeaway": "段末如果有一句總結（這一題是「日本作曲家寫的旋律，配上歐洲的和聲」），先拿它和空格前面對照，看中間少了哪一步。這一題前面說英國人譜曲，段末卻說旋律是日本人寫的，空格就是「換成日本人寫的旋律」這一步。"
-  }
+  },
+  "clue": {"prev": ["Fenton set them to music"], "a": ["About ten years later", "replaced the first version"], "b": ["their own melody"], "next": ["Yet", "the new tune", "Western harmony"]}
  },
  {
   "id": "DDSA-z97p1_31",
@@ -4283,7 +4359,8 @@
     }
    ],
    "takeaway": "後一句說某人「決定」做某件事情，先想想這個決定需要什麼前提；空格裡常常就是那個前提。"
-  }
+  },
+  "clue": {"prev": ["a very humble beginning"], "a": ["during the Great Depression"], "b": ["piggy banks"], "next": ["them", "toys"]}
  },
  {
   "id": "DDSA-z97p1_32",
@@ -4340,7 +4417,8 @@
     }
    ],
    "takeaway": "段末的空格要看下一段怎麼開頭。下一段提出一個正面的看法時，空格裡常常是一句把前面的事實總結成相反判斷的話。"
-  }
+  },
+  "clue": {"prev": ["returned after poor sales"], "a": ["a costly mistake"], "b": ["looked like a costly mistake"], "next": ["However", "saw immense potential"]}
  },
  {
   "id": "DDSA-z97p1_33",
@@ -4396,7 +4474,8 @@
     }
    ],
    "takeaway": "前面是某人的想法，後面是「終於」完成的成果，空格裡通常是中間那段努力；先把這三個步驟的順序排出來，再看哪個選項補得上。"
-  }
+  },
+  "clue": {"prev": ["a system for creative play"], "a": ["hold together better"], "b": ["hold together better"], "next": ["finally", "interlocking brick design"]}
  },
  {
   "id": "DDSA-z97p1_34",
@@ -4453,7 +4532,8 @@
     }
    ],
    "takeaway": "段首的空格，先讀完整段的例子，再問「這些例子共同在說明什麼」；能把它們都包括進去的那一句，就是主題句。"
-  }
+  },
+  "clue": {"prev": ["Small tubes underneath each brick", "gripped the one below"], "a": ["The new design"], "b": ["start over"], "next": ["taken apart", "turned into a ship", "pieces from a new set"]}
  },
  {
   "id": "DDSA-g110tp1_31",
@@ -4509,7 +4589,8 @@
     }
    ],
    "takeaway": "主題句如果只說「不一樣」「有改變」，卻沒說怎麼變，後面又用「這個模式」「這個趨勢」來稱呼它，空格多半就是把變化的方向具體說出來的那一句。"
-  }
+  },
+  "clue": {"prev": ["a very different size"], "a": ["tend to shrink", "often grow larger"], "b": ["tend to shrink", "often grow larger"], "next": ["This pattern"]}
  },
  {
   "id": "DDSA-g110tp1_32",
@@ -4566,7 +4647,8 @@
     }
    ],
    "takeaway": "上一段說完「發生了什麼事」，下一段的細節卻在比較好處和壞處，段首的空格多半是把話題轉到「為什麼」的主題句。選項要能回應上一段的現象，也要能概括這一段的細節。"
-  }
+  },
+  "clue": {"prev": ["the trend generally holds true"], "a": ["Why big mammals shrink"], "b": ["a large body", "in different places"], "next": ["In a mainland environment", "being large"]}
  },
  {
   "id": "DDSA-g110tp1_33",
@@ -4622,7 +4704,8 @@
     }
    ],
    "takeaway": "主題句說「要看是哪一種」，段落就應該把幾種情形都說出來。空格前只說了一種，空格多半就是和它相反的另一種；比較級（例如 `much more`）可以幫你確認兩句是在互相比較。"
-  }
+  },
+  "clue": {"prev": ["On balanced islands", "from shrinking very much"], "a": ["On smaller islands", "shrink much more"], "b": ["shrink much more"], "next": ["how far and how fast"]}
  },
  {
   "id": "DDSA-g110tp1_34",
@@ -4678,7 +4761,8 @@
     }
    ],
    "takeaway": "例子段的第一句如果先說「這個例子顯示了什麼」，後面每一句都在回答它。看看第一句要回答的事情哪一件還沒有答案，空格就是補上那個答案的句子。"
-  }
+  },
+  "clue": {"prev": ["normal-sized red deer"], "a": ["they gradually shrank", "one-sixth of the body weight"], "b": ["gradually shrank"], "next": ["The whole process"]}
  },
  {
   "id": "DDSA-g113p1_31",
@@ -4731,7 +4815,8 @@
     }
    ],
    "takeaway": "一段講完觀察，下一段就開始做產品，空格多半要說出「他從觀察想到了什麼」。選項要同時接得上前面看到的現象和後面要做的東西。"
-  }
+  },
+  "clue": {"prev": ["clung to them firmly"], "a": ["copying nature’s design", "a strong fastener"], "b": ["a strong fastener"], "next": ["Developing a real product"]}
  },
  {
   "id": "DDSA-g113p1_32",
@@ -4783,7 +4868,8 @@
     }
    ],
    "takeaway": "後一句說某個做法「結果才是答案」，先問「之前試過什麼」；空格常常就是那個失敗的嘗試。"
-  }
+  },
+  "clue": {"prev": ["a material strong enough"], "a": ["He started with cotton"], "b": ["wore out too quickly"], "next": ["Synthetic fibers"]}
  },
  {
   "id": "DDSA-g113p1_33",
@@ -4836,7 +4922,8 @@
     }
    ],
    "takeaway": "段首的空格，先把這一段後面的句子讀完，看它們共同在說明什麼，再找能概括它們的那一句；也要看看這一段和上一段是順著講，還是轉了方向。"
-  }
+  },
+  "clue": {"prev": ["mass-producing it in factories"], "a": ["In its early years", "did not sell well"], "b": ["took the invention seriously"], "next": ["ugly and cheap-looking", "used mostly on sports equipment"]}
  },
  {
   "id": "DDSA-g113p1_34",
@@ -4889,7 +4976,8 @@
     }
    ],
    "takeaway": "段首後面緊接著一長串例子，空格多半是概括這些例子的主題句；選項說的範圍要和例子對得上，意思也要和例子同一個方向。"
-  }
+  },
+  "clue": {"prev": ["in the 1960s"], "a": ["Today", "almost everywhere"], "b": ["from our homes to airplanes"], "next": ["clothing and shoes", "airplane seat cushions", "surgical gowns"]}
  },
  {
   "id": "DDSA-g114p3_31",
@@ -4946,7 +5034,8 @@
     }
    ],
    "takeaway": "段首的空格，先讀完整段，看後面的細節都在說明什麼，再回頭確認這一句和前一段接得上。前一段說「事情沒有這麼簡單」，空格就要說出不簡單在哪裡。"
-  }
+  },
+  "clue": {"prev": ["more to the story"], "a": ["For many centuries"], "b": ["played only a small part"], "next": ["Before Russia adopted Christianity", "low alcohol content"]}
  },
  {
   "id": "DDSA-g114p3_32",
@@ -4998,7 +5087,8 @@
     }
    ],
    "takeaway": "空格後面是俗語、引言或例子時，先看它在證明什麼，再找一句能讓它當證據的話。"
-  }
+  },
+  "clue": {"prev": ["Some documents noted", "others claimed"], "a": ["In those days", "other parts of Europe"], "b": ["better known for heavy drinking"], "next": ["their love of alcohol", "drunk as a German"]}
  },
  {
   "id": "DDSA-g114p3_33",
@@ -5055,7 +5145,8 @@
     }
    ],
    "takeaway": "段末的空格，先看這一段的主題句說了什麼，再看前一句的原因帶來什麼結果；這個結果如果又是下一段的起點，答案就更能確定。"
-  }
+  },
+  "clue": {"prev": ["vodka prices to drop sharply"], "a": ["Before long", "the poorest families"], "b": ["an everyday drink"], "next": ["anti-alcohol movement"]}
  },
  {
   "id": "DDSA-g114p3_34",
@@ -5111,7 +5202,8 @@
     }
    ],
    "takeaway": "前面說了「做了哪些事」、後面是今天的情況時，空格常常是在交代這些事的結果；選的時候先問這一句有沒有說出結果，再看後一句能不能證明它。"
-  }
+  },
+  "clue": {"prev": ["Government policies were introduced", "public organizations were set up"], "a": ["Despite all the new policies"], "b": ["heavy drinking never disappeared"], "next": ["still among the heaviest-drinking countries"]}
  },
  {
   "id": "DDSA-g104p1_31",
@@ -5166,7 +5258,8 @@
     }
    ],
    "takeaway": "空格後面如果接連列出幾件具體的事情（這一篇是歐洲巡演和日本節目票選），先問這些事有什麼共同點，再找一句能把它們全部說進去的選項。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["won fans far beyond Taiwan"], "next": ["several European countries"]}
  },
  {
   "id": "DDSA-g104p1_32",
@@ -5222,7 +5315,8 @@
     }
    ],
    "takeaway": "前面寫出某人的擔心，後面卻是好結果，空格多半是那個出乎意料的轉變。選項要回答的，正是前面擔心的那件事（這一篇是觀眾會不會睡著）。"
-  }
+  },
+  "clue": {"prev": ["would fall asleep"], "a": ["stayed wide-awake", "full attention and great interest"], "b": ["listening to every song"], "next": ["Afterward", "picture the children’s village"]}
  },
  {
   "id": "DDSA-g104p1_33",
@@ -5279,7 +5373,8 @@
     }
    ],
    "takeaway": "段首的空格，先把後面幾句講到的人物和事情列出來（這一篇是長老、孩子、父母），再找範圍剛好涵蓋它們的主題句。選項只說到其中一部分，或說的是另一件事，都不是這一段的主題句。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["the children and their parents", "rediscover their culture"], "next": ["only tribal elders", "sing these songs"]}
  },
  {
   "id": "DDSA-g104p1_34",
@@ -5336,7 +5431,8 @@
     }
    ],
    "takeaway": "空格前一句先否定一個說法（例如「不是為了名聲」），空格多半要說出真正的答案。選項要回答前一句問的同一件事（這一篇是他當初的用意），只說出一個好結果還不夠。"
-  }
+  },
+  "clue": {"prev": ["Winning international fame", "what Camake had in mind"], "a": ["His real aim", "keep their culture alive"], "b": [], "next": []}
  },
  {
   "id": "DDSA-g99rp3_31",
@@ -5397,7 +5493,8 @@
     }
    ],
    "takeaway": "第一段的空格常常要說出全篇在談的是什麼。先把後面幾段各講什麼看一遍（這一篇是難處、方法、發現），再回來找能帶出這些內容的句子；同時也要注意它和前一句的關係，這一題是「過去和現在」的對比。"
-  }
+  },
+  "clue": {"prev": ["a hot subject of research"], "a": ["researchers are looking for ways", "make people happier"], "b": ["make people happier"], "next": ["this kind of research"]}
  },
  {
   "id": "DDSA-g99rp3_32",
@@ -5454,7 +5551,8 @@
     }
    ],
    "takeaway": "段中的空格，先看這一段的主題句說了什麼（這一題是「有幾個障礙」），再看空格後一句是在舉什麼的例子；例子比的是兩個人，空格就要說出「兩個人很難比」這件事。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["one person’s sense of well-being", "greater than another’s"], "next": ["how can we be sure", "my “8”", "your “6”"]}
  },
  {
   "id": "DDSA-g99rp3_33",
@@ -5511,7 +5609,8 @@
     }
    ],
    "takeaway": "前一句說「找到方法」，後一句卻談一個看似無關的東西（這一題是笑容），空格通常就是把兩邊連起來的那一句：說出方法是什麼，後面的句子才是在解釋這個方法。"
-  }
+  },
+  "clue": {"prev": ["however", "better ways to measure happiness"], "a": ["can now keep track of", "genuinely smile"], "b": ["genuinely smile"], "next": ["Real smiles", "forced ones"]}
  },
  {
   "id": "DDSA-g99rp3_34",
@@ -5568,7 +5667,8 @@
     }
    ],
    "takeaway": "最後一段的段首空格，常常要把前面幾段的內容帶到結果或結論。先看後一句在列舉什麼（這一題是「其他」有研究支持的方法），再找能說出第一項、又和前一段接得上的句子。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["Studies show", "make people happier"], "next": ["Other research-backed happiness boosters"]}
  },
  {
   "id": "DDSA-z96p1_31",
@@ -5624,7 +5724,8 @@
     }
    ],
    "takeaway": "段落中間的空格，如果後面接著兩三件具體的事，先說出這幾件事的共同點，再找把共同點說出來的選項。"
-  }
+  },
+  "clue": {"prev": ["went to work at once"], "a": ["Though he worked long hours"], "b": ["keep learning"], "next": ["stayed to watch plays"]}
  },
  {
   "id": "DDSA-z96p1_32",
@@ -5677,7 +5778,8 @@
     }
    ],
    "takeaway": "段首的空格如果後面一句的話題來得很突然，空格多半要先交代這一段的範圍；時間詞可以幫忙確認先後，但還是要看後面各句是不是都在這個範圍裡。"
-  }
+  },
+  "clue": {"prev": [], "a": ["In the 1860s"], "b": ["the growing railroads", "far more iron"], "next": ["railroad bridges", "still made of wood"]}
  },
  {
   "id": "DDSA-z96p1_33",
@@ -5734,7 +5836,8 @@
     }
    ],
    "takeaway": "段末的空格後面如果是下一段的開頭，先看下一段第一句把什麼當成已經發生的事；這件事如果前面還沒說，空格多半就是要交代它。"
-  }
+  },
+  "clue": {"prev": ["He wished instead", "studying and reading widely"], "a": ["he finally sold his company", "left business behind"], "b": ["left business behind"], "next": ["the rest of his life", "giving away his fortune"]}
  },
  {
   "id": "DDSA-z96p1_34",
@@ -5787,7 +5890,8 @@
     }
    ],
    "takeaway": "前一句說「為什麼」、後一句說「做了什麼」時，中間的空格常常要交代「用什麼原則或方法」；找到這個原則，再確認後面的具體做法是不是符合它。"
-  }
+  },
+  "clue": {"prev": ["dies rich", "dies disgraced"], "a": ["hand out money"], "b": ["help people help themselves"], "next": ["small library of his boyhood", "build more than 2,500 libraries"]}
  },
  {
   "id": "DDSA-z102p3_31",
@@ -5844,7 +5948,8 @@
     }
    ],
    "takeaway": "段末的空格，先看這一段的範圍怎麼變化（這一篇是從一所學校到整個非洲），再看下一段第一句要接什麼。能把這一段的預測具體說到教室裡、讓下一段接得上的那一句，就是答案。"
-  }
+  },
+  "clue": {"prev": ["Some business leaders", "expect it to take off"], "a": ["If the optimists are right"], "b": ["tablets", "African classrooms"], "next": ["Such a change", "Kenya’s schools"]}
  },
  {
   "id": "DDSA-z102p3_32",
@@ -5896,7 +6001,8 @@
     }
    ],
    "takeaway": "空格前面是原因、後面是具體的情形時，空格常常就是說出結果的那一句。找一個既接得上前面的原因、又能概括後面細節的選項。"
-  }
+  },
+  "clue": {"prev": ["1.3 million extra pupils"], "a": ["could not handle", "so many children"], "b": ["short of teachers and money"], "next": ["class sizes soared"]}
  },
  {
   "id": "DDSA-z102p3_33",
@@ -5947,7 +6053,8 @@
     }
    ],
    "takeaway": "段首的空格後面如果直接出現幾個具體的名字和數字，先問這幾句有什麼共同點（這一篇是大企業的動作），再找能概括它們的選項。"
-  }
+  },
+  "clue": {"prev": [], "a": [], "b": ["technology giants", "African pupils learning digitally"], "next": ["Amazon", "Kindle e-readers in Africa"]}
  },
  {
   "id": "DDSA-z102p3_34",
@@ -6004,7 +6111,8 @@
     }
    ],
    "takeaway": "段首的空格，如果後面一句說的是「結果」或「答案」，空格常常就是提出問題的那一句。先看後面的例子在證明什麼，再找提出這個問題的選項。"
-  }
+  },
+  "clue": {"prev": ["exam-preparation tools", "became very popular"], "a": ["A bigger question"], "b": ["tablets and other digital tools", "actually help children learn"], "next": ["The early signs", "they do"]}
  },
  {
   "id": "DDSA-z102p4_31",
@@ -6056,7 +6164,8 @@
     }
    ],
    "takeaway": "後一句有人「懷疑、想知道是不是真的」，空格多半要交代他懷疑的那件事。先找出他懷疑的是什麼，再看哪個選項說出了這件事。"
-  }
+  },
+  "clue": {"prev": ["made the journey to Sparta"], "a": ["he reached Sparta", "the day after he left"], "b": ["the day after he left"], "next": ["cover that distance so quickly"]}
  },
  {
   "id": "DDSA-z102p4_32",
@@ -6109,7 +6218,8 @@
     }
    ],
    "takeaway": "段首的空格，先把這一段後面的句子讀完，看它們都在說什麼，再找一句總說得了它們的話；如果那一句同時也照應得到上一段，就更能確定它是這一段的主題句。"
-  }
+  },
+  "clue": {"prev": ["Their success", "the first Spartathlon"], "a": ["its history"], "b": ["its difficulty"], "next": ["not the hardest race", "many different tests"]}
  },
  {
   "id": "DDSA-z102p4_33",
@@ -6166,7 +6276,8 @@
     }
    ],
    "takeaway": "段落末尾的空格，先看這一段要談哪幾件事情，再看段中已經談了哪幾件；還沒談到的那一件，多半就是空格要補的。"
-  }
+  },
+  "clue": {"prev": ["Above all", "constant pressure of the clock"], "a": ["also", "following in Pheidippides’s footsteps"], "b": [], "next": []}
  },
  {
   "id": "DDSA-z102p4_34",
@@ -6218,7 +6329,8 @@
     }
    ],
    "takeaway": "前一句說某種情況「維持不了多久」，空格多半要說出是什麼讓它結束；填進去以後，再看後一句是不是這件事的具體樣子。"
-  }
+  },
+  "clue": {"prev": ["However", "does not last long"], "a": ["Within just a few minutes", "start to stiffen"], "b": ["muscles start to stiffen"], "next": ["move slowly and painfully"]}
  },
  {
   "id": "DDSA-z99p3_31",
@@ -6274,7 +6386,8 @@
     }
    ],
    "takeaway": "空格前一句如果已經把一件事說成「不難理解」「不意外」，空格常常是在轉向真正值得討論的問題。找到這個問題以後，再確認後面幾句是不是都在回答它。"
-  }
+  },
+  "clue": {"prev": ["price is easy to understand", "only in very small amounts"], "a": ["What is harder to explain", "why so little of it"], "b": ["why so little of it"], "next": ["are not rare", "beans found in civet droppings"]}
  },
  {
   "id": "DDSA-z99p3_32",
@@ -6331,7 +6444,8 @@
     }
    ],
    "takeaway": "段首空格的後面如果是一連串關於某個對象的具體細節，先想想這些細節在說誰、說什麼，空格多半是介紹這個對象的主題句。上一段最後如果剛提到這個對象，主題句也就把兩段連了起來。"
-  }
+  },
+  "clue": {"prev": ["the animal’s body"], "a": ["The palm civet", "a cat-sized animal"], "b": ["The palm civet", "feeds mainly on fruit"], "next": ["it", "feed on the cherries"]}
  },
  {
   "id": "DDSA-z99p3_33",
@@ -6387,7 +6501,8 @@
     }
    ],
    "takeaway": "前一句如果說某個解釋「不是全部的原因」「不是唯一的解釋」，空格多半要提出另一個原因。找的時候要確認選項說的是同一件事的原因（這一篇是咖啡的味道），而不只是另一件事。"
-  }
+  },
+  "clue": {"prev": ["not be the whole story"], "a": ["Wild civets are thought"], "b": [], "next": []}
  },
  {
   "id": "DDSA-z99p3_34",
@@ -6444,7 +6559,8 @@
     }
    ],
    "takeaway": "段落主旨如果說某件事「付出了代價」「帶來了問題」，緊接的空格多半要說出這個代價或問題的具體內容。再看後面的細節是不是在描述這個情況，就能確認。"
-  }
+  },
+  "clue": {"prev": ["Its popularity", "high price for the civets"], "a": ["To meet the growing demand", "keep civets in small cages"], "b": ["civets in small cages"], "next": ["kept on wire floors", "some of them"]}
  },
  {
   "id": "DDSA-zref95p4_31",
@@ -6499,7 +6615,8 @@
     }
    ],
    "takeaway": "段落第一句先下一個概括的評語（像這一篇的 `remarkable`），後面又在說它怎麼發展，夾在中間的空格通常就是把評語講具體的細節。"
-  }
+  },
+  "clue": {"prev": ["a remarkable civilization"], "a": ["It is famous for", "written language, striking art"], "b": ["advanced mathematics and astronomy"], "next": ["Mayan culture took shape"]}
  },
  {
   "id": "DDSA-zref95p4_32",
@@ -6555,7 +6672,8 @@
     }
    ],
    "takeaway": "段落一開頭就把兩樣東西分開講（這一篇是城邦和共同的文化），後面卻只講其中一樣的下場，空格常常是在交代另一樣；`only`（只有）這類字只能幫你確認，不能單靠它作答。"
-  }
+  },
+  "clue": {"prev": ["after the Classic Period ended", "ceased to be centers"], "a": ["Mayan culture survived"], "b": ["still alive today"], "next": ["Only the cities were lost"]}
  },
  {
   "id": "DDSA-zref95p4_33",
@@ -6612,7 +6730,8 @@
     }
    ],
    "takeaway": "上一段以一個問題結尾，下一段又在一項一項列出原因，這一段的第一句通常就是從問題轉到答案的主題句。"
-  }
+  },
+  "clue": {"prev": ["why these cities simply disappeared"], "a": ["the causes", "several factors"], "b": ["several factors"], "next": ["large-scale, continuous warfare"]}
  },
  {
   "id": "DDSA-zref95p4_34",
@@ -6669,6 +6788,7 @@
     }
    ],
    "takeaway": "前一句給了一個事實（人口有多稠密），下一段一開始又是它的後果（樹木消失），段末的空格通常就是把兩者連起來的因果。"
-  }
+  },
+  "clue": {"prev": ["200 people per square kilometer"], "a": ["To feed their growing numbers"], "b": ["cleared more and more"], "next": ["very few trees were left"]}
  }
 ]

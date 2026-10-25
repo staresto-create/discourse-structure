@@ -6241,7 +6241,8 @@
    "takeaway": "選項只有三五個字時不要先排除它。定義句後面常接一句「換句話說」，那種句子本來就短。"
   },
   "accuracyRate": 46,
-  "discrimination": 58
+  "discrimination": 58,
+  "clue": {"prev": ["all about true things"], "a": ["Nothing is made up"], "b": [], "next": ["biography", "autobiography"]}
  },
  {
   "id": "Dz91p1_45",

@@ -1301,7 +1301,8 @@
    "takeaway": "前後都在列同一類東西、又沒有轉折詞，空格幾乎一定是清單上的另一項。先確認這一項屬於哪一段的分工。"
   },
   "accuracyRate": 45,
-  "discrimination": 26
+  "discrimination": 26,
+  "clue": {"prev": ["mukaebi (welcoming fire)"], "a": ["also"], "b": [], "next": ["Food offerings"]}
  },
  {
   "id": "Dg111_33",
