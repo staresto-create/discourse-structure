@@ -46,7 +46,7 @@ ul.exWhy li{margin-bottom:6px;}
   margin:0 0 11px; color:var(--ink-soft);}
 .exTake{font-size:14.5px; line-height:1.9; background:var(--tint-note);
   border-left:3px solid var(--gold); padding:10px 13px; border-radius:2px;}
-.exTake .lb{font-weight:700; color:var(--gold);}
+.exTake .lb{display:block; font-family:'Noto Serif TC',serif; font-weight:700; color:var(--gold); font-size:13px; margin-bottom:3px; letter-spacing:.04em;}
 .exAns{font-size:14.5px; line-height:1.85; background:var(--tint-sage6);
   border-left:3px solid var(--sage); padding:8px 12px; border-radius:2px;
   margin-bottom:12px;}
