@@ -6790,5 +6790,236 @@
    "takeaway": "前一句給了一個事實（人口有多稠密），下一段一開始又是它的後果（樹木消失），段末的空格通常就是把兩者連起來的因果。"
   },
   "clue": {"prev": ["200 people per square kilometer"], "a": ["To feed their growing numbers"], "b": ["cleared more and more"], "next": ["very few trees were left"]}
+ },
+ {
+  "id": "DDSA-6mepets_31",
+  "year": "（三十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-6mepets",
+  "blankNum": 31,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "As living standards rose, families had money to spare, and some of it could go to an animal that earned nothing.",
+   "B": "Yet for most of history, animals were allowed into British homes only because they had work to do.",
+   "C": "In one survey, about half of British owners called their pet their best friend, and many pets now have online accounts.",
+   "D": "Of all the animals that entered Victorian homes, the dog soon became the nation’s clear favorite.",
+   "E": "Keeping exotic animals was therefore a privilege that only the richest Victorian families could afford."
+  },
+  "answer": "B",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意對比",
+   "概括—列舉呼應"
+  ],
+  "cueNote": "前兩句講現在（`In 2021`）↔ B 的 `for most of history` 拉回過去，`Yet` 是轉折；後一句的看門、抓老鼠是 B `had work to do` 的兩個例子；C 也講現在，要看出後一句 `Dogs guarded the door` 是在說過去才排除得掉",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看這一段在講什麼。",
+     "t": "第一段是全文的開頭。前兩句先說英國人自稱愛動物的民族，也有數字支持；空格之後，一句接著說狗負責看門、貓負責抓老鼠。再往後看，第二段從 1800 年代講起，第三段講維多利亞時代的狗，第四段講今天。也就是說，全篇講的是寵物從過去到現在的變化，第一段要先交代：過去的情形和現在不同。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "前兩句講的是現在：英國人自稱愛動物，2021 年有養寵物的家庭首度多過沒有養的，大約一千八百萬戶。這是今天的情形，沒有說過去是什麼樣子。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `Dogs guarded the door, cats kept mice under control, and few owners thought of either as a companion.`（狗負責看門，貓負責抓老鼠，很少有飼主把這兩種動物當成伴侶。）這一句舉出狗和貓的工作當例子，說明動物當時是「做事的」，不是「作伴的」。遮住選項來看，這裡需要一句總括的話：先說明過去的情形，後一句的看門和抓老鼠才有東西可以舉例。"
+    }
+   ],
+   "why": "B 的 `for most of history`（在歷史上的大部分時間裡）把時間從前面的 `In 2021`（2021 年）拉回過去，`Yet`（然而）也表示轉折：現在這麼多人養寵物，過去卻不是這樣。B 的 `had work to do`（有工作要做）是一句概括，後一句的看門和抓老鼠正好是兩個例子，這是概括接列舉的寫法。B 還替第二段開頭的 `The change began in the 1800s`（這個轉變從 1800 年代開始）預先交代了「轉變」是從什麼轉到什麼。",
+   "distractors": [
+    {
+     "opt": "C",
+     "t": "C 繼續講今天的調查數字，好像可以接在 2021 年的統計後面，是這一格最容易誤選的選項。可是後一句 `Dogs guarded the door`（狗負責看門）講的是動物過去的工作，和調查數字接不起來；C 也沒有交代過去和現在的差別，第二段的 `The change` 就沒有來由。C 的位置在第 34 格。"
+    },
+    {
+     "opt": "D",
+     "t": "D 講狗成了最受喜愛的動物，和後一句的狗有關。可是 D 的 `Victorian homes`（維多利亞時代的家庭）是 1800 年代的事，第一段還沒講到那個時代；後一句的看門是狗的工作，不是狗受歡迎的程度。D 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "第一段如果前面講現在、後面舉的例子卻是過去，空格裡通常要一句拉回過去的話，並且用 `Yet` 這類詞轉折。先判斷前後兩邊分別講哪個時間，再選擇能把兩邊接起來的句子。"
+  },
+  "clue": {"prev": ["In 2021"], "a": ["Yet", "for most of history"], "b": ["had work to do"], "next": ["Dogs guarded the door", "kept mice under control"]}
+ },
+ {
+  "id": "DDSA-6mepets_32",
+  "year": "（三十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-6mepets",
+  "blankNum": 32,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "As living standards rose, families had money to spare, and some of it could go to an animal that earned nothing.",
+   "B": "Yet for most of history, animals were allowed into British homes only because they had work to do.",
+   "C": "In one survey, about half of British owners called their pet their best friend, and many pets now have online accounts.",
+   "D": "Of all the animals that entered Victorian homes, the dog soon became the nation’s clear favorite.",
+   "E": "Keeping exotic animals was therefore a privilege that only the richest Victorian families could afford."
+  },
+  "answer": "A",
+  "categories": [
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意呼應",
+   "前提呼應"
+  ],
+  "cueNote": "後一句的 `went further`（更進一步）要先有人花了錢 ↔ A 的 `money to spare`、`animal that earned nothing`；再下一句 `Money alone does not explain` 的 `Money` 也要前面先講過錢；E 的 `therefore` 沒有前因，還先講了後一句才要舉的珍奇的外來動物",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看這一段在講什麼。",
+     "t": "第二段在說明寵物這個概念為什麼會出現。第一句說 1800 年代把寵物當成伴侶的現代觀念開始成形；後面先說有些富有的飼主出手更闊綽，接著說光靠錢解釋不了這股風潮，最後談家庭觀念。也就是說，這一段在講原因，有兩個：錢和家庭觀念。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "前一句是 `The change began in the 1800s, when the modern idea of the pet as a companion began to take shape.`（這個轉變從 1800 年代開始，當時把寵物當成伴侶的現代觀念開始成形。）這一句只說明轉變從什麼時候開始，還沒有說為什麼。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `Some wealthy owners went further, shipping in monkeys and lions from the colonies.`（有些富有的飼主更進一步，從殖民地運來猴子和獅子。）`went further`（更進一步）表示前面已經有人在這件事上花了錢，這些富人只是花得更多。再下一句 `Money alone does not explain the trend`（光靠錢並不能解釋這股風潮），`Money` 也要前面先談過錢才接得上。遮住選項來看，這裡需要一句話，說出錢和這股風潮的關係，也就是第一個原因。"
+    }
+   ],
+   "why": "A 說 `As living standards rose`（隨著生活水準提高），家庭 `had money to spare`（手上有多餘的錢），其中一部分可以花在 `an animal that earned nothing`（一隻賺不了錢的動物）身上，這就是風潮的經濟原因。後一句的 `went further`（更進一步）把花錢的做法再推一步，下一句的 `Money alone does not explain` 又回頭呼應這個原因。A 的 `an animal that earned nothing` 也和第一段的 `had work to do`（有工作要做）形成對比：過去動物要工作，到了 1800 年代，不必工作的動物也養得起了。",
+   "distractors": [
+    {
+     "opt": "E",
+     "t": "E 講只有最富有的家庭才養得起珍奇的外來動物，也和錢有關，是這一格最容易誤選的選項。可是 E 的 `therefore`（因此）要有前一句講原因才接得上，空格前面只說明轉變從什麼時候開始，沒有原因；E 又先講了珍奇的外來動物，後一句 `Some wealthy owners went further, shipping in monkeys and lions` 才開始舉例，兩句內容重複，`went further` 也失去「更進一步」的意思。E 是多出來的選項。"
+    },
+    {
+     "opt": "B",
+     "t": "B 講過去動物是為了工作才能進家門，說的是這個轉變發生以前的事，第二段第一句已經說「轉變從 1800 年代開始」，不必再回頭講；而且 B 的 `Yet` 在這裡找不到可以轉折的對象。B 的位置在第 31 格。"
+    }
+   ],
+   "takeaway": "後一句用 `went further`（更進一步）、`also`（也）這類說法時，空格裡要有一個比較普通的做法，後面的例子才是「更進一步」。先問「進一步是相對於什麼」，再找交代那件事的選項。"
+  },
+  "clue": {"prev": ["The change began in the 1800s"], "a": ["As living standards rose", "money to spare"], "b": ["an animal that earned nothing"], "next": ["went further", "Money alone"]}
+ },
+ {
+  "id": "DDSA-6mepets_33",
+  "year": "（三十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-6mepets",
+  "blankNum": 33,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "As living standards rose, families had money to spare, and some of it could go to an animal that earned nothing.",
+   "B": "Yet for most of history, animals were allowed into British homes only because they had work to do.",
+   "C": "In one survey, about half of British owners called their pet their best friend, and many pets now have online accounts.",
+   "D": "Of all the animals that entered Victorian homes, the dog soon became the nation’s clear favorite.",
+   "E": "Keeping exotic animals was therefore a privilege that only the richest Victorian families could afford."
+  },
+  "answer": "D",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握篇章整體結構發展及段落與段落間的關係"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "概括—列舉呼應",
+   "範圍呼應"
+  ],
+  "cueNote": "後三句（忠誠、貓、愛狗之國）都在講狗的地位 ↔ D 的 `the dog soon became the nation’s clear favorite` 是這一段的主旨；上一段結尾只講寵物為什麼流行，沒有說哪一種動物；A 講錢，上一段已經收尾",
+  "cuePosition": "後一句",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看這一段在講什麼。",
+     "t": "第三段的空格在段首。這一段後面三句，分別說維多利亞時代的人推崇狗的忠誠、貓被視為嬌弱、第一次稱英國為愛狗的民族，講的都是狗在當時的地位。這一段的主旨就是這件事，所以段首要先有一句點出主題。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "前一句是第二段的最後一句 `The home itself was celebrated as the center of respectable life, and a pet was a way of bringing an animal into the family circle.`（家庭本身被推崇為體面生活的核心，養寵物是把動物納入家庭的一種方式。）這一句講的是寵物為什麼流行，還沒有談到是哪一種動物。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `Victorians prized dogs for being loyal...`（維多利亞時代的人推崇狗的忠誠……）。這一句突然開始講狗，沒有交代為什麼要談狗。遮住選項來看，這裡需要一句總括的話：進到家裡的動物很多，其中以狗最受歡迎，後面三句才是說明和舉例。"
+    }
+   ],
+   "why": "D 的 `Of all the animals that entered Victorian homes`（在進入維多利亞時代家庭的所有動物之中）接續上一段「把動物帶進家庭」，`the dog soon became the nation’s clear favorite`（狗很快就成了全國公認最受喜愛的動物）正是這一段的主旨。後面三句依序說明狗為什麼受歡迎（忠誠）、貓的對比（嬌弱）、愛狗之國的說法，都是這句話的細節。",
+   "distractors": [
+    {
+     "opt": "A",
+     "t": "A 講生活水準提高、家庭有多餘的錢，也像接在上一段後面。可是上一段已經說完「光靠錢不能解釋」，錢的原因在第二段已經收尾；這一段講的是狗，A 沒有提到狗，後面的 `Victorians prized dogs` 就沒有來由。A 的位置在第 32 格。"
+    },
+    {
+     "opt": "E",
+     "t": "E 講珍奇的外來動物是有錢人的特權，可是這一段後面完全沒有再提珍奇的外來動物，三句講的都是狗和貓。E 是多出來的選項。"
+    }
+   ],
+   "takeaway": "段首的空格，先看後面幾句是不是在講同一件事。如果後面三句都在說明或舉例，空格裡就是一句總括的主旨句，要能涵蓋後面所有細節。"
+  },
+  "clue": {"prev": ["bringing an animal into the family circle"], "a": ["Of all the animals", "Victorian homes"], "b": ["the dog soon became", "clear favorite"], "next": ["Victorians prized dogs", "Cats, by contrast"]}
+ },
+ {
+  "id": "DDSA-6mepets_34",
+  "year": "（三十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "passageId": "DSA-6mepets",
+  "blankNum": 34,
+  "optionCount": 5,
+  "eliminationValid": false,
+  "options": {
+   "A": "As living standards rose, families had money to spare, and some of it could go to an animal that earned nothing.",
+   "B": "Yet for most of history, animals were allowed into British homes only because they had work to do.",
+   "C": "In one survey, about half of British owners called their pet their best friend, and many pets now have online accounts.",
+   "D": "Of all the animals that entered Victorian homes, the dog soon became the nation’s clear favorite.",
+   "E": "Keeping exotic animals was therefore a privilege that only the richest Victorian families could afford."
+  },
+  "answer": "C",
+  "categories": [
+   "掌握段落主題句和細節的關係",
+   "掌握段落內語句的連貫性與一致性"
+  ],
+  "categorySource": null,
+  "cueTypes": [
+   "語意呼應",
+   "轉折詞"
+  ],
+  "cueNote": "前一句 `an even higher status` 只下結論 ↔ C 的 `best friend`、`online accounts` 是地位提高的證據；後一句 `Some things have not changed, though` 的 `though` 要前面先講「變了的事」；B 講過去，放進來沒有任何今天的變化",
+  "cuePosition": "兩側",
+  "explanation": {
+   "steps": [
+    {
+     "h": "先看這一段在講什麼。",
+     "t": "第四段講今天的寵物。第一句說今天的寵物地位更高，空格在第二句，後面兩句先說有些事沒有改變，最後用兩百年來的變化總結全文。也就是說，這一段先講變了什麼，再講沒變什麼。"
+    },
+    {
+     "h": "再看空格前面。",
+     "t": "前一句是 `Today’s pets enjoy an even higher status.`（今天的寵物地位更高。）這是這一段的主旨句，只下了結論，沒有說明地位高在哪裡。"
+    },
+    {
+     "h": "再看空格後面。",
+     "t": "後一句是 `Some things have not changed, though`（不過，有些事情沒有改變），`though`（不過）表示和前面形成轉折，所以前面講的一定是「變了的事」。遮住選項來看，這裡需要一句具體的證據，說明今天的寵物地位真的提高了。"
+    }
+   ],
+   "why": "C 說 `about half of British owners called their pet their best friend`（約一半的英國飼主把自己的寵物當成最好的朋友），`many pets now have online accounts`（許多寵物現在有自己的網路帳號），這兩件事過去沒有，正好支持 `an even higher status`（地位更高）。後一句的 `though` 就從這些「變了的事」轉到「沒變的事」。",
+   "distractors": [
+    {
+     "opt": "B",
+     "t": "B 講過去動物是為了工作才能進家門，`Yet`（然而）好像能和前一句「今天地位更高」形成對比。可是後一句說 `Some things have not changed`，空格要先講「變了的事」，B 講的卻是過去，沒有提到今天的任何變化。B 的位置在第 31 格。"
+    },
+    {
+     "opt": "D",
+     "t": "D 講維多利亞時代的狗，這一段講的是今天，D 的時間不對。D 的位置在第 33 格。"
+    }
+   ],
+   "takeaway": "後一句用 `though`、`however` 這類轉折詞時，空格裡要放和後一句相反的內容。先看後一句在說「沒變」還是「變了」，空格就是另一邊。"
+  },
+  "clue": {"prev": ["an even higher status"], "a": ["about half of British owners", "best friend"], "b": ["many pets now have online accounts"], "next": ["though", "Some things have not changed"]}
  }
 ]

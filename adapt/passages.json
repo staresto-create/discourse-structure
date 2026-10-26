@@ -4446,5 +4446,151 @@
    "選項長度變異係數": "3.2%",
    "建檔": "2026-10-12 依第三版命題規格（大考中心命題工作坊原則）重做；改編自 zref95p4；命題分身出題，盲測與四方審閱後裁定修訂。"
   }
+ },
+ {
+  "id": "DSA-6mepets",
+  "year": "（三十一）",
+  "exam": "改編練習",
+  "examType": "改編練習",
+  "title": "寵物怎麼從工作動物變成家人（From Working Animal to Family Member）",
+  "titleStatus": null,
+  "blankCount": 4,
+  "optionCount": 5,
+  "spec": "5選4",
+  "eliminationValid": false,
+  "unusedOptions": [
+   "E"
+  ],
+  "blankRange": [
+   31,
+   34
+  ],
+  "options": {
+   "A": "As living standards rose, families had money to spare, and some of it could go to an animal that earned nothing.",
+   "B": "Yet for most of history, animals were allowed into British homes only because they had work to do.",
+   "C": "In one survey, about half of British owners called their pet their best friend, and many pets now have online accounts.",
+   "D": "Of all the animals that entered Victorian homes, the dog soon became the nation’s clear favorite.",
+   "E": "Keeping exotic animals was therefore a privilege that only the richest Victorian families could afford."
+  },
+  "optionsZh": {
+   "A": "生活水準提高以後，家家戶戶手頭有了閒錢，其中一部分就能花在不必幹活的動物身上。",
+   "B": "然而，在歷史上的大部分時間裡，動物之所以能進到英國人的家裡，只是因為有工作要做。",
+   "C": "在一項調查中，約有一半的英國飼主把自己的寵物當成最好的朋友，而且現在許多寵物都有自己的社群帳號。",
+   "D": "在進入維多利亞時代家庭的所有動物之中，狗很快就成了全國公認最受喜愛的動物。",
+   "E": "因此，養珍奇的外來動物成了只有最富有的維多利亞時代家庭才負擔得起的特權。"
+  },
+  "unusedExplanation": {
+   "opt": "E",
+   "lead": "E 說養珍奇的外來動物是只有最富有的維多利亞時代家庭才負擔得起的特權。它和第二段 `Some wealthy owners went further, shipping in monkeys and lions` 談的是同一件事，也和寵物的歷史有關，單看這一句念起來沒有毛病。問題在於：**沒有任何一格在等這樣一句話。**逐格來看：",
+   "rows": [
+    {
+     "blank": 31,
+     "want": "概括過去動物有工作，才能引出後一句看門和抓老鼠的例子",
+     "why": "E 講的是維多利亞時代的珍奇的外來動物，第一段還沒有談到那個時代，也和後一句的看門、抓老鼠沒有關係"
+    },
+    {
+     "blank": 32,
+     "want": "說出錢和寵物風潮的關係，再接 `went further` 的舉例",
+     "why": "E 的 `therefore` 找不到前因，又把後一句 `Some wealthy owners` 要舉的例子先講了一遍，`went further` 就不再有「更進一步」的意思"
+    },
+    {
+     "blank": 33,
+     "want": "點出這一段的主旨：狗成為最受歡迎的動物",
+     "why": "E 講的是珍奇的外來動物，這一段後面三句講的都是狗和貓"
+    },
+    {
+     "blank": 34,
+     "want": "說出今天的寵物地位更高的證據",
+     "why": "E 講的是維多利亞時代，這一格前後都是今天的情形，後一句的 `Some things have not changed` 也無從轉折"
+    }
+   ],
+   "summary": "**這一篇多出來的 E 屬於「主題對，卻沒有段落在等它」。**E 談的是寵物的歷史，用字也和第二段相近，但它說的事已經被第二段的一個例句交代過，其他三段又用不到。",
+   "extra": [],
+   "takeaway": "判斷多餘選項，不要先找「看起來最不像的那一個」。先一格一格問「這一格前後在等什麼」，填滿四格，剩下的就是多的。"
+  },
+  "paraLabels": [
+   "破題：現在養寵物很普遍，但過去動物進家門是為了工作",
+   "原因：生活水準提高，加上家庭觀念，動物成了家人",
+   "狗的地位：維多利亞時代的人推崇狗的忠誠",
+   "現在：寵物地位更高，人們仍用狗或貓形容自己"
+  ],
+  "marks": [
+   [
+    0,
+    "__31__",
+    "topic"
+   ],
+   [
+    1,
+    "The change began in the 1800s, when the modern idea of the pet as a companion began to take shape.",
+    "topic"
+   ],
+   [
+    2,
+    "__33__",
+    "topic"
+   ],
+   [
+    3,
+    "Today’s pets enjoy an even higher status.",
+    "topic"
+   ],
+   [
+    3,
+    "In two centuries, then, the pet has moved from the doorstep to the living room, and from the workplace to the family.",
+    "thesis"
+   ],
+   [
+    "B",
+    "Yet",
+    "trans"
+   ],
+   [
+    1,
+    "however",
+    "trans"
+   ],
+   [
+    2,
+    "by contrast",
+    "trans"
+   ],
+   [
+    3,
+    "though",
+    "trans"
+   ],
+   [
+    3,
+    "then",
+    "trans"
+   ]
+  ],
+  "paras": [
+   "Britain likes to call itself a nation of animal lovers, and the figures seem to support the claim. In 2021, for the first time, more British homes had a pet than did not, with roughly eighteen million households keeping at least one. __31__ Dogs guarded the door, cats kept mice under control, and few owners thought of either as a companion.",
+   "The change began in the 1800s, when the modern idea of the pet as a companion began to take shape. __32__ Some wealthy owners went further, shipping in monkeys and lions from the colonies. Money alone does not explain the trend, however. The home itself was celebrated as the center of respectable life, and a pet was a way of bringing an animal into the family circle.",
+   "__33__ Victorians prized dogs for being loyal, a quality they linked with the strength of character they hoped to see in themselves. Cats, by contrast, were thought of as delicate and weak. When the Victorians first called Britain a nation of dog lovers, they were really describing themselves.",
+   "Today’s pets enjoy an even higher status. __34__ Some things have not changed, though: people still describe themselves as a dog person or a cat person, as if the choice revealed their personality. In two centuries, then, the pet has moved from the doorstep to the living room, and from the workplace to the family."
+  ],
+  "zhTranslation": [
+   "英國人喜歡稱自己是愛動物的民族，從數字來看，這個說法似乎站得住腳。2021 年，英國有養寵物的家庭首度多過沒有養的，大約有一千八百萬戶人家至少養了一隻。__31__ 狗負責看門，貓負責抓老鼠，很少有飼主把這兩種動物當成伴侶。",
+   "這個轉變從 1800 年代開始，當時把寵物當成伴侶的現代觀念開始成形。__32__ 有些富有的飼主更進一步，從殖民地運來猴子和獅子。不過，光靠錢並不能解釋這股風潮。家庭本身被推崇為體面生活的核心，養寵物就成了把動物納入家庭的一種方式。",
+   "__33__ 維多利亞時代的人推崇狗的忠誠，並且把這種特質和他們希望自己具備的堅毅品格連在一起。相對地，貓則被視為嬌弱、不夠堅強。當維多利亞時代的人第一次稱英國為愛狗的民族時，其實是在形容他們自己。",
+   "今天的寵物地位更高了。__34__ 不過，有些事情沒有改變：人們仍然把自己歸類為愛狗的人或愛貓的人，彷彿這個選擇就能說明自己的個性。由此可見，兩百年來，寵物從門口走進了客廳，身分也從工作的動物變成了家人。"
+  ],
+  "reading": [],
+  "flagNote": "本題庫改編練習：文章改寫自 BBC Learning English 6 Minute English〈Our love of pets〉（2024-01-04），照現行學測篇章結構的版面出題（第 31–34 題，5 選 4），參考答案與解析由本題庫撰寫，沒有官方答對率。",
+  "flagKind": [
+   "出處說明"
+  ],
+  "sourceFile": null,
+  "internalNote": {
+   "_說明": "命題端量測，網站不顯示，供審稿使用",
+   "還原後句數": 17,
+   "選項字數區間": "16-21",
+   "選項字數全距": 5,
+   "選項長度變異係數": "11.1%",
+   "建檔": "2026-10-26 改寫自 6 Minute English〈Our love of pets〉。"
+  }
  }
 ]
