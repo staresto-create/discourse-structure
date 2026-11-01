@@ -36,6 +36,10 @@
 
   .sec-title{font-family:'IBM Plex Mono','Noto Sans TC',monospace; font-size:11px; letter-spacing:.12em; color:var(--crimson); text-transform:uppercase; margin:22px 0 10px; display:flex; align-items:center; gap:8px;}
   .sec-title::after{content:""; flex:1; height:1px; background:var(--rule);}
+  .topic-note{font-size:12.5px; color:var(--ink-soft); line-height:1.7; margin:0 0 10px;}
+  .topic-sub-label{font-size:12px; color:var(--ink-soft); margin:10px 0 6px;}
+  .topic-clear{margin:8px 0 0;}
+  .topic-clear button{background:none; border:0; padding:8px 0; min-height:32px; font:inherit; font-size:12px; color:var(--ink-soft); cursor:pointer; text-decoration:underline;}
   .sec-note{font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px; color:var(--ink-soft);}
 
   .cat-grid{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:6px;}
@@ -413,7 +417,7 @@ details[open]:not(.sh) > summary::after{content:"－ 收合" !important;}
   </header>
 
   <div id="homeView">
-    <nav class="unitbar" id="unitbar" aria-label="本頁單元"><div class="ubrow"><span class="ublab">第一次使用？</span><a href="../JCEE-vocab-questions/howto.html">怎麼使用這個題庫</a></div><div class="ubrow"><span class="ublab">同一題庫</span><a href="map/">題目地圖</a></div><div class="ubrow"><span class="ublab">本頁單元</span><a href="#u-start">開始練習</a><a href="#u-hist">我的學習歷程</a><a href="#u-range">依考別／規格篩選</a><a href="#adapt">仿真練習</a><a href="#u-about">關於本題庫的資料</a></div><div class="ubnote">支援深色模式（夜間模式），會自動配合手機或電腦的外觀設定。</div></nav>
+    <nav class="unitbar" id="unitbar" aria-label="本頁單元"><div class="ubrow"><span class="ublab">第一次使用？</span><a href="../JCEE-vocab-questions/howto.html">怎麼使用這個題庫</a></div><div class="ubrow"><span class="ublab">同一題庫</span><a href="map/">題目地圖</a></div><div class="ubrow"><span class="ublab">本頁單元</span><a href="#u-start">開始練習</a><a href="#u-hist">我的學習歷程</a><a href="#u-range">依考別／規格篩選</a><a href="#u-topic">篩選文章主題</a><a href="#adapt">仿真練習</a><a href="#u-about">關於本題庫的資料</a></div><div class="ubnote">支援深色模式（夜間模式），會自動配合手機或電腦的外觀設定。</div></nav>
     <div data-start-here></div>
     <p class="home-desc print-note" style="margin:0 0 14px"><b>想用紙本練習？</b>進到題目畫面後，按最上方的「🖨️ 列印成考卷」，印出來就是考卷：空格留白，不含答案、解析和提示。手機和電腦都能印（也可以存成 PDF）。</p>
     <div class="card">
@@ -526,6 +530,17 @@ details[open]:not(.sh) > summary::after{content:"－ 收合" !important;}
       <div class="sec-title" id="u-range">依考別篩選<span class="sec-note">（可複選，不選則全部列出）</span></div>
       <div class="cat-grid" id="examGrid"></div>
 
+      <div class="sec-title" id="u-topic">篩選文章主題<span class="sec-note">（選填，可複選）</span></div>
+      <div class="topic-note">依文章談的內容找文章，例如想先讀科學或飲食旅遊類的文章。一篇文章可能同時屬於兩個主題，選其中任一個都找得到。</div>
+      <div class="cat-grid" id="topicGrid"></div>
+      <div id="subWrap" hidden>
+        <div class="topic-sub-label">社會議題可再細分（選填）</div>
+        <div class="cat-grid" id="subGrid"></div>
+      </div>
+      <div class="topic-sub-label">只看台灣相關的文章（選填）</div>
+      <div class="cat-grid" id="twGrid"></div>
+      <div class="topic-clear"><button type="button" onclick="clearTopics()">全不選</button></div>
+
       <div class="sec-title">依規格篩選<span class="sec-note">（可複選，不選則不限規格）</span></div>
       <div class="cat-grid" id="specGrid"></div>
 
@@ -605,6 +620,12 @@ function isTestMode(){ const el=document.getElementById('testModeToggle'); retur
 
 let PASSAGES = {}, ITEMS = [];
 let selectedExams = new Set(), selectedSpecs = new Set();
+/* 文章主題（2026-11-01）：主題是整篇文章的屬性，存在各 passages.json 的 topic（主要）、topic2（次要）、
+   topicSub（社會議題子標籤）、tw（台灣相關）。同一個主題內是「或」（主要或次要符合即可），主題與考別、規格之間是「且」。
+   網址 #topic=1,6,tw（代碼 1 到 13，與其他站相同；tw 表示台灣相關）只讀不寫，進站時先選好主題。 */
+const TOPIC_ORDER = ['家庭與日常生活','校園與學習','人際關係','自我成長與心理','健康、醫療與運動','社會議題','商業、經濟與職場','科技與媒體','科學與自然','環境與災害','歷史與文化','文學與藝術','飲食與旅遊'];
+const SUB_ORDER = ['人權與法治','性別平等','動物權益','全球議題'];
+let selectedTopics = new Set(), selectedSubs = new Set(), twOnly = false;
 let curPid = null, curItems = [], picks = {}, graded = false, restoredOn = false, zhOn = false, sheetBlank = null;
 
 async function init(){
@@ -624,7 +645,7 @@ async function init(){
       '<p class="home-desc">請重新整理頁面再試一次。若持續失敗，可用頁尾的回報連結告訴我。</p></div>';
     return;
   }
-  buildExamGrid(); buildSpecGrid(); buildYearList(); renderStatsBox(); renderProgress();
+  buildExamGrid(); buildTopicGrid(); buildSpecGrid(); buildYearList(); renderStatsBox(); renderProgress();
   document.getElementById('headSub').textContent =
     `學測 110 試辦–115 年 ・ 指考 91–110 年 ・ ${ITEMS.filter(it => it.exam !== '改編練習').length}題 / ${Object.values(PASSAGES).filter(p => p.exam !== '改編練習').length}篇 ・ 改編練習 ${Object.values(PASSAGES).filter(p => p.exam === '改編練習').length}篇`;
 }
@@ -669,9 +690,79 @@ function elimLabel(p){
 }
 function examOk(p){ return selectedExams.size === 0 || selectedExams.has(p.exam); }
 function specOk(p){ return selectedSpecs.size === 0 || selectedSpecs.has(p.spec); }
-function visiblePassages(){
-  return Object.values(PASSAGES).filter(p => examOk(p) && specOk(p)).sort(cmpYear);
+function passageTopics(p){ return [p.topic, p.topic2].filter(Boolean); }
+function topicOk(p){
+  if(twOnly && !p.tw) return false;
+  if(selectedTopics.size === 0) return true;
+  return passageTopics(p).some(t => {
+    if(!selectedTopics.has(t)) return false;
+    if(t === '社會議題' && selectedSubs.size > 0) return selectedSubs.has(p.topicSub);
+    return true;
+  });
 }
+function visiblePassages(){
+  return Object.values(PASSAGES).filter(p => examOk(p) && topicOk(p) && specOk(p)).sort(cmpYear);
+}
+function mkTopicChip(label, pressed, onToggle){
+  const c = document.createElement('div');
+  c.className = 'chip' + (pressed ? ' active' : ''); c.textContent = label;
+  c.onclick = () => { c.classList.toggle('active'); onToggle(c.classList.contains('active')); buildYearList(); };
+  return c;
+}
+function buildTopicGrid(){
+  const cnt = {}, sub = {}; let tw = 0;
+  Object.values(PASSAGES).forEach(p => {
+    passageTopics(p).forEach(t => { cnt[t] = (cnt[t]||0) + 1; });
+    if(p.topicSub) sub[p.topicSub] = (sub[p.topicSub]||0) + 1;
+    if(p.tw) tw++;
+  });
+  const g = document.getElementById('topicGrid'); g.innerHTML='';
+  TOPIC_ORDER.forEach(t => {
+    if(!cnt[t]) return;
+    g.appendChild(mkTopicChip(`${t}（${cnt[t]}篇）`, selectedTopics.has(t), on => {
+      on ? selectedTopics.add(t) : selectedTopics.delete(t);
+      if(t === '社會議題' && !on) selectedSubs = new Set();
+      buildSubGrid(sub);
+    }));
+  });
+  buildSubGrid(sub);
+  const w = document.getElementById('twGrid'); w.innerHTML='';
+  w.appendChild(mkTopicChip(`台灣相關（${tw}篇）`, twOnly, on => { twOnly = on; }));
+}
+/* 社會議題的子標籤只在選了「社會議題」時顯示；取消社會議題時子標籤一併清掉 */
+function buildSubGrid(sub){
+  if(!sub){ sub = {}; Object.values(PASSAGES).forEach(p => { if(p.topicSub) sub[p.topicSub] = (sub[p.topicSub]||0) + 1; }); }
+  const show = selectedTopics.has('社會議題');
+  if(!show) selectedSubs = new Set();
+  document.getElementById('subWrap').hidden = !show;
+  const sg = document.getElementById('subGrid'); sg.innerHTML='';
+  SUB_ORDER.forEach(t => {
+    if(!sub[t]) return;
+    sg.appendChild(mkTopicChip(`${t}（${sub[t]}篇）`, selectedSubs.has(t), on => { on ? selectedSubs.add(t) : selectedSubs.delete(t); }));
+  });
+}
+function clearTopics(){
+  selectedTopics = new Set(); selectedSubs = new Set(); twOnly = false;
+  buildTopicGrid(); buildYearList();
+}
+function applyTopicHash(){
+  let h = location.hash || '';
+  try{ h = decodeURIComponent(h); }catch(e){ return false; }
+  const m = h.match(/^#topic=([\w,]+)$/i);
+  if(!m) return false;
+  const home = document.getElementById('homeView');
+  if(!document.getElementById('topicGrid') || (home && home.style.display === 'none')) return false;
+  selectedTopics = new Set(); selectedSubs = new Set(); twOnly = false;
+  m[1].toLowerCase().split(',').forEach(c => {
+    if(c === 'tw'){ twOnly = true; return; }
+    const n = parseInt(c, 10);
+    if(/^\d+$/.test(c) && n >= 1 && n <= 13) selectedTopics.add(TOPIC_ORDER[n-1]);
+  });
+  buildTopicGrid(); buildYearList();
+  const sec = document.getElementById('u-topic'); if(sec) sec.scrollIntoView({block:'start'});
+  return true;
+}
+window.addEventListener('hashchange', applyTopicHash);
 
 function buildExamGrid(){
   const g = document.getElementById('examGrid'); g.innerHTML='';
@@ -761,6 +852,7 @@ function quickStart(){
 }
 function startSelected(){
   if(!curPid){ alert('請先從清單中選一篇。'); return; }
+  if(!visiblePassages().some(p => p.id === curPid)){ alert('你先前選的那一篇不符合目前的篩選條件，請從清單中重新選一篇。'); return; }
   openPassage(curPid);
 }
 function startWrongBook(){
@@ -837,7 +929,9 @@ function scrSavePassage(pid){
 }
 /* #p- 單篇連結：直接開啟那一篇。只讀 hash、不寫 hash。 */
 function startFromPHash(){
-  const m = decodeURIComponent(location.hash || '').match(/^#p-(.+)$/);
+  let h = location.hash || '';
+  try{ h = decodeURIComponent(h); }catch(e){ return false; }
+  const m = h.match(/^#p-(.+)$/);
   if(!m || !PASSAGES[m[1]]) return false;
   openPassage(m[1]);
   return true;
@@ -1425,7 +1519,7 @@ function applyAdaptHash(){
   }
   const g0 = document.getElementById('examGrid'); const box = g0 ? (g0.previousElementSibling || g0) : null; if(box) box.scrollIntoView({block:'start'});
 }
-init().then(function(){ applyAdaptHash(); scrMountStrip(); startFromPHash(); });
+init().then(function(){ applyAdaptHash(); applyTopicHash(); scrMountStrip(); startFromPHash(); });
 </script>
 <a class="toBar" id="toBar" href="#unitbar" hidden>↑ 單元列</a>
 <script>
