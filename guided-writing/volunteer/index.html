@@ -31,15 +31,16 @@ button.sec{background:#fff;color:var(--acc);border:1px solid var(--acc)}
 .item:first-child{border-top:0}
 .ref{background:var(--acc2);border-radius:8px;padding:6px 10px;font-family:Georgia,serif}
 .note{background:var(--warn);border-radius:8px;padding:6px 10px;font-size:14px;margin:6px 0}
+.note.ok{background:var(--acc2);color:var(--acc)}
 .small{font-size:14px;color:var(--mute)}
 ul{margin:4px 0 4px 1.1em;padding:0}
-label.ck{display:block;font-size:15px;margin:2px 0}
+label.ck{display:flex;align-items:flex-start;font-size:15px;padding:7px 0;cursor:pointer}
 a{color:var(--acc)}
 ::placeholder{color:#5a5a5a}
-label.ck input{width:20px;height:20px;vertical-align:middle;margin-right:6px}
-.lab{font-size:13px}
+label.ck input{flex:none;width:22px;height:22px;margin:1px 9px 0 0}
+.lab{font-size:14px}
 textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid var(--line);border-radius:8px;padding:8px}
-.hint{font-size:14px;color:var(--mute);margin:2px 0 8px}
+.hint{font-size:15px;color:var(--mute);margin:2px 0 8px}
 </style>
 </head>
 <body>
@@ -197,6 +198,7 @@ function show(){
    else if(hit(v,r.ok,id)){m.textContent='✓ '+r.msg}
    else if(r.weak&&hit(v,r.weak,id)){m.textContent='這種寫法常見，但和前面的 For one thing 不太成對，請對照參考寫法。'}
    else{m.textContent='請對照參考寫法與可接受清單（這只是提醒，你的寫法可能也可以）'}
+   m.className='msg note'+(m.textContent.charAt(0)==='✓'?' ok':'');
   }
  });
  $('ai').value=prompt_();
