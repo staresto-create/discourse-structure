@@ -614,13 +614,13 @@ details[open]:not(.sh) > summary::after{content:"－ 收合" !important;}
 const HISTORY_KEY = 'gsat_ds_history_v1';
 const WRONG_KEY   = 'gsat_ds_wrong_ids_v1';
 
-function loadHistory(){ try{ return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }catch(e){ return []; } }
+function loadHistory(){ try{ const a = JSON.parse(localStorage.getItem(HISTORY_KEY)); return Array.isArray(a) ? a.filter(h => h && typeof h === 'object') : []; }catch(e){ return []; } }
 /* 完成度：按「交卷」才算這一篇的題目做過（沒填的空格不算）；改編練習不計入 */
 function renderProgress(){
   try{ if(window.SCProgress) SCProgress.mountBar(document.getElementById('progressHost'), 'discourse', ITEMS.filter(x => x.exam !== '改編練習').map(x => x.id)); }catch(e){}
 }
 function saveHistory(h){ try{ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }catch(e){} }
-function loadWrongIds(){ let w; try{ w = JSON.parse(localStorage.getItem(WRONG_KEY)) || []; }catch(e){ return []; } return (typeof ITEMS !== 'undefined' && ITEMS.length) ? w.filter(id => ITEMS.some(it => it.id === id)) : w; }
+function loadWrongIds(){ let w; try{ w = JSON.parse(localStorage.getItem(WRONG_KEY)); }catch(e){ return []; } if(!Array.isArray(w)) return []; w = w.filter(x => typeof x === 'string'); return (typeof ITEMS !== 'undefined' && ITEMS.length) ? w.filter(id => ITEMS.some(it => it.id === id)) : w; }
 function saveWrongIds(w){ try{ localStorage.setItem(WRONG_KEY, JSON.stringify(w)); }catch(e){} }
 function isTestMode(){ const el=document.getElementById('testModeToggle'); return !!(el && el.checked); }
 
