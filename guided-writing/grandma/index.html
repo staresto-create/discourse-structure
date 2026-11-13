@@ -42,6 +42,8 @@ label.ck input{flex:none;width:22px;height:22px;margin:1px 9px 0 0}
 textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid var(--line);border-radius:8px;padding:8px}
 .hint{font-size:15px;color:var(--mute);margin:2px 0 8px}
 .mine{overflow-wrap:anywhere;white-space:pre-wrap}
+.blank.wide .lab,.blank.wide .starter{display:block}
+.starter{font:15px/1.6 sans-serif;color:var(--mute);margin:2px 0 4px}
 </style>
 </head>
 <body>
@@ -53,12 +55,16 @@ textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid
 <p>提示：你（英文名字請假設為 Jack）的奶奶即將過九十歲生日，家人準備在下週六為她舉辦一場慶生會。請以英文寫一封信給你最要好的朋友 Ken，邀請他來參加。第一段說明寫信的目的，並描述奶奶有哪些令人敬佩的地方；第二段介紹慶生會當天的活動。信末請以 Jack 署名，不得使用自己的真實姓名。（至少 120 個單詞）</p>
 <p class="small">想看圖片版題目，請到<a href="../grandma-pic/">奶奶的慶生會（看圖版）</a>。</p>
 </div>
+<div class="card">
+<h2>先暖身（可略過）</h2>
+<p class="small">不知道第一句要怎麼開頭，可以先看一題歷屆篇章結構題：<a href="https://staresto-create.github.io/discourse-structure/q/dg115r-31/" target="_blank" rel="noopener">學測 115參 31</a>。空格後面的 The designers 和 first 是線索，告訴你缺的是一句開頭、帶出主題的話。看完再回來寫。</p>
+</div>
 <div class="card essay">
 <h2>填寫範文的空格</h2>
 <p class="hint">每個空格都有「功能」要求，不是只有一個標準答案。先自己寫，再按下方的「送出，看參考寫法」。</p>
 <p>Dear Ken,</p>
 <p>
-<span class="blank wide"><label class="lab" for="b1">空格(1) 主題句（寫信目的）</label><textarea id="b1" placeholder="用一句話說明寫這封信的目的（邀請朋友參加什麼）"></textarea></span>
+<span class="blank wide"><label class="lab" for="b1">空格(1) 主題句（寫信目的）</label><span class="starter">開頭可以用：I am writing to invite you to… / I'd like to invite you to…</span><textarea id="b1" placeholder="用一句話說明寫這封信的目的（邀請朋友參加什麼）"></textarea></span>
 She is the person I respect most. To begin with, she is extremely hard-working. She raised four children on a small farm, and she still gets up at five every morning to water her vegetables.
 <span class="blank"><label class="lab" for="b2">(2)</label><input id="b2" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:9em;max-width:100%"></span>
 she is very generous. She often gives her homegrown tomatoes to our neighbors and never asks for anything in return. She taught me an important lesson: always be kind to others.
@@ -69,7 +75,7 @@ lesson has guided me ever since.
 The party will start at five o'clock at our house, and we have planned some special activities. First, we will watch a slideshow of old family photos.
 <span class="blank"><label class="lab" for="b4">(4)</label><input id="b4" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:6.5em;max-width:100%"></span>
 my cousins and I will sing her favorite folk songs, and she may even join us. Finally, we will light the candles and share a birthday cake.
-<span class="blank wide"><label class="lab" for="b5">空格(5) 結尾</label><textarea id="b5" placeholder="用一句話收尾：表達希望朋友來參加"></textarea></span>
+<span class="blank wide"><label class="lab" for="b5">空格(5) 結尾</label><span class="starter">開頭可以用：I hope you can come… / Please let me know if you can come. / I look forward to seeing you there.</span><textarea id="b5" placeholder="用一句話收尾：表達希望朋友來參加"></textarea></span>
 </p>
 <p>Yours,<br>Jack</p>
 <button id="submit">送出，看參考寫法</button>
