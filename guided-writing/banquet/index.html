@@ -41,6 +41,7 @@ label.ck input{flex:none;width:22px;height:22px;margin:1px 9px 0 0}
 .lab{font-size:14px}
 textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid var(--line);border-radius:8px;padding:8px}
 .hint{font-size:15px;color:var(--mute);margin:2px 0 8px}
+.mine{overflow-wrap:anywhere;white-space:pre-wrap}
 </style>
 </head>
 <body>
@@ -55,11 +56,11 @@ textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid
 <div class="card essay">
 <h2>填寫範文的空格</h2>
 <p class="hint">每個空格都有「功能」要求，不是只有一個標準答案。先自己寫，再按下方「送出」。</p>
-<p><span class="blank wide"><span class="lab">空格(1) 主題句</span><textarea id="b1" placeholder="用一句話說明兩張圖共通的主題"></textarea></span> Picture A shows a formal ten-course banquet in a hotel banquet hall. Well-dressed guests sit around a large round table, and waiters serve one dish at a time. Everything follows a fixed order, from the cold appetizers to the final dessert. <span class="blank"><span class="lab">(2)</span><input id="b2" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:15em;max-width:100%"></span> is common at weddings and company dinners. Picture B, on the other hand, shows an all-you-can-eat buffet, where diners walk freely between food stations and fill their plates with whatever they like. The banquet creates a refined and orderly atmosphere, <span class="blank"><span class="lab">(3)</span><input id="b3" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:6em;max-width:100%"></span> the buffet feels casual and lively.</p>
-<p><span class="blank wide"><span class="lab">空格(4) 主題句</span><textarea id="b4" placeholder="回答題目：你選哪一種？"></textarea></span> One reason is that everyone can eat exactly what they enjoy, so nobody has to force down a dish they dislike. I can go back for seconds of my favorite dishes, while my friends try small portions of everything. <span class="blank"><span class="lab">(5)</span><input id="b5" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:15em;max-width:100%"></span> friends can move around freely and chat with different people instead of staying in one seat for two hours. <span class="blank"><span class="lab">(6)</span><input id="b6" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:6em;max-width:100%"></span> freedom turns a meal into real time together rather than a polite performance. Admittedly, a banquet looks impressive and suits formal occasions, but I value relaxed conversation more than elegant service. <span class="blank wide"><span class="lab">空格(7) 結論</span><textarea id="b7" placeholder="回到你的選擇，用一句話收尾"></textarea></span></p>
+<p><span class="blank wide"><label class="lab" for="b1">空格(1) 主題句</label><textarea id="b1" placeholder="用一句話說明兩張圖共通的主題"></textarea></span> Picture A shows a formal ten-course banquet in a hotel banquet hall. Well-dressed guests sit around a large round table, and waiters serve one dish at a time. Everything follows a fixed order, from the cold appetizers to the final dessert. <span class="blank"><label class="lab" for="b2">(2)</label><input id="b2" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:15em;max-width:100%"></span> is common at weddings and company dinners. Picture B, on the other hand, shows an all-you-can-eat buffet, where diners walk freely between food stations and fill their plates with whatever they like. The banquet creates a refined and orderly atmosphere, <span class="blank"><label class="lab" for="b3">(3)</label><input id="b3" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:6em;max-width:100%"></span> the buffet feels casual and lively.</p>
+<p><span class="blank wide"><label class="lab" for="b4">空格(4) 主題句</label><textarea id="b4" placeholder="回答題目：你選哪一種？"></textarea></span> One reason is that everyone can eat exactly what they enjoy, so nobody has to force down a dish they dislike. I can go back for seconds of my favorite dishes, while my friends try small portions of everything. <span class="blank"><label class="lab" for="b5">(5)</label><input id="b5" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:15em;max-width:100%"></span> friends can move around freely and chat with different people instead of staying in one seat for two hours. <span class="blank"><label class="lab" for="b6">(6)</label><input id="b6" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:6em;max-width:100%"></span> freedom turns a meal into real time together rather than a polite performance. Admittedly, a banquet looks impressive and suits formal occasions, but I value relaxed conversation more than elegant service. <span class="blank wide"><label class="lab" for="b7">空格(7) 結論</label><textarea id="b7" placeholder="回到你的選擇，用一句話收尾"></textarea></span></p>
 <button id="submit">送出，看參考寫法</button>
 </div>
-<div id="result" class="fb">
+<div id="result" class="fb" tabindex="-1" role="region" aria-label="逐格對照">
 <div class="card">
 <h2>逐格對照</h2>
 <p class="small">以下「參考寫法」只是其中一種。判斷重點是「功能對不對」，不是字一模一樣。下面的自動提示只比對開頭幾個字，沒出現 ✓ 不代表你寫錯。</p>
@@ -68,7 +69,7 @@ textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid
 <div class="card">
 <h2>請 AI 批改</h2>
 <p class="small">按下複製，貼到 ChatGPT 或 Gemini。</p>
-<textarea id="ai" class="ai" readonly></textarea>
+<textarea id="ai" class="ai" readonly aria-label="請 AI 批改的指令"></textarea>
 <p><button id="copy" class="sec">複製批改指令</button> <span id="copied" class="small"></span></p>
 </div>
 <div class="card">
@@ -99,6 +100,7 @@ function show(){
  $('ai').value=prompt_();
  $('result').className='fb on';
  $('result').scrollIntoView({behavior:'smooth'});
+ try{$('result').focus({preventScroll:true})}catch(e3){}
 }
 function prompt_(){
  var s=HEAD+'\n';
@@ -108,7 +110,7 @@ function prompt_(){
 $('submit').addEventListener('click',show);
 $('copy').addEventListener('click',function(){
  var t=$('ai').value,done=function(){$('copied').textContent='已複製'},manual=function(){$('ai').select();try{$('ai').setSelectionRange(0,99999)}catch(e2){}$('copied').textContent='請手動複製（已選取）'};
- try{navigator.clipboard.writeText(t).then(done,manual)}catch(e){manual()}
+ try{var tm=setTimeout(manual,1500);navigator.clipboard.writeText(t).then(function(){clearTimeout(tm);done()},function(){clearTimeout(tm);manual()})}catch(e){manual()}
 });
 })();</script>
 </body>
