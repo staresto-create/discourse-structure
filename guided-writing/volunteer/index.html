@@ -22,6 +22,8 @@ h2{font-size:17px;margin:0 0 8px;color:var(--acc)}
 .blank input{width:11em;max-width:100%}
 .blank textarea{width:100%;min-height:4.5em;line-height:1.6;resize:vertical;display:block}
 .blank.wide{display:block;margin:4px 0}
+.blank.wide .lab,.blank.wide .starter{display:block}
+.starter{font:15px/1.6 sans-serif;color:var(--mute);margin:2px 0 4px}
 .lab{font:600 12px/1 sans-serif;color:var(--acc);margin-right:4px}
 button{font:inherit;font-size:15px;border:0;border-radius:8px;padding:9px 16px;background:var(--acc);color:#fff;cursor:pointer}
 button.sec{background:#fff;color:var(--acc);border:1px solid var(--acc)}
@@ -47,7 +49,7 @@ textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid
 <body>
 <main>
 <h1>引導式寫作：志工服務</h1>
-<div><span class="tag">中等程度</span><span class="tag">約 200 個單詞</span><span class="tag">六個空格</span></div>
+<div><span class="tag">中等程度</span><span class="tag">約 200 個單詞</span><span class="tag">6 個空格</span></div>
 
 
 <div class="card">
@@ -61,10 +63,10 @@ textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid
 
 <div class="card essay">
 <h2>填寫範文的空格</h2>
-<p class="hint">每個空格都有「功能」要求，不是只有一個標準答案。先自己寫，再按下方「送出」。</p>
+<p class="hint">每個空格都有「功能」要求，不是只有一個標準答案。先自己寫，再按下方的「送出，看參考寫法」。短的空格沒有提示，請從前後文判斷要填哪一種功能的字，送出後會說明。</p>
 
 <p>
-<span class="blank wide"><label class="lab" for="b1">空格(1) 主題句</label><textarea id="b1" placeholder="用一句話說明兩張圖片的共通主題與差異"></textarea></span>
+<span class="blank wide"><label class="lab" for="b1">空格(1) 主題句</label><span class="starter">開頭可以用：The two pictures show… / Picture A shows… while Picture B shows…</span><textarea id="b1" placeholder="用一句話說明兩張圖片的共通主題與差異"></textarea></span>
 In Picture A, a group of students are cleaning up a beach. Wearing gloves, they pick up plastic bottles and cans from the sand.
 <span class="blank"><label class="lab" for="b2">(2)</label><input id="b2" autocomplete="off" autocapitalize="off" spellcheck="false"></span>
 Picture B takes place indoors at a community center, where one student is helping a young child with homework. The two sit side by side at a small table. While the former activity calls for physical effort and teamwork, the
@@ -78,7 +80,7 @@ If I had to choose, I would volunteer at the community center. For one thing, I 
 child regain confidence. Seeing that child smile again would be the best reward I could ask for.
 <span class="blank"><label class="lab" for="b5">(5)</label><input id="b5" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:11em;max-width:100%"></span>
 I have tutored my younger cousin for years, so I know how to explain hard ideas clearly. Although cleaning the beach is worthwhile, I believe that sharing what I know with children would make a more lasting difference.
-<span class="blank wide"><label class="lab" for="b6">空格(6) 結論</label><textarea id="b6" placeholder="回到你的選擇，用一句話收尾"></textarea></span>
+<span class="blank wide"><label class="lab" for="b6">空格(6) 結論</label><span class="starter">開頭可以用：All in all, … / In conclusion, … / For these reasons, …</span><textarea id="b6" placeholder="回到你的選擇，用一句話收尾"></textarea></span>
 </p>
 
 <button id="submit">送出，看參考寫法</button>
@@ -87,7 +89,7 @@ I have tutored my younger cousin for years, so I know how to explain hard ideas 
 <div id="result" class="fb" tabindex="-1" role="region" aria-label="逐格對照">
 <div class="card">
 <h2>逐格對照</h2>
-<p class="small">以下「參考寫法」只是其中一種。判斷重點是「功能對不對」，不是字一模一樣。下面的自動提示只比對開頭幾個字，沒出現 ✓ 不代表你寫錯。</p>
+<p class="small">以下「參考寫法」只是其中一種。判斷重點是「功能對不對」，不是用字要一模一樣。下面的自動提示只比對開頭幾個字，沒出現 ✓ 不代表你寫錯。</p>
 
 <div class="item" id="r1">
 <b>(1) 主題句</b>
@@ -156,22 +158,28 @@ I have tutored my younger cousin for years, so I know how to explain hard ideas 
 
 <div class="card">
 <h2>請 AI 批改</h2>
-<p class="small">按下複製，貼到 ChatGPT 或 Gemini。</p>
+<p class="small">按下「複製批改指令」，再貼到 ChatGPT 或 Gemini。</p>
 <textarea id="ai" class="ai" readonly aria-label="請 AI 批改的指令"></textarea>
 <p><button id="copy" class="sec">複製批改指令</button> <span id="copied" class="small"></span></p>
 </div>
 
 <div class="card">
-<h2>做完再練：同類型的歷屆篇章結構題</h2>
+<h2>做完再練：歷屆試題中同類型的題目</h2>
 <p class="small">把剛才寫的「功能」放到歷屆試題裡看，會發現出題者用的線索一樣。</p>
 <ul>
-<li>(1) 主題句／(6) 結論：<a href="https://staresto-create.github.io/discourse-structure/q/dg115-31/" target="_blank" rel="noopener">115 學測 31</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg114-31/" target="_blank" rel="noopener">114 學測 31</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg112-33/" target="_blank" rel="noopener">112 學測 33</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111-31/" target="_blank" rel="noopener">111 學測 31</a></li>
-<li>(2) 對比轉折：<a href="https://staresto-create.github.io/discourse-structure/q/dz107-35/" target="_blank" rel="noopener">107 指考 35</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz104-33/" target="_blank" rel="noopener">104 指考 33</a></li>
-<li>(3) 指涉：<a href="https://staresto-create.github.io/discourse-structure/q/dg113-31/" target="_blank" rel="noopener">113 學測 31</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111-34/" target="_blank" rel="noopener">111 學測 34</a></li>
-<li>(4) 定冠詞：<a href="https://staresto-create.github.io/discourse-structure/q/dg114-32/" target="_blank" rel="noopener">114 學測 32</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz105-31/" target="_blank" rel="noopener">105 指考 31</a></li>
-<li>(5) 第二個理由：<a href="https://staresto-create.github.io/discourse-structure/q/dg115-33/" target="_blank" rel="noopener">115 學測 33</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111-33/" target="_blank" rel="noopener">111 學測 33</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz104-34/" target="_blank" rel="noopener">104 指考 34</a></li>
+<li>(1) 主題句／(6) 結論：<a href="https://staresto-create.github.io/discourse-structure/q/dg115-31/" target="_blank" rel="noopener">學測 115 第 31 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg114-31/" target="_blank" rel="noopener">學測 114 第 31 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg112-33/" target="_blank" rel="noopener">學測 112 第 33 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111-31/" target="_blank" rel="noopener">學測 111 第 31 題</a></li>
+<li>(2) 對比轉折：<a href="https://staresto-create.github.io/discourse-structure/q/dz107-35/" target="_blank" rel="noopener">指考 107 第 35 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz104-33/" target="_blank" rel="noopener">指考 104 第 33 題</a></li>
+<li>(3) 指涉：<a href="https://staresto-create.github.io/discourse-structure/q/dg113-31/" target="_blank" rel="noopener">學測 113 第 31 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111-34/" target="_blank" rel="noopener">學測 111 第 34 題</a></li>
+<li>(4) 定冠詞：<a href="https://staresto-create.github.io/discourse-structure/q/dg114-32/" target="_blank" rel="noopener">學測 114 第 32 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz105-31/" target="_blank" rel="noopener">指考 105 第 31 題</a></li>
+<li>(5) 第二個理由：<a href="https://staresto-create.github.io/discourse-structure/q/dg115-33/" target="_blank" rel="noopener">學測 115 第 33 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111-33/" target="_blank" rel="noopener">學測 111 第 33 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz104-34/" target="_blank" rel="noopener">指考 104 第 34 題</a></li>
 </ul>
-<p class="small">閱讀測驗也常考指涉（What does “they” refer to？）。下面每個連結會直接跳到那一題的題幹，並把題幹關鍵字標成黃底：<a href="https://staresto-create.github.io/reading-comprehension/p/g107rp1.html#hl=most%20likely%20refer%20to" target="_blank" rel="noopener">學測 107參 第 43 題</a>、<a href="https://staresto-create.github.io/reading-comprehension/p/g110p3.html#hl=the%20highlighted" target="_blank" rel="noopener">學測 110 第 52 題</a>、<a href="https://staresto-create.github.io/reading-comprehension/p/g115p2.html#hl=in%20the%20third%20paragraph%20refer%20to" target="_blank" rel="noopener">學測 115 第 40 題</a>。想先看判斷方法：<a href="https://staresto-create.github.io/reading-comprehension/cues.html#pron" target="_blank" rel="noopener">代名詞指的是誰</a>。</p>
+<p class="small">閱讀測驗也常考指涉，題幹多半是 What does “they” refer to? 這一類的問句。以下三題的連結會直接跳到題幹，題幹裡的關鍵字會標成黃底：</p>
+<ul>
+<li><a href="https://staresto-create.github.io/reading-comprehension/p/g104p2.html#hl=most%20likely%20refer%20to" target="_blank" rel="noopener">學測 104 第 47 題</a></li>
+<li><a href="https://staresto-create.github.io/reading-comprehension/p/g110p3.html#hl=the%20highlighted" target="_blank" rel="noopener">學測 110 第 52 題</a></li>
+<li><a href="https://staresto-create.github.io/reading-comprehension/p/g115p2.html#hl=in%20the%20third%20paragraph%20refer%20to" target="_blank" rel="noopener">學測 115 第 40 題</a></li>
+<li>想先看怎麼判斷，可以讀<a href="https://staresto-create.github.io/reading-comprehension/cues.html#pron" target="_blank" rel="noopener">〈代名詞指的是誰〉</a></li>
+</ul>
 </div>
 </div>
 </main>
@@ -199,17 +207,17 @@ function show(){
    if(!v){m.textContent='還沒寫，先對照參考寫法。'}
    else if(hit(v,r.ok,id)){m.textContent='✓ '+r.msg}
    else if(r.weak&&hit(v,r.weak,id)){m.textContent='這種寫法常見，但和前面的 For one thing 不太成對，請對照參考寫法。'}
-   else{m.textContent='請對照參考寫法與可接受清單（這只是提醒，你的寫法可能也可以）'}
+   else{m.textContent='請對照參考寫法與可接受清單（這只是提醒，你的寫法也可能是對的）'}
    m.className='msg note'+(m.textContent.charAt(0)==='✓'?' ok':'');
   }
  });
- $('ai').value=prompt_();
+ $('ai').value=prompt_();$('copied').textContent='';
  $('result').className='fb on';
  $('result').scrollIntoView({behavior:'smooth'});
  try{$('result').focus({preventScroll:true})}catch(e3){}
 }
 function prompt_(){
- var g=function(i){return $(i).value.trim()||'(blank)'};
+ var g=function(i){return $(i).value.trim()||'（空白）'};
  return '你是台灣高中英文老師，請批改學生在「引導式寫作」中填的六個空格。\n'+
  '題目：看兩張圖（A：學生在海灘撿垃圾；B：學生在社區中心陪小孩寫功課），寫兩段，第一段描述圖片，第二段說明自己會選哪一種志工服務與理由。\n'+
  '重要規則：每個空格只看「功能」是否達成，不要因為和參考答案用字不同就扣分。可接受的寫法很多，請都視為正確。\n'+

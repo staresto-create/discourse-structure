@@ -22,6 +22,8 @@ h2{font-size:17px;margin:0 0 8px;color:var(--acc)}
 .blank input{width:11em;max-width:100%}
 .blank textarea{width:100%;min-height:4.5em;line-height:1.6;resize:vertical;display:block}
 .blank.wide{display:block;margin:4px 0}
+.blank.wide .lab,.blank.wide .starter{display:block}
+.starter{font:15px/1.6 sans-serif;color:var(--mute);margin:2px 0 4px}
 .lab{font:600 12px/1 sans-serif;color:var(--acc);margin-right:4px}
 button{font:inherit;font-size:15px;border:0;border-radius:8px;padding:9px 16px;background:var(--acc);color:#fff;cursor:pointer}
 button.sec{background:#fff;color:var(--acc);border:1px solid var(--acc)}
@@ -57,12 +59,16 @@ textarea.ai{width:100%;min-height:150px;font:16px/1.5 monospace;border:1px solid
 </div>
 <p class="small">想看文字版題目，請到<a href="../grandma/">奶奶的慶生會（文字版）</a>。</p>
 </div>
+<div class="card">
+<h2>先暖身（可略過）</h2>
+<p class="small">不知道第一句要怎麼開頭，可以先看一題歷屆篇章結構題：<a href="https://staresto-create.github.io/discourse-structure/q/dg115r-31/" target="_blank" rel="noopener">學測 115參 第 31 題</a>。空格後面的 The designers 和 first 是線索，告訴你缺的是一句開頭、帶出主題的話。看完再回來寫。</p>
+</div>
 <div class="card essay">
 <h2>填寫範文的空格</h2>
-<p class="hint">每個空格都有「功能」要求，不是只有一個標準答案。先自己寫，再按下方的「送出，看參考寫法」。</p>
+<p class="hint">每個空格都有「功能」要求，不是只有一個標準答案。先自己寫，再按下方的「送出，看參考寫法」。短的空格沒有提示，請從前後文判斷要填哪一種功能的字，送出後會說明。</p>
 <p>Dear Ken,</p>
 <p>
-<span class="blank wide"><label class="lab" for="b1">空格(1) 主題句（寫信目的）</label><textarea id="b1" placeholder="用一句話說明寫這封信的目的（邀請朋友參加什麼）"></textarea></span>
+<span class="blank wide"><label class="lab" for="b1">空格(1) 主題句（寫信目的）</label><span class="starter">開頭可以用：I am writing to invite you to… / I'd like to invite you to…</span><textarea id="b1" placeholder="用一句話說明寫這封信的目的（邀請朋友參加什麼）"></textarea></span>
 She is the person I respect most. To begin with, she is extremely hard-working. She raised four children on a small farm, and she still gets up at five every morning to water her vegetables.
 <span class="blank"><label class="lab" for="b2">(2)</label><input id="b2" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:9em;max-width:100%"></span>
 she is very generous. She often gives her homegrown tomatoes to our neighbors and never asks for anything in return. She taught me an important lesson: always be kind to others.
@@ -73,7 +79,7 @@ lesson has guided me ever since.
 The party will start at five o'clock at our house, and we have planned some special activities. First, we will watch a slideshow of old family photos.
 <span class="blank"><label class="lab" for="b4">(4)</label><input id="b4" autocomplete="off" autocapitalize="off" spellcheck="false" style="width:6.5em;max-width:100%"></span>
 my cousins and I will sing her favorite folk songs, and she may even join us. Finally, we will light the candles and share a birthday cake.
-<span class="blank wide"><label class="lab" for="b5">空格(5) 結尾</label><textarea id="b5" placeholder="用一句話收尾：表達希望朋友來參加"></textarea></span>
+<span class="blank wide"><label class="lab" for="b5">空格(5) 結尾</label><span class="starter">開頭可以用：I hope you can come… / Please let me know if you can come. / I look forward to seeing you there.</span><textarea id="b5" placeholder="用一句話收尾：表達希望朋友來參加"></textarea></span>
 </p>
 <p>Yours,<br>Jack</p>
 <button id="submit">送出，看參考寫法</button>
@@ -81,7 +87,7 @@ my cousins and I will sing her favorite folk songs, and she may even join us. Fi
 <div id="result" class="fb" tabindex="-1" role="region" aria-label="逐格對照">
 <div class="card">
 <h2>逐格對照</h2>
-<p class="small">以下「參考寫法」只是其中一種。判斷重點是「功能對不對」，不是字一模一樣。下面的自動提示只比對開頭幾個字，沒出現 ✓ 不代表你寫錯。</p>
+<p class="small">以下「參考寫法」只是其中一種。判斷重點是「功能對不對」，不是用字要一模一樣。下面的自動提示只比對開頭幾個字，沒出現 ✓ 不代表你寫錯。</p>
 <div class="item" id="r1"><b>(1) 主題句（第一段第一句：寫信目的）</b><div class="ref">I am writing to invite you to my grandmother's 90th birthday party next Saturday.</div><div class="mine small"></div><div class="small">可接受的開頭：I am writing to invite you to… / I’d like to invite you to… / I would like to invite you to… / I’m writing to ask you to come to…（本題庫建議）。這一格也在練「指涉」：這一句要先提到 my grandmother，後面的 She 才會有正確的指涉。</div><label class="ck"><input type="checkbox"> 說出寫信的目的是「邀請」朋友</label><label class="ck"><input type="checkbox"> 提到了奶奶（後面的 She 才有對象）</label><label class="ck"><input type="checkbox"> 只有一句，細節留給後面</label><div class="small">來源：<a href="https://test-english.com/writing/b1-b2/an-informal-email-advice/2/" target="_blank" rel="noopener">Test-English — An informal email（I’m writing to…）</a>、<a href="https://test-english.com/writing/a1/how-to-write-an-invitation-email-a1-english-writing/" target="_blank" rel="noopener">Test-English — How to write an invitation</a></div></div>
 <div class="item" id="r2"><b>(2) 句型接寫（前面是 To begin with，現在要加上奶奶的第二個特點）</b><div class="ref">In addition,</div><div class="mine small"></div><div class="msg note"></div><div class="small">最自然的是 In addition, / Besides, / Also, / Moreover, / Furthermore, / What is more, 這類追加語。前面用 To begin with 帶出第一點，後面就要再加一點。Second, / Secondly, 也能用（本題庫建議）。</div><label class="ck"><input type="checkbox"> 看得出「這是第二個特點」</label><label class="ck"><input type="checkbox"> 和前面的 To begin with 銜接自然，語氣一致</label><label class="ck"><input type="checkbox"> 後面接的是完整句子（she is very generous）</label><div class="small">來源：<a href="https://www.oxfordlearnersdictionaries.com/definition/english/begin" target="_blank" rel="noopener">Oxford Learner’s — begin（to begin with）</a>、<a href="https://dictionary.cambridge.org/dictionary/english/in-addition" target="_blank" rel="noopener">in addition</a>、<a href="https://dictionary.cambridge.org/dictionary/english/besides" target="_blank" rel="noopener">besides</a>、<a href="https://dictionary.cambridge.org/dictionary/english/moreover" target="_blank" rel="noopener">moreover</a></div></div>
 <div class="item" id="r3"><b>(3) 指涉（前一句剛說了 an important lesson）</b><div class="ref">This</div><div class="mine small"></div><div class="msg note"></div><div class="small">可接受：This（最自然）、That；The 也可以。第一次提到用 an，再提到同一個東西就換成 this／that／the，不再用 a／an。</div><label class="ck"><input type="checkbox"> 我看出前一句已經出現過 an important lesson</label><label class="ck"><input type="checkbox"> 後面是單數名詞 lesson，所以限定詞也要是單數</label><div class="small">來源：<a href="https://dictionary.cambridge.org/grammar/british-grammar/it-this-and-that-in-paragraphs" target="_blank" rel="noopener">Cambridge — It, this and that in paragraphs</a>、<a href="https://advice.writing.utoronto.ca/?p=336" target="_blank" rel="noopener">University of Toronto — Special Cases in the Use of the Definite Article</a></div></div>
@@ -95,16 +101,22 @@ my cousins and I will sing her favorite folk songs, and she may even join us. Fi
 <p><button id="copy" class="sec">複製批改指令</button> <span id="copied" class="small"></span></p>
 </div>
 <div class="card">
-<h2>做完再練：同類型的歷屆篇章結構題</h2>
+<h2>做完再練：歷屆試題中同類型的題目</h2>
 <p class="small">把剛才寫的「功能」放到歷屆試題裡看，會發現出題者用的線索一樣。</p>
 <ul>
-<li>(1) 主題句（段落開頭的概括句）：<a href="https://staresto-create.github.io/discourse-structure/q/dg115r-31/" target="_blank" rel="noopener">學測 115參 31</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz109-32/" target="_blank" rel="noopener">指考 109 32</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg115-31/" target="_blank" rel="noopener">學測 115 31</a></li>
-<li>(2) 追加第二點：<a href="https://staresto-create.github.io/discourse-structure/q/dz105-35/" target="_blank" rel="noopener">指考 105 35</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz109-35/" target="_blank" rel="noopener">指考 109 35</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz96-42/" target="_blank" rel="noopener">指考 96 42</a></li>
-<li>(3) 指涉（This + 名詞）：<a href="https://staresto-create.github.io/discourse-structure/q/dg113-31/" target="_blank" rel="noopener">學測 113 31</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111r-33/" target="_blank" rel="noopener">學測 111參 33</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111-31/" target="_blank" rel="noopener">學測 111 31</a></li>
-<li>(4) 次序詞：<a href="https://staresto-create.github.io/discourse-structure/q/dg115r-32/" target="_blank" rel="noopener">學測 115參 32</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz93b-44/" target="_blank" rel="noopener">指考 93補 44</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz92-43/" target="_blank" rel="noopener">指考 92 43</a></li>
-<li>(5) 結尾（總結句）：<a href="https://staresto-create.github.io/discourse-structure/q/dg115-34/" target="_blank" rel="noopener">學測 115 34</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz99-34/" target="_blank" rel="noopener">指考 99 34</a></li>
+<li>(1) 主題句（段落開頭的概括句）：<a href="https://staresto-create.github.io/discourse-structure/q/dg115r-31/" target="_blank" rel="noopener">學測 115參 第 31 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz109-32/" target="_blank" rel="noopener">指考 109 第 32 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg115-31/" target="_blank" rel="noopener">學測 115 第 31 題</a></li>
+<li>(2) 追加第二點：<a href="https://staresto-create.github.io/discourse-structure/q/dz105-35/" target="_blank" rel="noopener">指考 105 第 35 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz109-35/" target="_blank" rel="noopener">指考 109 第 35 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz96-42/" target="_blank" rel="noopener">指考 96 第 42 題</a></li>
+<li>(3) 指涉（This + 名詞）：<a href="https://staresto-create.github.io/discourse-structure/q/dg113-31/" target="_blank" rel="noopener">學測 113 第 31 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111r-33/" target="_blank" rel="noopener">學測 111參 第 33 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dg111-31/" target="_blank" rel="noopener">學測 111 第 31 題</a></li>
+<li>(4) 次序詞：<a href="https://staresto-create.github.io/discourse-structure/q/dg115r-32/" target="_blank" rel="noopener">學測 115參 第 32 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz93b-44/" target="_blank" rel="noopener">指考 93補 第 44 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz92-43/" target="_blank" rel="noopener">指考 92 第 43 題</a></li>
+<li>(5) 結尾（總結句）：<a href="https://staresto-create.github.io/discourse-structure/q/dg115-34/" target="_blank" rel="noopener">學測 115 第 34 題</a>、<a href="https://staresto-create.github.io/discourse-structure/q/dz99-34/" target="_blank" rel="noopener">指考 99 第 34 題</a></li>
 </ul>
-<p class="small">閱讀測驗也常考指涉（What does “they” refer to？）。下面每個連結會直接跳到那一題的題幹，並把題幹關鍵字標成黃底：<a href="https://staresto-create.github.io/reading-comprehension/p/g107rp1.html#hl=most%20likely%20refer%20to" target="_blank" rel="noopener">學測 107參 第 43 題</a>、<a href="https://staresto-create.github.io/reading-comprehension/p/g110p3.html#hl=the%20highlighted" target="_blank" rel="noopener">學測 110 第 52 題</a>、<a href="https://staresto-create.github.io/reading-comprehension/p/g115p2.html#hl=in%20the%20third%20paragraph%20refer%20to" target="_blank" rel="noopener">學測 115 第 40 題</a>。想先看判斷方法：<a href="https://staresto-create.github.io/reading-comprehension/cues.html#pron" target="_blank" rel="noopener">代名詞指的是誰</a>。</p>
+<p class="small">閱讀測驗也常考指涉，題幹多半是 What does “they” refer to? 這一類的問句。以下三題的連結會直接跳到題幹，題幹裡的關鍵字會標成黃底：</p>
+<ul>
+<li><a href="https://staresto-create.github.io/reading-comprehension/p/g104p2.html#hl=most%20likely%20refer%20to" target="_blank" rel="noopener">學測 104 第 47 題</a></li>
+<li><a href="https://staresto-create.github.io/reading-comprehension/p/g110p3.html#hl=the%20highlighted" target="_blank" rel="noopener">學測 110 第 52 題</a></li>
+<li><a href="https://staresto-create.github.io/reading-comprehension/p/g115p2.html#hl=in%20the%20third%20paragraph%20refer%20to" target="_blank" rel="noopener">學測 115 第 40 題</a></li>
+<li>想先看怎麼判斷，可以讀<a href="https://staresto-create.github.io/reading-comprehension/cues.html#pron" target="_blank" rel="noopener">〈代名詞指的是誰〉</a></li>
+</ul>
 </div>
 </div>
 </main>
@@ -112,7 +124,7 @@ my cousins and I will sing her favorite folk songs, and she may even join us. Fi
 var $=function(i){return document.getElementById(i)};
 var R={
  "b2":{"ok":["in addition","besides","also","moreover","furthermore","what is more","what's more","second","secondly"],"weak":["first","firstly","finally","lastly","to begin with"],"msg":"這是常見的追加語，可以帶出第二個特點。","weakmsg":"前面已經用 To begin with 帶出第一點，所以這一格要再追加一點，而不是重新開始或收尾。請對照參考寫法。"},
- "b3":{"ok":["this","that","the"],"weak":["a","an","it","this lesson","that lesson","the lesson","her"],"msg":"可以指回前一句的 lesson。","weakmsg":"這格後面已經有 lesson 了，不必再寫一次 lesson；前一句已提過，也不再用 a／an 或 it。請對照參考寫法。"},
+ "b3":{"ok":["this","that","the"],"weak":["a","an","it","this lesson","that lesson","the lesson"],"msg":"可以指回前一句的 lesson。","weakmsg":"這格後面已經有 lesson 了，不必再寫一次 lesson；前一句已提過，也不再用 a／an 或 it。請對照參考寫法。"},
  "b4":{"ok":["then","next","after that","afterward","afterwards","later","and then","second","secondly"],"weak":["first","firstly","finally","at last","last","lastly","to begin with"],"msg":"這是常見的次序詞，接在 First 之後。","weakmsg":"前面已經有 First、後面有 Finally，這一格是中間的步驟。請對照參考寫法。"}
 },
 A=[
@@ -147,7 +159,7 @@ function show(){
 }
 function prompt_(){
  var s=HEAD+'\n';
- A.forEach(function(a){var v=$(a.id).value.trim()||'(blank)';s+='空格 '+a.n+'：'+a.desc+'\n學生：'+v.replace(/\s+/g,' ')+'\n'});
+ A.forEach(function(a){var v=$(a.id).value.trim()||'（空白）';s+='空格 '+a.n+'：'+a.desc+'\n學生：'+v.replace(/\s+/g,' ')+'\n'});
  return s+'\n'+TAIL;
 }
 $('submit').addEventListener('click',show);
