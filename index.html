@@ -433,7 +433,7 @@ details[open]:not(.sh) > summary::after{content:"－ 收合" !important;}
 
       <a class="map-entry" href="map/">
         <span class="me-title">題目地圖：167 題依答對率排成一張圖 →</span>
-        <span class="me-sub">學測、指考每題一格，顏色越紅答對率越低，可以依難易、題型篩選。點任何一格，就進到那一題的詳解。</span>
+        <span class="me-sub">學測、指考每題一格，顏色越紅答對率越低，可以依難易、測驗目標篩選。點任何一格，就進到那一題的詳解。</span>
       </a>
 
       <a class="map-entry" href="guided-writing/" style="margin-top:10px">
@@ -567,7 +567,7 @@ details[open]:not(.sh) > summary::after{content:"－ 收合" !important;}
       <span class="srcLine"><b style="font-size:12.5px;">試題來源：</b>大學入學考試中心。原文、選項與答案都取自大考中心公布的試卷與參考答案。</span>
       <span class="srcLine"><b style="font-size:12.5px;">分類依據：</b>大考中心在 115 學年度起適用參考試卷的試題解析裡，為篇章結構四題寫的四種「本題評量……」說法；<b style="font-size:12.5px;">每一題的歸類由本題庫標註</b>，只有 115 學年度參考試卷那 4 題例外，那 4 題是官方解析原文。</span>
       <span class="srcLine">本題庫<b style="font-size:12.5px;">不提供逐篇原始出處</b>。大考中心只公告取材類別（報紙、雜誌、書籍、網際網路），沒有公告每一篇的出處；自己去猜出處等於杜撰，所以一律不列。</span>
-      <span class="srcLine">參考試卷、試辦考試與研究用試卷屬非正式施測，篇名旁會標明。</span>
+      <span class="srcLine">這些試卷大考中心沒有公布逐題答對率（試辦考試只公布級分統計），篇名旁會標明。</span>
       <span class="srcLine"><b style="font-size:12.5px;">改編練習</b>是本題庫自己改編的題目：文章改編自歷屆學測、指考閱讀測驗及公開的英語學習材料，照現行學測篇章結構的版面出題，參考答案、解析與測驗目標歸類都由本題庫撰寫。它們不是大考中心的試題，沒有官方答對率，也不算進 167 題、35 篇。</span>
       <span class="srcLine"><b style="font-size:12.5px;">錯誤仍然可能存在</b>，發現任何問題歡迎回報，我會逐筆核對更正。本題庫完全免費、不用註冊、沒有廣告，歡迎自由分享。</span>
     </div>
@@ -682,7 +682,9 @@ function cnNum(s){
   return d.indexOf(s) + 1;
 }
 // 改編練習的 year 是（一）（二）……，緊接在「改編練習」後面，不留空格
-function examYear(p){ return p.exam === '改編練習' ? p.exam + p.year : p.exam + ' ' + p.year; }
+/* 特殊試卷的顯示名稱（只改顯示，資料裡的 year 不動），和題目地圖一致 */
+const YEAR_LABELS = {'115參':'115 學年度起適用學測參考試卷','111參':'111 學年度起適用學測參考試卷','107學年度起適用參考試卷':'107 年起施測指考參考試卷','99課綱參考試卷（102年施測）':'99 課綱指考參考試卷（102 年施測）','95課綱參考試卷（98年施測）':'95 課綱指考參考試卷（98 年施測）'};
+function examYear(p){ if(YEAR_LABELS[p.year]) return YEAR_LABELS[p.year]; return p.exam === '改編練習' ? p.exam + p.year : p.exam + ' ' + p.year; }
 // 篇名旁的考試類型標籤：正式考試不標，改編練習的考別已經寫在前面，也不重複標
 function showType(p){ return p.examType && p.examType !== '正式考試' && p.examType !== p.exam; }
 function cmpYear(a,b){
