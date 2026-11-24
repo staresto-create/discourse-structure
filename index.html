@@ -1288,7 +1288,7 @@ function renderDataBox(it){
   rows.push(hasPD(it)
     ? `<div class="dataRow"><span class="k">答對率</span><span class="v">${it.accuracyRate}%</span></div>
        <div class="dataRow"><span class="k">鑑別度</span><span class="v">${it.discrimination}</span></div>`
-    : `<div class="dataRow"><span class="k">答對率</span><span class="v na">${it.exam === '改編練習' ? '改編練習沒有官方答對率' : '本場考試不公布統計'}</span></div>`);
+    : `<div class="dataRow"><span class="k">答對率</span><span class="v na">${it.exam === '改編練習' ? '改編練習沒有官方答對率' : '大考中心沒有公布逐題答對率'}</span></div>`);
   if(!rows.length) return '';
   return `<details class="dataBox"><summary>這一格的作答線索與數據</summary>${rows.join('')}</details>`;
 }
@@ -1428,7 +1428,7 @@ function renderResult(p){
   const pd = curItems.filter(hasPD).map(it => it.accuracyRate);
   const pdLine = pd.length
     ? `全篇答對率 ${Math.min.apply(null,pd)}–${Math.max.apply(null,pd)}%`
-    : (p.exam === '改編練習' ? '改編練習沒有官方答對率' : '本場考試不公布答對率與鑑別度');
+    : (p.exam === '改編練習' ? '改編練習沒有官方答對率' : '大考中心沒有公布逐題答對率與鑑別度');
 
   /* 選項對照表：每個選項落在哪一格，哪一個沒被用到 */
   const slotOf = {};
